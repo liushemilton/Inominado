@@ -34,7 +34,11 @@
 
 import { computed, ref } from 'vue'
 
-import { checkAnswer } from '../Logic/AswerChecker.js'
+import {
+  checkAnswer,
+  EXERCISE_TYPES,
+  normalizeExerciseType,
+} from '../Logic/AswerChecker.js'
 import {
   DEFAULT_SCORING,
   calculateAnswerScore,
@@ -86,6 +90,29 @@ function normalizeQuestions(questions) {
   return questions.filter(
     (question) => question && typeof question === 'object',
   )
+}
+
+/**
+ * Resolve a resposta correta da questão.
+ *
+ * `MatchingPairs` pode declarar os pares em `pairs` (formato usado pelo
+ * componente) em vez de repetir tudo em `correctAnswer`.
+ *
+ * @param {object | null} question
+ * @returns {unknown}
+ */
+function resolveCorrectAnswer(question) {
+  if (!question) return undefined
+  if (question.correctAnswer !== undefined) return question.correctAnswer
+
+  if (
+    normalizeExerciseType(question.type) === EXERCISE_TYPES.MATCHING_PAIRS &&
+    Array.isArray(question.pairs)
+  ) {
+    return question.pairs
+  }
+
+  return undefined
 }
 
 /**
@@ -330,6 +357,7 @@ export function useGame(options = {}) {
     if (!canSubmit.value) return null
 
     const question = currentQuestion.value
+    const correctAnswer = resolveCorrectAnswer(question)
     const timeRemaining = resolveTimeRemaining(
       question,
       submitOptions.timeRemaining,
@@ -340,7 +368,7 @@ export function useGame(options = {}) {
     try {
       isCorrect = checkAnswer(
         userAnswer,
-        question.correctAnswer,
+        correctAnswer,
         question.type,
       )
     } catch (error) {
@@ -380,7 +408,7 @@ export function useGame(options = {}) {
       message,
       points,
       explanation: question.explanation ?? '',
-      correctAnswer: question.correctAnswer,
+      correctAnswer,
       userAnswer,
     }
 
@@ -389,7 +417,7 @@ export function useGame(options = {}) {
       type: question.type,
       isCorrect,
       userAnswer,
-      correctAnswer: question.correctAnswer,
+      correctAnswer,
       streak: isCorrect ? nextStreak : 0,
       basePoints: question.points ?? question.basePoints,
       timeRemaining,

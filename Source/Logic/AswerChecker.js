@@ -19,6 +19,43 @@ export const EXERCISE_TYPES = Object.freeze({
   MATCHING_PAIRS: 'MatchingPairs',
 })
 
+/**
+ * Alias aceitos para o campo `type` das questões.
+ *
+ * A chave é o tipo normalizado (minúsculo, apenas letras) e o valor é o
+ * tipo canônico usado por `EXERCISE_TYPES`. Isso permite que os dados
+ * usem variações comuns (`MultipleChoice`, `multiple-choice`,
+ * `fill_blanks`, etc.) sem quebrar a renderização ou a correção.
+ */
+const EXERCISE_TYPE_ALIASES = Object.freeze({
+  multiplechoise: EXERCISE_TYPES.MULTIPLE_CHOICE,
+  multiplechoice: EXERCISE_TYPES.MULTIPLE_CHOICE,
+  trueorfalse: EXERCISE_TYPES.TRUE_OR_FALSE,
+  truefalse: EXERCISE_TYPES.TRUE_OR_FALSE,
+  fillblanks: EXERCISE_TYPES.FILL_BLANKS,
+  fillblank: EXERCISE_TYPES.FILL_BLANKS,
+  matchingpairs: EXERCISE_TYPES.MATCHING_PAIRS,
+  matchingpair: EXERCISE_TYPES.MATCHING_PAIRS,
+})
+
+/**
+ * Normaliza o tipo de exercício recebido dos dados.
+ *
+ * Retorna o tipo canônico quando reconhecido; caso contrário, devolve o
+ * valor original sem espaços para que a mensagem de erro continue útil.
+ *
+ * @param {unknown} type
+ * @returns {string}
+ */
+export function normalizeExerciseType(type) {
+  if (type === undefined || type === null) return ''
+
+  const raw = String(type).trim()
+  const key = raw.toLowerCase().replace(/[^a-z]/g, '')
+
+  return EXERCISE_TYPE_ALIASES[key] ?? raw
+}
+
 const TRUE_VALUES = new Set([
   'true',
   't',
@@ -351,9 +388,10 @@ function checkMatchingPairs(userAnswer, correctAnswer) {
  * @throws {Error} Quando o tipo de exercício não é suportado.
  */
 export function checkAnswer(userAnswer, correctAnswer, exerciseType) {
-  switch (exerciseType) {
+  const normalizedType = normalizeExerciseType(exerciseType)
+
+  switch (normalizedType) {
     case EXERCISE_TYPES.MULTIPLE_CHOICE:
-    case 'MultipleChoice': // alias para a grafia correta
       return checkMultipleChoice(userAnswer, correctAnswer)
 
     case EXERCISE_TYPES.TRUE_OR_FALSE:
