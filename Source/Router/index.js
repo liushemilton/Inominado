@@ -4,6 +4,7 @@
  * Mapa de navegação:
  *
  * - `roadmap`      → `/`                                        (RoadmapView)
+ * - `trail`        → `/nivel/:levelId/fase/:phaseId/trilha`     (TopicTrailView)
  * - `game`         → `/nivel/:levelId/fase/:phaseId`            (GameView)
  * - `explanation`  → `/nivel/:levelId/fase/:phaseId/questao/:questionIndex/explicacao`
  *                                                               (ExplanationView)
@@ -24,6 +25,7 @@ import ExplanationRoute from './views/ExplanationRoute.vue'
 import GameRoute from './views/GameRoute.vue'
 import ResultRoute from './views/ResultRoute.vue'
 import RoadmapRoute from './views/RoadmapRoute.vue'
+import TopicTrailRoute from './views/TopicTrailRoute.vue'
 import { lastAnswer, lastResult, sameId } from './session.js'
 
 export { ROUTE_NAMES }
@@ -102,6 +104,13 @@ export const routes = [
     alias: ['/roadmap'],
     name: ROUTE_NAMES.roadmap,
     component: RoadmapRoute,
+  },
+  {
+    path: '/nivel/:levelId/fase/:phaseId/trilha',
+    name: ROUTE_NAMES.trail,
+    component: TopicTrailRoute,
+    props: true,
+    beforeEnter: requirePhase,
   },
   {
     path: '/nivel/:levelId/fase/:phaseId/resultado',

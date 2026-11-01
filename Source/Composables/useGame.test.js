@@ -1,7 +1,6 @@
 import assert from 'node:assert/strict'
 import { describe, it } from 'node:test'
 
-import Level01 from '../Data/Levels/Level01.js'
 import {
   EXERCISE_TYPES,
   checkAnswer,
@@ -9,7 +8,50 @@ import {
 } from '../Logic/AswerChecker.js'
 import { useGame } from './useGame.js'
 
-const QUESTIONS = Level01.phases.flatMap((phase) => phase.questions)
+/**
+ * Questões de exemplo usadas apenas nos testes. O conteúdo real do quiz
+ * será cadastrado em `Source/Data/Questions`.
+ */
+const QUESTIONS = [
+  {
+    id: 'q1',
+    type: 'MultipleChoise',
+    prompt: 'Qual é o símbolo químico do carbono?',
+    options: [
+      { id: 'a', text: 'C' },
+      { id: 'b', text: 'O' },
+      { id: 'c', text: 'H' },
+      { id: 'd', text: 'N' },
+    ],
+    correctAnswer: 'a',
+    explanation: 'O carbono é representado pelo símbolo C.',
+  },
+  {
+    id: 'q2',
+    type: 'TrueOrFalse',
+    statement: 'O carbono é tetravalente.',
+    correctAnswer: true,
+    explanation: 'O carbono forma quatro ligações covalentes.',
+  },
+  {
+    id: 'q3',
+    type: 'FillBlanks',
+    text: 'O carbono forma ___ ligações covalentes e pode se ligar a ___.',
+    correctAnswer: ['quatro', 'outros carbonos'],
+    explanation: 'A tetravalência permite quatro ligações covalentes.',
+  },
+  {
+    id: 'q4',
+    type: 'MatchingPairs',
+    prompt: 'Ligue cada hidrocarboneto ao tipo de ligação:',
+    pairs: [
+      { left: 'Alcano', right: 'Ligação simples' },
+      { left: 'Alceno', right: 'Ligação dupla' },
+      { left: 'Alcino', right: 'Ligação tripla' },
+    ],
+    explanation: 'A insaturação define a classe do hidrocarboneto.',
+  },
+]
 
 /**
  * Payloads no mesmo formato emitido por cada componente de exercício
@@ -18,11 +60,11 @@ const QUESTIONS = Level01.phases.flatMap((phase) => phase.questions)
 const COMPONENT_ANSWERS = {
   q1: 'a',
   q2: true,
-  q3: ['progressivo', 'reatividade'],
+  q3: ['quatro', 'outros carbonos'],
   q4: [
-    { left: 'Vue', right: 'Framework de UI' },
-    { left: 'Vite', right: 'Servidor de desenvolvimento' },
-    { left: 'Pinia', right: 'Gerenciamento de estado' },
+    { left: 'Alcano', right: 'Ligação simples' },
+    { left: 'Alceno', right: 'Ligação dupla' },
+    { left: 'Alcino', right: 'Ligação tripla' },
   ],
 }
 

@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { RouterLink, useRouter } from 'vue-router'
+import { RouterLink, useRoute, useRouter } from 'vue-router'
 
 import { useProgress } from '../../Composables/useProgress.js'
 import { DEFAULT_LIVES, LEVELS, resolvePhase } from '../../Data/Levels/index.js'
@@ -13,6 +13,7 @@ const props = defineProps({
   phaseId: { type: String, required: true },
 })
 
+const route = useRoute()
 const router = useRouter()
 const { completePhase, completeLevel, getPhaseProgress } = useProgress({
   levels: LEVELS,
@@ -20,14 +21,26 @@ const { completePhase, completeLevel, getPhaseProgress } = useProgress({
 
 const session = computed(() => resolvePhase(props.levelId, props.phaseId))
 
+const subtopicId = computed(() => {
+  const value = route.query.subtopico
+
+  return typeof value === 'string' ? value : ''
+})
+
 const questions = computed(() => {
   const phaseQuestions = session.value?.phase?.questions
 
-  if (Array.isArray(phaseQuestions)) return phaseQuestions
+  const allQuestions = Array.isArray(phaseQuestions)
+    ? phaseQuestions
+    : Array.isArray(session.value?.level?.questions)
+      ? session.value.level.questions
+      : []
 
-  const levelQuestions = session.value?.level?.questions
+  if (!subtopicId.value) return allQuestions
 
-  return Array.isArray(levelQuestions) ? levelQuestions : []
+  return allQuestions.filter((question) => {
+    return String(question?.subtopicId) === subtopicId.value
+  })
 })
 
 /**

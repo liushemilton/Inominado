@@ -10,7 +10,7 @@ const router = useRouter()
 
 /**
  * O `RoadmapView` emite o nível e a fase escolhidos; a navegação acontece
- * por rota, com os IDs como parâmetros.
+ * por rota, abrindo a trilha de subtópicos do módulo.
  *
  * @param {{ level?: object, phase?: object }} payload
  * @returns {void}
@@ -22,7 +22,7 @@ function handlePlay(payload = {}) {
   if (!levelId || !phaseId) return
 
   router.push({
-    name: ROUTE_NAMES.game,
+    name: ROUTE_NAMES.trail,
     params: { levelId, phaseId },
   })
 }

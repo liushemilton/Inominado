@@ -147,10 +147,10 @@ function formatScore(value) {
 }
 
 function playLabel(status) {
-  if (status === 'completed') return 'Rejogar'
+  if (status === 'completed') return 'Revisar trilha'
   if (status === 'in-progress') return 'Continuar'
 
-  return 'Iniciar'
+  return 'Abrir trilha'
 }
 
 function handlePlayPhase(level, phase) {
@@ -379,7 +379,7 @@ function handleReset() {
               :disabled="level.status === 'locked'"
               @click="handlePlayLevel(level)"
             >
-              {{ level.status === 'completed' ? 'Rejogar nível' : playLabel(level.status) }}
+              {{ level.status === 'completed' ? 'Revisar nível' : playLabel(level.status) }}
             </button>
           </footer>
         </article>
