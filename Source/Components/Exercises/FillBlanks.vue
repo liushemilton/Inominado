@@ -103,7 +103,21 @@ function submitAnswer() {
 <template>
   <section class="fill-blanks">
     <header class="fill-blanks__header">
-      <span class="fill-blanks__type">{{ typeLabel }}</span>
+      <span class="fill-blanks__type">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M12 20h9" />
+          <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" />
+        </svg>
+        {{ typeLabel }}
+      </span>
 
       <h2 v-if="instruction" class="fill-blanks__instruction">
         {{ instruction }}
@@ -173,58 +187,65 @@ function submitAnswer() {
 
 <style scoped>
 .fill-blanks {
-  --neon: #00f0ff;
-  --surface: #0d0e15;
-  --border-default: #1a1c29;
-  --text: #eafcff;
-  --muted: #8a99ad;
-
   display: flex;
   flex-direction: column;
   gap: 18px;
   width: 100%;
-  color: var(--text);
+  color: var(--color-ink);
 }
 
 .fill-blanks__header {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 10px;
 }
 
 .fill-blanks__type {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 6px 12px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--neon);
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border: 2px solid var(--color-cyan);
+  border-radius: var(--radius-pill);
+}
+
+.fill-blanks__type svg {
+  width: 14px;
+  height: 14px;
 }
 
 .fill-blanks__instruction {
   margin: 0;
-  font-size: clamp(1.1rem, 2.2vw, 1.35rem);
-  font-weight: 700;
+  font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+  font-weight: 800;
   line-height: 1.4;
-  color: var(--text);
+  color: var(--color-ink);
   text-wrap: balance;
 }
 
 .fill-blanks__form {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 20px;
 }
 
 .fill-blanks__sentence {
   margin: 0;
   font-size: clamp(1rem, 2vw, 1.15rem);
-  line-height: 1.8;
-  color: var(--text);
+  line-height: 1.9;
+  color: var(--color-ink);
   white-space: pre-wrap;
 }
 
 .fill-blanks__sentence.has-inline-blanks {
-  line-height: 2.1;
+  line-height: 2.2;
 }
 
 .fill-blanks__fields {
@@ -236,33 +257,31 @@ function submitAnswer() {
 .fill-blanks__field {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
 }
 
 .fill-blanks__field-label {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--color-ink-muted);
 }
 
 .fill-blanks__input {
   width: clamp(8rem, 22vw, 13rem);
   min-width: 7rem;
   margin: 0 4px;
-  padding: 6px 10px;
-  box-sizing: border-box;
+  padding: 8px 14px;
   font: inherit;
   font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--neon);
-  background: var(--surface);
-  border: 1px solid var(--border-default);
-  border-bottom: 2px solid var(--neon);
-  border-radius: 4px;
-  caret-color: var(--neon);
-  transition: border-color 150ms ease, background-color 150ms ease;
+  font-weight: 700;
+  color: var(--color-ink);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  caret-color: var(--color-cyan-strong);
+  transition: border-color 160ms ease, background-color 160ms ease;
 }
 
 .fill-blanks__input.is-block {
@@ -271,21 +290,21 @@ function submitAnswer() {
 }
 
 .fill-blanks__input::placeholder {
-  color: var(--muted);
-  font-weight: 400;
-  opacity: 0.6;
+  font-weight: 500;
+  color: var(--color-ink-faint);
+  opacity: 1;
 }
 
 .fill-blanks__input:focus {
   outline: none;
-  border-color: var(--neon);
-  border-bottom-color: var(--neon);
-  background: #141622;
+  background: var(--color-cyan-soft);
+  border-color: var(--color-cyan-strong);
 }
 
 .fill-blanks__input:disabled {
   cursor: not-allowed;
-  opacity: 0.35;
+  opacity: 0.55;
+  background: var(--color-surface-soft);
 }
 
 .fill-blanks__actions {
@@ -297,35 +316,41 @@ function submitAnswer() {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 130px;
-  padding: 10px 20px;
-  box-sizing: border-box;
+  min-width: 140px;
+  padding: 12px 22px;
   font: inherit;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #0d0e15;
-  background: var(--neon);
-  border: 1px solid var(--neon);
-  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--color-primary-ink);
   cursor: pointer;
-  transition: background-color 150ms ease, border-color 150ms ease, opacity 150ms ease;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary-border);
+  border-radius: var(--radius-pill);
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease, opacity 160ms ease;
 }
 
 .fill-blanks__submit:not(:disabled):hover {
-  background: #33f3ff;
-  border-color: #33f3ff;
+  background: var(--color-primary-hover);
+  border-color: var(--color-primary-active);
+  transform: translateY(-1px);
+}
+
+.fill-blanks__submit:not(:disabled):active {
+  background: var(--color-primary-active);
+  transform: translateY(1px);
 }
 
 .fill-blanks__submit:focus-visible {
-  outline: 2px solid var(--neon);
-  outline-offset: 2px;
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
 }
 
 .fill-blanks__submit:disabled {
   cursor: not-allowed;
-  opacity: 0.35;
+  opacity: 0.55;
+  background: var(--color-surface-soft);
+  border-color: var(--color-border-soft);
+  color: var(--color-ink-faint);
 }
 
 @media (max-width: 480px) {
@@ -334,7 +359,7 @@ function submitAnswer() {
   }
 
   .fill-blanks__form {
-    gap: 14px;
+    gap: 16px;
   }
 
   .fill-blanks__input {
@@ -355,6 +380,10 @@ function submitAnswer() {
   .fill-blanks__input,
   .fill-blanks__submit {
     transition: none;
+  }
+
+  .fill-blanks__submit:not(:disabled):hover {
+    transform: none;
   }
 }
 </style>

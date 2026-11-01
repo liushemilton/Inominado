@@ -89,7 +89,22 @@ watch(
 <template>
   <section class="multiple-choice">
     <header class="multiple-choice__header">
-      <span class="multiple-choice__type">Múltipla escolha</span>
+      <span class="multiple-choice__type">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M9 3h6" />
+          <path d="M10 3v6.5L5.5 17a2.5 2.5 0 0 0 2.2 3.5h8.6a2.5 2.5 0 0 0 2.2-3.5L14 9.5V3" />
+          <path d="M7.5 15h9" />
+        </svg>
+        Múltipla escolha
+      </span>
 
       <h2 v-if="prompt" class="multiple-choice__prompt">
         {{ prompt }}
@@ -121,39 +136,46 @@ watch(
 
 <style scoped>
 .multiple-choice {
-  --neon: #00f0ff;
-  --neon-glow: rgba(0, 240, 255, 0.4);
-  --text: #eafcff;
-  --muted: rgba(234, 252, 255, 0.62);
-
   display: flex;
   flex-direction: column;
   gap: 22px;
   width: 100%;
-  color: var(--text);
+  color: var(--color-ink);
 }
 
 .multiple-choice__header {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .multiple-choice__type {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 6px 12px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--neon);
-  text-shadow: 0 0 10px var(--neon-glow);
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border: 2px solid var(--color-cyan);
+  border-radius: var(--radius-pill);
+}
+
+.multiple-choice__type svg {
+  width: 14px;
+  height: 14px;
 }
 
 .multiple-choice__prompt {
   margin: 0;
-  font-size: clamp(1.15rem, 2.4vw, 1.45rem);
-  font-weight: 700;
-  line-height: 1.45;
-  color: var(--text);
+  font-size: clamp(1.15rem, 2.4vw, 1.5rem);
+  font-weight: 800;
+  line-height: 1.4;
+  color: var(--color-ink);
   text-wrap: balance;
 }
 
@@ -166,10 +188,10 @@ watch(
   margin: 0;
   padding: 18px;
   font-size: 0.95rem;
-  color: var(--muted);
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px dashed rgba(0, 240, 255, 0.24);
-  border-radius: 12px;
+  color: var(--color-ink-muted);
+  background: var(--color-surface-soft);
+  border: 2px solid var(--color-border-soft);
+  border-radius: var(--radius-card);
 }
 
 @media (max-width: 480px) {

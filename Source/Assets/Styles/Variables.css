@@ -1,0 +1,81 @@
+/* =========================================================
+   Flat Científico & Amigável — tokens globais
+   Paleta pastel inspirada em química, sem sombras.
+   ========================================================= */
+:root {
+  /* Tipografia */
+  --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+
+  /* Superfícies */
+  --color-bg: #F8FAFC;
+  --color-bg-cream: #FFFDF8;
+  --color-surface: #FFFFFF;
+  --color-surface-soft: #F1F5F9;
+  --color-surface-sunken: #E8EEF5;
+
+  /* Texto */
+  --color-ink: #17233A;
+  --color-ink-soft: #3D4C63;
+  --color-ink-muted: #5B6B82;
+  --color-ink-faint: #8494A9;
+
+  /* Acentos pastel */
+  --color-mint: #6EE7B7;
+  --color-mint-soft: #D1FAE5;
+  --color-mint-strong: #047857;
+  --color-mint-ink: #064E3B;
+
+  --color-cyan: #67E8F9;
+  --color-cyan-soft: #CFFAFE;
+  --color-cyan-strong: #0E7490;
+  --color-cyan-ink: #083344;
+
+  --color-sun: #FCD34D;
+  --color-sun-soft: #FEF3C7;
+  --color-sun-strong: #B45309;
+  --color-sun-ink: #451A03;
+
+  --color-coral: #FDA4AF;
+  --color-coral-soft: #FFE4E6;
+  --color-coral-strong: #BE123C;
+  --color-coral-ink: #4C0519;
+
+  --color-lilac: #C4B5FD;
+  --color-lilac-soft: #EDE9FE;
+  --color-lilac-strong: #6D28D9;
+  --color-lilac-ink: #2E1065;
+
+  /* Bordas */
+  --color-border: #C7D3E1;
+  --color-border-strong: #8FA3BA;
+  --color-border-soft: #E2E8F0;
+
+  /* Semântica */
+  --color-success: var(--color-mint-strong);
+  --color-danger: var(--color-coral-strong);
+  --color-warning: var(--color-sun-strong);
+  --color-info: var(--color-cyan-strong);
+
+  /* Ação principal */
+  --color-primary: var(--color-cyan);
+  --color-primary-hover: #22D3EE;
+  --color-primary-active: #06B6D4;
+  --color-primary-ink: var(--color-cyan-ink);
+  --color-primary-border: var(--color-cyan-strong);
+
+  /* Geometria */
+  --radius-card: 16px;
+  --radius-panel: 20px;
+  --radius-field: 12px;
+  --radius-pill: 9999px;
+  --border-width: 2px;
+  --border-width-strong: 3px;
+
+  /* Foco */
+  --color-focus: #0E7490;
+
+  /* Layout */
+  --page-padding: clamp(16px, 3vw, 40px);
+  --content-width: 980px;
+}

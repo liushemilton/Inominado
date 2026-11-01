@@ -99,7 +99,22 @@ onMounted(() => {
 <template>
   <section class="explanation-view">
     <header class="explanation-view__header">
-      <span class="explanation-view__eyebrow">Explicação</span>
+      <span class="explanation-view__eyebrow">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M9 18h6" />
+          <path d="M10 22h4" />
+          <path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z" />
+        </svg>
+        Explicação
+      </span>
 
       <h2 v-if="prompt" class="explanation-view__prompt">
         {{ prompt }}
@@ -169,39 +184,46 @@ onMounted(() => {
 
 <style scoped>
 .explanation-view {
-  --neon: #00f0ff;
-  --surface: #0d0e15;
-  --border-default: #1a1c29;
-  --text: #eafcff;
-  --muted: #8a99ad;
-
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 100%;
-  color: var(--text);
+  color: var(--color-ink);
 }
 
 .explanation-view__header {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .explanation-view__eyebrow {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 6px 12px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--neon);
+  color: var(--color-sun-strong);
+  background: var(--color-sun-soft);
+  border: 2px solid var(--color-sun);
+  border-radius: var(--radius-pill);
+}
+
+.explanation-view__eyebrow svg {
+  width: 14px;
+  height: 14px;
 }
 
 .explanation-view__prompt {
   margin: 0;
-  font-size: clamp(1.05rem, 2.2vw, 1.3rem);
-  font-weight: 700;
+  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+  font-weight: 800;
   line-height: 1.45;
-  color: var(--text);
+  color: var(--color-ink);
   text-wrap: balance;
 }
 
@@ -214,34 +236,34 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  padding: 12px 14px;
-  background: var(--surface);
-  border: 1px solid var(--border-default);
-  border-radius: 6px;
+  padding: 14px 16px;
+  background: var(--color-surface-soft);
+  border: 2px solid var(--color-border-soft);
+  border-radius: var(--radius-card);
 }
 
 .explanation-view__answer-label {
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--color-ink-muted);
 }
 
 .explanation-view__answer-value {
-  font-size: 0.95rem;
-  font-weight: 600;
-  line-height: 1.4;
-  color: var(--text);
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--color-ink);
   overflow-wrap: anywhere;
 }
 
 .explanation-view__answer-value.is-correct {
-  color: #2bffc6;
+  color: var(--color-mint-strong);
 }
 
 .explanation-view__answer-value.is-incorrect {
-  color: #ff3b30;
+  color: var(--color-coral-strong);
 }
 
 .explanation-view__footer {
@@ -251,7 +273,7 @@ onMounted(() => {
   justify-content: space-between;
   gap: 16px;
   padding-top: 20px;
-  border-top: 1px solid var(--border-default);
+  border-top: 2px solid var(--color-border-soft);
 }
 
 .explanation-view__score {
@@ -262,23 +284,24 @@ onMounted(() => {
 }
 
 .explanation-view__score-label {
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--color-ink-muted);
 }
 
 .explanation-view__score-value {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 1.1rem;
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 800;
   font-variant-numeric: tabular-nums;
-  color: var(--neon);
+  color: var(--color-cyan-strong);
 }
 
 .explanation-view__score-meta {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-ink-muted);
 }
 
 .explanation-view__continue {
@@ -287,29 +310,32 @@ onMounted(() => {
   justify-content: center;
   gap: 10px;
   min-width: 190px;
-  padding: 12px 20px;
-  box-sizing: border-box;
+  padding: 12px 22px;
   font: inherit;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #0d0e15;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--color-primary-ink);
   cursor: pointer;
-  background: var(--neon);
-  border: 1px solid var(--neon);
-  border-radius: 4px;
-  transition: background-color 150ms ease, border-color 150ms ease;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary-border);
+  border-radius: var(--radius-pill);
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
 }
 
 .explanation-view__continue:hover {
-  background: #33f3ff;
-  border-color: #33f3ff;
+  background: var(--color-primary-hover);
+  border-color: var(--color-primary-active);
+  transform: translateY(-1px);
+}
+
+.explanation-view__continue:active {
+  background: var(--color-primary-active);
+  transform: translateY(1px);
 }
 
 .explanation-view__continue:focus-visible {
-  outline: 2px solid var(--neon);
-  outline-offset: 2px;
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
 }
 
 .explanation-view__continue-icon {
@@ -330,6 +356,10 @@ onMounted(() => {
 @media (prefers-reduced-motion: reduce) {
   .explanation-view__continue {
     transition: none;
+  }
+
+  .explanation-view__continue:hover {
+    transform: none;
   }
 }
 </style>

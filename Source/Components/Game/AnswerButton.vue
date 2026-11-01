@@ -36,37 +36,38 @@ function handleClick() {
 
 <style scoped>
 .answer-button {
-  --neon: #00f0ff;
-  --surface: #0d0e15;
-  --surface-hover: #141622;
-  --border-default: #1a1c29;
-  --text: #eafcff;
-
   display: flex;
   align-items: center;
   gap: 14px;
   width: 100%;
-  padding: 14px 16px;
+  padding: 14px 18px;
   font: inherit;
-  font-size: 0.95rem;
-  line-height: 1.4;
-  color: var(--text);
+  font-size: 0.96rem;
+  line-height: 1.45;
+  color: var(--color-ink);
   text-align: left;
-  background: var(--surface);
-  border: 1px solid var(--border-default);
-  border-radius: 6px;
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-card);
   cursor: pointer;
-  transition: border-color 150ms ease, background-color 150ms ease, color 150ms ease;
+  transition: border-color 160ms ease, background-color 160ms ease, color 160ms ease, transform 160ms ease;
 }
 
 .answer-button:not(:disabled):hover {
-  border-color: var(--neon);
-  background: var(--surface-hover);
+  background: var(--color-cyan-soft);
+  border-color: var(--color-cyan);
+  transform: translateY(-1px);
+}
+
+.answer-button:not(:disabled):active {
+  background: var(--color-cyan);
+  border-color: var(--color-cyan-strong);
+  transform: translateY(1px);
 }
 
 .answer-button:focus-visible {
-  outline: 2px solid var(--neon);
-  outline-offset: 2px;
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
 }
 
 .answer-button__letter {
@@ -74,15 +75,16 @@ function handleClick() {
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
+  font-family: var(--font-mono);
   font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--neon);
-  background: transparent;
-  border: 1px solid var(--neon);
-  border-radius: 4px;
-  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+  font-weight: 800;
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border: 2px solid var(--color-cyan);
+  border-radius: var(--radius-pill);
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
 }
 
 .answer-button__label {
@@ -90,42 +92,42 @@ function handleClick() {
   min-width: 0;
 }
 
-/* Estado Selecionado */
+/* Estado selecionado */
 .answer-button.is-selected {
-  border-color: var(--neon);
-  background: var(--surface-hover);
-  color: #ffffff;
+  color: var(--color-cyan-ink);
+  background: var(--color-cyan-soft);
+  border-color: var(--color-cyan-strong);
 }
 
 .answer-button.is-selected .answer-button__letter {
-  color: #0d0e15;
-  background: var(--neon);
-  border-color: var(--neon);
+  color: var(--color-cyan-ink);
+  background: var(--color-cyan);
+  border-color: var(--color-cyan-strong);
 }
 
-/* Estado Desabilitado */
+/* Estado desabilitado */
 .answer-button:disabled,
 .answer-button.is-disabled {
   cursor: not-allowed;
-  opacity: 0.35;
-  border-color: var(--border-default);
+  opacity: 0.5;
+  border-color: var(--color-border-soft);
 }
 
 .answer-button.is-selected:disabled {
-  opacity: 0.6;
-  border-color: var(--neon);
+  opacity: 0.75;
+  border-color: var(--color-cyan);
 }
 
 @media (max-width: 480px) {
   .answer-button {
     gap: 12px;
-    padding: 12px;
-    font-size: 0.9rem;
+    padding: 13px 14px;
+    font-size: 0.92rem;
   }
 
   .answer-button__letter {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     font-size: 0.75rem;
   }
 }
@@ -134,6 +136,11 @@ function handleClick() {
   .answer-button,
   .answer-button__letter {
     transition: none;
+  }
+
+  .answer-button:not(:disabled):hover,
+  .answer-button:not(:disabled):active {
+    transform: none;
   }
 }
 </style>

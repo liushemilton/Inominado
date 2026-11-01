@@ -39,7 +39,30 @@ const pointsLabel = computed(() => {
       aria-live="polite"
     >
       <div class="feedback-box__icon" aria-hidden="true">
-        {{ isCorrect ? '✓' : '✕' }}
+        <svg
+          v-if="isCorrect"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M20 6 9 17l-5-5" />
+        </svg>
+
+        <svg
+          v-else
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
       </div>
 
       <div class="feedback-box__content">
@@ -60,29 +83,30 @@ const pointsLabel = computed(() => {
 
 <style scoped>
 .feedback-box {
-  --tone: #00f0ff;
-  --surface: #0d0e15;
-  --border-default: #1a1c29;
+  --tone: var(--color-cyan);
+  --tone-soft: var(--color-cyan-soft);
+  --tone-strong: var(--color-cyan-strong);
 
   display: flex;
   align-items: flex-start;
   gap: 14px;
-  padding: 14px 16px;
-  color: #eafcff;
-  background: var(--surface);
-  border: 1px solid var(--border-default);
-  border-left-width: 3px;
-  border-radius: 6px;
+  padding: 16px;
+  color: var(--color-ink);
+  background: var(--tone-soft);
+  border: 3px solid var(--tone);
+  border-radius: var(--radius-card);
 }
 
 .feedback-box.is-correct {
-  --tone: #00f0ff;
-  border-left-color: var(--tone);
+  --tone: var(--color-mint);
+  --tone-soft: var(--color-mint-soft);
+  --tone-strong: var(--color-mint-strong);
 }
 
 .feedback-box.is-incorrect {
-  --tone: #ff3b30;
-  border-left-color: var(--tone);
+  --tone: var(--color-coral);
+  --tone-soft: var(--color-coral-soft);
+  --tone-strong: var(--color-coral-strong);
 }
 
 .feedback-box__icon {
@@ -90,14 +114,17 @@ const pointsLabel = computed(() => {
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--tone);
-  background: transparent;
-  border: 1px solid var(--tone);
-  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  color: var(--tone-strong);
+  background: var(--color-surface);
+  border: 2px solid var(--tone);
+  border-radius: var(--radius-pill);
+}
+
+.feedback-box__icon svg {
+  width: 18px;
+  height: 18px;
 }
 
 .feedback-box__content {
@@ -111,27 +138,27 @@ const pointsLabel = computed(() => {
   align-items: center;
   gap: 10px;
   margin: 0;
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--tone);
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: var(--tone-strong);
 }
 
 .feedback-box__points {
-  padding: 2px 8px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--tone);
-  background: transparent;
-  border: 1px solid var(--tone);
-  border-radius: 4px;
+  padding: 3px 10px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--tone-strong);
+  background: var(--color-surface);
+  border: 2px solid var(--tone);
+  border-radius: var(--radius-pill);
 }
 
 .feedback-box__explanation {
-  margin: 6px 0 0;
-  font-size: 0.85rem;
-  line-height: 1.4;
-  color: #8a99ad;
+  margin: 8px 0 0;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--color-ink-soft);
 }
 
 .feedback-enter-active,
@@ -148,12 +175,12 @@ const pointsLabel = computed(() => {
 @media (max-width: 480px) {
   .feedback-box {
     gap: 12px;
-    padding: 12px;
+    padding: 14px;
   }
 
   .feedback-box__icon {
-    width: 26px;
-    height: 26px;
+    width: 32px;
+    height: 32px;
   }
 }
 

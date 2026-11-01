@@ -38,7 +38,23 @@ watch(
 <template>
   <section class="true-or-false">
     <header class="true-or-false__header">
-      <span class="true-or-false__type">Verdadeiro ou falso</span>
+      <span class="true-or-false__type">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M12 3v18" />
+          <path d="M5 7h14" />
+          <path d="m7 7-3 7h6L7 7Z" />
+          <path d="m17 7-3 7h6l-3-7Z" />
+        </svg>
+        Verdadeiro ou falso
+      </span>
 
       <h2 v-if="statement" class="true-or-false__statement">
         {{ statement }}
@@ -58,7 +74,18 @@ watch(
         :aria-pressed="selected === true"
         @click="choose(true)"
       >
-        <span class="true-or-false__icon" aria-hidden="true">✓</span>
+        <span class="true-or-false__icon" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
+        </span>
         <span class="true-or-false__label">Verdadeiro</span>
       </button>
 
@@ -70,7 +97,19 @@ watch(
         :aria-pressed="selected === false"
         @click="choose(false)"
       >
-        <span class="true-or-false__icon" aria-hidden="true">✕</span>
+        <span class="true-or-false__icon" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </span>
         <span class="true-or-false__label">Falso</span>
       </button>
     </div>
@@ -79,43 +118,46 @@ watch(
 
 <style scoped>
 .true-or-false {
-  --neon: #00f0ff;
-  --neon-glow: rgba(0, 240, 255, 0.4);
-  --true: #2bffc6;
-  --true-glow: rgba(43, 255, 198, 0.38);
-  --false: #ff2d78;
-  --false-glow: rgba(255, 45, 120, 0.38);
-  --surface: #12131c;
-  --text: #eafcff;
-
   display: flex;
   flex-direction: column;
   gap: 22px;
   width: 100%;
-  color: var(--text);
+  color: var(--color-ink);
 }
 
 .true-or-false__header {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .true-or-false__type {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 6px 12px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--neon);
-  text-shadow: 0 0 10px var(--neon-glow);
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border: 2px solid var(--color-cyan);
+  border-radius: var(--radius-pill);
+}
+
+.true-or-false__type svg {
+  width: 14px;
+  height: 14px;
 }
 
 .true-or-false__statement {
   margin: 0;
-  font-size: clamp(1.15rem, 2.4vw, 1.45rem);
-  font-weight: 700;
-  line-height: 1.45;
-  color: var(--text);
+  font-size: clamp(1.15rem, 2.4vw, 1.5rem);
+  font-weight: 800;
+  line-height: 1.4;
+  color: var(--color-ink);
   text-wrap: balance;
 }
 
@@ -126,60 +168,49 @@ watch(
 }
 
 .true-or-false__button {
-  --tone: var(--true);
-  --tone-glow: var(--true-glow);
-  --tone-soft: rgba(43, 255, 198, 0.14);
-  --tone-border: rgba(43, 255, 198, 0.4);
-  --tone-fill: rgba(43, 255, 198, 0.2);
-  --tone-inset: rgba(43, 255, 198, 0.1);
+  --tone: var(--color-mint);
+  --tone-soft: var(--color-mint-soft);
+  --tone-strong: var(--color-mint-strong);
+  --tone-ink: var(--color-mint-ink);
 
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
-  min-height: 76px;
-  padding: 16px 18px;
-  box-sizing: border-box;
+  min-height: 80px;
+  padding: 18px 20px;
   font: inherit;
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--text);
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent),
-    var(--surface);
-  border: 1px solid var(--tone-border);
-  border-radius: 14px;
+  font-size: 1.02rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: var(--tone-ink);
   cursor: pointer;
-  transition:
-    border-color 180ms ease,
-    box-shadow 180ms ease,
-    background-color 180ms ease,
-    transform 180ms ease;
+  background: var(--tone-soft);
+  border: 3px solid var(--tone);
+  border-radius: 16px;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
 }
 
 .true-or-false__button.is-false {
-  --tone: var(--false);
-  --tone-glow: var(--false-glow);
-  --tone-soft: rgba(255, 45, 120, 0.14);
-  --tone-border: rgba(255, 45, 120, 0.4);
-  --tone-fill: rgba(255, 45, 120, 0.2);
-  --tone-inset: rgba(255, 45, 120, 0.1);
+  --tone: var(--color-coral);
+  --tone-soft: var(--color-coral-soft);
+  --tone-strong: var(--color-coral-strong);
+  --tone-ink: var(--color-coral-ink);
 }
 
 .true-or-false__button:not(:disabled):hover {
-  border-color: var(--tone);
-  box-shadow: 0 0 18px var(--tone-glow);
-  transform: translateY(-1px);
+  background: var(--tone);
+  border-color: var(--tone-strong);
+  transform: translateY(-2px);
 }
 
 .true-or-false__button:not(:disabled):active {
-  transform: translateY(0);
-  box-shadow: 0 0 10px var(--tone-glow);
+  border-color: var(--tone-strong);
+  transform: translateY(1px);
 }
 
 .true-or-false__button:focus-visible {
-  outline: 2px solid var(--tone);
+  outline: 3px solid var(--color-focus);
   outline-offset: 3px;
 }
 
@@ -188,54 +219,44 @@ watch(
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
-  font-size: 1rem;
-  color: var(--tone);
-  background: var(--tone-soft);
-  border: 1px solid var(--tone-border);
-  border-radius: 50%;
-  transition:
-    background-color 180ms ease,
-    border-color 180ms ease,
-    color 180ms ease,
-    box-shadow 180ms ease;
+  width: 40px;
+  height: 40px;
+  color: var(--tone-strong);
+  background: var(--color-surface);
+  border: 2px solid var(--tone-strong);
+  border-radius: var(--radius-pill);
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.true-or-false__icon svg {
+  width: 20px;
+  height: 20px;
 }
 
 .true-or-false__button.is-selected {
-  border-color: var(--tone);
-  background:
-    linear-gradient(90deg, var(--tone-fill), transparent),
-    var(--surface);
-  box-shadow:
-    0 0 18px var(--tone-glow),
-    inset 0 0 20px var(--tone-inset);
+  background: var(--tone);
+  border-color: var(--tone-strong);
 }
 
 .true-or-false__button.is-selected .true-or-false__icon {
-  color: #041014;
-  background: var(--tone);
-  border-color: var(--tone);
-  box-shadow: 0 0 14px var(--tone-glow);
+  color: var(--color-surface);
+  background: var(--tone-strong);
+  border-color: var(--tone-strong);
 }
 
 .true-or-false__button.is-selected .true-or-false__label {
-  color: #ffffff;
-  text-shadow: 0 0 12px var(--tone-glow);
+  color: var(--tone-ink);
 }
 
 .true-or-false__button:disabled {
   cursor: not-allowed;
-  opacity: 0.45;
-  border-color: rgba(255, 255, 255, 0.12);
-  box-shadow: none;
-  transform: none;
+  opacity: 0.5;
+  border-color: var(--color-border-soft);
 }
 
 .true-or-false__button.is-selected:disabled {
   opacity: 0.75;
-  border-color: var(--tone);
-  box-shadow: 0 0 12px var(--tone-glow);
+  border-color: var(--tone-strong);
 }
 
 @media (max-width: 480px) {
@@ -248,7 +269,8 @@ watch(
   }
 
   .true-or-false__button {
-    min-height: 64px;
+    min-height: 68px;
+    padding: 15px 18px;
   }
 }
 

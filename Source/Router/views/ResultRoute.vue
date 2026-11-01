@@ -63,15 +63,56 @@ function handleRestart() {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 14px;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  color: #eafcff;
-  background: #08080c;
+  padding: var(--page-padding);
+  font-family: var(--font-sans);
+  text-align: center;
+  color: var(--color-ink);
+  background: var(--color-bg);
+}
+
+.route-fallback p {
+  margin: 0;
+  font-size: 0.96rem;
+  color: var(--color-ink-muted);
 }
 
 .route-fallback a {
-  color: #00f0ff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--color-primary-ink);
+  text-decoration: none;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary-border);
+  border-radius: var(--radius-pill);
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.route-fallback a:hover {
+  background: var(--color-primary-hover);
+  border-color: var(--color-primary-active);
+  transform: translateY(-1px);
+}
+
+.route-fallback a:active {
+  background: var(--color-primary-active);
+  transform: translateY(1px);
+}
+
+.route-fallback a:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-fallback a {
+    transition: none;
+  }
 }
 </style>

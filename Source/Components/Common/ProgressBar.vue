@@ -50,13 +50,9 @@ const showMeta = computed(() => Boolean(props.label) || props.showValue)
 
 <style scoped>
 .progress-bar {
-  --neon: #00f0ff;
-  --track-bg: #0d0e15;
-  --track-border: #1a1c29;
-
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
   width: 100%;
 }
 
@@ -66,30 +62,32 @@ const showMeta = computed(() => Boolean(props.label) || props.showValue)
   justify-content: space-between;
   gap: 12px;
   font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #8a99ad;
+  color: var(--color-ink-muted);
 }
 
 .progress-bar__value {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
   font-variant-numeric: tabular-nums;
-  color: var(--neon);
+  color: var(--color-mint-strong);
 }
 
 .progress-bar__track {
   position: relative;
   width: 100%;
-  height: 4px;
+  height: 16px;
   overflow: hidden;
-  background: var(--track-bg);
-  border: 1px solid var(--track-border);
-  border-radius: 2px;
+  background: var(--color-surface-soft);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-pill);
 }
 
 .progress-bar__fill {
   height: 100%;
-  background: var(--neon);
+  background: var(--color-mint);
   border-radius: inherit;
   transition: width 250ms ease;
 }

@@ -67,7 +67,16 @@ const livesLabel = computed(() => {
             class="game-header__heart"
             :class="{ 'is-empty': !isFull }"
           >
-            ♥
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8Z" />
+            </svg>
           </span>
         </span>
         <span class="game-header__lives-count" aria-hidden="true">
@@ -77,6 +86,21 @@ const livesLabel = computed(() => {
 
       <div class="game-header__score">
         <span class="game-header__label">Pontuação</span>
+        <span class="game-header__score-icon" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="8" />
+            <path d="M12 8v8" />
+            <path d="M9.5 10h5" />
+            <path d="M9.5 14h5" />
+          </svg>
+        </span>
         <span class="game-header__score-value">{{ formattedScore }}</span>
       </div>
     </div>
@@ -85,20 +109,14 @@ const livesLabel = computed(() => {
 
 <style scoped>
 .game-header {
-  --neon: #00f0ff;
-  --surface: #0d0e15;
-  --surface-hover: #141622;
-  --border-default: #1a1c29;
-  --text: #eafcff;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 12px 16px;
-  background: var(--surface);
-  border: 1px solid var(--border-default);
-  border-radius: 6px;
+  padding: 14px 18px;
+  background: var(--color-surface);
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-card);
 }
 
 .game-header__exit {
@@ -106,27 +124,33 @@ const livesLabel = computed(() => {
   flex: 0 0 auto;
   align-items: center;
   gap: 8px;
-  padding: 8px 12px;
+  padding: 9px 16px;
   font: inherit;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text);
-  background: transparent;
-  border: 1px solid var(--border-default);
-  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--color-ink-soft);
   cursor: pointer;
-  transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease;
+  background: var(--color-surface-soft);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
 }
 
 .game-header__exit:hover {
-  color: var(--neon);
-  border-color: var(--neon);
-  background: var(--surface-hover);
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border-color: var(--color-cyan);
+  transform: translateY(-1px);
+}
+
+.game-header__exit:active {
+  background: var(--color-cyan);
+  transform: translateY(1px);
 }
 
 .game-header__exit:focus-visible {
-  outline: 2px solid var(--neon);
-  outline-offset: 2px;
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
 }
 
 .game-header__exit-icon {
@@ -137,91 +161,121 @@ const livesLabel = computed(() => {
 .game-header__stats {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .game-header__lives,
 .game-header__score {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  padding: 7px 12px;
+  border: 2px solid;
+  border-radius: var(--radius-pill);
+}
+
+.game-header__lives {
+  background: var(--color-coral-soft);
+  border-color: var(--color-coral);
+}
+
+.game-header__score {
+  background: var(--color-sun-soft);
+  border-color: var(--color-sun);
 }
 
 .game-header__label {
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #8a99ad;
+  color: var(--color-ink-muted);
 }
 
 .game-header__hearts {
   display: inline-flex;
-  gap: 4px;
+  gap: 3px;
 }
 
 .game-header__heart {
-  font-size: 1rem;
-  line-height: 1;
-  color: var(--neon);
+  display: inline-flex;
+  color: var(--color-coral-strong);
+}
+
+.game-header__heart svg {
+  width: 17px;
+  height: 17px;
+  fill: var(--color-coral);
 }
 
 .game-header__heart.is-empty {
-  color: var(--border-default);
+  color: var(--color-border);
+}
+
+.game-header__heart.is-empty svg {
+  fill: none;
 }
 
 .game-header__lives-count {
-  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
   font-variant-numeric: tabular-nums;
-  color: #8a99ad;
+  color: var(--color-coral-strong);
 }
 
-.game-header__score {
-  padding-left: 20px;
-  border-left: 1px solid var(--border-default);
+.game-header__score-icon {
+  display: inline-flex;
+  color: var(--color-sun-strong);
+}
+
+.game-header__score-icon svg {
+  width: 17px;
+  height: 17px;
 }
 
 .game-header__score-value {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 800;
   font-variant-numeric: tabular-nums;
-  color: var(--neon);
+  color: var(--color-sun-ink);
 }
 
 @media (max-width: 640px) {
   .game-header {
     flex-wrap: wrap;
     gap: 10px;
-    padding: 10px 12px;
+    padding: 12px 14px;
   }
 
   .game-header__stats {
     flex: 1 1 100%;
     justify-content: space-between;
-    gap: 12px;
+    gap: 8px;
   }
 
+  .game-header__lives,
   .game-header__score {
-    padding-left: 12px;
+    padding: 6px 10px;
   }
 
   .game-header__label {
-    font-size: 0.65rem;
+    display: none;
   }
 
-  .game-header__heart {
-    font-size: 0.9rem;
-  }
-
-  .game-header__score-value {
-    font-size: 1rem;
+  .game-header__heart svg {
+    width: 16px;
+    height: 16px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .game-header__exit {
     transition: none;
+  }
+
+  .game-header__exit:hover {
+    transform: none;
   }
 }
 </style>

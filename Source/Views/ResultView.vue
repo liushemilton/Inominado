@@ -105,7 +105,24 @@ function formatPoints(value) {
   <main class="result-view">
     <section class="result-view__card">
       <header class="result-view__header">
-        <span class="result-view__eyebrow">Partida concluída</span>
+        <span class="result-view__eyebrow">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M8 21h8" />
+            <path d="M12 17v4" />
+            <path d="M7 4h10v5a5 5 0 0 1-10 0V4Z" />
+            <path d="M7 6H4a3 3 0 0 0 3 3" />
+            <path d="M17 6h3a3 3 0 0 1-3 3" />
+          </svg>
+          Partida concluída
+        </span>
         <h1 class="result-view__title">{{ headline }}</h1>
         <p class="result-view__subtitle">
           Você respondeu {{ answeredCount }} de {{ totalQuestions }}
@@ -114,6 +131,21 @@ function formatPoints(value) {
       </header>
 
       <div class="result-view__score">
+        <span class="result-view__score-icon" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="8" />
+            <path d="M12 8v8" />
+            <path d="M9.5 10h5" />
+            <path d="M9.5 14h5" />
+          </svg>
+        </span>
         <span class="result-view__score-label">Pontuação final</span>
         <strong class="result-view__score-value">{{ totalScore }}</strong>
         <span class="result-view__score-meta">pontos</span>
@@ -174,6 +206,19 @@ function formatPoints(value) {
           class="result-view__roadmap"
           @click="emit('roadmap')"
         >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Z" />
+            <path d="M9 3v15" />
+            <path d="M15 6v15" />
+          </svg>
           Ver roadmap
         </button>
 
@@ -182,6 +227,18 @@ function formatPoints(value) {
           class="result-view__restart"
           @click="emit('restart')"
         >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M3 12a9 9 0 1 0 3-6.7" />
+            <path d="M3 4v5h5" />
+          </svg>
           Jogar de novo
         </button>
       </footer>
@@ -191,22 +248,13 @@ function formatPoints(value) {
 
 <style scoped>
 .result-view {
-  --neon: #00f0ff;
-  --surface: #0d0e15;
-  --surface-panel: #10121a;
-  --border-default: #1a1c29;
-  --text: #eafcff;
-  --muted: #8a99ad;
-
   display: flex;
   align-items: flex-start;
   justify-content: center;
   min-height: 100vh;
-  padding: clamp(16px, 3vw, 36px) clamp(12px, 2vw, 24px);
-  box-sizing: border-box;
-  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  color: var(--text);
-  background: #08080c;
+  padding: var(--page-padding);
+  color: var(--color-ink);
+  background: var(--color-bg);
 }
 
 .result-view__card {
@@ -214,41 +262,55 @@ function formatPoints(value) {
   flex-direction: column;
   gap: 24px;
   width: 100%;
-  max-width: 720px;
-  padding: clamp(20px, 4vw, 36px);
-  box-sizing: border-box;
-  background: var(--surface-panel);
-  border: 1px solid var(--border-default);
-  border-radius: 6px;
+  max-width: 760px;
+  padding: clamp(22px, 4vw, 38px);
+  background: var(--color-surface);
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-card);
 }
 
 .result-view__header {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  align-items: center;
+  gap: 10px;
   text-align: center;
 }
 
 .result-view__eyebrow {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--neon);
+  color: var(--color-mint-strong);
+  background: var(--color-mint-soft);
+  border: 2px solid var(--color-mint);
+  border-radius: var(--radius-pill);
+}
+
+.result-view__eyebrow svg {
+  width: 14px;
+  height: 14px;
 }
 
 .result-view__title {
   margin: 0;
-  font-size: clamp(1.5rem, 4vw, 2.1rem);
-  line-height: 1.2;
-  color: var(--text);
+  font-size: clamp(1.55rem, 4vw, 2.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
 }
 
 .result-view__subtitle {
   margin: 0;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--color-ink-muted);
 }
 
 .result-view__score {
@@ -257,37 +319,56 @@ function formatPoints(value) {
   align-items: baseline;
   justify-content: center;
   gap: 10px;
-  padding: 20px;
-  background: var(--surface);
-  border: 1px solid var(--border-default);
-  border-radius: 6px;
+  padding: 22px;
+  background: var(--color-sun-soft);
+  border: 3px solid var(--color-sun);
+  border-radius: var(--radius-card);
+}
+
+.result-view__score-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--color-sun-strong);
+  background: var(--color-surface);
+  border: 2px solid var(--color-sun);
+  border-radius: var(--radius-pill);
+  align-self: center;
+}
+
+.result-view__score-icon svg {
+  width: 22px;
+  height: 22px;
 }
 
 .result-view__score-label {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--color-sun-ink);
 }
 
 .result-view__score-value {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: clamp(2rem, 6vw, 2.8rem);
+  font-family: var(--font-mono);
+  font-size: clamp(2.2rem, 6vw, 3rem);
+  font-weight: 800;
   font-variant-numeric: tabular-nums;
   line-height: 1;
-  color: var(--neon);
+  color: var(--color-sun-strong);
 }
 
 .result-view__score-meta {
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--color-sun-ink);
 }
 
 .result-view__stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
+  gap: 12px;
   margin: 0;
 }
 
@@ -295,35 +376,35 @@ function formatPoints(value) {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  padding: 12px 14px;
-  background: var(--surface);
-  border: 1px solid var(--border-default);
-  border-radius: 6px;
+  padding: 14px 16px;
+  background: var(--color-surface-soft);
+  border: 2px solid var(--color-border-soft);
+  border-radius: var(--radius-card);
 }
 
 .result-view__stat dt {
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--color-ink-muted);
 }
 
 .result-view__stat dd {
   margin: 0;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 800;
   font-variant-numeric: tabular-nums;
-  color: var(--text);
+  color: var(--color-ink);
 }
 
 .result-view__stat dd.is-correct {
-  color: #2bffc6;
+  color: var(--color-mint-strong);
 }
 
 .result-view__stat dd.is-incorrect {
-  color: #ff3b30;
+  color: var(--color-coral-strong);
 }
 
 .result-view__breakdown {
@@ -334,17 +415,17 @@ function formatPoints(value) {
 
 .result-view__breakdown-title {
   margin: 0;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--color-ink-muted);
 }
 
 .result-view__breakdown-list {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -355,31 +436,31 @@ function formatPoints(value) {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 8px 12px;
-  font-size: 0.85rem;
-  color: var(--muted);
-  background: var(--surface);
-  border: 1px solid var(--border-default);
-  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 0.86rem;
+  color: var(--color-ink-soft);
+  background: var(--color-surface-soft);
+  border: 2px solid var(--color-border-soft);
+  border-radius: var(--radius-field);
 }
 
 .result-view__breakdown-item strong {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
-  color: var(--neon);
+  color: var(--color-cyan-strong);
 }
 
 .result-view__breakdown-item strong.is-negative {
-  color: #ff3b30;
+  color: var(--color-coral-strong);
 }
 
 .result-view__footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
-  padding-top: 20px;
-  border-top: 1px solid var(--border-default);
+  gap: 12px;
+  padding-top: 22px;
+  border-top: 2px solid var(--color-border-soft);
 }
 
 .result-view__roadmap,
@@ -387,43 +468,63 @@ function formatPoints(value) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   min-width: 190px;
   padding: 12px 24px;
-  box-sizing: border-box;
   font: inherit;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #0d0e15;
+  font-size: 0.82rem;
+  font-weight: 800;
+  border: 2px solid;
+  border-radius: var(--radius-pill);
   cursor: pointer;
-  background: var(--neon);
-  border: 1px solid var(--neon);
-  border-radius: 4px;
-  transition: background-color 150ms ease, border-color 150ms ease;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.result-view__roadmap svg,
+.result-view__restart svg {
+  width: 16px;
+  height: 16px;
 }
 
 .result-view__roadmap {
-  color: var(--muted);
-  background: transparent;
-  border-color: var(--border-default);
+  color: var(--color-ink-soft);
+  background: var(--color-surface);
+  border-color: var(--color-border);
 }
 
 .result-view__roadmap:hover {
-  color: var(--text);
-  background: transparent;
-  border-color: var(--neon);
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border-color: var(--color-cyan);
+  transform: translateY(-1px);
+}
+
+.result-view__roadmap:active {
+  background: var(--color-cyan);
+  transform: translateY(1px);
+}
+
+.result-view__restart {
+  color: var(--color-primary-ink);
+  background: var(--color-primary);
+  border-color: var(--color-primary-border);
 }
 
 .result-view__restart:hover {
-  background: #33f3ff;
-  border-color: #33f3ff;
+  background: var(--color-primary-hover);
+  border-color: var(--color-primary-active);
+  transform: translateY(-1px);
+}
+
+.result-view__restart:active {
+  background: var(--color-primary-active);
+  transform: translateY(1px);
 }
 
 .result-view__roadmap:focus-visible,
 .result-view__restart:focus-visible {
-  outline: 2px solid var(--neon);
-  outline-offset: 2px;
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
 }
 
 @media (max-width: 600px) {
@@ -441,6 +542,11 @@ function formatPoints(value) {
   .result-view__roadmap,
   .result-view__restart {
     transition: none;
+  }
+
+  .result-view__roadmap:hover,
+  .result-view__restart:hover {
+    transform: none;
   }
 }
 </style>
