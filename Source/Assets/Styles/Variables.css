@@ -1,24 +1,29 @@
 /* =========================================================
-   Flat Científico & Amigável — tokens globais
-   Paleta pastel inspirada em química, sem sombras.
+   Flat Científico & Amigável — Tokens Globais
+   Paleta pastel inspirada em química, com suporte a Dark Mode.
    ========================================================= */
 :root {
   /* Tipografia */
   --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
 
-  /* Superfícies */
+  /* Superfícies (Tema Claro) */
   --color-bg: #F8FAFC;
   --color-bg-cream: #FFFDF8;
   --color-surface: #FFFFFF;
   --color-surface-soft: #F1F5F9;
   --color-surface-sunken: #E8EEF5;
 
-  /* Texto */
+  /* Texto (Tema Claro) */
   --color-ink: #17233A;
   --color-ink-soft: #3D4C63;
   --color-ink-muted: #5B6B82;
   --color-ink-faint: #8494A9;
+
+  /* Bordas (Tema Claro) */
+  --color-border: #C7D3E1;
+  --color-border-strong: #8FA3BA;
+  --color-border-soft: #E2E8F0;
 
   /* Acentos pastel */
   --color-mint: #6EE7B7;
@@ -45,11 +50,6 @@
   --color-lilac-soft: #EDE9FE;
   --color-lilac-strong: #6D28D9;
   --color-lilac-ink: #2E1065;
-
-  /* Bordas */
-  --color-border: #C7D3E1;
-  --color-border-strong: #8FA3BA;
-  --color-border-soft: #E2E8F0;
 
   /* Semântica */
   --color-success: var(--color-mint-strong);
@@ -78,4 +78,74 @@
   /* Layout */
   --page-padding: clamp(16px, 3vw, 40px);
   --content-width: 980px;
+
+  /* Aliases genéricos para facilidade de uso */
+  --bg-color: var(--color-bg);
+  --text-color: var(--color-ink);
+  --primary-color: var(--color-primary);
+}
+
+/* =========================================================
+   Tema Escuro — Estilo Dark Neon (Texto & Bordas Harmonizados)
+   ========================================================= */
+body.dark,
+:root.dark {
+  /* Superfícies (Fundo Cyberpunk Profundo) */
+  --color-bg: #030712;
+  --color-bg-cream: #090D16;
+  --color-surface: #0B0F19;
+  --color-surface-soft: #1E1B4B;
+  --color-surface-sunken: #030712;
+
+  /* Texto (Mais claro e na cor das bordas neon) */
+  --color-ink: #67E8F9;        /* Ciano neon brilhante para texto principal */
+  --color-ink-soft: #A5F3FC;   /* Ciano suave para leitura */
+  --color-ink-muted: #818CF8;  /* Roxo neon para labels/etiquetas */
+  --color-ink-faint: #475569;
+
+  /* Bordas Neon */
+  --color-border: #312E81;
+  --color-border-strong: #6366F1;
+  --color-border-soft: #1E1B4B;
+
+  /* Acentos Neon Vibrantes */
+  --color-mint: #34D399;
+  --color-mint-soft: #064E3B;
+  --color-mint-strong: #6EE7B7;
+  --color-mint-ink: #A7F3D0;
+
+  --color-cyan: #22D3EE;
+  --color-cyan-soft: #083344;
+  --color-cyan-strong: #67E8F9;
+  --color-cyan-ink: #CFFAFE;
+
+  --color-sun: #FBBF24;
+  --color-sun-soft: #451A03;
+  --color-sun-strong: #FDE047;
+  --color-sun-ink: #FEF08A;
+
+  --color-coral: #FB7185;
+  --color-coral-soft: #4C0519;
+  --color-coral-strong: #FDA4AF;
+  --color-coral-ink: #FECDD3;
+
+  --color-lilac: #A78BFA;
+  --color-lilac-soft: #2E1065;
+  --color-lilac-strong: #C4B5FD;
+  --color-lilac-ink: #DDD6FE;
+
+  /* Ação Principal */
+  --color-primary: #06B6D4;
+  --color-primary-hover: #22D3EE;
+  --color-primary-active: #67E8F9;
+  --color-primary-ink: #030712;
+  --color-primary-border: #67E8F9;
+
+  /* Foco Neon */
+  --color-focus: #22D3EE;
+
+  /* Aliases Mapeados */
+  --bg-color: var(--color-bg);
+  --text-color: var(--color-ink-soft);
+  --primary-color: var(--color-primary);
 }
