@@ -1,0 +1,1689 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "descricao": "Banco de questões baseado no roteiro de estudos de Química Orgânica enviado pelo usuário.",
+  "totalQuestoes": 70,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q001",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "O que representa a camada de valência de um átomo?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A camada mais interna do átomo."
+        },
+        {
+          "id": "B",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "A região ocupada exclusivamente por prótons."
+        },
+        {
+          "id": "D",
+          "texto": "O conjunto de nêutrons do átomo."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A camada de valência é a camada eletrônica mais externa e seus elétrons participam das ligações químicas."
+    },
+    {
+      "id": "Q002",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência.",
+      "resposta": true,
+      "explicacao": "Essa é a ideia geral da regra do octeto. Existem exceções, e o hidrogênio é frequentemente explicado pela regra do dueto."
+    },
+    {
+      "id": "Q003",
+      "tipo": "combinar_pares",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada tipo de ligação química à sua característica principal.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Ligação iônica",
+          "correspondencia": "Atração entre íons de cargas opostas, geralmente após transferência de elétrons."
+        },
+        {
+          "id": "P2",
+          "item": "Ligação covalente",
+          "correspondencia": "Compartilhamento de pares de elétrons entre átomos."
+        },
+        {
+          "id": "P3",
+          "item": "Ligação metálica",
+          "correspondencia": "Cátions metálicos organizados com elétrons deslocalizados."
+        }
+      ],
+      "resposta": {
+        "P1": "Atração entre íons de cargas opostas, geralmente após transferência de elétrons.",
+        "P2": "Compartilhamento de pares de elétrons entre átomos.",
+        "P3": "Cátions metálicos organizados com elétrons deslocalizados."
+      },
+      "explicacao": "As ligações iônica, covalente e metálica diferem pela maneira como os elétrons participam da união entre as partículas."
+    },
+    {
+      "id": "Q004",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Qual elemento normalmente segue a regra do dueto em suas ligações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Carbono"
+        },
+        {
+          "id": "B",
+          "texto": "Oxigênio"
+        },
+        {
+          "id": "C",
+          "texto": "Hidrogênio"
+        },
+        {
+          "id": "D",
+          "texto": "Nitrogênio"
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O hidrogênio fica estável com dois elétrons na sua única camada eletrônica."
+    },
+    {
+      "id": "Q005",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "O que significa dizer que o carbono é tetravalente?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Que possui quatro camadas eletrônicas."
+        },
+        {
+          "id": "B",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "C",
+          "texto": "Que sempre forma quatro ligações duplas."
+        },
+        {
+          "id": "D",
+          "texto": "Que apresenta quatro prótons."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A tetravalência é a capacidade característica do carbono de estabelecer até quatro ligações covalentes."
+    },
+    {
+      "id": "Q006",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias.",
+      "resposta": true,
+      "explicacao": "A catenação permite a formação de cadeias carbônicas de diferentes tamanhos e formatos."
+    },
+    {
+      "id": "Q007",
+      "tipo": "combinar_pares",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Combine a classificação do átomo de carbono com o número de outros carbonos aos quais ele está diretamente ligado.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Carbono primário",
+          "correspondencia": "Ligado diretamente a um carbono."
+        },
+        {
+          "id": "P2",
+          "item": "Carbono secundário",
+          "correspondencia": "Ligado diretamente a dois carbonos."
+        },
+        {
+          "id": "P3",
+          "item": "Carbono terciário",
+          "correspondencia": "Ligado diretamente a três carbonos."
+        },
+        {
+          "id": "P4",
+          "item": "Carbono quaternário",
+          "correspondencia": "Ligado diretamente a quatro carbonos."
+        }
+      ],
+      "resposta": {
+        "P1": "Ligado diretamente a um carbono.",
+        "P2": "Ligado diretamente a dois carbonos.",
+        "P3": "Ligado diretamente a três carbonos.",
+        "P4": "Ligado diretamente a quatro carbonos."
+      },
+      "explicacao": "A classificação depende da quantidade de átomos de carbono vizinhos ligados diretamente ao carbono analisado."
+    },
+    {
+      "id": "Q008",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual representação de fórmula orgânica utiliza segmentos de reta para indicar ligações e vértices ou extremidades para representar átomos de carbono?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Fórmula molecular"
+        },
+        {
+          "id": "B",
+          "texto": "Fórmula em bastão"
+        },
+        {
+          "id": "C",
+          "texto": "Fórmula percentual"
+        },
+        {
+          "id": "D",
+          "texto": "Fórmula iônica"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na fórmula em bastão, cada extremidade e vértice representa, em geral, um átomo de carbono; hidrogênios ligados a carbonos costumam ficar implícitos."
+    },
+    {
+      "id": "Q009",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual geometria e ângulo são associados à hibridização sp³?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Linear, 180°."
+        },
+        {
+          "id": "B",
+          "texto": "Trigonal plana, 120°."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "Quadrado planar, 90°."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A hibridização sp³ está associada à geometria tetraédrica e a ângulos próximos de 109,5°."
+    },
+    {
+      "id": "Q010",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação.",
+      "resposta": true,
+      "explicacao": "A hibridização sp gera duas regiões de ligação orientadas em sentidos opostos, formando geometria linear."
+    },
+    {
+      "id": "Q011",
+      "tipo": "combinar_pares",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada hibridização à geometria molecular e ao ângulo aproximado indicados no roteiro.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "sp³",
+          "correspondencia": "Tetraédrica — 109,5°."
+        },
+        {
+          "id": "P2",
+          "item": "sp²",
+          "correspondencia": "Trigonal plana — 120°."
+        },
+        {
+          "id": "P3",
+          "item": "sp",
+          "correspondencia": "Linear — 180°."
+        }
+      ],
+      "resposta": {
+        "P1": "Tetraédrica — 109,5°.",
+        "P2": "Trigonal plana — 120°.",
+        "P3": "Linear — 180°."
+      },
+      "explicacao": "As três hibridizações apresentadas estão associadas a geometrias e ângulos característicos."
+    },
+    {
+      "id": "Q012",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual afirmação descreve corretamente as ligações sigma (σ) e pi (π)?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma ligação dupla é formada por duas ligações pi."
+        },
+        {
+          "id": "B",
+          "texto": "Uma ligação tripla possui três ligações sigma."
+        },
+        {
+          "id": "C",
+          "texto": "Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi."
+        },
+        {
+          "id": "D",
+          "texto": "Ligações pi só aparecem em ligações simples."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Uma ligação dupla contém uma ligação sigma e uma pi; uma tripla contém uma sigma e duas pi."
+    },
+    {
+      "id": "Q013",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "O que caracteriza um hidrocarboneto?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado por carbono, oxigênio e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Composto que contém obrigatoriamente nitrogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Composto formado somente por hidrogênio e oxigênio."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Hidrocarbonetos são compostos orgânicos constituídos exclusivamente por carbono e hidrogênio."
+    },
+    {
+      "id": "Q014",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos.",
+      "resposta": true,
+      "explicacao": "A presença de pelo menos uma ligação dupla C=C caracteriza os alcenos acíclicos na classificação básica."
+    },
+    {
+      "id": "Q015",
+      "tipo": "combinar_pares",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada classe de hidrocarboneto à característica indicada.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Alcano",
+          "correspondencia": "Apresenta somente ligações simples entre carbonos."
+        },
+        {
+          "id": "P2",
+          "item": "Alceno",
+          "correspondencia": "Apresenta pelo menos uma ligação dupla entre carbonos."
+        },
+        {
+          "id": "P3",
+          "item": "Alcino",
+          "correspondencia": "Apresenta pelo menos uma ligação tripla entre carbonos."
+        },
+        {
+          "id": "P4",
+          "item": "Alcadieno",
+          "correspondencia": "Apresenta duas ligações duplas entre carbonos."
+        }
+      ],
+      "resposta": {
+        "P1": "Apresenta somente ligações simples entre carbonos.",
+        "P2": "Apresenta pelo menos uma ligação dupla entre carbonos.",
+        "P3": "Apresenta pelo menos uma ligação tripla entre carbonos.",
+        "P4": "Apresenta duas ligações duplas entre carbonos."
+      },
+      "explicacao": "As classes são diferenciadas principalmente pelo tipo e pela quantidade de ligações múltiplas na cadeia."
+    },
+    {
+      "id": "Q016",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual das substâncias abaixo é um exemplo de hidrocarboneto aromático citado no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Etanol"
+        },
+        {
+          "id": "B",
+          "texto": "Benzeno"
+        },
+        {
+          "id": "C",
+          "texto": "Ácido acético"
+        },
+        {
+          "id": "D",
+          "texto": "Metilamina"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "O benzeno é um exemplo clássico de hidrocarboneto aromático."
+    },
+    {
+      "id": "Q017",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual grupo funcional caracteriza os ácidos carboxílicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidroxila (−OH) isolada."
+        },
+        {
+          "id": "B",
+          "texto": "Carboxila (−COOH)."
+        },
+        {
+          "id": "C",
+          "texto": "Amino (−NH₂)."
+        },
+        {
+          "id": "D",
+          "texto": "Nitrila (−C≡N)."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Os ácidos carboxílicos apresentam o grupo carboxila, representado de forma geral por −COOH."
+    },
+    {
+      "id": "Q018",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático.",
+      "resposta": true,
+      "explicacao": "Essa ligação direta entre a hidroxila e o anel aromático diferencia os fenóis dos álcoois comuns."
+    },
+    {
+      "id": "Q019",
+      "tipo": "combinar_pares",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada função oxigenada à sua característica estrutural.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Álcool",
+          "correspondencia": "Hidroxila ligada a carbono saturado."
+        },
+        {
+          "id": "P2",
+          "item": "Éter",
+          "correspondencia": "Átomo de oxigênio entre dois grupos carbônicos."
+        },
+        {
+          "id": "P3",
+          "item": "Aldeído",
+          "correspondencia": "Grupo carbonila na extremidade da cadeia."
+        },
+        {
+          "id": "P4",
+          "item": "Cetona",
+          "correspondencia": "Grupo carbonila no interior da cadeia."
+        },
+        {
+          "id": "P5",
+          "item": "Éster",
+          "correspondencia": "Derivado de ácido carboxílico, com grupo característico −COO− entre grupos carbônicos."
+        }
+      ],
+      "resposta": {
+        "P1": "Hidroxila ligada a carbono saturado.",
+        "P2": "Átomo de oxigênio entre dois grupos carbônicos.",
+        "P3": "Grupo carbonila na extremidade da cadeia.",
+        "P4": "Grupo carbonila no interior da cadeia.",
+        "P5": "Derivado de ácido carboxílico, com grupo característico −COO− entre grupos carbônicos."
+      },
+      "explicacao": "A identificação das funções oxigenadas é feita observando a posição e a ligação dos grupos que contêm oxigênio."
+    },
+    {
+      "id": "Q020",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "O vinagre está associado principalmente a qual composto e função orgânica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Ácido acético — ácido carboxílico."
+        },
+        {
+          "id": "B",
+          "texto": "Etano — alcano."
+        },
+        {
+          "id": "C",
+          "texto": "Acetona — cetona."
+        },
+        {
+          "id": "D",
+          "texto": "Etanol — éter."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O principal ácido presente no vinagre é o ácido acético, pertencente à função dos ácidos carboxílicos."
+    },
+    {
+      "id": "Q021",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "As aminas são consideradas derivadas de qual substância?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Água"
+        },
+        {
+          "id": "B",
+          "texto": "Amônia"
+        },
+        {
+          "id": "C",
+          "texto": "Metano"
+        },
+        {
+          "id": "D",
+          "texto": "Ácido sulfúrico"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "As aminas podem ser entendidas como derivados da amônia (NH₃), pela substituição de um ou mais hidrogênios por grupos orgânicos."
+    },
+    {
+      "id": "Q022",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "O grupo −C≡N é característico das nitrilas.",
+      "resposta": true,
+      "explicacao": "As nitrilas apresentam o grupo funcional ciano, representado por −C≡N."
+    },
+    {
+      "id": "Q023",
+      "tipo": "combinar_pares",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada função nitrogenada ao grupo ou característica correspondente.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Aminas",
+          "correspondencia": "Derivadas da amônia."
+        },
+        {
+          "id": "P2",
+          "item": "Amidas",
+          "correspondencia": "Apresentam o grupo funcional amida."
+        },
+        {
+          "id": "P3",
+          "item": "Nitrilas",
+          "correspondencia": "Apresentam o grupo −C≡N."
+        },
+        {
+          "id": "P4",
+          "item": "Nitrocompostos",
+          "correspondencia": "Apresentam o grupo −NO₂."
+        }
+      ],
+      "resposta": {
+        "P1": "Derivadas da amônia.",
+        "P2": "Apresentam o grupo funcional amida.",
+        "P3": "Apresentam o grupo −C≡N.",
+        "P4": "Apresentam o grupo −NO₂."
+      },
+      "explicacao": "Cada função nitrogenada possui um grupo funcional ou característica estrutural que permite sua identificação."
+    },
+    {
+      "id": "Q024",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa apresenta corretamente o grupo funcional dos nitrocompostos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "−OH"
+        },
+        {
+          "id": "B",
+          "texto": "−COOH"
+        },
+        {
+          "id": "C",
+          "texto": "−NO₂"
+        },
+        {
+          "id": "D",
+          "texto": "−SH"
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O grupo nitro é representado por −NO₂."
+    },
+    {
+      "id": "Q025",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual grupo caracteriza os tióis?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "−OH"
+        },
+        {
+          "id": "B",
+          "texto": "−SH"
+        },
+        {
+          "id": "C",
+          "texto": "−NH₂"
+        },
+        {
+          "id": "D",
+          "texto": "−COOH"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Os tióis apresentam o grupo sulfidrila, representado por −SH."
+    },
+    {
+      "id": "Q026",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos.",
+      "resposta": true,
+      "explicacao": "A estrutura geral de um sulfeto orgânico pode ser representada por R−S−R', com o enxofre ligado a dois grupos carbônicos."
+    },
+    {
+      "id": "Q027",
+      "tipo": "combinar_pares",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada classe de composto sulfurado ou sulfonado à característica indicada.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Tiol",
+          "correspondencia": "Apresenta o grupo −SH."
+        },
+        {
+          "id": "P2",
+          "item": "Sulfeto orgânico",
+          "correspondencia": "Possui enxofre entre dois grupos carbônicos."
+        },
+        {
+          "id": "P3",
+          "item": "Ácido sulfônico",
+          "correspondencia": "Apresenta o grupo −SO₃H."
+        }
+      ],
+      "resposta": {
+        "P1": "Apresenta o grupo −SH.",
+        "P2": "Possui enxofre entre dois grupos carbônicos.",
+        "P3": "Apresenta o grupo −SO₃H."
+      },
+      "explicacao": "A posição do enxofre e os grupos ligados a ele ajudam a diferenciar essas classes."
+    },
+    {
+      "id": "Q028",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "De acordo com o roteiro, compostos sulfonados e sulfurados são estudados considerando principalmente a presença de qual elemento em suas estruturas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Sódio"
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre"
+        },
+        {
+          "id": "C",
+          "texto": "Cálcio"
+        },
+        {
+          "id": "D",
+          "texto": "Hélio"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Essas classes envolvem compostos orgânicos que apresentam enxofre em diferentes grupos e arranjos estruturais."
+    },
+    {
+      "id": "Q029",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa contém apenas halogênios citados no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Oxigênio, nitrogênio, carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Sódio, potássio, cálcio e magnésio."
+        },
+        {
+          "id": "D",
+          "texto": "Ferro, cobre, zinco e prata."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O roteiro destaca flúor, cloro, bromo e iodo como halogênios."
+    },
+    {
+      "id": "Q030",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio.",
+      "resposta": true,
+      "explicacao": "A ligação carbono-halogênio é característica central dos haletos orgânicos."
+    },
+    {
+      "id": "Q031",
+      "tipo": "combinar_pares",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada tipo de haleto orgânico à posição do halogênio indicada.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Haletos de alquila",
+          "correspondencia": "Halogênio ligado a um carbono de cadeia alifática."
+        },
+        {
+          "id": "P2",
+          "item": "Haletos de arila",
+          "correspondencia": "Halogênio ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": {
+        "P1": "Halogênio ligado a um carbono de cadeia alifática.",
+        "P2": "Halogênio ligado diretamente a um anel aromático."
+      },
+      "explicacao": "A distinção depende de o halogênio estar ligado a uma estrutura alifática ou diretamente a um anel aromático."
+    },
+    {
+      "id": "Q032",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "O roteiro cita certos CFCs como exemplo de compostos associados a qual tema?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Impactos ambientais."
+        },
+        {
+          "id": "B",
+          "texto": "Formação de proteínas."
+        },
+        {
+          "id": "C",
+          "texto": "Regra do dueto."
+        },
+        {
+          "id": "D",
+          "texto": "Produção natural de celulose."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O roteiro destaca os impactos ambientais associados a certos CFCs ao estudar haletos orgânicos."
+    },
+    {
+      "id": "Q033",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "O que é um monômero?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Um tipo de ligação metálica."
+        },
+        {
+          "id": "C",
+          "texto": "Um polímero formado exclusivamente por metais."
+        },
+        {
+          "id": "D",
+          "texto": "Uma molécula que não pode participar da formação de macromoléculas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Monômeros são unidades menores que podem se unir para formar polímeros, que são macromoléculas."
+    },
+    {
+      "id": "Q034",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais.",
+      "resposta": true,
+      "explicacao": "Ambos são polissacarídeos naturais formados por unidades de glicose, mas possuem estruturas e funções diferentes."
+    },
+    {
+      "id": "Q035",
+      "tipo": "combinar_pares",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada polímero ou grupo natural à sua unidade ou característica destacada no roteiro.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Proteínas",
+          "correspondencia": "Formadas por aminoácidos unidos por ligações peptídicas."
+        },
+        {
+          "id": "P2",
+          "item": "Ácidos nucleicos",
+          "correspondencia": "Incluem DNA e RNA."
+        },
+        {
+          "id": "P3",
+          "item": "Amido e celulose",
+          "correspondencia": "Polissacarídeos de origem natural."
+        },
+        {
+          "id": "P4",
+          "item": "Borracha natural",
+          "correspondencia": "Polímero natural."
+        }
+      ],
+      "resposta": {
+        "P1": "Formadas por aminoácidos unidos por ligações peptídicas.",
+        "P2": "Incluem DNA e RNA.",
+        "P3": "Polissacarídeos de origem natural.",
+        "P4": "Polímero natural."
+      },
+      "explicacao": "O roteiro aborda diferentes exemplos de polímeros naturais, suas unidades constituintes e funções."
+    },
+    {
+      "id": "Q036",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual ligação une os aminoácidos na formação das proteínas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Ligação peptídica"
+        },
+        {
+          "id": "B",
+          "texto": "Ligação metálica"
+        },
+        {
+          "id": "C",
+          "texto": "Ligação iônica exclusivamente"
+        },
+        {
+          "id": "D",
+          "texto": "Ligação de hidrogênio como ligação principal da cadeia"
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Os aminoácidos são unidos por ligações peptídicas para formar cadeias polipeptídicas."
+    },
+    {
+      "id": "Q037",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "O que caracteriza um polímero sintético?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "B",
+          "texto": "É encontrado exclusivamente em organismos vivos."
+        },
+        {
+          "id": "C",
+          "texto": "É sempre formado por aminoácidos."
+        },
+        {
+          "id": "D",
+          "texto": "Não apresenta unidades repetitivas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Polímeros sintéticos são materiais produzidos por processos de polimerização, geralmente a partir de monômeros."
+    },
+    {
+      "id": "Q038",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo.",
+      "resposta": true,
+      "explicacao": "Na polimerização por adição, unidades monoméricas se adicionam à cadeia; na condensação, pode ocorrer liberação de moléculas pequenas."
+    },
+    {
+      "id": "Q039",
+      "tipo": "combinar_pares",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada tipo de polímero à característica correspondente.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Termoplásticos",
+          "correspondencia": "Amolecem quando aquecidos e podem ser moldados novamente."
+        },
+        {
+          "id": "P2",
+          "item": "Termofixos",
+          "correspondencia": "Após a cura, não podem ser remodelados por simples aquecimento."
+        },
+        {
+          "id": "P3",
+          "item": "Elastômeros",
+          "correspondencia": "Apresentam elasticidade, podendo deformar e recuperar a forma."
+        },
+        {
+          "id": "P4",
+          "item": "Fibras sintéticas",
+          "correspondencia": "Materiais poliméricos usados na produção de fibras."
+        }
+      ],
+      "resposta": {
+        "P1": "Amolecem quando aquecidos e podem ser moldados novamente.",
+        "P2": "Após a cura, não podem ser remodelados por simples aquecimento.",
+        "P3": "Apresentam elasticidade, podendo deformar e recuperar a forma.",
+        "P4": "Materiais poliméricos usados na produção de fibras."
+      },
+      "explicacao": "Essas categorias descrevem comportamentos e aplicações diferentes dos materiais poliméricos."
+    },
+    {
+      "id": "Q040",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual dos materiais abaixo é identificado pela sigla PET no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Um polímero sintético."
+        },
+        {
+          "id": "B",
+          "texto": "Uma proteína natural."
+        },
+        {
+          "id": "C",
+          "texto": "Um ácido nucleico."
+        },
+        {
+          "id": "D",
+          "texto": "Um hidrocarboneto simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O PET é um dos exemplos de polímeros sintéticos listados no roteiro."
+    },
+    {
+      "id": "Q041",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "O que ocorre em uma reação orgânica de adição, de modo geral?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas."
+        },
+        {
+          "id": "B",
+          "texto": "Um átomo é sempre removido sem substituição."
+        },
+        {
+          "id": "C",
+          "texto": "Duas moléculas são sempre separadas pela água."
+        },
+        {
+          "id": "D",
+          "texto": "Ocorre apenas a formação de sais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Reações de adição são comuns em compostos insaturados e envolvem a incorporação de átomos ou grupos à molécula."
+    },
+    {
+      "id": "Q042",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado.",
+      "resposta": true,
+      "explicacao": "Na ruptura homolítica, a divisão dos elétrons é igual: cada fragmento fica com um elétron."
+    },
+    {
+      "id": "Q043",
+      "tipo": "combinar_pares",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada tipo de reação orgânica à sua descrição.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Substituição",
+          "correspondencia": "Troca de um átomo ou grupo por outro."
+        },
+        {
+          "id": "P2",
+          "item": "Eliminação",
+          "correspondencia": "Remoção de átomos ou grupos, frequentemente formando insaturações."
+        },
+        {
+          "id": "P3",
+          "item": "Esterificação",
+          "correspondencia": "Formação de ésteres."
+        },
+        {
+          "id": "P4",
+          "item": "Hidrólise",
+          "correspondencia": "Quebra de ligações com participação da água."
+        },
+        {
+          "id": "P5",
+          "item": "Combustão",
+          "correspondencia": "Reação com oxigênio."
+        },
+        {
+          "id": "P6",
+          "item": "Polimerização",
+          "correspondencia": "Formação de polímeros."
+        }
+      ],
+      "resposta": {
+        "P1": "Troca de um átomo ou grupo por outro.",
+        "P2": "Remoção de átomos ou grupos, frequentemente formando insaturações.",
+        "P3": "Formação de ésteres.",
+        "P4": "Quebra de ligações com participação da água.",
+        "P5": "Reação com oxigênio.",
+        "P6": "Formação de polímeros."
+      },
+      "explicacao": "Cada tipo de reação é reconhecido pela transformação que ocorre nos reagentes para formar os produtos."
+    },
+    {
+      "id": "Q044",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a diferença entre um reagente nucleófilo e um eletrófilo, em termos gerais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "Nucleófilos sempre recebem prótons; eletrófilos sempre liberam oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "Ambos são necessariamente íons metálicos."
+        },
+        {
+          "id": "D",
+          "texto": "Não existe diferença entre eles."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Nucleófilos são espécies ricas em elétrons que doam um par eletrônico; eletrófilos são espécies que aceitam esse par."
+    },
+    {
+      "id": "Q045",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Por que a regra do octeto não deve ser tratada como uma regra universal para todos os átomos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Porque nenhum átomo participa de ligações covalentes."
+        },
+        {
+          "id": "C",
+          "texto": "Porque todos os elementos possuem exatamente oito camadas eletrônicas."
+        },
+        {
+          "id": "D",
+          "texto": "Porque a camada de valência não participa das ligações."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A regra do octeto é uma orientação útil, mas há exceções, como espécies deficientes em elétrons e elementos que podem apresentar octeto expandido."
+    },
+    {
+      "id": "Q046",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Em uma ligação covalente, os átomos compartilham pares de elétrons.",
+      "resposta": true,
+      "explicacao": "O compartilhamento de pares de elétrons é a característica central da ligação covalente."
+    },
+    {
+      "id": "Q047",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa apresenta corretamente uma diferença entre fórmula molecular e fórmula estrutural?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A fórmula molecular indica a quantidade de cada tipo de átomo; a estrutural representa como os átomos estão ligados."
+        },
+        {
+          "id": "B",
+          "texto": "A fórmula molecular mostra apenas a geometria; a estrutural mostra somente a massa."
+        },
+        {
+          "id": "C",
+          "texto": "As duas representam sempre informações idênticas, sem diferenças."
+        },
+        {
+          "id": "D",
+          "texto": "A fórmula estrutural não representa ligações químicas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A fórmula molecular informa a composição da substância, enquanto a estrutural evidencia a organização e as ligações entre os átomos."
+    },
+    {
+      "id": "Q048",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "O carbono pode estabelecer ligações simples, duplas e triplas.",
+      "resposta": true,
+      "explicacao": "O carbono forma diferentes tipos de ligação covalente, contribuindo para a diversidade estrutural dos compostos orgânicos."
+    },
+    {
+      "id": "Q049",
+      "tipo": "combinar_pares",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada representação de fórmula orgânica à informação que ela apresenta.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Fórmula molecular",
+          "correspondencia": "Indica os tipos e as quantidades de átomos na molécula."
+        },
+        {
+          "id": "P2",
+          "item": "Fórmula estrutural",
+          "correspondencia": "Mostra os átomos e as ligações entre eles."
+        },
+        {
+          "id": "P3",
+          "item": "Fórmula condensada",
+          "correspondencia": "Agrupa partes da estrutura em uma representação abreviada."
+        },
+        {
+          "id": "P4",
+          "item": "Fórmula em bastão",
+          "correspondencia": "Representa a cadeia por linhas, vértices e extremidades."
+        }
+      ],
+      "resposta": {
+        "P1": "Indica os tipos e as quantidades de átomos na molécula.",
+        "P2": "Mostra os átomos e as ligações entre eles.",
+        "P3": "Agrupa partes da estrutura em uma representação abreviada.",
+        "P4": "Representa a cadeia por linhas, vértices e extremidades."
+      },
+      "explicacao": "As diferentes fórmulas são maneiras de representar a composição e a estrutura dos compostos orgânicos."
+    },
+    {
+      "id": "Q050",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Em uma ligação dupla entre dois carbonos, qual combinação de ligações está presente?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Duas ligações sigma."
+        },
+        {
+          "id": "B",
+          "texto": "Uma ligação sigma e uma ligação pi."
+        },
+        {
+          "id": "C",
+          "texto": "Duas ligações pi e uma sigma."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação pi apenas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Uma ligação dupla é formada por uma ligação sigma e uma ligação pi."
+    },
+    {
+      "id": "Q051",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°.",
+      "resposta": true,
+      "explicacao": "Essa é a geometria característica associada à hibridização sp² no modelo apresentado no roteiro."
+    },
+    {
+      "id": "Q052",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Uma cadeia carbônica que apresenta apenas ligações simples entre carbonos é classificada, quanto à saturação, como:",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Insaturada."
+        },
+        {
+          "id": "B",
+          "texto": "Saturada."
+        },
+        {
+          "id": "C",
+          "texto": "Heterogênea."
+        },
+        {
+          "id": "D",
+          "texto": "Aromática obrigatoriamente."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na classificação básica, uma cadeia saturada apresenta somente ligações simples entre átomos de carbono."
+    },
+    {
+      "id": "Q053",
+      "tipo": "combinar_pares",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione a classificação da cadeia carbônica à sua descrição.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Cadeia aberta",
+          "correspondencia": "Não forma um ciclo fechado."
+        },
+        {
+          "id": "P2",
+          "item": "Cadeia fechada",
+          "correspondencia": "Apresenta um ou mais ciclos."
+        },
+        {
+          "id": "P3",
+          "item": "Cadeia mista",
+          "correspondencia": "Apresenta uma parte cíclica e uma parte aberta."
+        },
+        {
+          "id": "P4",
+          "item": "Cadeia ramificada",
+          "correspondencia": "Possui pelo menos uma ramificação na cadeia principal."
+        },
+        {
+          "id": "P5",
+          "item": "Cadeia heterogênea",
+          "correspondencia": "Possui heteroátomo inserido na cadeia carbônica."
+        }
+      ],
+      "resposta": {
+        "P1": "Não forma um ciclo fechado.",
+        "P2": "Apresenta um ou mais ciclos.",
+        "P3": "Apresenta uma parte cíclica e uma parte aberta.",
+        "P4": "Possui pelo menos uma ramificação na cadeia principal.",
+        "P5": "Possui heteroátomo inserido na cadeia carbônica."
+      },
+      "explicacao": "As cadeias podem ser classificadas por diferentes critérios: fechamento, ramificação e presença de heteroátomo."
+    },
+    {
+      "id": "Q054",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "O benzeno é um hidrocarboneto aromático.",
+      "resposta": true,
+      "explicacao": "O benzeno é um composto formado por carbono e hidrogênio e é o exemplo clássico de hidrocarboneto aromático."
+    },
+    {
+      "id": "Q055",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual característica diferencia uma cadeia normal de uma cadeia ramificada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A cadeia normal não apresenta ramificações; a ramificada apresenta pelo menos uma."
+        },
+        {
+          "id": "B",
+          "texto": "A cadeia normal sempre é fechada; a ramificada sempre é aberta."
+        },
+        {
+          "id": "C",
+          "texto": "A cadeia ramificada não contém carbono."
+        },
+        {
+          "id": "D",
+          "texto": "A cadeia normal apresenta obrigatoriamente ligações triplas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Essa classificação considera a presença ou ausência de ramificações na estrutura carbônica."
+    },
+    {
+      "id": "Q056",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a principal diferença estrutural entre um aldeído e uma cetona?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia."
+        },
+        {
+          "id": "B",
+          "texto": "O aldeído não possui oxigênio; a cetona possui dois oxigênios."
+        },
+        {
+          "id": "C",
+          "texto": "A cetona apresenta hidroxila ligada diretamente ao anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "Ambos são definidos pela presença do grupo −NH₂."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A posição do grupo carbonila permite diferenciar aldeídos e cetonas."
+    },
+    {
+      "id": "Q057",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos.",
+      "resposta": true,
+      "explicacao": "A estrutura geral de um éter pode ser representada por R−O−R', em que R e R' são grupos carbônicos."
+    },
+    {
+      "id": "Q058",
+      "tipo": "combinar_pares",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada substância ou aplicação cotidiana à função orgânica correspondente, conforme os exemplos do roteiro.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Etanol",
+          "correspondencia": "Álcool."
+        },
+        {
+          "id": "P2",
+          "item": "Ácido acético do vinagre",
+          "correspondencia": "Ácido carboxílico."
+        },
+        {
+          "id": "P3",
+          "item": "Acetona",
+          "correspondencia": "Cetona."
+        },
+        {
+          "id": "P4",
+          "item": "Compostos usados em fragrâncias e aromas",
+          "correspondencia": "Podem incluir ésteres."
+        }
+      ],
+      "resposta": {
+        "P1": "Álcool.",
+        "P2": "Ácido carboxílico.",
+        "P3": "Cetona.",
+        "P4": "Podem incluir ésteres."
+      },
+      "explicacao": "O roteiro relaciona funções oxigenadas a produtos e aplicações do cotidiano. A associação de fragrâncias a ésteres é um exemplo comum, embora perfumes possam conter várias classes de substâncias."
+    },
+    {
+      "id": "Q059",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa apresenta uma aplicação ou ocorrência de compostos nitrogenados mencionada no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Medicamentos, fertilizantes e proteínas."
+        },
+        {
+          "id": "B",
+          "texto": "Apenas ligas metálicas."
+        },
+        {
+          "id": "C",
+          "texto": "Somente combustíveis minerais."
+        },
+        {
+          "id": "D",
+          "texto": "Exclusivamente materiais cerâmicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O roteiro cita aplicações e ocorrências de compostos nitrogenados em medicamentos, fertilizantes e proteínas."
+    },
+    {
+      "id": "Q060",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "As amidas e as aminas são funções nitrogenadas distintas, com grupos funcionais diferentes.",
+      "resposta": true,
+      "explicacao": "Embora ambas contenham nitrogênio, aminas e amidas apresentam características estruturais diferentes."
+    },
+    {
+      "id": "Q061",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a representação do grupo funcional dos ácidos sulfônicos apresentada no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "−SH"
+        },
+        {
+          "id": "B",
+          "texto": "−SO₃H"
+        },
+        {
+          "id": "C",
+          "texto": "−NO₂"
+        },
+        {
+          "id": "D",
+          "texto": "−C≡N"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "O grupo característico dos ácidos sulfônicos é representado por −SO₃H."
+    },
+    {
+      "id": "Q062",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais.",
+      "resposta": true,
+      "explicacao": "Essas aplicações estão entre os exemplos apresentados no roteiro de estudos."
+    },
+    {
+      "id": "Q063",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa apresenta corretamente a classificação de um haleto orgânico como haleto de arila?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "O halogênio está ligado exclusivamente a um átomo de oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "O composto não apresenta carbono."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está sempre ligado a um metal."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Haletos de arila apresentam o halogênio ligado diretamente a um carbono do anel aromático."
+    },
+    {
+      "id": "Q064",
+      "tipo": "combinar_pares",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada halogênio ao seu símbolo químico.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Flúor",
+          "correspondencia": "F"
+        },
+        {
+          "id": "P2",
+          "item": "Cloro",
+          "correspondencia": "Cl"
+        },
+        {
+          "id": "P3",
+          "item": "Bromo",
+          "correspondencia": "Br"
+        },
+        {
+          "id": "P4",
+          "item": "Iodo",
+          "correspondencia": "I"
+        }
+      ],
+      "resposta": {
+        "P1": "F",
+        "P2": "Cl",
+        "P3": "Br",
+        "P4": "I"
+      },
+      "explicacao": "F, Cl, Br e I são os símbolos químicos de flúor, cloro, bromo e iodo, respectivamente."
+    },
+    {
+      "id": "Q065",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa diferencia corretamente DNA e RNA dos polissacarídeos amido e celulose?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos."
+        },
+        {
+          "id": "B",
+          "texto": "Todos são proteínas."
+        },
+        {
+          "id": "C",
+          "texto": "DNA e RNA são lipídios; amido e celulose são minerais."
+        },
+        {
+          "id": "D",
+          "texto": "Todos são polímeros sintéticos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O roteiro classifica DNA e RNA como ácidos nucleicos e amido e celulose como carboidratos."
+    },
+    {
+      "id": "Q066",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Polímeros naturais podem ter origem vegetal ou animal.",
+      "resposta": true,
+      "explicacao": "O roteiro apresenta polímeros naturais de origem vegetal e animal, incluindo carboidratos, proteínas e borracha natural."
+    },
+    {
+      "id": "Q067",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa reúne somente exemplos de polímeros sintéticos citados no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polietileno, polipropileno, PVC e PET."
+        },
+        {
+          "id": "B",
+          "texto": "Amido, celulose, DNA e RNA."
+        },
+        {
+          "id": "C",
+          "texto": "Glicose, aminoácidos e água."
+        },
+        {
+          "id": "D",
+          "texto": "Benzeno, metano e etanol."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Polietileno, polipropileno, PVC e PET aparecem entre os exemplos de polímeros sintéticos do roteiro."
+    },
+    {
+      "id": "Q068",
+      "tipo": "combinar_pares",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada sigla ou nome de polímero à sua identificação.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "PE",
+          "correspondencia": "Polietileno."
+        },
+        {
+          "id": "P2",
+          "item": "PP",
+          "correspondencia": "Polipropileno."
+        },
+        {
+          "id": "P3",
+          "item": "PVC",
+          "correspondencia": "Policloreto de vinila."
+        },
+        {
+          "id": "P4",
+          "item": "PS",
+          "correspondencia": "Poliestireno."
+        },
+        {
+          "id": "P5",
+          "item": "PET",
+          "correspondencia": "Polietileno tereftalato."
+        }
+      ],
+      "resposta": {
+        "P1": "Polietileno.",
+        "P2": "Polipropileno.",
+        "P3": "Policloreto de vinila.",
+        "P4": "Poliestireno.",
+        "P5": "Polietileno tereftalato."
+      },
+      "explicacao": "As siglas identificam polímeros sintéticos amplamente utilizados em diferentes produtos e aplicações."
+    },
+    {
+      "id": "Q069",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "O que caracteriza a ruptura heterolítica de uma ligação covalente?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Cada átomo fica com um elétron do par compartilhado."
+        },
+        {
+          "id": "B",
+          "texto": "Um dos fragmentos fica com os dois elétrons do par da ligação."
+        },
+        {
+          "id": "C",
+          "texto": "A ligação se transforma obrigatoriamente em metálica."
+        },
+        {
+          "id": "D",
+          "texto": "Os elétrons desaparecem durante a ruptura."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na ruptura heterolítica, os dois elétrons da ligação ficam com um dos fragmentos, formando espécies com cargas."
+    },
+    {
+      "id": "Q070",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": true,
+      "explicacao": "Esses fatores influenciam a distribuição eletrônica e os locais em que as transformações químicas podem ocorrer."
+    }
+  ]
+}
