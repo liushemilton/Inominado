@@ -6,6 +6,7 @@
  */
 export const ROUTE_NAMES = Object.freeze({
   roadmap: 'roadmap',
+  trail: 'trail',
   game: 'game',
   explanation: 'explanation',
   result: 'result',

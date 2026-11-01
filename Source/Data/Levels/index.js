@@ -5,11 +5,11 @@
  * (`:levelId` e `:phaseId`) nos dados que as views esperam receber.
  */
 
-import Level01 from './Level01.js'
+import LevelQuimica from './LevelQuimica.js'
 
 export const DEFAULT_LIVES = 3
 
-export const LEVELS = Object.freeze([Level01])
+export const LEVELS = Object.freeze([LevelQuimica])
 
 /**
  * @param {unknown} levelId
