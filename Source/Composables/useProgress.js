@@ -13,7 +13,20 @@
  *       attempts: 2,
  *       bestScore: 850,
  *       phases: {
- *         'fase-01': { completed: true, bestScore: 500, ... },
+ *         'fase-01': {
+ *           completed: true,
+ *           bestScore: 500,
+ *           mastery: 82,
+ *           subtopics: {
+ *             'subtopico-01': {
+ *               mastery: 90,
+ *               attempts: 4,
+ *               questions: {
+ *                 q1: { mastery: 90, attempts: 4, nextReviewAt: 0 },
+ *               },
+ *             },
+ *           },
+ *         },
  *       },
  *     },
  *   },
@@ -32,6 +45,20 @@
 import { computed, readonly, ref, shallowRef, unref } from 'vue'
 
 import {
+  applyAnswerToPhaseState,
+  computeAdaptiveDifficulty,
+  computeSubtopicMastery,
+  getPhaseMastery as computePhaseMastery,
+  getQuestionStateFromPhase,
+  getSubtopicSnapshot,
+  getSubtopicStatus as resolveSubtopicStatus,
+  normalizeSubtopicMap,
+  normalizeSubtopicState,
+  resolveAdaptiveConfig,
+  selectRecommendedSubtopic,
+  summarizePhaseSubtopics,
+} from '../Logic/ProgressManager.js'
+import {
   STORAGE_KEYS,
   createProgressStorage,
 } from '../Services/StorageService.js'
@@ -49,6 +76,10 @@ const EMPTY_PHASE = Object.freeze({
   wrongCount: 0,
   totalQuestions: 0,
   elapsedSeconds: 0,
+  mastery: 0,
+  answeredCount: 0,
+  lastSeenAt: null,
+  subtopics: Object.freeze({}),
   updatedAt: null,
 })
 
@@ -63,6 +94,8 @@ const EMPTY_LEVEL = Object.freeze({
   wrongCount: 0,
   totalQuestions: 0,
   elapsedSeconds: 0,
+  mastery: 0,
+  answeredCount: 0,
   updatedAt: null,
 })
 
@@ -200,6 +233,23 @@ function toLevelArray(levels) {
  */
 function normalizePhase(raw) {
   const source = isPlainObject(raw) ? raw : {}
+  const subtopics = normalizeSubtopicMap(source.subtopics)
+  const subtopicStates = Object.values(subtopics)
+
+  const mastery =
+    source.mastery === undefined
+      ? subtopicStates.length > 0
+        ? Math.round(
+            subtopicStates.reduce((total, item) => total + item.mastery, 0) /
+              subtopicStates.length,
+          )
+        : 0
+      : clamp(toSafeNumber(source.mastery), 0, 100)
+
+  const answeredCount =
+    source.answeredCount === undefined
+      ? subtopicStates.reduce((total, item) => total + item.attempts, 0)
+      : toNonNegativeInteger(source.answeredCount)
 
   return {
     completed: source.completed === true,
@@ -212,6 +262,10 @@ function normalizePhase(raw) {
     wrongCount: toNonNegativeInteger(source.wrongCount),
     totalQuestions: toNonNegativeInteger(source.totalQuestions),
     elapsedSeconds: toNonNegativeInteger(source.elapsedSeconds),
+    mastery,
+    answeredCount,
+    lastSeenAt: toTimestamp(source.lastSeenAt),
+    subtopics,
     updatedAt: toTimestamp(source.updatedAt),
   }
 }
@@ -243,6 +297,8 @@ function normalizeLevel(raw) {
     wrongCount: toNonNegativeInteger(source.wrongCount),
     totalQuestions: toNonNegativeInteger(source.totalQuestions),
     elapsedSeconds: toNonNegativeInteger(source.elapsedSeconds),
+    mastery: clamp(toSafeNumber(source.mastery), 0, 100),
+    answeredCount: toNonNegativeInteger(source.answeredCount),
     phases,
     updatedAt: toTimestamp(source.updatedAt),
   }
@@ -415,9 +471,24 @@ function makeLevelSnapshot(levelId, level, definition, unlocked) {
         ? 100
         : 0
 
+  const mastery =
+    phases.length > 0
+      ? Math.round(
+          phases.reduce((total, phase) => {
+            return total + (snapshot.phases[toKey(phase.id)]?.mastery ?? 0)
+          }, 0) / phases.length,
+        )
+      : snapshot.mastery
+
+  const answeredCount = phases.reduce((total, phase) => {
+    return total + (snapshot.phases[toKey(phase.id)]?.answeredCount ?? 0)
+  }, 0)
+
   return {
     id: levelId,
     ...snapshot,
+    mastery,
+    answeredCount,
     totalPhases: phases.length,
     completedPhases,
     percent,
@@ -495,6 +566,9 @@ function resolveLevelArgs(levelId, payload) {
  * @param {() => number} [options.now] Relógio injetável (testes).
  * @param {boolean} [options.sync=true] Sincronizar entre abas.
  * @param {{ warn?: Function }} [options.logger]
+ * @param {number} [options.masteryThreshold] Maestria mínima para concluir um subtópico.
+ * @param {number} [options.minAttemptsForMastery] Tentativas mínimas para concluir.
+ * @param {number} [options.expectedQuestionsPerSubtopic] Cobertura esperada.
  * @returns {object}
  */
 export function createProgressStore(options = {}) {
@@ -506,11 +580,29 @@ export function createProgressStore(options = {}) {
     now,
     sync = true,
     logger = console,
+    masteryThreshold,
+    minAttemptsForMastery,
+    expectedQuestionsPerSubtopic,
+    reviewIntervals,
+    correctGain,
+    difficultyGain,
+    wrongLoss,
+    wrongRetryMs,
   } = options
 
   const resolvedKey = storageKey ?? key ?? STORAGE_KEYS.PROGRESS
   const getNow = typeof now === 'function' ? now : () => Date.now()
   const configuredLevels = shallowRef(toLevelArray(unref(levels)))
+  const adaptiveConfig = resolveAdaptiveConfig({
+    masteryThreshold,
+    minAttemptsForMastery,
+    expectedQuestionsPerSubtopic,
+    reviewIntervals,
+    correctGain,
+    difficultyGain,
+    wrongLoss,
+    wrongRetryMs,
+  })
 
   const storageService = createProgressStorage({
     key: resolvedKey,
@@ -716,6 +808,496 @@ export function createProgressStore(options = {}) {
       phaseId: phaseKey,
       ...normalizePhase(progress.value.levels[levelKey]?.phases?.[phaseKey]),
     }
+  }
+
+  /**
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @returns {{ level: object | null, phase: object | null }}
+   */
+  function getPhaseDefinition(levelId, phaseId) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+
+    if (!levelKey || !phaseKey) return { level: null, phase: null }
+
+    const level = findLevel(levelKey)
+    const phase = toPhaseArray(level?.phases).find((item) => {
+      return toKey(item?.id) === phaseKey
+    }) ?? null
+
+    return { level, phase }
+  }
+
+  /**
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @returns {object}
+   */
+  function getPhaseState(levelId, phaseId) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+
+    if (!levelKey || !phaseKey) return normalizePhase(null)
+
+    return normalizePhase(progress.value.levels[levelKey]?.phases?.[phaseKey])
+  }
+
+  /**
+   * Quantidade de questões cadastradas para um subtópico.
+   *
+   * @param {object | null} phase
+   * @param {unknown} subtopicId
+   * @returns {number}
+   */
+  function getExpectedQuestionCount(phase, subtopicId) {
+    const subtopicKey = toKey(subtopicId)
+
+    if (!subtopicKey) return 0
+
+    const questions = Array.isArray(phase?.questions) ? phase.questions : []
+    const count = questions.filter((question) => {
+      return toKey(question?.subtopicId) === subtopicKey
+    }).length
+
+    if (count > 0) return count
+
+    const subtopics = Array.isArray(phase?.subtopics) ? phase.subtopics : []
+    const definition = subtopics.find((subtopic) => {
+      return toKey(subtopic?.id) === subtopicKey
+    })
+
+    return toNonNegativeInteger(definition?.questionCount)
+  }
+
+  /**
+   * Progresso de um subtópico, com status, maestria e estatísticas.
+   *
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {unknown} subtopicId
+   * @returns {object | null}
+   */
+  function getSubtopicProgress(levelId, phaseId, subtopicId) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+    const subtopicKey = toKey(subtopicId)
+
+    if (!levelKey || !phaseKey || !subtopicKey) return null
+
+    const state = getPhaseState(levelKey, phaseKey)
+    const { level, phase } = getPhaseDefinition(levelKey, phaseKey)
+    const exists = Boolean(phase) || Boolean(state.subtopics[subtopicKey])
+
+    if (!exists) return null
+
+    return getSubtopicSnapshot(state, phase, subtopicKey, {
+      ...adaptiveConfig,
+      phaseUnlocked: isPhaseUnlocked(levelKey, phaseKey, level),
+      expectedQuestionCount: getExpectedQuestionCount(phase, subtopicKey),
+    })
+  }
+
+  /**
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {unknown} subtopicId
+   * @returns {'locked' | 'available' | 'in-progress' | 'completed'}
+   */
+  function getSubtopicStatus(levelId, phaseId, subtopicId) {
+    return getSubtopicProgress(levelId, phaseId, subtopicId)?.status ?? 'locked'
+  }
+
+  /**
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {unknown} subtopicId
+   * @returns {boolean}
+   */
+  function isSubtopicUnlocked(levelId, phaseId, subtopicId) {
+    return getSubtopicStatus(levelId, phaseId, subtopicId) !== 'locked'
+  }
+
+  /**
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @returns {object[]}
+   */
+  function getPhaseSubtopics(levelId, phaseId) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+
+    if (!levelKey || !phaseKey) return []
+
+    const state = getPhaseState(levelKey, phaseKey)
+    const { level, phase } = getPhaseDefinition(levelKey, phaseKey)
+
+    return summarizePhaseSubtopics(phase, state, {
+      ...adaptiveConfig,
+      phaseUnlocked: isPhaseUnlocked(levelKey, phaseKey, level),
+    })
+  }
+
+  /**
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @returns {object | null}
+   */
+  function getRecommendedSubtopic(levelId, phaseId) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+
+    if (!levelKey || !phaseKey) return null
+
+    const state = getPhaseState(levelKey, phaseKey)
+    const { level, phase } = getPhaseDefinition(levelKey, phaseKey)
+
+    if (!phase && Object.keys(state.subtopics).length === 0) return null
+
+    return selectRecommendedSubtopic(phase, state, {
+      ...adaptiveConfig,
+      phaseUnlocked: isPhaseUnlocked(levelKey, phaseKey, level),
+    })
+  }
+
+  /**
+   * Subtópicos com menor maestria entre os desbloqueados de um nível.
+   *
+   * @param {unknown} levelId
+   * @param {number} [limit=3]
+   * @returns {object[]}
+   */
+  function getWeakSubtopics(levelId, limit = 3) {
+    const levelKey = toKey(levelId)
+    const max = Math.max(1, toNonNegativeInteger(limit, 3))
+
+    if (!levelKey) return []
+
+    const level = findLevel(levelKey)
+
+    if (!level) return []
+
+    const phaseDefinitions = toPhaseArray(level.phases)
+    const subtopics = []
+
+    for (const phase of phaseDefinitions) {
+      const phaseKey = toKey(phase?.id)
+
+      if (!phaseKey) continue
+
+      const state = getPhaseState(levelKey, phaseKey)
+      const summaries = summarizePhaseSubtopics(phase, state, {
+        ...adaptiveConfig,
+        phaseUnlocked: isPhaseUnlocked(levelKey, phaseKey, level),
+      })
+
+      for (const subtopic of summaries) {
+        if (subtopic.status === 'locked') continue
+
+        subtopics.push({
+          ...subtopic,
+          levelId: levelKey,
+          phaseId: phaseKey,
+          phaseTitle: phase.title ?? '',
+        })
+      }
+    }
+
+    return subtopics
+      .sort((left, right) => {
+        if (left.mastery !== right.mastery) return left.mastery - right.mastery
+
+        return right.attempts - left.attempts
+      })
+      .slice(0, max)
+  }
+
+  /**
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @returns {number}
+   */
+  function getPhaseMastery(levelId, phaseId) {
+    const state = getPhaseState(levelId, phaseId)
+    const { phase } = getPhaseDefinition(levelId, phaseId)
+
+    return computePhaseMastery(state, phase)
+  }
+
+  /**
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {unknown} subtopicId
+   * @param {unknown} questionId
+   * @returns {object}
+   */
+  function getQuestionProgress(levelId, phaseId, subtopicId, questionId) {
+    const state = getPhaseState(levelId, phaseId)
+
+    return getQuestionStateFromPhase(state, subtopicId, questionId)
+  }
+
+  /**
+   * Registra uma resposta de uma questão e atualiza o progresso do subtópico.
+   *
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {object} answer
+   * @param {object} [recordOptions]
+   * @param {number} [recordOptions.expectedQuestionCount]
+   * @returns {object | null}
+   */
+  function recordAnswer(levelId, phaseId, answer, recordOptions = {}) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+    const payload = isPlainObject(answer) ? answer : {}
+
+    if (!levelKey || !phaseKey) return null
+
+    const { phase } = getPhaseDefinition(levelKey, phaseKey)
+    const subtopicId =
+      toKey(payload.subtopicId) ??
+      toKey(payload.subtopic) ??
+      toKey(payload.topicId) ??
+      'geral'
+    const expectedQuestionCount =
+      toNonNegativeInteger(payload.expectedQuestionCount) ||
+      toNonNegativeInteger(recordOptions.expectedQuestionCount) ||
+      getExpectedQuestionCount(phase, subtopicId)
+
+    return mutate((draft, at) => {
+      const level = ensureLevel(draft, levelKey)
+
+      if (!isPlainObject(level.phases)) level.phases = {}
+
+      const current = normalizePhase(level.phases[phaseKey])
+      const result = applyAnswerToPhaseState(
+        current,
+        { ...payload, at: toTimestamp(payload.at) ?? at },
+        {
+          ...adaptiveConfig,
+          expectedQuestionCount:
+            expectedQuestionCount || adaptiveConfig.expectedQuestionsPerSubtopic,
+        },
+      )
+      const nextPhase = normalizePhase(result.phase)
+
+      level.phases[phaseKey] = nextPhase
+      level.updatedAt = at
+      draft.lastPlayed = { levelId: levelKey, phaseId: phaseKey, at }
+
+      return {
+        levelId: levelKey,
+        phaseId: phaseKey,
+        subtopicId,
+        questionId: result.question?.id ?? '',
+        isCorrect: result.isCorrect,
+        question: result.question,
+        subtopic: result.subtopic,
+        phase: nextPhase,
+        status: resolveSubtopicStatus(phase, nextPhase, subtopicId, {
+          ...adaptiveConfig,
+          phaseUnlocked: true,
+        }),
+      }
+    })
+  }
+
+  /**
+   * Registra várias respostas em uma única gravação.
+   *
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {object[]} answers
+   * @param {object} [recordOptions]
+   * @returns {object[]}
+   */
+  function recordAnswers(levelId, phaseId, answers, recordOptions = {}) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+    const list = Array.isArray(answers) ? answers.filter(isPlainObject) : []
+
+    if (!levelKey || !phaseKey || list.length === 0) return []
+
+    const { phase } = getPhaseDefinition(levelKey, phaseKey)
+
+    return mutate((draft, at) => {
+      const level = ensureLevel(draft, levelKey)
+
+      if (!isPlainObject(level.phases)) level.phases = {}
+
+      let nextPhase = normalizePhase(level.phases[phaseKey])
+      const results = []
+
+      list.forEach((payload, index) => {
+        const subtopicId =
+          toKey(payload.subtopicId) ??
+          toKey(payload.subtopic) ??
+          toKey(payload.topicId) ??
+          'geral'
+        const expectedQuestionCount =
+          toNonNegativeInteger(payload.expectedQuestionCount) ||
+          toNonNegativeInteger(recordOptions.expectedQuestionCount) ||
+          getExpectedQuestionCount(phase, subtopicId)
+        const result = applyAnswerToPhaseState(
+          nextPhase,
+          { ...payload, at: toTimestamp(payload.at) ?? at + index },
+          {
+            ...adaptiveConfig,
+            expectedQuestionCount:
+              expectedQuestionCount || adaptiveConfig.expectedQuestionsPerSubtopic,
+          },
+        )
+
+        nextPhase = normalizePhase(result.phase)
+        results.push({
+          levelId: levelKey,
+          phaseId: phaseKey,
+          subtopicId,
+          questionId: result.question?.id ?? '',
+          isCorrect: result.isCorrect,
+          question: result.question,
+          subtopic: result.subtopic,
+        })
+      })
+
+      level.phases[phaseKey] = nextPhase
+      level.updatedAt = at
+      draft.lastPlayed = { levelId: levelKey, phaseId: phaseKey, at }
+
+      return results
+    })
+  }
+
+  /**
+   * Remove o progresso de um subtópico.
+   *
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {unknown} subtopicId
+   * @returns {boolean}
+   */
+  function resetSubtopic(levelId, phaseId, subtopicId) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+    const subtopicKey = toKey(subtopicId)
+
+    if (!levelKey || !phaseKey || !subtopicKey) return false
+
+    return Boolean(
+      mutate((draft) => {
+        const level = ensureLevel(draft, levelKey)
+        const phase = normalizePhase(level.phases?.[phaseKey])
+
+        if (!phase.subtopics[subtopicKey]) return false
+
+        delete phase.subtopics[subtopicKey]
+
+        const states = Object.values(phase.subtopics)
+        phase.answeredCount = states.reduce((total, item) => total + item.attempts, 0)
+        phase.mastery =
+          states.length > 0
+            ? Math.round(
+                states.reduce((total, item) => total + item.mastery, 0) /
+                  states.length,
+              )
+            : 0
+
+        level.phases[phaseKey] = normalizePhase(phase)
+
+        return true
+      }),
+    )
+  }
+
+  /**
+   * Remove o progresso de uma questão e recalcula o subtópico.
+   *
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {unknown} subtopicId
+   * @param {unknown} questionId
+   * @returns {boolean}
+   */
+  function resetQuestion(levelId, phaseId, subtopicId, questionId) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+    const subtopicKey = toKey(subtopicId)
+    const questionKey = toKey(questionId)
+
+    if (!levelKey || !phaseKey || !subtopicKey || !questionKey) return false
+
+    return Boolean(
+      mutate((draft) => {
+        const level = ensureLevel(draft, levelKey)
+        const phase = normalizePhase(level.phases?.[phaseKey])
+        const subtopic = normalizeSubtopicState(
+          phase.subtopics[subtopicKey],
+          subtopicKey,
+        )
+
+        if (!subtopic.questions[questionKey]) return false
+
+        const questions = { ...subtopic.questions }
+        delete questions[questionKey]
+
+        const questionsList = Object.values(questions)
+        const attempts = questionsList.reduce((total, item) => total + item.attempts, 0)
+        const correct = questionsList.reduce((total, item) => total + item.correct, 0)
+        const wrong = questionsList.reduce((total, item) => total + item.wrong, 0)
+        const mastery =
+          questionsList.length > 0
+            ? computeSubtopicMastery({ questions })
+            : 0
+        const accuracy = attempts > 0 ? correct / attempts : 0
+        const completed =
+          mastery >= adaptiveConfig.masteryThreshold &&
+          attempts >= adaptiveConfig.minAttemptsForMastery
+        const seenTimestamps = questionsList
+          .map((item) => item.lastSeenAt)
+          .filter((value) => value !== null)
+        const correctTimestamps = questionsList
+          .map((item) => item.lastCorrectAt)
+          .filter((value) => value !== null)
+
+        phase.subtopics[subtopicKey] = normalizeSubtopicState(
+          {
+            id: subtopicKey,
+            attempts,
+            correct,
+            wrong,
+            answeredCount: questionsList.filter((item) => item.attempts > 0).length,
+            mastery,
+            difficulty: computeAdaptiveDifficulty(mastery, accuracy),
+            lastSeenAt:
+              seenTimestamps.length > 0 ? Math.max(...seenTimestamps) : null,
+            lastCorrectAt:
+              correctTimestamps.length > 0
+                ? Math.max(...correctTimestamps)
+                : null,
+            nextReviewAt: undefined,
+            questions,
+            completed,
+            completedAt: completed ? subtopic.completedAt ?? getNow() : null,
+          },
+          subtopicKey,
+        )
+
+        const states = Object.values(phase.subtopics)
+        phase.answeredCount = states.reduce((total, item) => total + item.attempts, 0)
+        phase.mastery =
+          states.length > 0
+            ? Math.round(
+                states.reduce((total, item) => total + item.mastery, 0) /
+                  states.length,
+              )
+            : 0
+
+        level.phases[phaseKey] = normalizePhase(phase)
+
+        return true
+      }),
+    )
   }
 
   /**
@@ -1160,25 +1742,40 @@ export function createProgressStore(options = {}) {
     // Leitura.
     getLevelProgress,
     getPhaseProgress,
+    getPhaseSubtopics,
+    getSubtopicProgress,
+    getSubtopicStatus,
+    getQuestionProgress,
+    getRecommendedSubtopic,
+    getWeakSubtopics,
+    getPhaseMastery,
     isLevelCompleted,
     isPhaseCompleted,
     isLevelUnlocked,
     isPhaseUnlocked,
+    isSubtopicUnlocked,
     getLevelStatus,
     getPhaseStatus,
     getOverallStats,
     snapshot,
 
+    // Configuração adaptativa.
+    adaptiveConfig,
+
     // Escrita.
     completePhase,
     completeLevel,
     recordPhaseAttempt,
+    recordAnswer,
+    recordAnswers,
     configureLevels,
     load,
     reload: load,
     save,
     resetLevel,
     resetPhase,
+    resetSubtopic,
+    resetQuestion,
     resetProgress,
 
     // Sincronização.
