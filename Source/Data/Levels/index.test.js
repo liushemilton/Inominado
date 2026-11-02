@@ -18,6 +18,7 @@ describe('resolução de parâmetros de rota', () => {
     assert.equal(resolved.phase.id, 'topico-01')
     assert.equal(resolved.phase.title, 'Regra do octeto')
     assert.ok(Array.isArray(resolved.phase.questions))
+    assert.ok(resolved.phase.questions.length > 0)
     assert.ok(resolved.phase.subtopics.length > 0)
   })
 
@@ -34,13 +35,21 @@ describe('resolução de parâmetros de rota', () => {
     assert.equal(LEVELS[0].phases.length, 11)
   })
 
-  it('mapeia cada tópico para uma fase com subtópicos e questões vazias', () => {
+  it('mapeia cada tópico para uma fase com subtópicos e questões do banco', () => {
+    const questionIds = new Set()
+
     for (const phase of LEVELS[0].phases) {
       assert.ok(phase.id)
       assert.ok(phase.title)
       assert.ok(phase.subtopics.length > 0)
-      assert.deepEqual(phase.questions, [])
+      assert.ok(phase.questions.length > 0, `fase ${phase.id} sem questões`)
+
+      for (const question of phase.questions) {
+        questionIds.add(question.id)
+      }
     }
+
+    assert.equal(questionIds.size, 70)
   })
 
   it('encontra fases por id e aceita fases em formato de objeto', () => {

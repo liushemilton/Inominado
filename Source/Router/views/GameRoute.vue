@@ -1,7 +1,8 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { RouterLink, useRoute, useRouter } from 'vue-router'
 
+import { useAdaptiveLearning } from '../../Composables/useAdaptiveLearning.js'
 import { useProgress } from '../../Composables/useProgress.js'
 import { DEFAULT_LIVES, LEVELS, resolvePhase } from '../../Data/Levels/index.js'
 import GameView from '../../Views/GameView.vue'
@@ -15,8 +16,11 @@ const props = defineProps({
 
 const route = useRoute()
 const router = useRouter()
-const { completePhase, completeLevel, getPhaseProgress } = useProgress({
+const progressStore = useProgress({ levels: LEVELS })
+const { completePhase, completeLevel, getPhaseProgress } = progressStore
+const adaptive = useAdaptiveLearning({
   levels: LEVELS,
+  progressStore,
 })
 
 const session = computed(() => resolvePhase(props.levelId, props.phaseId))
@@ -27,21 +31,36 @@ const subtopicId = computed(() => {
   return typeof value === 'string' ? value : ''
 })
 
-const questions = computed(() => {
-  const phaseQuestions = session.value?.phase?.questions
+// A sessão é montada uma única vez por rota/subtópico. Se dependesse do
+// progresso reativo, cada resposta recriaria as questões e reiniciaria a
+// partida no `GameView`.
+const sessionQuestions = ref([])
+const adaptiveSession = ref(null)
 
-  const allQuestions = Array.isArray(phaseQuestions)
-    ? phaseQuestions
-    : Array.isArray(session.value?.level?.questions)
-      ? session.value.level.questions
-      : []
+function loadSession() {
+  const current = session.value
 
-  if (!subtopicId.value) return allQuestions
+  if (!current) {
+    sessionQuestions.value = []
+    adaptiveSession.value = null
+    return
+  }
 
-  return allQuestions.filter((question) => {
-    return String(question?.subtopicId) === subtopicId.value
+  const built = adaptive.buildSession({
+    levelId: current.level.id,
+    phaseId: current.phase.id,
+    subtopicId: subtopicId.value || undefined,
   })
-})
+
+  adaptiveSession.value = built
+  sessionQuestions.value = built.questions
+}
+
+watch(
+  () => [props.levelId, props.phaseId, route.query.subtopico],
+  loadSession,
+  { immediate: true },
+)
 
 /**
  * Persiste o resultado da fase e, quando todas as fases estiverem
@@ -59,11 +78,12 @@ function persistResult(payload = {}) {
   const summary = payload.summary ?? {}
   const totalQuestions =
     Number(payload.totalQuestions ?? summary.totalQuestions) ||
-    questions.value.length
+    sessionQuestions.value.length
   const answeredCount = Array.isArray(payload.answers)
     ? payload.answers.length
     : 0
   const completed = totalQuestions > 0 && answeredCount >= totalQuestions
+  const adaptiveState = adaptive.getSessionState()
   const stats = {
     ...payload,
     completed,
@@ -72,6 +92,8 @@ function persistResult(payload = {}) {
     correctCount: payload.correctCount ?? summary.correctAnswers,
     wrongCount: payload.wrongCount,
     accuracy: summary.accuracyPercent,
+    difficulty: adaptiveState.difficulty,
+    subtopicId: adaptiveSession.value?.subtopicId ?? '',
   }
 
   completePhase(level.id, phase.id, stats)
@@ -102,6 +124,7 @@ function handleFinished(payload) {
   router.push({
     name: ROUTE_NAMES.result,
     params: { levelId: props.levelId, phaseId: props.phaseId },
+    query: subtopicId.value ? { subtopico: subtopicId.value } : undefined,
   })
 }
 
@@ -110,16 +133,37 @@ function handleExit() {
 }
 
 /**
- * Mantém a última resposta disponível para a rota de explicação.
+ * Registra a tentativa no progresso adaptativo e mantém a última resposta
+ * disponível para a rota de explicação.
  *
- * @param {object} answer
+ * @param {object} payload
  * @returns {void}
  */
-function handleAnswered(answer = {}) {
+function handleAnswered(payload = {}) {
+  const feedback = payload.feedback ?? {}
+  const question = payload.question ?? null
+  const subtopic = adaptiveSession.value?.subtopicId ?? ''
+
+  if (question) {
+    adaptive.recordAttempt({
+      levelId: props.levelId,
+      phaseId: props.phaseId,
+      subtopicId: subtopic || undefined,
+      question,
+      userAnswer: feedback.userAnswer,
+      isCorrect: feedback.isCorrect,
+      at: Date.now(),
+      difficulty: question.difficulty ?? question.dificuldade,
+      expectedQuestionCount: sessionQuestions.value.length,
+    })
+  }
+
   setLastAnswer({
-    ...answer,
+    ...payload,
     levelId: props.levelId,
     phaseId: props.phaseId,
+    subtopicId: subtopic,
+    difficulty: adaptive.getSessionState().difficulty,
   })
 }
 </script>
@@ -127,7 +171,7 @@ function handleAnswered(answer = {}) {
 <template>
   <GameView
     v-if="session"
-    :questions="questions"
+    :questions="sessionQuestions"
     :lives="DEFAULT_LIVES"
     @exit="handleExit"
     @finished="handleFinished"

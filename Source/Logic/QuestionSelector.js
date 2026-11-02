@@ -18,6 +18,8 @@
 
 import {
   DEFAULT_ADAPTIVE_CONFIG,
+  MAX_DIFFICULTY,
+  MIN_DIFFICULTY,
   computeAdaptiveDifficulty,
   normalizeDifficulty,
   toKey,
@@ -39,6 +41,14 @@ export const DAY_MS = 24 * HOUR_MS
  * @property {number} [dueBoost] Bônus para questões atrasadas.
  * @property {number} [wrongBoost] Bônus para questões erradas recentemente.
  * @property {number} [difficultyWeight] Peso da proximidade de dificuldade.
+ * @property {number | string | null} [difficulty] Dificuldade-alvo (1 a 5).
+ * @property {number | string} [minDifficulty] Menor dificuldade permitida.
+ * @property {number | string} [maxDifficulty] Maior dificuldade permitida.
+ * @property {number} [difficultyTolerance] Margem aceita em torno do alvo.
+ * @property {boolean} [difficultyFallback=true] Usa a dificuldade mais próxima
+ *   quando não há questões exatamente no nível pedido.
+ * @property {boolean} [filterByTargetDifficulty=false] Usa
+ *   `context.targetDifficulty` como filtro quando `difficulty` não é informado.
  * @property {number} [recentPenalty] Multiplicador para questões vistas há pouco.
  * @property {number} [recentWindowMs] Janela considerada "recente".
  * @property {number} [priorityWeight] Peso do campo `question.weight`.
@@ -60,6 +70,12 @@ export const DEFAULT_SELECTION_OPTIONS = Object.freeze({
   dueBoost: 2.5,
   wrongBoost: 1,
   difficultyWeight: 1.25,
+  difficulty: null,
+  minDifficulty: MIN_DIFFICULTY,
+  maxDifficulty: MAX_DIFFICULTY,
+  difficultyTolerance: 0,
+  difficultyFallback: true,
+  filterByTargetDifficulty: false,
   recentPenalty: 0.35,
   recentWindowMs: 10 * MINUTE_MS,
   priorityWeight: 1,
@@ -87,6 +103,26 @@ export function resolveSelectionOptions(options = {}) {
       source.difficultyWeight,
       DEFAULT_SELECTION_OPTIONS.difficultyWeight,
     ),
+    difficulty:
+      source.difficulty === undefined ||
+      source.difficulty === null ||
+      source.difficulty === ''
+        ? null
+        : normalizeDifficulty(source.difficulty),
+    minDifficulty: Math.min(
+      normalizeDifficulty(source.minDifficulty, MIN_DIFFICULTY),
+      normalizeDifficulty(source.maxDifficulty, MAX_DIFFICULTY),
+    ),
+    maxDifficulty: Math.max(
+      normalizeDifficulty(source.minDifficulty, MIN_DIFFICULTY),
+      normalizeDifficulty(source.maxDifficulty, MAX_DIFFICULTY),
+    ),
+    difficultyTolerance: toNonNegativeInteger(
+      source.difficultyTolerance,
+      DEFAULT_SELECTION_OPTIONS.difficultyTolerance,
+    ),
+    difficultyFallback: source.difficultyFallback !== false,
+    filterByTargetDifficulty: source.filterByTargetDifficulty === true,
     recentPenalty: Math.max(
       0.01,
       toSafeNumber(source.recentPenalty, DEFAULT_SELECTION_OPTIONS.recentPenalty),
@@ -144,8 +180,70 @@ export function getQuestionDifficulty(question) {
   const source = question && typeof question === 'object' ? question : {}
 
   return normalizeDifficulty(
-    source.difficulty ?? source.level ?? source.hardness,
+    source.dificuldade ?? source.difficulty ?? source.level ?? source.hardness,
   )
+}
+
+/**
+ * Filtra questões pela dificuldade-alvo.
+ *
+ * Quando não existe questão no nível pedido (ou dentro da tolerância), usa a
+ * dificuldade mais próxima disponível. Isso evita sessões vazias em bancos que
+ * só possuem, por exemplo, questões fáceis e médias.
+ *
+ * @param {unknown[]} questions
+ * @param {unknown} target
+ * @param {Object} [options]
+ * @param {number} [options.tolerance=0]
+ * @param {boolean} [options.fallback=true]
+ * @returns {object[]}
+ */
+export function filterQuestionsByDifficulty(questions, target, options = {}) {
+  const list = Array.isArray(questions) ? questions.filter(Boolean) : []
+
+  if (
+    target === undefined ||
+    target === null ||
+    target === '' ||
+    list.length === 0
+  ) {
+    return list
+  }
+
+  const targetDifficulty = normalizeDifficulty(target)
+  const tolerance = toNonNegativeInteger(options.tolerance)
+  const withinTolerance = list.filter((question) => {
+    return Math.abs(getQuestionDifficulty(question) - targetDifficulty) <= tolerance
+  })
+
+  if (withinTolerance.length > 0 || options.fallback === false) {
+    return withinTolerance
+  }
+
+  const distances = list.map((question) => {
+    return Math.abs(getQuestionDifficulty(question) - targetDifficulty)
+  })
+  const nearestDistance = Math.min(...distances)
+
+  return list.filter((_question, index) => distances[index] === nearestDistance)
+}
+
+/**
+ * Alvo de dificuldade efetivo para uma seleção.
+ *
+ * @param {object} rules
+ * @param {object} context
+ * @returns {number | null}
+ */
+function resolveDifficultyTarget(rules, context) {
+  if (rules.difficulty !== null) return rules.difficulty
+  if (rules.filterByTargetDifficulty !== true) return null
+
+  const target = context?.targetDifficulty
+
+  return target === undefined || target === null || target === ''
+    ? null
+    : normalizeDifficulty(target)
 }
 
 /**
@@ -194,7 +292,7 @@ export function filterQuestions(questions, context = {}, options = {}) {
     ? new Set(rules.types.map((value) => String(value)))
     : null
 
-  return list.filter((question, index) => {
+  const filtered = list.filter((question, index) => {
     const id = getQuestionId(question, index)
     const subtopicId = getQuestionSubtopicId(question)
     const state = questionStates[id] ?? {}
@@ -203,6 +301,13 @@ export function filterQuestions(questions, context = {}, options = {}) {
     if (excludeIds.has(id)) return false
     if (subtopicIds && !subtopicIds.includes(subtopicId)) return false
     if (types && !types.has(String(question?.type ?? ''))) return false
+
+    const difficulty = getQuestionDifficulty(question)
+
+    if (difficulty < rules.minDifficulty || difficulty > rules.maxDifficulty) {
+      return false
+    }
+
     if (rules.onlyUnseen === true && attempts > 0) return false
 
     if (rules.onlyDue === true) {
@@ -215,6 +320,15 @@ export function filterQuestions(questions, context = {}, options = {}) {
 
     return true
   })
+
+  return filterQuestionsByDifficulty(
+    filtered,
+    resolveDifficultyTarget(rules, context),
+    {
+      tolerance: rules.difficultyTolerance,
+      fallback: rules.difficultyFallback,
+    },
+  )
 }
 
 /**

@@ -569,6 +569,8 @@ function resolveLevelArgs(levelId, payload) {
  * @param {number} [options.masteryThreshold] Maestria mínima para concluir um subtópico.
  * @param {number} [options.minAttemptsForMastery] Tentativas mínimas para concluir.
  * @param {number} [options.expectedQuestionsPerSubtopic] Cobertura esperada.
+ * @param {number} [options.levelUpStreak] Acertos consecutivos para subir a dificuldade.
+ * @param {number} [options.levelDownStreak] Erros consecutivos para descer a dificuldade.
  * @returns {object}
  */
 export function createProgressStore(options = {}) {
@@ -588,6 +590,8 @@ export function createProgressStore(options = {}) {
     difficultyGain,
     wrongLoss,
     wrongRetryMs,
+    levelUpStreak,
+    levelDownStreak,
   } = options
 
   const resolvedKey = storageKey ?? key ?? STORAGE_KEYS.PROGRESS
@@ -602,6 +606,8 @@ export function createProgressStore(options = {}) {
     difficultyGain,
     wrongLoss,
     wrongRetryMs,
+    levelUpStreak,
+    levelDownStreak,
   })
 
   const storageService = createProgressStorage({

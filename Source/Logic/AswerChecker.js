@@ -30,12 +30,21 @@ export const EXERCISE_TYPES = Object.freeze({
 const EXERCISE_TYPE_ALIASES = Object.freeze({
   multiplechoise: EXERCISE_TYPES.MULTIPLE_CHOICE,
   multiplechoice: EXERCISE_TYPES.MULTIPLE_CHOICE,
+  multiplaescolha: EXERCISE_TYPES.MULTIPLE_CHOICE,
+  escolhamultipla: EXERCISE_TYPES.MULTIPLE_CHOICE,
   trueorfalse: EXERCISE_TYPES.TRUE_OR_FALSE,
   truefalse: EXERCISE_TYPES.TRUE_OR_FALSE,
+  verdadeirofalso: EXERCISE_TYPES.TRUE_OR_FALSE,
+  verdadefalso: EXERCISE_TYPES.TRUE_OR_FALSE,
   fillblanks: EXERCISE_TYPES.FILL_BLANKS,
   fillblank: EXERCISE_TYPES.FILL_BLANKS,
+  completarlacunas: EXERCISE_TYPES.FILL_BLANKS,
+  completarlacuna: EXERCISE_TYPES.FILL_BLANKS,
+  lacunas: EXERCISE_TYPES.FILL_BLANKS,
   matchingpairs: EXERCISE_TYPES.MATCHING_PAIRS,
   matchingpair: EXERCISE_TYPES.MATCHING_PAIRS,
+  combinarpares: EXERCISE_TYPES.MATCHING_PAIRS,
+  associarpares: EXERCISE_TYPES.MATCHING_PAIRS,
 })
 
 /**
@@ -287,6 +296,7 @@ function toPair(pair) {
       pair.left ??
       pair.leftId ??
       pair.term ??
+      pair.item ??
       pair.question ??
       pair.source ??
       pair.key ??
@@ -296,6 +306,8 @@ function toPair(pair) {
       pair.right ??
       pair.rightId ??
       pair.definition ??
+      pair.correspondencia ??
+      pair.correspondence ??
       pair.answer ??
       pair.target ??
       pair.value ??

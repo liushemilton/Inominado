@@ -27,6 +27,7 @@ function pairFrom(rawPair) {
       rawPair.left ??
       rawPair.leftId ??
       rawPair.term ??
+      rawPair.item ??
       rawPair.question ??
       rawPair.source ??
       rawPair.key ??
@@ -36,6 +37,8 @@ function pairFrom(rawPair) {
       rawPair.right ??
       rawPair.rightId ??
       rawPair.definition ??
+      rawPair.correspondencia ??
+      rawPair.correspondence ??
       rawPair.answer ??
       rawPair.target ??
       rawPair.value ??
@@ -197,6 +200,7 @@ function itemValue(item) {
     if ('key' in item) return item.key
     if ('label' in item) return item.label
     if ('text' in item) return item.text
+    if ('texto' in item) return item.texto
   }
 
   return item
@@ -206,6 +210,7 @@ function itemLabel(item) {
   if (item && typeof item === 'object' && !Array.isArray(item)) {
     return String(
       item.text ??
+        item.texto ??
         item.label ??
         item.value ??
         item.id ??

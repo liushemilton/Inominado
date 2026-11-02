@@ -2,12 +2,11 @@
  * Nível de Química Orgânica.
  *
  * A trilha de estudos (`Source/Data/Trails`) é convertida em um nível
- * jogável: cada tópico do roteiro vira uma fase (subnível) e os subtópicos
- * ficam disponíveis para a criação das questões.
- *
- * As questões serão adicionadas posteriormente; por enquanto cada fase
- * expõe `questions` vazio para manter o mesmo formato aceito pelo jogo.
+ * jogável: cada tópico do roteiro vira uma fase (subnível) e as questões do
+ * banco são associadas pelo título da categoria, que coincide com o título
+ * do tópico.
  */
+import { getQuestionsByCategory } from '../Questions/index.js'
 import { TRAILS } from '../Trails/index.js'
 
 const trail = TRAILS[0]
@@ -38,7 +37,7 @@ export const LevelQuimica = {
     title: topic.title,
     description: describeTopic(topic),
     subtopics: topic.subtopics,
-    questions: [],
+    questions: getQuestionsByCategory(topic.title),
   })),
 }
 

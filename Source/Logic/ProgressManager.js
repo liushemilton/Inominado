@@ -57,6 +57,8 @@ export const DEFAULT_REVIEW_INTERVALS_MS = Object.freeze([
  * - `difficultyGain`: ganho extra por dificuldade da questão.
  * - `wrongLoss`: perda de maestria por erro.
  * - `wrongRetryMs`: intervalo até a próxima revisão após um erro.
+ * - `levelUpStreak`: acertos consecutivos para subir a dificuldade da sessão.
+ * - `levelDownStreak`: erros consecutivos para descer a dificuldade da sessão.
  */
 export const DEFAULT_ADAPTIVE_CONFIG = Object.freeze({
   masteryThreshold: 80,
@@ -67,6 +69,8 @@ export const DEFAULT_ADAPTIVE_CONFIG = Object.freeze({
   difficultyGain: 0.1,
   wrongLoss: 0.5,
   wrongRetryMs: 5 * MINUTE_MS,
+  levelUpStreak: 2,
+  levelDownStreak: 2,
   easeDefault: 2.3,
   easeMin: 1.3,
   easeMax: 2.8,
@@ -217,6 +221,20 @@ export function resolveAdaptiveConfig(options = {}) {
     wrongRetryMs: toNonNegativeInteger(
       source.wrongRetryMs,
       DEFAULT_ADAPTIVE_CONFIG.wrongRetryMs,
+    ),
+    levelUpStreak: Math.max(
+      1,
+      toNonNegativeInteger(
+        source.levelUpStreak,
+        DEFAULT_ADAPTIVE_CONFIG.levelUpStreak,
+      ),
+    ),
+    levelDownStreak: Math.max(
+      1,
+      toNonNegativeInteger(
+        source.levelDownStreak,
+        DEFAULT_ADAPTIVE_CONFIG.levelDownStreak,
+      ),
     ),
     easeDefault: toSafeNumber(source.easeDefault, DEFAULT_ADAPTIVE_CONFIG.easeDefault),
     easeMin: toSafeNumber(source.easeMin, DEFAULT_ADAPTIVE_CONFIG.easeMin),

@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { RouterLink, useRouter } from 'vue-router'
+import { RouterLink, useRoute, useRouter } from 'vue-router'
 
 import ResultView from '../../Views/ResultView.vue'
 import { ROUTE_NAMES } from '../names.js'
@@ -11,6 +11,7 @@ const props = defineProps({
   phaseId: { type: String, required: true },
 })
 
+const route = useRoute()
 const router = useRouter()
 
 const storedResult = computed(() => {
@@ -34,11 +35,14 @@ function handleRoadmap() {
 }
 
 function handleRestart() {
+  const subtopico = route.query.subtopico
   clearGameSession()
 
   router.push({
     name: ROUTE_NAMES.game,
     params: { levelId: props.levelId, phaseId: props.phaseId },
+    query:
+      typeof subtopico === 'string' && subtopico ? { subtopico } : undefined,
   })
 }
 </script>

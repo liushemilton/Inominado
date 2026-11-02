@@ -29,7 +29,7 @@
  * ```
  */
 
-import { unref } from 'vue'
+import { computed, ref, unref } from 'vue'
 
 import {
   EXERCISE_TYPES,
@@ -43,9 +43,14 @@ import {
   createQuestionSelector,
 } from '../Logic/QuestionSelector.js'
 import {
+  MAX_DIFFICULTY,
+  MIN_DIFFICULTY,
+  computeAdaptiveDifficulty,
+  normalizeDifficulty,
   resolveAdaptiveConfig,
   toKey,
   toNonNegativeInteger,
+  toNonNegativeNumber,
 } from '../Logic/ProgressManager.js'
 import { useProgress } from './useProgress.js'
 
@@ -158,14 +163,36 @@ export function createAdaptiveLearning(options = {}) {
       difficultyGain: options.difficultyGain,
       wrongLoss: options.wrongLoss,
       wrongRetryMs: options.wrongRetryMs,
+      levelUpStreak: options.levelUpStreak,
+      levelDownStreak: options.levelDownStreak,
     })
 
   const adaptiveConfig = resolveAdaptiveConfig({
     ...(progressStore?.adaptiveConfig ?? {}),
     ...(options.adaptive ?? {}),
+    ...(options.levelUpStreak === undefined
+      ? {}
+      : { levelUpStreak: options.levelUpStreak }),
+    ...(options.levelDownStreak === undefined
+      ? {}
+      : { levelDownStreak: options.levelDownStreak }),
   })
   const selector = createQuestionSelector(options.selection ?? {})
   const getNow = typeof options.now === 'function' ? options.now : () => Date.now()
+
+  // Estado da sessão atual. A dificuldade é independente da dificuldade
+  // persistida no subtópico: começa nela, mas sobe/desce conforme a sequência
+  // de acertos e erros desta partida.
+  const sessionLevelId = ref('')
+  const sessionPhaseId = ref('')
+  const sessionSubtopicId = ref('')
+  const sessionDifficulty = ref(MIN_DIFFICULTY)
+  const correctStreak = ref(0)
+  const wrongStreak = ref(0)
+  const sessionAttempts = ref(0)
+  const sessionCorrect = ref(0)
+  const sessionWrong = ref(0)
+  const lastDifficultyChange = ref(null)
 
   /**
    * @returns {object[]}
@@ -208,8 +235,12 @@ export function createAdaptiveLearning(options = {}) {
     const questions = phaseQuestions.filter((question) => {
       return question && typeof question === 'object'
     })
+    const filtered = filterBySubtopic(questions, subtopicId)
 
-    return filterBySubtopic(questions, subtopicId)
+    // O banco atual não atribui subtópicos às questões. Quando o filtro
+    // estrito esvazia a lista, usamos a fase inteira para não bloquear a
+    // partida nem o avanço do jogador.
+    return filtered.length > 0 ? filtered : questions
   }
 
   /**
@@ -272,15 +303,180 @@ export function createAdaptiveLearning(options = {}) {
       toKey(Object.keys(subtopicStates)[0]) ??
       ''
     const subtopicState = subtopicStates[recommended] ?? {}
+    const attempts = toNonNegativeInteger(subtopicState.attempts)
+    const correct = toNonNegativeInteger(subtopicState.correct)
+    const accuracy = attempts > 0 ? correct / attempts : 0
+    const targetDifficulty =
+      subtopicState.difficulty ??
+      computeAdaptiveDifficulty(
+        toNonNegativeNumber(subtopicState.mastery),
+        accuracy,
+      )
 
     return {
       questionStates: subtopicState.questions ?? {},
       subtopicStates,
-      targetDifficulty: subtopicState.difficulty,
+      subtopicState,
+      targetDifficulty,
       now: now ?? getNow(),
       subtopicId: recommended,
     }
   }
+
+  /**
+   * Dificuldade inicial de uma sessão: parte da dificuldade persistida do
+   * subtópico e, quando ainda não há histórico, da maestria/precisão atuais.
+   *
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {unknown} subtopicId
+   * @returns {number}
+   */
+  function resolveStartingDifficulty(levelId, phaseId, subtopicId) {
+    const context = buildContext(levelId, phaseId, subtopicId)
+
+    return normalizeDifficulty(context.targetDifficulty ?? MIN_DIFFICULTY)
+  }
+
+  /**
+   * @param {unknown} value
+   * @returns {number}
+   */
+  function resolveAttemptTime(value) {
+    const number = Number(value)
+
+    return Number.isFinite(number) && number > 0 ? Math.floor(number) : getNow()
+  }
+
+  /**
+   * Altera a dificuldade da sessão respeitando os limites do modelo.
+   *
+   * @param {number} step
+   * @param {number} at
+   * @param {string} reason
+   * @returns {object | null}
+   */
+  function changeDifficulty(step, at, reason) {
+    const from = sessionDifficulty.value
+    const to = Math.min(
+      MAX_DIFFICULTY,
+      Math.max(MIN_DIFFICULTY, from + step),
+    )
+
+    if (to === from) return null
+
+    const change = {
+      from,
+      to,
+      direction: to > from ? 'up' : 'down',
+      reason,
+      at,
+    }
+
+    sessionDifficulty.value = to
+    lastDifficultyChange.value = change
+
+    return change
+  }
+
+  /**
+   * Inicia/limpa o estado da sessão.
+   *
+   * @param {Object} [params]
+   * @param {unknown} [params.levelId]
+   * @param {unknown} [params.phaseId]
+   * @param {unknown} [params.subtopicId]
+   * @param {number} [params.difficulty]
+   * @returns {object}
+   */
+  function resetSession(params = {}) {
+    const levelId = toKey(params.levelId) ?? ''
+    const phaseId = toKey(params.phaseId) ?? ''
+    const subtopicId = toKey(params.subtopicId) ?? ''
+
+    sessionLevelId.value = levelId
+    sessionPhaseId.value = phaseId
+    sessionSubtopicId.value = subtopicId
+    sessionDifficulty.value =
+      params.difficulty === undefined || params.difficulty === null
+        ? resolveStartingDifficulty(levelId, phaseId, subtopicId)
+        : normalizeDifficulty(params.difficulty)
+    correctStreak.value = 0
+    wrongStreak.value = 0
+    sessionAttempts.value = 0
+    sessionCorrect.value = 0
+    sessionWrong.value = 0
+    lastDifficultyChange.value = null
+
+    return getSessionState()
+  }
+
+  /**
+   * Aplica uma resposta ao estado adaptativo da sessão.
+   *
+   * Sobe um nível após `levelUpStreak` acertos consecutivos e desce um nível
+   * após `levelDownStreak` erros consecutivos. A sequência oposta é zerada a
+   * cada resposta.
+   *
+   * @param {boolean} isCorrect
+   * @param {number} [at]
+   * @returns {object | null}
+   */
+  function applySessionAnswer(isCorrect, at) {
+    const timestamp = resolveAttemptTime(at)
+
+    sessionAttempts.value += 1
+
+    if (isCorrect) {
+      sessionCorrect.value += 1
+      correctStreak.value += 1
+      wrongStreak.value = 0
+
+      if (correctStreak.value >= adaptiveConfig.levelUpStreak) {
+        correctStreak.value = 0
+
+        return changeDifficulty(1, timestamp, 'correct-streak')
+      }
+
+      return null
+    }
+
+    sessionWrong.value += 1
+    wrongStreak.value += 1
+    correctStreak.value = 0
+
+    if (wrongStreak.value >= adaptiveConfig.levelDownStreak) {
+      wrongStreak.value = 0
+
+      return changeDifficulty(-1, timestamp, 'wrong-streak')
+    }
+
+    return null
+  }
+
+  /**
+   * Retrato do estado adaptativo da sessão.
+   *
+   * @returns {object}
+   */
+  function getSessionState() {
+    return {
+      levelId: sessionLevelId.value,
+      phaseId: sessionPhaseId.value,
+      subtopicId: sessionSubtopicId.value,
+      difficulty: sessionDifficulty.value,
+      correctStreak: correctStreak.value,
+      wrongStreak: wrongStreak.value,
+      attempts: sessionAttempts.value,
+      correct: sessionCorrect.value,
+      wrong: sessionWrong.value,
+      lastDifficultyChange: lastDifficultyChange.value,
+      levelUpStreak: adaptiveConfig.levelUpStreak,
+      levelDownStreak: adaptiveConfig.levelDownStreak,
+    }
+  }
+
+  const sessionState = computed(() => getSessionState())
 
   /**
    * Seleciona questões de um subtópico.
@@ -290,13 +486,22 @@ export function createAdaptiveLearning(options = {}) {
    * @param {unknown} [params.phaseId]
    * @param {unknown} [params.subtopicId]
    * @param {object[]} [params.questions] Banco já resolvido.
+   * @param {number} [params.difficulty] Dificuldade-alvo; padrão: a da sessão.
    * @param {number} [params.limit]
    * @param {number} [params.now]
    * @param {() => number} [params.rng]
    * @returns {object[]}
    */
   function selectQuestions(params = {}) {
-    const { levelId, phaseId, subtopicId, questions, now, ...overrides } = params
+    const {
+      levelId,
+      phaseId,
+      subtopicId,
+      questions,
+      difficulty,
+      now,
+      ...overrides
+    } = params
     let pool = Array.isArray(questions) ? questions : null
 
     if (!pool) {
@@ -306,10 +511,22 @@ export function createAdaptiveLearning(options = {}) {
     }
 
     const context = buildContext(levelId, phaseId, subtopicId, now)
+    const hasSession = Boolean(sessionLevelId.value && sessionPhaseId.value)
+    const targetDifficulty =
+      difficulty ??
+      (hasSession ? sessionDifficulty.value : context.targetDifficulty)
+    const subtopicKey = toKey(subtopicId)
+    // Só repassa o filtro quando o pool realmente tem questões desse
+    // subtópico. Caso contrário, o fallback para a fase inteira seria
+    // desfeito dentro do seletor.
+    const hasSubtopicQuestions = subtopicKey
+      ? pool.some((question) => getQuestionSubtopicId(question) === subtopicKey)
+      : false
 
     return selector.selectQuestions(pool, context, {
       ...overrides,
-      subtopicId: toKey(subtopicId) ?? undefined,
+      difficulty: targetDifficulty,
+      subtopicId: hasSubtopicQuestions ? subtopicKey : undefined,
     })
   }
 
@@ -321,6 +538,7 @@ export function createAdaptiveLearning(options = {}) {
    * @param {unknown} [params.phaseId]
    * @param {unknown} [params.subtopicId]
    * @param {object[]} [params.questions]
+   * @param {number} [params.difficulty]
    * @param {number} [params.limit]
    * @returns {object}
    */
@@ -330,11 +548,18 @@ export function createAdaptiveLearning(options = {}) {
     const recommendation = progressStore.getRecommendedSubtopic(levelId, phaseId)
     const subtopicId = toKey(params.subtopicId) ?? toKey(recommendation?.id) ?? ''
     const pool = getQuestionPool(level, phase, subtopicId)
+    const startingDifficulty = resetSession({
+      levelId,
+      phaseId,
+      subtopicId,
+      difficulty: params.difficulty,
+    }).difficulty
     const questions = selectQuestions({
       ...params,
       levelId,
       phaseId,
       subtopicId,
+      difficulty: startingDifficulty,
       questions: pool,
     })
     const context = buildContext(levelId, phaseId, subtopicId)
@@ -343,6 +568,7 @@ export function createAdaptiveLearning(options = {}) {
       levelId,
       phaseId,
       subtopicId,
+      difficulty: startingDifficulty,
       subtopic:
         subtopicId !== ''
           ? progressStore.getSubtopicProgress(levelId, phaseId, subtopicId)
@@ -350,6 +576,7 @@ export function createAdaptiveLearning(options = {}) {
       recommendation,
       questions,
       poolStats: getQuestionPoolStats(pool, context),
+      session: getSessionState(),
     }
   }
 
@@ -405,9 +632,17 @@ export function createAdaptiveLearning(options = {}) {
 
     if (!result) return null
 
+    const difficultyChange = applySessionAnswer(
+      answer.isCorrect === true,
+      answer.at,
+    )
+
     return {
       ...result,
       expectedQuestionCount,
+      difficulty: sessionDifficulty.value,
+      difficultyChange,
+      session: getSessionState(),
       subtopicProgress: progressStore.getSubtopicProgress(
         levelKey,
         phaseKey,
@@ -425,6 +660,7 @@ export function createAdaptiveLearning(options = {}) {
    * @param {unknown} attempt.phaseId
    * @param {object} attempt.question
    * @param {unknown} attempt.userAnswer
+   * @param {boolean} [attempt.isCorrect] Resultado já calculado pelo jogo.
    * @param {unknown} [attempt.subtopicId]
    * @param {number} [attempt.at]
    * @param {number} [attempt.difficulty]
@@ -434,7 +670,10 @@ export function createAdaptiveLearning(options = {}) {
    */
   function recordAttempt(attempt = {}) {
     const question = attempt.question ?? null
-    const isCorrect = isAnswerCorrect(question, attempt.userAnswer)
+    const isCorrect =
+      typeof attempt.isCorrect === 'boolean'
+        ? attempt.isCorrect
+        : isAnswerCorrect(question, attempt.userAnswer)
 
     return recordAnswer({
       ...attempt,
@@ -446,6 +685,7 @@ export function createAdaptiveLearning(options = {}) {
       difficulty:
         attempt.difficulty ??
         question?.difficulty ??
+        question?.dificuldade ??
         question?.level,
       isCorrect,
     })
@@ -563,6 +803,19 @@ export function createAdaptiveLearning(options = {}) {
     progress: progressStore,
     adaptiveConfig,
     selector,
+
+    // Estado adaptativo da sessão (refs reativas).
+    sessionDifficulty,
+    correctStreak,
+    wrongStreak,
+    sessionState,
+    getSessionState,
+    resetSession,
+    setSessionDifficulty(value) {
+      sessionDifficulty.value = normalizeDifficulty(value)
+
+      return getSessionState()
+    },
 
     getLevels,
     resolvePhaseDefinition,
