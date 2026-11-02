@@ -1,0 +1,219 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Hidrocarbonetos",
+  "totalQuestoes": 8,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q013",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "O que caracteriza um hidrocarboneto?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado por carbono, oxigênio e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Composto que contém obrigatoriamente nitrogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Composto formado somente por hidrogênio e oxigênio."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Hidrocarbonetos são compostos orgânicos constituídos exclusivamente por carbono e hidrogênio."
+    },
+    {
+      "id": "Q014",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos.",
+      "resposta": true,
+      "explicacao": "A presença de pelo menos uma ligação dupla C=C caracteriza os alcenos acíclicos na classificação básica."
+    },
+    {
+      "id": "Q015",
+      "tipo": "combinar_pares",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada classe de hidrocarboneto à característica indicada.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Alcano",
+          "correspondencia": "Apresenta somente ligações simples entre carbonos."
+        },
+        {
+          "id": "P2",
+          "item": "Alceno",
+          "correspondencia": "Apresenta pelo menos uma ligação dupla entre carbonos."
+        },
+        {
+          "id": "P3",
+          "item": "Alcino",
+          "correspondencia": "Apresenta pelo menos uma ligação tripla entre carbonos."
+        },
+        {
+          "id": "P4",
+          "item": "Alcadieno",
+          "correspondencia": "Apresenta duas ligações duplas entre carbonos."
+        }
+      ],
+      "resposta": {
+        "P1": "Apresenta somente ligações simples entre carbonos.",
+        "P2": "Apresenta pelo menos uma ligação dupla entre carbonos.",
+        "P3": "Apresenta pelo menos uma ligação tripla entre carbonos.",
+        "P4": "Apresenta duas ligações duplas entre carbonos."
+      },
+      "explicacao": "As classes são diferenciadas principalmente pelo tipo e pela quantidade de ligações múltiplas na cadeia."
+    },
+    {
+      "id": "Q016",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual das substâncias abaixo é um exemplo de hidrocarboneto aromático citado no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Etanol"
+        },
+        {
+          "id": "B",
+          "texto": "Benzeno"
+        },
+        {
+          "id": "C",
+          "texto": "Ácido acético"
+        },
+        {
+          "id": "D",
+          "texto": "Metilamina"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "O benzeno é um exemplo clássico de hidrocarboneto aromático."
+    },
+    {
+      "id": "Q052",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Uma cadeia carbônica que apresenta apenas ligações simples entre carbonos é classificada, quanto à saturação, como:",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Insaturada."
+        },
+        {
+          "id": "B",
+          "texto": "Saturada."
+        },
+        {
+          "id": "C",
+          "texto": "Heterogênea."
+        },
+        {
+          "id": "D",
+          "texto": "Aromática obrigatoriamente."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na classificação básica, uma cadeia saturada apresenta somente ligações simples entre átomos de carbono."
+    },
+    {
+      "id": "Q053",
+      "tipo": "combinar_pares",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione a classificação da cadeia carbônica à sua descrição.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Cadeia aberta",
+          "correspondencia": "Não forma um ciclo fechado."
+        },
+        {
+          "id": "P2",
+          "item": "Cadeia fechada",
+          "correspondencia": "Apresenta um ou mais ciclos."
+        },
+        {
+          "id": "P3",
+          "item": "Cadeia mista",
+          "correspondencia": "Apresenta uma parte cíclica e uma parte aberta."
+        },
+        {
+          "id": "P4",
+          "item": "Cadeia ramificada",
+          "correspondencia": "Possui pelo menos uma ramificação na cadeia principal."
+        },
+        {
+          "id": "P5",
+          "item": "Cadeia heterogênea",
+          "correspondencia": "Possui heteroátomo inserido na cadeia carbônica."
+        }
+      ],
+      "resposta": {
+        "P1": "Não forma um ciclo fechado.",
+        "P2": "Apresenta um ou mais ciclos.",
+        "P3": "Apresenta uma parte cíclica e uma parte aberta.",
+        "P4": "Possui pelo menos uma ramificação na cadeia principal.",
+        "P5": "Possui heteroátomo inserido na cadeia carbônica."
+      },
+      "explicacao": "As cadeias podem ser classificadas por diferentes critérios: fechamento, ramificação e presença de heteroátomo."
+    },
+    {
+      "id": "Q054",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "O benzeno é um hidrocarboneto aromático.",
+      "resposta": true,
+      "explicacao": "O benzeno é um composto formado por carbono e hidrogênio e é o exemplo clássico de hidrocarboneto aromático."
+    },
+    {
+      "id": "Q055",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual característica diferencia uma cadeia normal de uma cadeia ramificada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A cadeia normal não apresenta ramificações; a ramificada apresenta pelo menos uma."
+        },
+        {
+          "id": "B",
+          "texto": "A cadeia normal sempre é fechada; a ramificada sempre é aberta."
+        },
+        {
+          "id": "C",
+          "texto": "A cadeia ramificada não contém carbono."
+        },
+        {
+          "id": "D",
+          "texto": "A cadeia normal apresenta obrigatoriamente ligações triplas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Essa classificação considera a presença ou ausência de ramificações na estrutura carbônica."
+    }
+  ]
+}

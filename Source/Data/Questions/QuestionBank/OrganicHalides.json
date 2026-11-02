@@ -1,0 +1,165 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Halogênios e haletos orgânicos",
+  "totalQuestoes": 6,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q029",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa contém apenas halogênios citados no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Oxigênio, nitrogênio, carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Sódio, potássio, cálcio e magnésio."
+        },
+        {
+          "id": "D",
+          "texto": "Ferro, cobre, zinco e prata."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O roteiro destaca flúor, cloro, bromo e iodo como halogênios."
+    },
+    {
+      "id": "Q030",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio.",
+      "resposta": true,
+      "explicacao": "A ligação carbono-halogênio é característica central dos haletos orgânicos."
+    },
+    {
+      "id": "Q031",
+      "tipo": "combinar_pares",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada tipo de haleto orgânico à posição do halogênio indicada.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Haletos de alquila",
+          "correspondencia": "Halogênio ligado a um carbono de cadeia alifática."
+        },
+        {
+          "id": "P2",
+          "item": "Haletos de arila",
+          "correspondencia": "Halogênio ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": {
+        "P1": "Halogênio ligado a um carbono de cadeia alifática.",
+        "P2": "Halogênio ligado diretamente a um anel aromático."
+      },
+      "explicacao": "A distinção depende de o halogênio estar ligado a uma estrutura alifática ou diretamente a um anel aromático."
+    },
+    {
+      "id": "Q032",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "O roteiro cita certos CFCs como exemplo de compostos associados a qual tema?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Impactos ambientais."
+        },
+        {
+          "id": "B",
+          "texto": "Formação de proteínas."
+        },
+        {
+          "id": "C",
+          "texto": "Regra do dueto."
+        },
+        {
+          "id": "D",
+          "texto": "Produção natural de celulose."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O roteiro destaca os impactos ambientais associados a certos CFCs ao estudar haletos orgânicos."
+    },
+    {
+      "id": "Q063",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa apresenta corretamente a classificação de um haleto orgânico como haleto de arila?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "O halogênio está ligado exclusivamente a um átomo de oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "O composto não apresenta carbono."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está sempre ligado a um metal."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Haletos de arila apresentam o halogênio ligado diretamente a um carbono do anel aromático."
+    },
+    {
+      "id": "Q064",
+      "tipo": "combinar_pares",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada halogênio ao seu símbolo químico.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Flúor",
+          "correspondencia": "F"
+        },
+        {
+          "id": "P2",
+          "item": "Cloro",
+          "correspondencia": "Cl"
+        },
+        {
+          "id": "P3",
+          "item": "Bromo",
+          "correspondencia": "Br"
+        },
+        {
+          "id": "P4",
+          "item": "Iodo",
+          "correspondencia": "I"
+        }
+      ],
+      "resposta": {
+        "P1": "F",
+        "P2": "Cl",
+        "P3": "Br",
+        "P4": "I"
+      },
+      "explicacao": "F, Cl, Br e I são os símbolos químicos de flúor, cloro, bromo e iodo, respectivamente."
+    }
+  ]
+}

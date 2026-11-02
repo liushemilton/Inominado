@@ -1,0 +1,144 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Funções sulfonadas",
+  "totalQuestoes": 6,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q025",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual grupo caracteriza os tióis?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "−OH"
+        },
+        {
+          "id": "B",
+          "texto": "−SH"
+        },
+        {
+          "id": "C",
+          "texto": "−NH₂"
+        },
+        {
+          "id": "D",
+          "texto": "−COOH"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Os tióis apresentam o grupo sulfidrila, representado por −SH."
+    },
+    {
+      "id": "Q026",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos.",
+      "resposta": true,
+      "explicacao": "A estrutura geral de um sulfeto orgânico pode ser representada por R−S−R', com o enxofre ligado a dois grupos carbônicos."
+    },
+    {
+      "id": "Q027",
+      "tipo": "combinar_pares",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada classe de composto sulfurado ou sulfonado à característica indicada.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Tiol",
+          "correspondencia": "Apresenta o grupo −SH."
+        },
+        {
+          "id": "P2",
+          "item": "Sulfeto orgânico",
+          "correspondencia": "Possui enxofre entre dois grupos carbônicos."
+        },
+        {
+          "id": "P3",
+          "item": "Ácido sulfônico",
+          "correspondencia": "Apresenta o grupo −SO₃H."
+        }
+      ],
+      "resposta": {
+        "P1": "Apresenta o grupo −SH.",
+        "P2": "Possui enxofre entre dois grupos carbônicos.",
+        "P3": "Apresenta o grupo −SO₃H."
+      },
+      "explicacao": "A posição do enxofre e os grupos ligados a ele ajudam a diferenciar essas classes."
+    },
+    {
+      "id": "Q028",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "De acordo com o roteiro, compostos sulfonados e sulfurados são estudados considerando principalmente a presença de qual elemento em suas estruturas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Sódio"
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre"
+        },
+        {
+          "id": "C",
+          "texto": "Cálcio"
+        },
+        {
+          "id": "D",
+          "texto": "Hélio"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Essas classes envolvem compostos orgânicos que apresentam enxofre em diferentes grupos e arranjos estruturais."
+    },
+    {
+      "id": "Q061",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a representação do grupo funcional dos ácidos sulfônicos apresentada no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "−SH"
+        },
+        {
+          "id": "B",
+          "texto": "−SO₃H"
+        },
+        {
+          "id": "C",
+          "texto": "−NO₂"
+        },
+        {
+          "id": "D",
+          "texto": "−C≡N"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "O grupo característico dos ácidos sulfônicos é representado por −SO₃H."
+    },
+    {
+      "id": "Q062",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais.",
+      "resposta": true,
+      "explicacao": "Essas aplicações estão entre os exemplos apresentados no roteiro de estudos."
+    }
+  ]
+}

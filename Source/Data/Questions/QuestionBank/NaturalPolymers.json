@@ -1,0 +1,150 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Polímeros naturais",
+  "totalQuestoes": 6,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q033",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "O que é um monômero?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Um tipo de ligação metálica."
+        },
+        {
+          "id": "C",
+          "texto": "Um polímero formado exclusivamente por metais."
+        },
+        {
+          "id": "D",
+          "texto": "Uma molécula que não pode participar da formação de macromoléculas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Monômeros são unidades menores que podem se unir para formar polímeros, que são macromoléculas."
+    },
+    {
+      "id": "Q034",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais.",
+      "resposta": true,
+      "explicacao": "Ambos são polissacarídeos naturais formados por unidades de glicose, mas possuem estruturas e funções diferentes."
+    },
+    {
+      "id": "Q035",
+      "tipo": "combinar_pares",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada polímero ou grupo natural à sua unidade ou característica destacada no roteiro.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Proteínas",
+          "correspondencia": "Formadas por aminoácidos unidos por ligações peptídicas."
+        },
+        {
+          "id": "P2",
+          "item": "Ácidos nucleicos",
+          "correspondencia": "Incluem DNA e RNA."
+        },
+        {
+          "id": "P3",
+          "item": "Amido e celulose",
+          "correspondencia": "Polissacarídeos de origem natural."
+        },
+        {
+          "id": "P4",
+          "item": "Borracha natural",
+          "correspondencia": "Polímero natural."
+        }
+      ],
+      "resposta": {
+        "P1": "Formadas por aminoácidos unidos por ligações peptídicas.",
+        "P2": "Incluem DNA e RNA.",
+        "P3": "Polissacarídeos de origem natural.",
+        "P4": "Polímero natural."
+      },
+      "explicacao": "O roteiro aborda diferentes exemplos de polímeros naturais, suas unidades constituintes e funções."
+    },
+    {
+      "id": "Q036",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual ligação une os aminoácidos na formação das proteínas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Ligação peptídica"
+        },
+        {
+          "id": "B",
+          "texto": "Ligação metálica"
+        },
+        {
+          "id": "C",
+          "texto": "Ligação iônica exclusivamente"
+        },
+        {
+          "id": "D",
+          "texto": "Ligação de hidrogênio como ligação principal da cadeia"
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Os aminoácidos são unidos por ligações peptídicas para formar cadeias polipeptídicas."
+    },
+    {
+      "id": "Q065",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa diferencia corretamente DNA e RNA dos polissacarídeos amido e celulose?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos."
+        },
+        {
+          "id": "B",
+          "texto": "Todos são proteínas."
+        },
+        {
+          "id": "C",
+          "texto": "DNA e RNA são lipídios; amido e celulose são minerais."
+        },
+        {
+          "id": "D",
+          "texto": "Todos são polímeros sintéticos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O roteiro classifica DNA e RNA como ácidos nucleicos e amido e celulose como carboidratos."
+    },
+    {
+      "id": "Q066",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Polímeros naturais podem ter origem vegetal ou animal.",
+      "resposta": true,
+      "explicacao": "O roteiro apresenta polímeros naturais de origem vegetal e animal, incluindo carboidratos, proteínas e borracha natural."
+    }
+  ]
+}

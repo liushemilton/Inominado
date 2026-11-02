@@ -1,0 +1,144 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Hibridização do carbono",
+  "totalQuestoes": 6,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q009",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual geometria e ângulo são associados à hibridização sp³?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Linear, 180°."
+        },
+        {
+          "id": "B",
+          "texto": "Trigonal plana, 120°."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "Quadrado planar, 90°."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A hibridização sp³ está associada à geometria tetraédrica e a ângulos próximos de 109,5°."
+    },
+    {
+      "id": "Q010",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação.",
+      "resposta": true,
+      "explicacao": "A hibridização sp gera duas regiões de ligação orientadas em sentidos opostos, formando geometria linear."
+    },
+    {
+      "id": "Q011",
+      "tipo": "combinar_pares",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada hibridização à geometria molecular e ao ângulo aproximado indicados no roteiro.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "sp³",
+          "correspondencia": "Tetraédrica — 109,5°."
+        },
+        {
+          "id": "P2",
+          "item": "sp²",
+          "correspondencia": "Trigonal plana — 120°."
+        },
+        {
+          "id": "P3",
+          "item": "sp",
+          "correspondencia": "Linear — 180°."
+        }
+      ],
+      "resposta": {
+        "P1": "Tetraédrica — 109,5°.",
+        "P2": "Trigonal plana — 120°.",
+        "P3": "Linear — 180°."
+      },
+      "explicacao": "As três hibridizações apresentadas estão associadas a geometrias e ângulos característicos."
+    },
+    {
+      "id": "Q012",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual afirmação descreve corretamente as ligações sigma (σ) e pi (π)?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma ligação dupla é formada por duas ligações pi."
+        },
+        {
+          "id": "B",
+          "texto": "Uma ligação tripla possui três ligações sigma."
+        },
+        {
+          "id": "C",
+          "texto": "Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi."
+        },
+        {
+          "id": "D",
+          "texto": "Ligações pi só aparecem em ligações simples."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Uma ligação dupla contém uma ligação sigma e uma pi; uma tripla contém uma sigma e duas pi."
+    },
+    {
+      "id": "Q050",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Em uma ligação dupla entre dois carbonos, qual combinação de ligações está presente?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Duas ligações sigma."
+        },
+        {
+          "id": "B",
+          "texto": "Uma ligação sigma e uma ligação pi."
+        },
+        {
+          "id": "C",
+          "texto": "Duas ligações pi e uma sigma."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação pi apenas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Uma ligação dupla é formada por uma ligação sigma e uma ligação pi."
+    },
+    {
+      "id": "Q051",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°.",
+      "resposta": true,
+      "explicacao": "Essa é a geometria característica associada à hibridização sp² no modelo apresentado no roteiro."
+    }
+  ]
+}

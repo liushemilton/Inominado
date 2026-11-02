@@ -1,0 +1,186 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Características do carbono",
+  "totalQuestoes": 7,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q005",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "O que significa dizer que o carbono é tetravalente?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Que possui quatro camadas eletrônicas."
+        },
+        {
+          "id": "B",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "C",
+          "texto": "Que sempre forma quatro ligações duplas."
+        },
+        {
+          "id": "D",
+          "texto": "Que apresenta quatro prótons."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A tetravalência é a capacidade característica do carbono de estabelecer até quatro ligações covalentes."
+    },
+    {
+      "id": "Q006",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias.",
+      "resposta": true,
+      "explicacao": "A catenação permite a formação de cadeias carbónicas de diferentes tamanhos e formatos."
+    },
+    {
+      "id": "Q007",
+      "tipo": "combinar_pares",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Combine a classificação do átomo de carbono com o número de outros carbonos aos quais ele está diretamente ligado.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Carbono primário",
+          "correspondencia": "Ligado diretamente a um carbono."
+        },
+        {
+          "id": "P2",
+          "item": "Carbono secundário",
+          "correspondencia": "Ligado diretamente a dois carbonos."
+        },
+        {
+          "id": "P3",
+          "item": "Carbono terciário",
+          "correspondencia": "Ligado diretamente a três carbonos."
+        },
+        {
+          "id": "P4",
+          "item": "Carbono quaternário",
+          "correspondencia": "Ligado diretamente a quatro carbonos."
+        }
+      ],
+      "resposta": {
+        "P1": "Ligado diretamente a um carbono.",
+        "P2": "Ligado diretamente a dois carbonos.",
+        "P3": "Ligado diretamente a três carbonos.",
+        "P4": "Ligado diretamente a quatro carbonos."
+      },
+      "explicacao": "A classificação depende da quantidade de átomos de carbono vizinhos ligados diretamente ao carbono analisado."
+    },
+    {
+      "id": "Q008",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual representação de fórmula orgânica utiliza segmentos de reta para indicar ligações e vértices ou extremidades para representar átomos de carbono?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Fórmula molecular"
+        },
+        {
+          "id": "B",
+          "texto": "Fórmula em bastão"
+        },
+        {
+          "id": "C",
+          "texto": "Fórmula percentual"
+        },
+        {
+          "id": "D",
+          "texto": "Fórmula iônica"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na fórmula em bastão, cada extremidade e vértice representa, em geral, um átomo de carbono; hidrogênios ligados a carbonos costumam ficar implícitos."
+    },
+    {
+      "id": "Q047",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa apresenta corretamente uma diferença entre fórmula molecular e fórmula estrutural?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A fórmula molecular indica a quantidade de cada tipo de átomo; a estrutural representa como os átomos estão ligados."
+        },
+        {
+          "id": "B",
+          "texto": "A fórmula molecular mostra apenas a geometria; a estrutural mostra somente a massa."
+        },
+        {
+          "id": "C",
+          "texto": "As duas representam sempre informações idênticas, sem diferenças."
+        },
+        {
+          "id": "D",
+          "texto": "A fórmula estrutural não representa ligações químicas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A fórmula molecular informa a composição da substância, enquanto a estrutural evidencia a organização e as ligações entre os átomos."
+    },
+    {
+      "id": "Q048",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "O carbono pode estabelecer ligações simples, duplas e triplas.",
+      "resposta": true,
+      "explicacao": "O carbono forma diferentes tipos de ligação covalente, contribuindo para a diversidade estrutural dos compostos orgânicos."
+    },
+    {
+      "id": "Q049",
+      "tipo": "combinar_pares",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada representação de fórmula orgânica à informação que ela apresenta.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Fórmula molecular",
+          "correspondencia": "Indica os tipos e as quantidades de átomos na molécula."
+        },
+        {
+          "id": "P2",
+          "item": "Fórmula estrutural",
+          "correspondencia": "Mostra os átomos e as ligações entre eles."
+        },
+        {
+          "id": "P3",
+          "item": "Fórmula condensada",
+          "correspondencia": "Agrupa partes da estrutura em uma representação abreviada."
+        },
+        {
+          "id": "P4",
+          "item": "Fórmula em bastão",
+          "correspondencia": "Representa a cadeia por linhas, vértices e extremidades."
+        }
+      ],
+      "resposta": {
+        "P1": "Indica os tipos e as quantidades de átomos na molécula.",
+        "P2": "Mostra os átomos e as ligações entre eles.",
+        "P3": "Agrupa partes da estrutura em uma representação abreviada.",
+        "P4": "Representa a cadeia por linhas, vértices e extremidades."
+      },
+      "explicacao": "As diferentes fórmulas são maneiras de representar a composição e a estrutura dos compostos orgânicos."
+    }
+  ]
+}

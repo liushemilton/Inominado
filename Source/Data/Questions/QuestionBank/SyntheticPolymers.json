@@ -1,0 +1,183 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Polímeros sintéticos",
+  "totalQuestoes": 6,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q037",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "O que caracteriza um polímero sintético?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "B",
+          "texto": "É encontrado exclusivamente em organismos vivos."
+        },
+        {
+          "id": "C",
+          "texto": "É sempre formado por aminoácidos."
+        },
+        {
+          "id": "D",
+          "texto": "Não apresenta unidades repetitivas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Polímeros sintéticos são materiais produzidos por processos de polimerização, geralmente a partir de monômeros."
+    },
+    {
+      "id": "Q038",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo.",
+      "resposta": true,
+      "explicacao": "Na polimerização por adição, unidades monoméricas se adicionam à cadeia; na condensação, pode ocorrer liberação de moléculas pequenas."
+    },
+    {
+      "id": "Q039",
+      "tipo": "combinar_pares",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada tipo de polímero à característica correspondente.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Termoplásticos",
+          "correspondencia": "Amolecem quando aquecidos e podem ser moldados novamente."
+        },
+        {
+          "id": "P2",
+          "item": "Termofixos",
+          "correspondencia": "Após a cura, não podem ser remodelados por simples aquecimento."
+        },
+        {
+          "id": "P3",
+          "item": "Elastômeros",
+          "correspondencia": "Apresentam elasticidade, podendo deformar e recuperar a forma."
+        },
+        {
+          "id": "P4",
+          "item": "Fibras sintéticas",
+          "correspondencia": "Materiais poliméricos usados na produção de fibras."
+        }
+      ],
+      "resposta": {
+        "P1": "Amolecem quando aquecidos e podem ser moldados novamente.",
+        "P2": "Após a cura, não podem ser remodelados por simples aquecimento.",
+        "P3": "Apresentam elasticidade, podendo deformar e recuperar a forma.",
+        "P4": "Materiais poliméricos usados na produção de fibras."
+      },
+      "explicacao": "Essas categorias descrevem comportamentos e aplicações diferentes dos materiais poliméricos."
+    },
+    {
+      "id": "Q040",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual dos materiais abaixo é identificado pela sigla PET no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Um polímero sintético."
+        },
+        {
+          "id": "B",
+          "texto": "Uma proteína natural."
+        },
+        {
+          "id": "C",
+          "texto": "Um ácido nucleico."
+        },
+        {
+          "id": "D",
+          "texto": "Um hidrocarboneto simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O PET é um dos exemplos de polímeros sintéticos listados no roteiro."
+    },
+    {
+      "id": "Q067",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa reúne somente exemplos de polímeros sintéticos citados no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polietileno, polipropileno, PVC e PET."
+        },
+        {
+          "id": "B",
+          "texto": "Amido, celulose, DNA e RNA."
+        },
+        {
+          "id": "C",
+          "texto": "Glicose, aminoácidos e água."
+        },
+        {
+          "id": "D",
+          "texto": "Benzeno, metano e etanol."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Polietileno, polipropileno, PVC e PET aparecem entre os exemplos de polímeros sintéticos do roteiro."
+    },
+    {
+      "id": "Q068",
+      "tipo": "combinar_pares",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada sigla ou nome de polímero à sua identificação.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "PE",
+          "correspondencia": "Polietileno."
+        },
+        {
+          "id": "P2",
+          "item": "PP",
+          "correspondencia": "Polipropileno."
+        },
+        {
+          "id": "P3",
+          "item": "PVC",
+          "correspondencia": "Policloreto de vinila."
+        },
+        {
+          "id": "P4",
+          "item": "PS",
+          "correspondencia": "Poliestireno."
+        },
+        {
+          "id": "P5",
+          "item": "PET",
+          "correspondencia": "Polietileno tereftalato."
+        }
+      ],
+      "resposta": {
+        "P1": "Polietileno.",
+        "P2": "Polipropileno.",
+        "P3": "Policloreto de vinila.",
+        "P4": "Poliestireno.",
+        "P5": "Polietileno tereftalato."
+      },
+      "explicacao": "As siglas identificam polímeros sintéticos amplamente utilizados em diferentes produtos e aplicações."
+    }
+  ]
+}

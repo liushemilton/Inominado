@@ -1,14 +1,9 @@
 /**
- * Adaptador do banco de questões.
+ * Adaptador do banco de questões (versão modularizada).
  *
- * O arquivo `QuestionBank.json` usa um formato próprio (`tipo`, `enunciado`,
- * `alternativas`, `resposta`, `dificuldade`, `pares`). O jogo espera o formato
- * descrito em `useGame`: `type`, `prompt`, `options`, `correctAnswer`,
- * `difficulty` e `pairs`.
- *
- * Este módulo converte os dois mundos e expõe consultas por categoria, que é
- * como o banco está organizado. As categorias do JSON correspondem exatamente
- * aos títulos dos tópicos da trilha de Química Orgânica.
+ * Cada categoria possui seu próprio arquivo JSON na pasta `QuestionBank/`.
+ * Este módulo importa todos eles, unifica as questões e mantém a mesma 
+ * interface esperada pelo jogo.
  */
 
 import {
@@ -19,7 +14,33 @@ import {
   normalizeDifficulty,
   toKey,
 } from '../../Logic/ProgressManager.js'
-import bank from './QuestionBank.json' with { type: 'json' }
+
+// Importação dos arquivos modulares por categoria
+import octetRule from './QuestionBank/OctetRule.json' with { type: 'json' }
+import carbonCharacteristics from './QuestionBank/CarbonCharacteristics.json' with { type: 'json' }
+import carbonHybridization from './QuestionBank/CarbonHybridization.json' with { type: 'json' }
+import hydrocarbons from './QuestionBank/Hydrocarbons.json' with { type: 'json' }
+import oxygenatedFunctions from './QuestionBank/OxygenatedFunctions.json' with { type: 'json' }
+import nitrogenatedFunctions from './QuestionBank/NitrogenatedFunctions.json' with { type: 'json' }
+import sulfonatedFunctions from './QuestionBank/SulfonatedFunctions.json' with { type: 'json' }
+import organicHalides from './QuestionBank/OrganicHalides.json' with { type: 'json' }
+import naturalPolymers from './QuestionBank/NaturalPolymers.json' with { type: 'json' }
+import syntheticPolymers from './QuestionBank/SyntheticPolymers.json' with { type: 'json' }
+import chemicalReactivity from './QuestionBank/ChemicalReactivity.json' with { type: 'json' }
+
+const allBanks = [
+  octetRule,
+  carbonCharacteristics,
+  carbonHybridization,
+  hydrocarbons,
+  oxygenatedFunctions,
+  nitrogenatedFunctions,
+  sulfonatedFunctions,
+  organicHalides,
+  naturalPolymers,
+  syntheticPolymers,
+  chemicalReactivity,
+]
 
 /**
  * @param {unknown} value
@@ -175,8 +196,6 @@ export function normalizeQuestion(raw, index = 0) {
     return {
       ...question,
       pairs,
-      // O componente responde com os textos dos pares; usar `resposta`
-      // (indexada por P1/P2) aqui faria a correção comparar chaves com textos.
       correctAnswer: pairs,
     }
   }
@@ -208,18 +227,18 @@ export function normalizeQuestion(raw, index = 0) {
 }
 
 /**
- * Questões já normalizadas, na ordem do banco.
+ * Questões já normalizadas, unindo todos os arquivos do banco.
  *
  * @type {ReadonlyArray<object>}
  */
 export const QUESTIONS = Object.freeze(
-  (Array.isArray(bank.questoes) ? bank.questoes : []).map((question, index) =>
-    normalizeQuestion(question, index),
-  ),
+  allBanks
+    .flatMap((bank) => (Array.isArray(bank.questoes) ? bank.questoes : []))
+    .map((question, index) => normalizeQuestion(question, index)),
 )
 
 /**
- * Categorias na ordem em que aparecem no banco.
+ * Categorias na ordem em que aparecem nos bancos importados.
  *
  * @type {ReadonlyArray<string>}
  */
@@ -234,14 +253,15 @@ export const QUESTION_CATEGORIES = Object.freeze(
 )
 
 /**
- * Metadados do banco.
+ * Metadados gerais do banco (baseados no primeiro arquivo).
  */
+const baseMeta = octetRule || allBanks[0] || {}
 export const QUESTION_BANK_META = Object.freeze({
-  version: asText(bank.versao),
-  language: asText(bank.idioma),
-  subject: asText(bank.disciplina),
-  area: asText(bank.area),
-  description: asText(bank.descricao),
+  version: asText(baseMeta.versao),
+  language: asText(baseMeta.idioma),
+  subject: asText(baseMeta.disciplina),
+  area: asText(baseMeta.area),
+  description: asText(baseMeta.descricao),
   total: QUESTIONS.length,
 })
 
@@ -262,9 +282,6 @@ function categoryKey(value) {
 
 /**
  * Questões de uma categoria (tópico) do banco.
- *
- * A comparação ignora acentos, caixa e espaços repetidos. Uma categoria
- * inexistente devolve uma lista vazia.
  *
  * @param {unknown} category
  * @returns {object[]}

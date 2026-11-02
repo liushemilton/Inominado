@@ -1,0 +1,144 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Regra do octeto",
+  "totalQuestoes": 6,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q001",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "O que representa a camada de valência de um átomo?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A camada mais interna do átomo."
+        },
+        {
+          "id": "B",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "A região ocupada exclusivamente por prótons."
+        },
+        {
+          "id": "D",
+          "texto": "O conjunto de nêutrons do átomo."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A camada de valência é a camada eletrônica mais externa e seus elétrons participam das ligações químicas."
+    },
+    {
+      "id": "Q002",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência.",
+      "resposta": true,
+      "explicacao": "Essa é a ideia geral da regra do octeto. Existem exceções, e o hidrogênio é frequentemente explicado pela regra do dueto."
+    },
+    {
+      "id": "Q003",
+      "tipo": "combinar_pares",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada tipo de ligação química à sua característica principal.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Ligação iônica",
+          "correspondencia": "Atração entre íons de cargas opostas, geralmente após transferência de elétrons."
+        },
+        {
+          "id": "P2",
+          "item": "Ligação covalente",
+          "correspondencia": "Compartilhamento de pares de elétrons entre átomos."
+        },
+        {
+          "id": "P3",
+          "item": "Ligação metálica",
+          "correspondencia": "Cátions metálicos organizados com elétrons deslocalizados."
+        }
+      ],
+      "resposta": {
+        "P1": "Atração entre íons de cargas opostas, geralmente após transferência de elétrons.",
+        "P2": "Compartilhamento de pares de elétrons entre átomos.",
+        "P3": "Cátions metálicos organizados com elétrons deslocalizados."
+      },
+      "explicacao": "As ligações iônica, covalente e metálica diferem pela maneira como os elétrons participam da união entre as partículas."
+    },
+    {
+      "id": "Q004",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Qual elemento normalmente segue a regra do dueto em suas ligações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Carbono"
+        },
+        {
+          "id": "B",
+          "texto": "Oxigênio"
+        },
+        {
+          "id": "C",
+          "texto": "Hidrogênio"
+        },
+        {
+          "id": "D",
+          "texto": "Nitrogênio"
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O hidrogênio fica estável com dois elétrons na sua única camada eletrônica."
+    },
+    {
+      "id": "Q045",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Por que a regra do octeto não deve ser tratada como uma regra universal para todos os átomos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Porque nenhum átomo participa de ligações covalentes."
+        },
+        {
+          "id": "C",
+          "texto": "Porque todos os elementos possuem exatamente oito camadas eletrônicas."
+        },
+        {
+          "id": "D",
+          "texto": "Porque a camada de valência não participa das ligações."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A regra do octeto é uma orientação útil, mas há exceções, como espécies deficientes em elétrons e elementos que podem apresentar octeto expandido."
+    },
+    {
+      "id": "Q046",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Em uma ligação covalente, os átomos compartilham pares de elétrons.",
+      "resposta": true,
+      "explicacao": "O compartilhamento de pares de elétrons é a característica central da ligação covalente."
+    }
+  ]
+}

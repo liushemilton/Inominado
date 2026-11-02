@@ -1,0 +1,162 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Reatividade dos compostos orgânicos",
+  "totalQuestoes": 6,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q041",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "O que ocorre em uma reação orgânica de adição, de modo geral?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas."
+        },
+        {
+          "id": "B",
+          "texto": "Um átomo é sempre removido sem substituição."
+        },
+        {
+          "id": "C",
+          "texto": "Duas moléculas são sempre separadas pela água."
+        },
+        {
+          "id": "D",
+          "texto": "Ocorre apenas a formação de sais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Reações de adição são comuns em compostos insaturados e envolvem a incorporação de átomos ou grupos à molécula."
+    },
+    {
+      "id": "Q042",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado.",
+      "resposta": true,
+      "explicacao": "Na ruptura homolítica, a divisão dos elétrons é igual: cada fragmento fica com um elétron."
+    },
+    {
+      "id": "Q043",
+      "tipo": "combinar_pares",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada tipo de reação orgânica à sua descrição.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Substituição",
+          "correspondencia": "Troca de um átomo ou grupo por outro."
+        },
+        {
+          "id": "P2",
+          "item": "Eliminação",
+          "correspondencia": "Remoção de átomos ou grupos, frequentemente formando insaturações."
+        },
+        {
+          "id": "P3",
+          "item": "Esterificação",
+          "correspondencia": "Formação de ésteres."
+        },
+        {
+          "id": "P4",
+          "item": "Hidrólise",
+          "correspondencia": "Quebra de ligações com participação da água."
+        },
+        {
+          "id": "P5",
+          "item": "Combustão",
+          "correspondencia": "Reação com oxigênio."
+        },
+        {
+          "id": "P6",
+          "item": "Polimerização",
+          "correspondencia": "Formação de polímeros."
+        }
+      ],
+      "resposta": {
+        "P1": "Troca de um átomo ou grupo por outro.",
+        "P2": "Remoção de átomos ou grupos, frequentemente formando insaturações.",
+        "P3": "Formação de ésteres.",
+        "P4": "Quebra de ligações com participação da água.",
+        "P5": "Reação com oxigênio.",
+        "P6": "Formação de polímeros."
+      },
+      "explicacao": "Cada tipo de reação é reconhecido pela transformação que ocorre nos reagentes para formar os produtos."
+    },
+    {
+      "id": "Q044",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a diferença entre um reagente nucleófilo e um eletrófilo, em termos gerais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "Nucleófilos sempre recebem prótons; eletrófilos sempre liberam oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "Ambos são necessariamente íons metálicos."
+        },
+        {
+          "id": "D",
+          "texto": "Não existe diferença entre eles."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Nucleófilos são espécies ricas em elétrons que doam um par eletrônico; eletrófilos são espécies que aceitam esse par."
+    },
+    {
+      "id": "Q069",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "O que caracteriza a ruptura heterolítica de uma ligação covalente?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Cada átomo fica com um elétron do par compartilhado."
+        },
+        {
+          "id": "B",
+          "texto": "Um dos fragmentos fica com os dois elétrons do par da ligação."
+        },
+        {
+          "id": "C",
+          "texto": "A ligação se transforma obrigatoriamente em metálica."
+        },
+        {
+          "id": "D",
+          "texto": "Os elétrons desaparecem durante a ruptura."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na ruptura heterolítica, os dois elétrons da ligação ficam com um dos fragmentos, formando espécies com cargas."
+    },
+    {
+      "id": "Q070",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": true,
+      "explicacao": "Esses fatores influenciam a distribuição eletrônica e os locais em que as transformações químicas podem ocorrer."
+    }
+  ]
+}

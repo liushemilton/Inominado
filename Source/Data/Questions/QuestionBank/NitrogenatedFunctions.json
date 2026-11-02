@@ -1,0 +1,150 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Funções nitrogenadas",
+  "totalQuestoes": 6,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q021",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "As aminas são consideradas derivadas de qual substância?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Água"
+        },
+        {
+          "id": "B",
+          "texto": "Amônia"
+        },
+        {
+          "id": "C",
+          "texto": "Metano"
+        },
+        {
+          "id": "D",
+          "texto": "Ácido sulfúrico"
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "As aminas podem ser entendidas como derivados da amônia (NH₃), pela substituição de um ou mais hidrogênios por grupos orgânicos."
+    },
+    {
+      "id": "Q022",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "O grupo −C≡N é característico das nitrilas.",
+      "resposta": true,
+      "explicacao": "As nitrilas apresentam o grupo funcional ciano, representado por −C≡N."
+    },
+    {
+      "id": "Q023",
+      "tipo": "combinar_pares",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Relacione cada função nitrogenada ao grupo ou característica correspondente.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Aminas",
+          "correspondencia": "Derivadas da amônia."
+        },
+        {
+          "id": "P2",
+          "item": "Amidas",
+          "correspondencia": "Apresentam o grupo funcional amida."
+        },
+        {
+          "id": "P3",
+          "item": "Nitrilas",
+          "correspondencia": "Apresentam o grupo −C≡N."
+        },
+        {
+          "id": "P4",
+          "item": "Nitrocompostos",
+          "correspondencia": "Apresentam o grupo −NO₂."
+        }
+      ],
+      "resposta": {
+        "P1": "Derivadas da amônia.",
+        "P2": "Apresentam o grupo funcional amida.",
+        "P3": "Apresentam o grupo −C≡N.",
+        "P4": "Apresentam o grupo −NO₂."
+      },
+      "explicacao": "Cada função nitrogenada possui um grupo funcional ou característica estrutural que permite sua identificação."
+    },
+    {
+      "id": "Q024",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa apresenta corretamente o grupo funcional dos nitrocompostos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "−OH"
+        },
+        {
+          "id": "B",
+          "texto": "−COOH"
+        },
+        {
+          "id": "C",
+          "texto": "−NO₂"
+        },
+        {
+          "id": "D",
+          "texto": "−SH"
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O grupo nitro é representado por −NO₂."
+    },
+    {
+      "id": "Q059",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa apresenta uma aplicação ou ocorrência de compostos nitrogenados mencionada no roteiro?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Medicamentos, fertilizantes e proteínas."
+        },
+        {
+          "id": "B",
+          "texto": "Apenas ligas metálicas."
+        },
+        {
+          "id": "C",
+          "texto": "Somente combustíveis minerais."
+        },
+        {
+          "id": "D",
+          "texto": "Exclusivamente materiais cerâmicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O roteiro cita aplicações e ocorrências de compostos nitrogenados em medicamentos, fertilizantes e proteínas."
+    },
+    {
+      "id": "Q060",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "As amidas e as aminas são funções nitrogenadas distintas, com grupos funcionais diferentes.",
+      "resposta": true,
+      "explicacao": "Embora ambas contenham nitrogênio, aminas e amidas apresentam características estruturais diferentes."
+    }
+  ]
+}

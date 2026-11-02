@@ -12,7 +12,7 @@ import {
 } from './index.js'
 
 describe('adaptador do banco de questões', () => {
-  it('normaliza todas as questões do JSON', () => {
+  it('normaliza todas as questões dos arquivos modulares', () => {
     assert.equal(QUESTIONS.length, 70)
     assert.equal(QUESTION_BANK_META.total, 70)
     assert.equal(QUESTION_CATEGORIES.length, 11)

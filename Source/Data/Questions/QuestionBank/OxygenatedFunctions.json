@@ -1,0 +1,192 @@
+{
+  "versao": "1.0",
+  "idioma": "pt-BR",
+  "disciplina": "Química",
+  "area": "Química Orgânica",
+  "categoria": "Funções oxigenadas",
+  "totalQuestoes": 7,
+  "tipos": [
+    "multipla_escolha",
+    "verdadeiro_falso",
+    "combinar_pares"
+  ],
+  "questoes": [
+    {
+      "id": "Q017",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual grupo funcional caracteriza os ácidos carboxílicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidroxila (−OH) isolada."
+        },
+        {
+          "id": "B",
+          "texto": "Carboxila (−COOH)."
+        },
+        {
+          "id": "C",
+          "texto": "Amino (−NH₂)."
+        },
+        {
+          "id": "D",
+          "texto": "Nitrila (−C≡N)."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Os ácidos carboxílicos apresentam o grupo carboxila, representado de forma geral por −COOH."
+    },
+    {
+      "id": "Q018",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático.",
+      "resposta": true,
+      "explicacao": "Essa ligação direta entre a hidroxila e o anel aromático diferencia os fenóis dos álcoois comuns."
+    },
+    {
+      "id": "Q019",
+      "tipo": "combinar_pares",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada função oxigenada à sua característica estrutural.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Álcool",
+          "correspondencia": "Hidroxila ligada a carbono saturado."
+        },
+        {
+          "id": "P2",
+          "item": "Éter",
+          "correspondencia": "Átomo de oxigênio entre dois grupos carbônicos."
+        },
+        {
+          "id": "P3",
+          "item": "Aldeído",
+          "correspondencia": "Grupo carbonila na extremidade da cadeia."
+        },
+        {
+          "id": "P4",
+          "item": "Cetona",
+          "correspondencia": "Grupo carbonila no interior da cadeia."
+        },
+        {
+          "id": "P5",
+          "item": "Éster",
+          "correspondencia": "Derivado de ácido carboxílico, com grupo característico −COO− entre grupos carbônicos."
+        }
+      ],
+      "resposta": {
+        "P1": "Hidroxila ligada a carbono saturado.",
+        "P2": "Átomo de oxigênio entre dois grupos carbônicos.",
+        "P3": "Grupo carbonila na extremidade da cadeia.",
+        "P4": "Grupo carbonila no interior da cadeia.",
+        "P5": "Derivado de ácido carboxílico, com grupo característico −COO− entre grupos carbônicos."
+      },
+      "explicacao": "A identificação das funções oxigenadas é feita observando a posição e a ligação dos grupos que contêm oxigênio."
+    },
+    {
+      "id": "Q020",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "O vinagre está associado principalmente a qual composto e função orgânica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Ácido acético — ácido carboxílico."
+        },
+        {
+          "id": "B",
+          "texto": "Etano — alcano."
+        },
+        {
+          "id": "C",
+          "texto": "Acetona — cetona."
+        },
+        {
+          "id": "D",
+          "texto": "Etanol — éter."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O principal ácido presente no vinagre é o ácido acético, pertencente à função dos ácidos carboxílicos."
+    },
+    {
+      "id": "Q056",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a principal diferença estrutural entre um aldeído e uma cetona?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia."
+        },
+        {
+          "id": "B",
+          "texto": "O aldeído não possui oxigênio; a cetona possui dois oxigênios."
+        },
+        {
+          "id": "C",
+          "texto": "A cetona apresenta hidroxila ligada diretamente ao anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "Ambos são definidos pela presença do grupo −NH₂."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A posição do grupo carbonila permite diferenciar aldeídos e cetonas."
+    },
+    {
+      "id": "Q057",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos.",
+      "resposta": true,
+      "explicacao": "A estrutura geral de um éter pode ser representada por R−O−R', em que R e R' são grupos carbônicos."
+    },
+    {
+      "id": "Q058",
+      "tipo": "combinar_pares",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Associe cada substância ou aplicação cotidiana à função orgânica correspondente, conforme os exemplos do roteiro.",
+      "pares": [
+        {
+          "id": "P1",
+          "item": "Etanol",
+          "correspondencia": "Álcool."
+        },
+        {
+          "id": "P2",
+          "item": "Ácido acético do vinagre",
+          "correspondencia": "Ácido carboxílico."
+        },
+        {
+          "id": "P3",
+          "item": "Acetona",
+          "correspondencia": "Cetona."
+        },
+        {
+          "id": "P4",
+          "item": "Compostos usados em fragrâncias e aromas",
+          "correspondencia": "Podem incluir ésteres."
+        }
+      ],
+      "resposta": {
+        "P1": "Álcool.",
+        "P2": "Ácido carboxílico.",
+        "P3": "Cetona.",
+        "P4": "Podem incluir ésteres."
+      },
+      "explicacao": "O roteiro relaciona funções oxigenadas a produtos e aplicações do cotidiano. A associação de fragrâncias a ésteres é um exemplo comum, embora perfumes possam conter várias classes de substâncias."
+    }
+  ]
+}
