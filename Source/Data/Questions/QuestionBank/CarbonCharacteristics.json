@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Características do carbono",
-  "totalQuestoes": 7,
+  "totalQuestoes": 72,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "A tetravalência é a capacidade característica do carbono de estabelecer até quatro ligações covalentes."
+      "explicacao": "A tetravalência é a capacidade característica do carbono de estabelecer até quatro ligações covalentes.",
+      "subtopicIds": [
+        "topico-02-subtopico-02"
+      ]
     },
     {
       "id": "Q006",
@@ -45,7 +48,10 @@
       "dificuldade": "facil",
       "enunciado": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias.",
       "resposta": true,
-      "explicacao": "A catenação permite a formação de cadeias carbónicas de diferentes tamanhos e formatos."
+      "explicacao": "A catenação permite a formação de cadeias carbónicas de diferentes tamanhos e formatos.",
+      "subtopicIds": [
+        "topico-02-subtopico-04"
+      ]
     },
     {
       "id": "Q007",
@@ -81,7 +87,10 @@
         "P3": "Ligado diretamente a três carbonos.",
         "P4": "Ligado diretamente a quatro carbonos."
       },
-      "explicacao": "A classificação depende da quantidade de átomos de carbono vizinhos ligados diretamente ao carbono analisado."
+      "explicacao": "A classificação depende da quantidade de átomos de carbono vizinhos ligados diretamente ao carbono analisado.",
+      "subtopicIds": [
+        "topico-02-subtopico-07"
+      ]
     },
     {
       "id": "Q008",
@@ -108,7 +117,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "Na fórmula em bastão, cada extremidade e vértice representa, em geral, um átomo de carbono; hidrogênios ligados a carbonos costumam ficar implícitos."
+      "explicacao": "Na fórmula em bastão, cada extremidade e vértice representa, em geral, um átomo de carbono; hidrogênios ligados a carbonos costumam ficar implícitos.",
+      "subtopicIds": [
+        "topico-02-subtopico-08"
+      ]
     },
     {
       "id": "Q047",
@@ -135,7 +147,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "A fórmula molecular informa a composição da substância, enquanto a estrutural evidencia a organização e as ligações entre os átomos."
+      "explicacao": "A fórmula molecular informa a composição da substância, enquanto a estrutural evidencia a organização e as ligações entre os átomos.",
+      "subtopicIds": [
+        "topico-02-subtopico-08"
+      ]
     },
     {
       "id": "Q048",
@@ -144,7 +159,10 @@
       "dificuldade": "facil",
       "enunciado": "O carbono pode estabelecer ligações simples, duplas e triplas.",
       "resposta": true,
-      "explicacao": "O carbono forma diferentes tipos de ligação covalente, contribuindo para a diversidade estrutural dos compostos orgânicos."
+      "explicacao": "O carbono forma diferentes tipos de ligação covalente, contribuindo para a diversidade estrutural dos compostos orgânicos.",
+      "subtopicIds": [
+        "topico-02-subtopico-05"
+      ]
     },
     {
       "id": "Q049",
@@ -180,7 +198,1492 @@
         "P3": "Agrupa partes da estrutura em uma representação abreviada.",
         "P4": "Representa a cadeia por linhas, vértices e extremidades."
       },
-      "explicacao": "As diferentes fórmulas são maneiras de representar a composição e a estrutura dos compostos orgânicos."
+      "explicacao": "As diferentes fórmulas são maneiras de representar a composição e a estrutura dos compostos orgânicos.",
+      "subtopicIds": [
+        "topico-02-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q089",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente o carbono na tabela periódica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "D",
+          "texto": "capacidade de formar cadeias carbônicas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica. A pergunta trata especificamente de o carbono na tabela periódica.",
+      "subtopicIds": [
+        "topico-02-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q090",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre o carbono na tabela periódica, é correto afirmar que O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": true,
+      "explicacao": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "subtopicIds": [
+        "topico-02-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q091",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando o carbono na tabela periódica, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "D",
+          "texto": "capacidade de formar cadeias carbônicas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica. A pergunta trata especificamente de o carbono na tabela periódica.",
+      "subtopicIds": [
+        "topico-02-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q092",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre o carbono na tabela periódica, é correto afirmar que O carbono é tetravalente e pode estabelecer quatro ligações covalentes.",
+      "resposta": false,
+      "explicacao": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-02-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q093",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente tetravalência do carbono?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "capacidade de formar cadeias carbônicas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes. A pergunta trata especificamente de tetravalência do carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q094",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre tetravalência do carbono, é correto afirmar que O carbono é tetravalente e pode estabelecer quatro ligações covalentes.",
+      "resposta": true,
+      "explicacao": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes.",
+      "subtopicIds": [
+        "topico-02-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q095",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando tetravalência do carbono, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "capacidade de formar cadeias carbônicas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes. A pergunta trata especificamente de tetravalência do carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q096",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente capacidade de formar quatro ligações covalentes?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "capacidade de formar cadeias carbônicas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados. A pergunta trata especificamente de capacidade de formar quatro ligações covalentes.",
+      "subtopicIds": [
+        "topico-02-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q097",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre capacidade de formar quatro ligações covalentes, é correto afirmar que O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados.",
+      "resposta": true,
+      "explicacao": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados.",
+      "subtopicIds": [
+        "topico-02-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q098",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando capacidade de formar quatro ligações covalentes, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "capacidade de formar cadeias carbônicas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados. A pergunta trata especificamente de capacidade de formar quatro ligações covalentes.",
+      "subtopicIds": [
+        "topico-02-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q099",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre capacidade de formar quatro ligações covalentes, é correto afirmar que O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": false,
+      "explicacao": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-02-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q100",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente catenação?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "capacidade de formar cadeias carbônicas."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "capacidade de formar cadeias carbônicas. A pergunta trata especificamente de catenação.",
+      "subtopicIds": [
+        "topico-02-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q101",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre catenação, é correto afirmar que capacidade de formar cadeias carbônicas.",
+      "resposta": true,
+      "explicacao": "capacidade de formar cadeias carbônicas.",
+      "subtopicIds": [
+        "topico-02-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q102",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando catenação, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "capacidade de formar cadeias carbônicas."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "capacidade de formar cadeias carbônicas. A pergunta trata especificamente de catenação.",
+      "subtopicIds": [
+        "topico-02-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q103",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ligações simples, duplas e triplas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Ligações simples, duplas e triplas."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Ligações simples, duplas e triplas. A pergunta trata especificamente de ligações simples, duplas e triplas.",
+      "subtopicIds": [
+        "topico-02-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q104",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ligações simples, duplas e triplas, é correto afirmar que Ligações simples, duplas e triplas.",
+      "resposta": true,
+      "explicacao": "Ligações simples, duplas e triplas.",
+      "subtopicIds": [
+        "topico-02-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q105",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando ligações simples, duplas e triplas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Ligações simples, duplas e triplas."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Ligações simples, duplas e triplas. A pergunta trata especificamente de ligações simples, duplas e triplas.",
+      "subtopicIds": [
+        "topico-02-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q106",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ligações entre carbonos e outros elementos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios. A pergunta trata especificamente de ligações entre carbonos e outros elementos.",
+      "subtopicIds": [
+        "topico-02-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q107",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ligações entre carbonos e outros elementos, é correto afirmar que O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios.",
+      "resposta": true,
+      "explicacao": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios.",
+      "subtopicIds": [
+        "topico-02-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q108",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando ligações entre carbonos e outros elementos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios. A pergunta trata especificamente de ligações entre carbonos e outros elementos.",
+      "subtopicIds": [
+        "topico-02-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q109",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ligações entre carbonos e outros elementos, é correto afirmar que O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": false,
+      "explicacao": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-02-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q110",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente classificação dos átomos de carbono?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "primário, secundário, terciário e quaternário."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "primário, secundário, terciário e quaternário. A pergunta trata especificamente de classificação dos átomos de carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q111",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre classificação dos átomos de carbono, é correto afirmar que primário, secundário, terciário e quaternário.",
+      "resposta": true,
+      "explicacao": "primário, secundário, terciário e quaternário.",
+      "subtopicIds": [
+        "topico-02-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q112",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando classificação dos átomos de carbono, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "primário, secundário, terciário e quaternário."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "primário, secundário, terciário e quaternário. A pergunta trata especificamente de classificação dos átomos de carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q113",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente representação das fórmulas orgânicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono é tetravalente e pode estabelecer quatro ligações covalentes."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "molecular, estrutural, condensada e em bastão."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "molecular, estrutural, condensada e em bastão. A pergunta trata especificamente de representação das fórmulas orgânicas.",
+      "subtopicIds": [
+        "topico-02-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q415",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de o carbono na tabela periódica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "D",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica. A alternativa correta descreve especificamente o carbono na tabela periódica.",
+      "subtopicIds": [
+        "topico-02-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q416",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre o carbono na tabela periódica: Que pode formar quatro ligações covalentes.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre o carbono na tabela periódica, o correto é: O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "subtopicIds": [
+        "topico-02-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q417",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar o carbono na tabela periódica, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "D",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica. A alternativa correta descreve especificamente o carbono na tabela periódica.",
+      "subtopicIds": [
+        "topico-02-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q418",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de o carbono na tabela periódica: O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": true,
+      "explicacao": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "subtopicIds": [
+        "topico-02-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q419",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com o carbono na tabela periódica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "D",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica. A alternativa correta descreve especificamente o carbono na tabela periódica.",
+      "subtopicIds": [
+        "topico-02-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q420",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de tetravalência do carbono?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "D",
+          "texto": "Que pode formar quatro ligações covalentes."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Que pode formar quatro ligações covalentes. A alternativa correta descreve especificamente tetravalência do carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q421",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre tetravalência do carbono: O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre tetravalência do carbono, o correto é: Que pode formar quatro ligações covalentes.",
+      "subtopicIds": [
+        "topico-02-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q422",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar tetravalência do carbono, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "D",
+          "texto": "Que pode formar quatro ligações covalentes."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Que pode formar quatro ligações covalentes. A alternativa correta descreve especificamente tetravalência do carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q423",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de tetravalência do carbono: Que pode formar quatro ligações covalentes.",
+      "resposta": true,
+      "explicacao": "Que pode formar quatro ligações covalentes.",
+      "subtopicIds": [
+        "topico-02-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q424",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com tetravalência do carbono?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "D",
+          "texto": "Que pode formar quatro ligações covalentes."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Que pode formar quatro ligações covalentes. A alternativa correta descreve especificamente tetravalência do carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q425",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de capacidade de formar quatro ligações covalentes?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "D",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados. A alternativa correta descreve especificamente capacidade de formar quatro ligações covalentes.",
+      "subtopicIds": [
+        "topico-02-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q426",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre capacidade de formar quatro ligações covalentes: O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre capacidade de formar quatro ligações covalentes, o correto é: O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados.",
+      "subtopicIds": [
+        "topico-02-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q427",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar capacidade de formar quatro ligações covalentes, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "D",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados. A alternativa correta descreve especificamente capacidade de formar quatro ligações covalentes.",
+      "subtopicIds": [
+        "topico-02-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q428",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de capacidade de formar quatro ligações covalentes: O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados.",
+      "resposta": true,
+      "explicacao": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados.",
+      "subtopicIds": [
+        "topico-02-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q429",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com capacidade de formar quatro ligações covalentes?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "D",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados. A alternativa correta descreve especificamente capacidade de formar quatro ligações covalentes.",
+      "subtopicIds": [
+        "topico-02-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q430",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de catenação?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias. A alternativa correta descreve especificamente catenação.",
+      "subtopicIds": [
+        "topico-02-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q431",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre catenação: O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre catenação, o correto é: Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias.",
+      "subtopicIds": [
+        "topico-02-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q432",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar catenação, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias. A alternativa correta descreve especificamente catenação.",
+      "subtopicIds": [
+        "topico-02-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q433",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de catenação: Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias.",
+      "resposta": true,
+      "explicacao": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias.",
+      "subtopicIds": [
+        "topico-02-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q434",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com catenação?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Catenação é a capacidade que os átomos de carbono têm de se ligar entre si, formando cadeias. A alternativa correta descreve especificamente catenação.",
+      "subtopicIds": [
+        "topico-02-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q435",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ligações simples, duplas e triplas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode estabelecer ligações simples, duplas e triplas."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O carbono pode estabelecer ligações simples, duplas e triplas. A alternativa correta descreve especificamente ligações simples, duplas e triplas.",
+      "subtopicIds": [
+        "topico-02-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q436",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ligações simples, duplas e triplas: O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ligações simples, duplas e triplas, o correto é: O carbono pode estabelecer ligações simples, duplas e triplas.",
+      "subtopicIds": [
+        "topico-02-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q437",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ligações simples, duplas e triplas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode estabelecer ligações simples, duplas e triplas."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O carbono pode estabelecer ligações simples, duplas e triplas. A alternativa correta descreve especificamente ligações simples, duplas e triplas.",
+      "subtopicIds": [
+        "topico-02-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q438",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ligações simples, duplas e triplas: O carbono pode estabelecer ligações simples, duplas e triplas.",
+      "resposta": true,
+      "explicacao": "O carbono pode estabelecer ligações simples, duplas e triplas.",
+      "subtopicIds": [
+        "topico-02-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q439",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ligações simples, duplas e triplas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode estabelecer ligações simples, duplas e triplas."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "O carbono pode estabelecer ligações simples, duplas e triplas. A alternativa correta descreve especificamente ligações simples, duplas e triplas.",
+      "subtopicIds": [
+        "topico-02-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q440",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ligações entre carbonos e outros elementos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios. A alternativa correta descreve especificamente ligações entre carbonos e outros elementos.",
+      "subtopicIds": [
+        "topico-02-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q441",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ligações entre carbonos e outros elementos: O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ligações entre carbonos e outros elementos, o correto é: O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios.",
+      "subtopicIds": [
+        "topico-02-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q442",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ligações entre carbonos e outros elementos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios. A alternativa correta descreve especificamente ligações entre carbonos e outros elementos.",
+      "subtopicIds": [
+        "topico-02-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q443",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ligações entre carbonos e outros elementos: O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios.",
+      "resposta": true,
+      "explicacao": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios.",
+      "subtopicIds": [
+        "topico-02-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q444",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ligações entre carbonos e outros elementos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O carbono pode ligar-se a elementos como hidrogênio, oxigênio, nitrogênio, enxofre e halogênios. A alternativa correta descreve especificamente ligações entre carbonos e outros elementos.",
+      "subtopicIds": [
+        "topico-02-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q445",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de classificação dos átomos de carbono?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "primário, secundário, terciário e quaternário."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "primário, secundário, terciário e quaternário. A alternativa correta descreve especificamente classificação dos átomos de carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q446",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre classificação dos átomos de carbono: O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre classificação dos átomos de carbono, o correto é: primário, secundário, terciário e quaternário.",
+      "subtopicIds": [
+        "topico-02-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q447",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar classificação dos átomos de carbono, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "primário, secundário, terciário e quaternário."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "primário, secundário, terciário e quaternário. A alternativa correta descreve especificamente classificação dos átomos de carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q448",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de classificação dos átomos de carbono: primário, secundário, terciário e quaternário.",
+      "resposta": true,
+      "explicacao": "primário, secundário, terciário e quaternário.",
+      "subtopicIds": [
+        "topico-02-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q449",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com classificação dos átomos de carbono?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "B",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "C",
+          "texto": "primário, secundário, terciário e quaternário."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "primário, secundário, terciário e quaternário. A alternativa correta descreve especificamente classificação dos átomos de carbono.",
+      "subtopicIds": [
+        "topico-02-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q450",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de representação das fórmulas orgânicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "Fórmula em bastão."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Fórmula em bastão. A alternativa correta descreve especificamente representação das fórmulas orgânicas.",
+      "subtopicIds": [
+        "topico-02-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q451",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre representação das fórmulas orgânicas: O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre representação das fórmulas orgânicas, o correto é: Fórmula em bastão.",
+      "subtopicIds": [
+        "topico-02-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q452",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar representação das fórmulas orgânicas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "Fórmula em bastão."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Fórmula em bastão. A alternativa correta descreve especificamente representação das fórmulas orgânicas.",
+      "subtopicIds": [
+        "topico-02-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q453",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de representação das fórmulas orgânicas: Fórmula em bastão.",
+      "resposta": true,
+      "explicacao": "Fórmula em bastão.",
+      "subtopicIds": [
+        "topico-02-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q454",
+      "tipo": "multipla_escolha",
+      "categoria": "Características do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com representação das fórmulas orgânicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O carbono pertence ao grupo 14 e ao segundo período da Tabela Periódica."
+        },
+        {
+          "id": "B",
+          "texto": "Fórmula em bastão."
+        },
+        {
+          "id": "C",
+          "texto": "Que pode formar quatro ligações covalentes."
+        },
+        {
+          "id": "D",
+          "texto": "O carbono pode formar até quatro ligações covalentes, conforme sua estrutura e os demais átomos ligados."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Fórmula em bastão. A alternativa correta descreve especificamente representação das fórmulas orgânicas.",
+      "subtopicIds": [
+        "topico-02-subtopico-08"
+      ]
     }
   ]
 }

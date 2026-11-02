@@ -20,7 +20,8 @@
 
 import { createRouter, createWebHistory } from 'vue-router'
 
-import { resolvePhase } from '../Data/Levels/index.js'
+import { LEVELS, resolvePhase } from '../Data/Levels/index.js'
+import { useProgress } from '../Composables/useProgress.js'
 import { ROUTE_NAMES } from './names.js'
 import ExplanationRoute from './views/ExplanationRoute.vue'
 import GameRoute from './views/GameRoute.vue'
@@ -32,14 +33,52 @@ import { lastAnswer, lastResult, sameId } from './session.js'
 
 export { ROUTE_NAMES }
 
+const progressStore = useProgress({ levels: LEVELS })
+
 /**
  * @param {import('vue-router').RouteLocationNormalized} to
  * @returns {true | import('vue-router').RouteLocationRaw}
  */
 function requirePhase(to) {
-  if (resolvePhase(to.params.levelId, to.params.phaseId)) return true
+  const session = resolvePhase(to.params.levelId, to.params.phaseId)
 
-  return { name: ROUTE_NAMES.roadmap, replace: true }
+  if (!session) return { name: ROUTE_NAMES.roadmap, replace: true }
+  if (!progressStore.isPhaseUnlocked(session.level.id, session.phase.id)) {
+    return { name: ROUTE_NAMES.roadmap, replace: true }
+  }
+
+  return true
+}
+
+/**
+ * Impede abrir diretamente um subtópico que ainda está bloqueado.
+ *
+ * @param {import('vue-router').RouteLocationNormalized} to
+ * @returns {true | import('vue-router').RouteLocationRaw}
+ */
+function requireGameAccess(to) {
+  const phaseCheck = requirePhase(to)
+
+  if (phaseCheck !== true) return phaseCheck
+
+  const subtopicId = to.query.subtopico
+
+  if (
+    typeof subtopicId === 'string' &&
+    progressStore.getSubtopicStatus(
+      to.params.levelId,
+      to.params.phaseId,
+      subtopicId,
+    ) === 'locked'
+  ) {
+    return {
+      name: ROUTE_NAMES.trail,
+      params: { levelId: to.params.levelId, phaseId: to.params.phaseId },
+      replace: true,
+    }
+  }
+
+  return true
 }
 
 /**
@@ -137,7 +176,7 @@ export const routes = [
     name: ROUTE_NAMES.game,
     component: GameRoute,
     props: true,
-    beforeEnter: requirePhase,
+    beforeEnter: requireGameAccess,
   },
   {
     path: '/area-de-testes',

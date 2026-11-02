@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Hibridização do carbono",
-  "totalQuestoes": 6,
+  "totalQuestoes": 63,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "C",
-      "explicacao": "A hibridização sp³ está associada à geometria tetraédrica e a ângulos próximos de 109,5°."
+      "explicacao": "A hibridização sp³ está associada à geometria tetraédrica e a ângulos próximos de 109,5°.",
+      "subtopicIds": [
+        "topico-03-subtopico-02"
+      ]
     },
     {
       "id": "Q010",
@@ -45,7 +48,10 @@
       "dificuldade": "medio",
       "enunciado": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação.",
       "resposta": true,
-      "explicacao": "A hibridização sp gera duas regiões de ligação orientadas em sentidos opostos, formando geometria linear."
+      "explicacao": "A hibridização sp gera duas regiões de ligação orientadas em sentidos opostos, formando geometria linear.",
+      "subtopicIds": [
+        "topico-03-subtopico-04"
+      ]
     },
     {
       "id": "Q011",
@@ -75,7 +81,10 @@
         "P2": "Trigonal plana — 120°.",
         "P3": "Linear — 180°."
       },
-      "explicacao": "As três hibridizações apresentadas estão associadas a geometrias e ângulos característicos."
+      "explicacao": "As três hibridizações apresentadas estão associadas a geometrias e ângulos característicos.",
+      "subtopicIds": [
+        "topico-03-subtopico-03"
+      ]
     },
     {
       "id": "Q012",
@@ -102,7 +111,10 @@
         }
       ],
       "resposta": "C",
-      "explicacao": "Uma ligação dupla contém uma ligação sigma e uma pi; uma tripla contém uma sigma e duas pi."
+      "explicacao": "Uma ligação dupla contém uma ligação sigma e uma pi; uma tripla contém uma sigma e duas pi.",
+      "subtopicIds": [
+        "topico-03-subtopico-05"
+      ]
     },
     {
       "id": "Q050",
@@ -129,7 +141,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "Uma ligação dupla é formada por uma ligação sigma e uma ligação pi."
+      "explicacao": "Uma ligação dupla é formada por uma ligação sigma e uma ligação pi.",
+      "subtopicIds": [
+        "topico-03-subtopico-06"
+      ]
     },
     {
       "id": "Q051",
@@ -138,7 +153,1306 @@
       "dificuldade": "medio",
       "enunciado": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°.",
       "resposta": true,
-      "explicacao": "Essa é a geometria característica associada à hibridização sp² no modelo apresentado no roteiro."
+      "explicacao": "Essa é a geometria característica associada à hibridização sp² no modelo apresentado no roteiro.",
+      "subtopicIds": [
+        "topico-03-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q114",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de hibridização dos orbitais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria linear e ângulo de 180°."
+        },
+        {
+          "id": "B",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "C",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações. A pergunta trata especificamente de conceito de hibridização dos orbitais.",
+      "subtopicIds": [
+        "topico-03-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q115",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de hibridização dos orbitais, é correto afirmar que Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "resposta": true,
+      "explicacao": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "subtopicIds": [
+        "topico-03-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q116",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de hibridização dos orbitais, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria linear e ângulo de 180°."
+        },
+        {
+          "id": "B",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "C",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações. A pergunta trata especificamente de conceito de hibridização dos orbitais.",
+      "subtopicIds": [
+        "topico-03-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q117",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de hibridização dos orbitais, é correto afirmar que geometria tetraédrica e ângulo aproximado de 109,5°.",
+      "resposta": false,
+      "explicacao": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-03-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q118",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente hibridização sp3?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria linear e ângulo de 180°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "geometria tetraédrica e ângulo aproximado de 109,5°. A pergunta trata especificamente de hibridização sp3.",
+      "subtopicIds": [
+        "topico-03-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q119",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre hibridização sp3, é correto afirmar que geometria tetraédrica e ângulo aproximado de 109,5°.",
+      "resposta": true,
+      "explicacao": "geometria tetraédrica e ângulo aproximado de 109,5°.",
+      "subtopicIds": [
+        "topico-03-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q120",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando hibridização sp3, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria linear e ângulo de 180°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "geometria tetraédrica e ângulo aproximado de 109,5°. A pergunta trata especificamente de hibridização sp3.",
+      "subtopicIds": [
+        "topico-03-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q121",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente hibridização sp2?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "geometria linear e ângulo de 180°."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "geometria trigonal plana e ângulo de 120°. A pergunta trata especificamente de hibridização sp2.",
+      "subtopicIds": [
+        "topico-03-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q122",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre hibridização sp2, é correto afirmar que geometria trigonal plana e ângulo de 120°.",
+      "resposta": true,
+      "explicacao": "geometria trigonal plana e ângulo de 120°.",
+      "subtopicIds": [
+        "topico-03-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q123",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente hibridização sp?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria linear e ângulo de 180°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "geometria linear e ângulo de 180°. A pergunta trata especificamente de hibridização sp.",
+      "subtopicIds": [
+        "topico-03-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q124",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre hibridização sp, é correto afirmar que geometria linear e ângulo de 180°.",
+      "resposta": true,
+      "explicacao": "geometria linear e ângulo de 180°.",
+      "subtopicIds": [
+        "topico-03-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q125",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando hibridização sp, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria linear e ângulo de 180°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "geometria linear e ângulo de 180°. A pergunta trata especificamente de hibridização sp.",
+      "subtopicIds": [
+        "topico-03-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q126",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ligações sigma (σ) e pi (π)?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "Ligações sigma (σ) e pi (π)."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ligações sigma (σ) e pi (π). A pergunta trata especificamente de ligações sigma (σ) e pi (π).",
+      "subtopicIds": [
+        "topico-03-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q127",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ligações sigma (σ) e pi (π), é correto afirmar que Ligações sigma (σ) e pi (π).",
+      "resposta": true,
+      "explicacao": "Ligações sigma (σ) e pi (π).",
+      "subtopicIds": [
+        "topico-03-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q128",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando ligações sigma (σ) e pi (π), qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "Ligações sigma (σ) e pi (π)."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ligações sigma (σ) e pi (π). A pergunta trata especificamente de ligações sigma (σ) e pi (π).",
+      "subtopicIds": [
+        "topico-03-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q129",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente relação entre hibridização e tipos de ligações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "Relação entre hibridização e tipos de ligações."
+        },
+        {
+          "id": "D",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Relação entre hibridização e tipos de ligações. A pergunta trata especificamente de relação entre hibridização e tipos de ligações.",
+      "subtopicIds": [
+        "topico-03-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q130",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre relação entre hibridização e tipos de ligações, é correto afirmar que Relação entre hibridização e tipos de ligações.",
+      "resposta": true,
+      "explicacao": "Relação entre hibridização e tipos de ligações.",
+      "subtopicIds": [
+        "topico-03-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q131",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando relação entre hibridização e tipos de ligações, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "Relação entre hibridização e tipos de ligações."
+        },
+        {
+          "id": "D",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Relação entre hibridização e tipos de ligações. A pergunta trata especificamente de relação entre hibridização e tipos de ligações.",
+      "subtopicIds": [
+        "topico-03-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q132",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente identificação da hibridização em moléculas orgânicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "B",
+          "texto": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp."
+        },
+        {
+          "id": "C",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp. A pergunta trata especificamente de identificação da hibridização em moléculas orgânicas.",
+      "subtopicIds": [
+        "topico-03-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q133",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação da hibridização em moléculas orgânicas, é correto afirmar que A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp.",
+      "resposta": true,
+      "explicacao": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp.",
+      "subtopicIds": [
+        "topico-03-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q134",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considerando identificação da hibridização em moléculas orgânicas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "B",
+          "texto": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp."
+        },
+        {
+          "id": "C",
+          "texto": "geometria tetraédrica e ângulo aproximado de 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "geometria trigonal plana e ângulo de 120°."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp. A pergunta trata especificamente de identificação da hibridização em moléculas orgânicas.",
+      "subtopicIds": [
+        "topico-03-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q135",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação da hibridização em moléculas orgânicas, é correto afirmar que Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "resposta": false,
+      "explicacao": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-03-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q455",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de hibridização dos orbitais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "B",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações. A alternativa correta descreve especificamente conceito de hibridização dos orbitais.",
+      "subtopicIds": [
+        "topico-03-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q456",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de hibridização dos orbitais: Tetraédrica, aproximadamente 109,5°.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de hibridização dos orbitais, o correto é: Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "subtopicIds": [
+        "topico-03-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q457",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de hibridização dos orbitais, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "B",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações. A alternativa correta descreve especificamente conceito de hibridização dos orbitais.",
+      "subtopicIds": [
+        "topico-03-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q458",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de hibridização dos orbitais: Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "resposta": true,
+      "explicacao": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "subtopicIds": [
+        "topico-03-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q459",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de hibridização dos orbitais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "B",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações. A alternativa correta descreve especificamente conceito de hibridização dos orbitais.",
+      "subtopicIds": [
+        "topico-03-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q460",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de hibridização sp3?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Tetraédrica, aproximadamente 109,5°. A alternativa correta descreve especificamente hibridização sp3.",
+      "subtopicIds": [
+        "topico-03-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q461",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre hibridização sp3: Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre hibridização sp3, o correto é: Tetraédrica, aproximadamente 109,5°.",
+      "subtopicIds": [
+        "topico-03-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q462",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar hibridização sp3, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Tetraédrica, aproximadamente 109,5°. A alternativa correta descreve especificamente hibridização sp3.",
+      "subtopicIds": [
+        "topico-03-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q463",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de hibridização sp3: Tetraédrica, aproximadamente 109,5°.",
+      "resposta": true,
+      "explicacao": "Tetraédrica, aproximadamente 109,5°.",
+      "subtopicIds": [
+        "topico-03-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q464",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com hibridização sp3?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Tetraédrica, aproximadamente 109,5°. A alternativa correta descreve especificamente hibridização sp3.",
+      "subtopicIds": [
+        "topico-03-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q465",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de hibridização sp2?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°. A alternativa correta descreve especificamente hibridização sp2.",
+      "subtopicIds": [
+        "topico-03-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q466",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre hibridização sp2: Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre hibridização sp2, o correto é: A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°.",
+      "subtopicIds": [
+        "topico-03-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q467",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar hibridização sp2, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°. A alternativa correta descreve especificamente hibridização sp2.",
+      "subtopicIds": [
+        "topico-03-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q468",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de hibridização sp2: A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°.",
+      "resposta": true,
+      "explicacao": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°.",
+      "subtopicIds": [
+        "topico-03-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q469",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com hibridização sp2?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "D",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°. A alternativa correta descreve especificamente hibridização sp2.",
+      "subtopicIds": [
+        "topico-03-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q470",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de hibridização sp?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "B",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação. A alternativa correta descreve especificamente hibridização sp.",
+      "subtopicIds": [
+        "topico-03-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q471",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre hibridização sp: Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre hibridização sp, o correto é: Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação.",
+      "subtopicIds": [
+        "topico-03-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q472",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar hibridização sp, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "B",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação. A alternativa correta descreve especificamente hibridização sp.",
+      "subtopicIds": [
+        "topico-03-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q473",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de hibridização sp: Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação.",
+      "resposta": true,
+      "explicacao": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação.",
+      "subtopicIds": [
+        "topico-03-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q474",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com hibridização sp?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "B",
+          "texto": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Um carbono com hibridização sp apresenta geometria linear e ângulo aproximado de 180° entre as direções de ligação. A alternativa correta descreve especificamente hibridização sp.",
+      "subtopicIds": [
+        "topico-03-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q475",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ligações sigma (σ) e pi (π)?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi. A alternativa correta descreve especificamente ligações sigma (σ) e pi (π).",
+      "subtopicIds": [
+        "topico-03-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q476",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ligações sigma (σ) e pi (π): Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ligações sigma (σ) e pi (π), o correto é: Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi.",
+      "subtopicIds": [
+        "topico-03-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q477",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ligações sigma (σ) e pi (π), qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi. A alternativa correta descreve especificamente ligações sigma (σ) e pi (π).",
+      "subtopicIds": [
+        "topico-03-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q478",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ligações sigma (σ) e pi (π): Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi.",
+      "resposta": true,
+      "explicacao": "Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi.",
+      "subtopicIds": [
+        "topico-03-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q479",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ligações sigma (σ) e pi (π)?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Uma ligação simples é sigma; em ligações múltiplas, há uma sigma e uma ou mais pi. A alternativa correta descreve especificamente ligações sigma (σ) e pi (π).",
+      "subtopicIds": [
+        "topico-03-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q480",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de relação entre hibridização e tipos de ligações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação sigma e uma ligação pi."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Uma ligação sigma e uma ligação pi. A alternativa correta descreve especificamente relação entre hibridização e tipos de ligações.",
+      "subtopicIds": [
+        "topico-03-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q481",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre relação entre hibridização e tipos de ligações: Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre relação entre hibridização e tipos de ligações, o correto é: Uma ligação sigma e uma ligação pi.",
+      "subtopicIds": [
+        "topico-03-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q482",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar relação entre hibridização e tipos de ligações, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação sigma e uma ligação pi."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Uma ligação sigma e uma ligação pi. A alternativa correta descreve especificamente relação entre hibridização e tipos de ligações.",
+      "subtopicIds": [
+        "topico-03-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q483",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de relação entre hibridização e tipos de ligações: Uma ligação sigma e uma ligação pi.",
+      "resposta": true,
+      "explicacao": "Uma ligação sigma e uma ligação pi.",
+      "subtopicIds": [
+        "topico-03-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q484",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com relação entre hibridização e tipos de ligações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação sigma e uma ligação pi."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Uma ligação sigma e uma ligação pi. A alternativa correta descreve especificamente relação entre hibridização e tipos de ligações.",
+      "subtopicIds": [
+        "topico-03-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q485",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de identificação da hibridização em moléculas orgânicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp."
+        },
+        {
+          "id": "D",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp. A alternativa correta descreve especificamente identificação da hibridização em moléculas orgânicas.",
+      "subtopicIds": [
+        "topico-03-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q486",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre identificação da hibridização em moléculas orgânicas: Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre identificação da hibridização em moléculas orgânicas, o correto é: A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp.",
+      "subtopicIds": [
+        "topico-03-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q487",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar identificação da hibridização em moléculas orgânicas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp."
+        },
+        {
+          "id": "D",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp. A alternativa correta descreve especificamente identificação da hibridização em moléculas orgânicas.",
+      "subtopicIds": [
+        "topico-03-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q488",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de identificação da hibridização em moléculas orgânicas: A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp.",
+      "resposta": true,
+      "explicacao": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp.",
+      "subtopicIds": [
+        "topico-03-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q489",
+      "tipo": "multipla_escolha",
+      "categoria": "Hibridização do carbono",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com identificação da hibridização em moléculas orgânicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Tetraédrica, aproximadamente 109,5°."
+        },
+        {
+          "id": "B",
+          "texto": "Hibridização é a combinação de orbitais atômicos que origina orbitais híbridos para descrever as ligações."
+        },
+        {
+          "id": "C",
+          "texto": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp."
+        },
+        {
+          "id": "D",
+          "texto": "A hibridização sp² está associada à geometria trigonal plana e a ângulos aproximados de 120°."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A hibridização é inferida pelas regiões de ligação ao redor do carbono: sp³, sp² ou sp. A alternativa correta descreve especificamente identificação da hibridização em moléculas orgânicas.",
+      "subtopicIds": [
+        "topico-03-subtopico-07"
+      ]
     }
   ]
 }

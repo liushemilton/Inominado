@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Halogênios e haletos orgânicos",
-  "totalQuestoes": 6,
+  "totalQuestoes": 81,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "O roteiro destaca flúor, cloro, bromo e iodo como halogênios."
+      "explicacao": "O roteiro destaca flúor, cloro, bromo e iodo como halogênios.",
+      "subtopicIds": [
+        "topico-08-subtopico-01"
+      ]
     },
     {
       "id": "Q030",
@@ -45,7 +48,10 @@
       "dificuldade": "medio",
       "enunciado": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio.",
       "resposta": true,
-      "explicacao": "A ligação carbono-halogênio é característica central dos haletos orgânicos."
+      "explicacao": "A ligação carbono-halogênio é característica central dos haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-02"
+      ]
     },
     {
       "id": "Q031",
@@ -69,7 +75,10 @@
         "P1": "Halogênio ligado a um carbono de cadeia alifática.",
         "P2": "Halogênio ligado diretamente a um anel aromático."
       },
-      "explicacao": "A distinção depende de o halogênio estar ligado a uma estrutura alifática ou diretamente a um anel aromático."
+      "explicacao": "A distinção depende de o halogênio estar ligado a uma estrutura alifática ou diretamente a um anel aromático.",
+      "subtopicIds": [
+        "topico-08-subtopico-03"
+      ]
     },
     {
       "id": "Q032",
@@ -96,7 +105,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "O roteiro destaca os impactos ambientais associados a certos CFCs ao estudar haletos orgânicos."
+      "explicacao": "O roteiro destaca os impactos ambientais associados a certos CFCs ao estudar haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-09"
+      ]
     },
     {
       "id": "Q063",
@@ -123,7 +135,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "Haletos de arila apresentam o halogênio ligado diretamente a um carbono do anel aromático."
+      "explicacao": "Haletos de arila apresentam o halogênio ligado diretamente a um carbono do anel aromático.",
+      "subtopicIds": [
+        "topico-08-subtopico-03"
+      ]
     },
     {
       "id": "Q064",
@@ -159,7 +174,1684 @@
         "P3": "Br",
         "P4": "I"
       },
-      "explicacao": "F, Cl, Br e I são os símbolos químicos de flúor, cloro, bromo e iodo, respectivamente."
+      "explicacao": "F, Cl, Br e I são os símbolos químicos de flúor, cloro, bromo e iodo, respectivamente.",
+      "subtopicIds": [
+        "topico-08-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q269",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente halogênios na tabela periódica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos de alquila e haletos de arila."
+        },
+        {
+          "id": "B",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "C",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "flúor, cloro, bromo e iodo. A pergunta trata especificamente de halogênios na tabela periódica.",
+      "subtopicIds": [
+        "topico-08-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q270",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre halogênios na tabela periódica, é correto afirmar que flúor, cloro, bromo e iodo.",
+      "resposta": true,
+      "explicacao": "flúor, cloro, bromo e iodo.",
+      "subtopicIds": [
+        "topico-08-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q271",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos de alquila e haletos de arila."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio. A pergunta trata especificamente de conceito de haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q272",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de haletos orgânicos, é correto afirmar que Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio.",
+      "resposta": true,
+      "explicacao": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q273",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de haletos orgânicos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos de alquila e haletos de arila."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio. A pergunta trata especificamente de conceito de haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q274",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente haletos de alquila e haletos de arila?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        },
+        {
+          "id": "B",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Haletos de alquila e haletos de arila. A pergunta trata especificamente de haletos de alquila e haletos de arila.",
+      "subtopicIds": [
+        "topico-08-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q275",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre haletos de alquila e haletos de arila, é correto afirmar que Haletos de alquila e haletos de arila.",
+      "resposta": true,
+      "explicacao": "Haletos de alquila e haletos de arila.",
+      "subtopicIds": [
+        "topico-08-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q276",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente identificação das ligações carbono-halogênio?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono. A pergunta trata especificamente de identificação das ligações carbono-halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q277",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação das ligações carbono-halogênio, é correto afirmar que Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono.",
+      "resposta": true,
+      "explicacao": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono.",
+      "subtopicIds": [
+        "topico-08-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q278",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando identificação das ligações carbono-halogênio, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono. A pergunta trata especificamente de identificação das ligações carbono-halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q279",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação das ligações carbono-halogênio, é correto afirmar que flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-08-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q280",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente nomenclatura dos haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia. A pergunta trata especificamente de nomenclatura dos haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q281",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura dos haletos orgânicos, é correto afirmar que A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia.",
+      "resposta": true,
+      "explicacao": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia.",
+      "subtopicIds": [
+        "topico-08-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q282",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando nomenclatura dos haletos orgânicos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia. A pergunta trata especificamente de nomenclatura dos haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q283",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura dos haletos orgânicos, é correto afirmar que flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-08-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q284",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente classificação em primários, secundários e terciários, quando aplicável?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio. A pergunta trata especificamente de classificação em primários, secundários e terciários, quando aplicável.",
+      "subtopicIds": [
+        "topico-08-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q285",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre classificação em primários, secundários e terciários, quando aplicável, é correto afirmar que A classificação depende do número de carbonos ligados ao carbono que porta o halogênio.",
+      "resposta": true,
+      "explicacao": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q286",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando classificação em primários, secundários e terciários, quando aplicável, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio. A pergunta trata especificamente de classificação em primários, secundários e terciários, quando aplicável.",
+      "subtopicIds": [
+        "topico-08-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q287",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre classificação em primários, secundários e terciários, quando aplicável, é correto afirmar que flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-08-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q288",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente polaridade das ligações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos. A pergunta trata especificamente de polaridade das ligações.",
+      "subtopicIds": [
+        "topico-08-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q289",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre polaridade das ligações, é correto afirmar que Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos.",
+      "resposta": true,
+      "explicacao": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos.",
+      "subtopicIds": [
+        "topico-08-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q290",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando polaridade das ligações, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos. A pergunta trata especificamente de polaridade das ligações.",
+      "subtopicIds": [
+        "topico-08-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q291",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre polaridade das ligações, é correto afirmar que flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-08-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q292",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente propriedades físicas e químicas no módulo de halogênios e haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos. A pergunta trata especificamente de propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-08-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q293",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades físicas e químicas, é correto afirmar que Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos.",
+      "resposta": true,
+      "explicacao": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos.",
+      "subtopicIds": [
+        "topico-08-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q294",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando propriedades físicas e químicas, qual característica deve ser reconhecida no módulo de halogênios e haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos. A pergunta trata especificamente de propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-08-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q295",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades físicas e químicas, é correto afirmar que flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-08-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q296",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente aplicações e impactos ambientais, como os associados a certos cfcs?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Alguns CFCs contribuem para a destruição do ozônio estratosférico; o impacto depende da substância e de seu uso."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Alguns CFCs contribuem para a destruição do ozônio estratosférico; o impacto depende da substância e de seu uso. A pergunta trata especificamente de aplicações e impactos ambientais, como os associados a certos cfcs.",
+      "subtopicIds": [
+        "topico-08-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q297",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre aplicações e impactos ambientais, como os associados a certos cfcs, é correto afirmar que Alguns CFCs contribuem para a destruição do ozônio estratosférico; o impacto depende da substância e de seu uso.",
+      "resposta": true,
+      "explicacao": "Alguns CFCs contribuem para a destruição do ozônio estratosférico; o impacto depende da substância e de seu uso.",
+      "subtopicIds": [
+        "topico-08-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q298",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando aplicações e impactos ambientais, como os associados a certos cfcs, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Alguns CFCs contribuem para a destruição do ozônio estratosférico; o impacto depende da substância e de seu uso."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos apresentam ao menos uma ligação entre carbono e halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Haletos de alquila e haletos de arila."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Alguns CFCs contribuem para a destruição do ozônio estratosférico; o impacto depende da substância e de seu uso. A pergunta trata especificamente de aplicações e impactos ambientais, como os associados a certos cfcs.",
+      "subtopicIds": [
+        "topico-08-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q690",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de halogênios na tabela periódica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Flúor, cloro, bromo e iodo. A alternativa correta descreve especificamente halogênios na tabela periódica.",
+      "subtopicIds": [
+        "topico-08-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q691",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre halogênios na tabela periódica: Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre halogênios na tabela periódica, o correto é: Flúor, cloro, bromo e iodo.",
+      "subtopicIds": [
+        "topico-08-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q692",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar halogênios na tabela periódica, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Flúor, cloro, bromo e iodo. A alternativa correta descreve especificamente halogênios na tabela periódica.",
+      "subtopicIds": [
+        "topico-08-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q693",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de halogênios na tabela periódica: Flúor, cloro, bromo e iodo.",
+      "resposta": true,
+      "explicacao": "Flúor, cloro, bromo e iodo.",
+      "subtopicIds": [
+        "topico-08-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q694",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com halogênios na tabela periódica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Flúor, cloro, bromo e iodo. A alternativa correta descreve especificamente halogênios na tabela periódica.",
+      "subtopicIds": [
+        "topico-08-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q695",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio. A alternativa correta descreve especificamente conceito de haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q696",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de haletos orgânicos: Flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de haletos orgânicos, o correto é: Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q697",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de haletos orgânicos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio. A alternativa correta descreve especificamente conceito de haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q698",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de haletos orgânicos: Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio.",
+      "resposta": true,
+      "explicacao": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q699",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio. A alternativa correta descreve especificamente conceito de haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q700",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de haletos de alquila e haletos de arila?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O halogênio está ligado diretamente a um anel aromático. A alternativa correta descreve especificamente haletos de alquila e haletos de arila.",
+      "subtopicIds": [
+        "topico-08-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q701",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre haletos de alquila e haletos de arila: Flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre haletos de alquila e haletos de arila, o correto é: O halogênio está ligado diretamente a um anel aromático.",
+      "subtopicIds": [
+        "topico-08-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q702",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar haletos de alquila e haletos de arila, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O halogênio está ligado diretamente a um anel aromático. A alternativa correta descreve especificamente haletos de alquila e haletos de arila.",
+      "subtopicIds": [
+        "topico-08-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q703",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de haletos de alquila e haletos de arila: O halogênio está ligado diretamente a um anel aromático.",
+      "resposta": true,
+      "explicacao": "O halogênio está ligado diretamente a um anel aromático.",
+      "subtopicIds": [
+        "topico-08-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q704",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com haletos de alquila e haletos de arila?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O halogênio está ligado diretamente a um anel aromático. A alternativa correta descreve especificamente haletos de alquila e haletos de arila.",
+      "subtopicIds": [
+        "topico-08-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q705",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de identificação das ligações carbono-halogênio?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono. A alternativa correta descreve especificamente identificação das ligações carbono-halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q706",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre identificação das ligações carbono-halogênio: Flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre identificação das ligações carbono-halogênio, o correto é: Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono.",
+      "subtopicIds": [
+        "topico-08-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q707",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar identificação das ligações carbono-halogênio, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono. A alternativa correta descreve especificamente identificação das ligações carbono-halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q708",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de identificação das ligações carbono-halogênio: Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono.",
+      "resposta": true,
+      "explicacao": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono.",
+      "subtopicIds": [
+        "topico-08-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q709",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com identificação das ligações carbono-halogênio?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Uma ligação carbono-halogênio ocorre quando um átomo de halogênio se liga diretamente a um carbono. A alternativa correta descreve especificamente identificação das ligações carbono-halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q710",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de nomenclatura dos haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia. A alternativa correta descreve especificamente nomenclatura dos haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q711",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre nomenclatura dos haletos orgânicos: Flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre nomenclatura dos haletos orgânicos, o correto é: A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia.",
+      "subtopicIds": [
+        "topico-08-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q712",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar nomenclatura dos haletos orgânicos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia. A alternativa correta descreve especificamente nomenclatura dos haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q713",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de nomenclatura dos haletos orgânicos: A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia.",
+      "resposta": true,
+      "explicacao": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia.",
+      "subtopicIds": [
+        "topico-08-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q714",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com nomenclatura dos haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura indica o halogênio como substituinte e informa sua posição na cadeia. A alternativa correta descreve especificamente nomenclatura dos haletos orgânicos.",
+      "subtopicIds": [
+        "topico-08-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q715",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de classificação em primários, secundários e terciários, quando aplicável?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio. A alternativa correta descreve especificamente classificação em primários, secundários e terciários, quando aplicável.",
+      "subtopicIds": [
+        "topico-08-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q716",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre classificação em primários, secundários e terciários, quando aplicável: Flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre classificação em primários, secundários e terciários, quando aplicável, o correto é: A classificação depende do número de carbonos ligados ao carbono que porta o halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q717",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar classificação em primários, secundários e terciários, quando aplicável, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio. A alternativa correta descreve especificamente classificação em primários, secundários e terciários, quando aplicável.",
+      "subtopicIds": [
+        "topico-08-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q718",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de classificação em primários, secundários e terciários, quando aplicável: A classificação depende do número de carbonos ligados ao carbono que porta o halogênio.",
+      "resposta": true,
+      "explicacao": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio.",
+      "subtopicIds": [
+        "topico-08-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q719",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com classificação em primários, secundários e terciários, quando aplicável?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A classificação depende do número de carbonos ligados ao carbono que porta o halogênio. A alternativa correta descreve especificamente classificação em primários, secundários e terciários, quando aplicável.",
+      "subtopicIds": [
+        "topico-08-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q720",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de polaridade das ligações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos. A alternativa correta descreve especificamente polaridade das ligações.",
+      "subtopicIds": [
+        "topico-08-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q721",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre polaridade das ligações: Flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre polaridade das ligações, o correto é: Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos.",
+      "subtopicIds": [
+        "topico-08-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q722",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar polaridade das ligações, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos. A alternativa correta descreve especificamente polaridade das ligações.",
+      "subtopicIds": [
+        "topico-08-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q723",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de polaridade das ligações: Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos.",
+      "resposta": true,
+      "explicacao": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos.",
+      "subtopicIds": [
+        "topico-08-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q724",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com polaridade das ligações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ligações carbono-halogênio são polares devido à diferença de eletronegatividade entre os átomos. A alternativa correta descreve especificamente polaridade das ligações.",
+      "subtopicIds": [
+        "topico-08-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q725",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de propriedades físicas e químicas no módulo de halogênios e haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos. A alternativa correta descreve especificamente propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-08-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q726",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre propriedades físicas e químicas: Flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre propriedades físicas e químicas, o correto é: Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos.",
+      "subtopicIds": [
+        "topico-08-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q727",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar propriedades físicas e químicas, qual informação deve ser considerada no módulo de halogênios e haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos. A alternativa correta descreve especificamente propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-08-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q728",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de propriedades físicas e químicas: Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos.",
+      "resposta": true,
+      "explicacao": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos.",
+      "subtopicIds": [
+        "topico-08-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q729",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com propriedades físicas e químicas no módulo de halogênios e haletos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "C",
+          "texto": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Massa molecular e polaridade influenciam os pontos de ebulição e a solubilidade dos haletos. A alternativa correta descreve especificamente propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-08-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q730",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de aplicações e impactos ambientais, como os associados a certos cfcs?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Impactos ambientais."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Impactos ambientais. A alternativa correta descreve especificamente aplicações e impactos ambientais, como os associados a certos cfcs.",
+      "subtopicIds": [
+        "topico-08-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q731",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre aplicações e impactos ambientais, como os associados a certos cfcs: Flúor, cloro, bromo e iodo.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre aplicações e impactos ambientais, como os associados a certos cfcs, o correto é: Impactos ambientais.",
+      "subtopicIds": [
+        "topico-08-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q732",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar aplicações e impactos ambientais, como os associados a certos cfcs, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Impactos ambientais."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Impactos ambientais. A alternativa correta descreve especificamente aplicações e impactos ambientais, como os associados a certos cfcs.",
+      "subtopicIds": [
+        "topico-08-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q733",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de aplicações e impactos ambientais, como os associados a certos cfcs: Impactos ambientais.",
+      "resposta": true,
+      "explicacao": "Impactos ambientais.",
+      "subtopicIds": [
+        "topico-08-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q734",
+      "tipo": "multipla_escolha",
+      "categoria": "Halogênios e haletos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com aplicações e impactos ambientais, como os associados a certos cfcs?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Flúor, cloro, bromo e iodo."
+        },
+        {
+          "id": "B",
+          "texto": "Impactos ambientais."
+        },
+        {
+          "id": "C",
+          "texto": "Haletos orgânicos são compostos que apresentam ligação entre carbono e um halogênio."
+        },
+        {
+          "id": "D",
+          "texto": "O halogênio está ligado diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Impactos ambientais. A alternativa correta descreve especificamente aplicações e impactos ambientais, como os associados a certos cfcs.",
+      "subtopicIds": [
+        "topico-08-subtopico-09"
+      ]
     }
   ]
 }

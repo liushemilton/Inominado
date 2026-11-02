@@ -2,7 +2,8 @@
 import { computed } from 'vue'
 import { RouterLink, useRouter } from 'vue-router'
 
-import { resolvePhase } from '../../Data/Levels/index.js'
+import { LEVELS, resolvePhase } from '../../Data/Levels/index.js'
+import { useProgress } from '../../Composables/useProgress.js'
 import TopicTrailView from '../../Views/TopicTrailView.vue'
 import { ROUTE_NAMES } from '../names.js'
 
@@ -12,8 +13,26 @@ const props = defineProps({
 })
 
 const router = useRouter()
+const progressStore = useProgress({ levels: LEVELS })
 
 const session = computed(() => resolvePhase(props.levelId, props.phaseId))
+const phaseWithProgress = computed(() => {
+  const current = session.value
+
+  if (!current) return null
+
+  return {
+    ...current.phase,
+    subtopics: (current.phase.subtopics ?? []).map((subtopic) => ({
+      ...subtopic,
+      status: progressStore.getSubtopicStatus(
+        current.level.id,
+        current.phase.id,
+        subtopic.id,
+      ),
+    })),
+  }
+})
 
 function handleBack() {
   router.push({ name: ROUTE_NAMES.roadmap })
@@ -21,14 +40,14 @@ function handleBack() {
 
 /**
  * Cada subtópico é um nível da trilha. A seleção leva para a partida
- * da fase com o subtópico escolhido na URL, para as questões serem
- * filtradas quando forem cadastradas.
+ * da fase com o subtópico escolhido na URL, filtrando pelas questões
+ * associadas e respeitando o desbloqueio sequencial.
  *
  * @param {{ id?: string }} subtopic
  * @returns {void}
  */
 function handleSelect(subtopic = {}) {
-  if (!subtopic.id) return
+  if (!subtopic.id || subtopic.status === 'locked') return
 
   router.push({
     name: ROUTE_NAMES.game,
@@ -42,7 +61,7 @@ function handleSelect(subtopic = {}) {
   <TopicTrailView
     v-if="session"
     :level="session.level"
-    :phase="session.phase"
+    :phase="phaseWithProgress"
     @back="handleBack"
     @select="handleSelect"
   />

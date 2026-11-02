@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Regra do octeto",
-  "totalQuestoes": 6,
+  "totalQuestoes": 54,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "A camada de valência é a camada eletrônica mais externa e seus elétrons participam das ligações químicas."
+      "explicacao": "A camada de valência é a camada eletrônica mais externa e seus elétrons participam das ligações químicas.",
+      "subtopicIds": [
+        "topico-01-subtopico-02"
+      ]
     },
     {
       "id": "Q002",
@@ -45,7 +48,10 @@
       "dificuldade": "facil",
       "enunciado": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência.",
       "resposta": true,
-      "explicacao": "Essa é a ideia geral da regra do octeto. Existem exceções, e o hidrogênio é frequentemente explicado pela regra do dueto."
+      "explicacao": "Essa é a ideia geral da regra do octeto. Existem exceções, e o hidrogênio é frequentemente explicado pela regra do dueto.",
+      "subtopicIds": [
+        "topico-01-subtopico-03"
+      ]
     },
     {
       "id": "Q003",
@@ -75,7 +81,10 @@
         "P2": "Compartilhamento de pares de elétrons entre átomos.",
         "P3": "Cátions metálicos organizados com elétrons deslocalizados."
       },
-      "explicacao": "As ligações iônica, covalente e metálica diferem pela maneira como os elétrons participam da união entre as partículas."
+      "explicacao": "As ligações iônica, covalente e metálica diferem pela maneira como os elétrons participam da união entre as partículas.",
+      "subtopicIds": [
+        "topico-01-subtopico-04"
+      ]
     },
     {
       "id": "Q004",
@@ -102,7 +111,10 @@
         }
       ],
       "resposta": "C",
-      "explicacao": "O hidrogênio fica estável com dois elétrons na sua única camada eletrônica."
+      "explicacao": "O hidrogênio fica estável com dois elétrons na sua única camada eletrônica.",
+      "subtopicIds": [
+        "topico-01-subtopico-03"
+      ]
     },
     {
       "id": "Q045",
@@ -129,7 +141,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "A regra do octeto é uma orientação útil, mas há exceções, como espécies deficientes em elétrons e elementos que podem apresentar octeto expandido."
+      "explicacao": "A regra do octeto é uma orientação útil, mas há exceções, como espécies deficientes em elétrons e elementos que podem apresentar octeto expandido.",
+      "subtopicIds": [
+        "topico-01-subtopico-06"
+      ]
     },
     {
       "id": "Q046",
@@ -138,7 +153,1108 @@
       "dificuldade": "medio",
       "enunciado": "Em uma ligação covalente, os átomos compartilham pares de elétrons.",
       "resposta": true,
-      "explicacao": "O compartilhamento de pares de elétrons é a característica central da ligação covalente."
+      "explicacao": "O compartilhamento de pares de elétrons é a característica central da ligação covalente.",
+      "subtopicIds": [
+        "topico-01-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q071",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de estabilidade química?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "C",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade. A pergunta trata especificamente de conceito de estabilidade química.",
+      "subtopicIds": [
+        "topico-01-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q072",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de estabilidade química, é correto afirmar que Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "resposta": true,
+      "explicacao": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "subtopicIds": [
+        "topico-01-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q073",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de estabilidade química, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "C",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade. A pergunta trata especificamente de conceito de estabilidade química.",
+      "subtopicIds": [
+        "topico-01-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q074",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de estabilidade química, é correto afirmar que A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência.",
+      "resposta": false,
+      "explicacao": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-01-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q075",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente camada de valência e elétrons de valência?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência. A pergunta trata especificamente de camada de valência e elétrons de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q076",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Sobre camada de valência e elétrons de valência, é correto afirmar que A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência.",
+      "resposta": true,
+      "explicacao": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q077",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considerando camada de valência e elétrons de valência, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência. A pergunta trata especificamente de camada de valência e elétrons de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q078",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente regra do octeto e regra do dueto?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "iônica, covalente e metálica."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "D",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois. A pergunta trata especificamente de regra do octeto e regra do dueto.",
+      "subtopicIds": [
+        "topico-01-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q079",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Sobre regra do octeto e regra do dueto, é correto afirmar que Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois.",
+      "resposta": true,
+      "explicacao": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois.",
+      "subtopicIds": [
+        "topico-01-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q080",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ligações químicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "iônica, covalente e metálica."
+        },
+        {
+          "id": "C",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "D",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "iônica, covalente e metálica. A pergunta trata especificamente de ligações químicas.",
+      "subtopicIds": [
+        "topico-01-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q081",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ligações químicas, é correto afirmar que iônica, covalente e metálica.",
+      "resposta": true,
+      "explicacao": "iônica, covalente e metálica.",
+      "subtopicIds": [
+        "topico-01-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q082",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considerando ligações químicas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "iônica, covalente e metálica."
+        },
+        {
+          "id": "C",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "D",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "iônica, covalente e metálica. A pergunta trata especificamente de ligações químicas.",
+      "subtopicIds": [
+        "topico-01-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q083",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente compartilhamento de elétrons nas ligações covalentes?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ligação covalente, os átomos compartilham um ou mais pares de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "D",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Na ligação covalente, os átomos compartilham um ou mais pares de elétrons. A pergunta trata especificamente de compartilhamento de elétrons nas ligações covalentes.",
+      "subtopicIds": [
+        "topico-01-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q084",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Sobre compartilhamento de elétrons nas ligações covalentes, é correto afirmar que Na ligação covalente, os átomos compartilham um ou mais pares de elétrons.",
+      "resposta": true,
+      "explicacao": "Na ligação covalente, os átomos compartilham um ou mais pares de elétrons.",
+      "subtopicIds": [
+        "topico-01-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q085",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considerando compartilhamento de elétrons nas ligações covalentes, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ligação covalente, os átomos compartilham um ou mais pares de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "D",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Na ligação covalente, os átomos compartilham um ou mais pares de elétrons. A pergunta trata especificamente de compartilhamento de elétrons nas ligações covalentes.",
+      "subtopicIds": [
+        "topico-01-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q086",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente exceções à regra do octeto?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "D",
+          "texto": "A regra do octeto é um modelo útil, mas há espécies estáveis que não seguem oito elétrons ao redor de cada átomo."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A regra do octeto é um modelo útil, mas há espécies estáveis que não seguem oito elétrons ao redor de cada átomo. A pergunta trata especificamente de exceções à regra do octeto.",
+      "subtopicIds": [
+        "topico-01-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q087",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Sobre exceções à regra do octeto, é correto afirmar que A regra do octeto é um modelo útil, mas há espécies estáveis que não seguem oito elétrons ao redor de cada átomo.",
+      "resposta": true,
+      "explicacao": "A regra do octeto é um modelo útil, mas há espécies estáveis que não seguem oito elétrons ao redor de cada átomo.",
+      "subtopicIds": [
+        "topico-01-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q088",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considerando exceções à regra do octeto, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Muitos átomos tendem a completar oito elétrons na camada de valência; o hidrogênio tende a completar dois."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada de valência é a camada eletrônica mais externa; seus elétrons são os de valência."
+        },
+        {
+          "id": "D",
+          "texto": "A regra do octeto é um modelo útil, mas há espécies estáveis que não seguem oito elétrons ao redor de cada átomo."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A regra do octeto é um modelo útil, mas há espécies estáveis que não seguem oito elétrons ao redor de cada átomo. A pergunta trata especificamente de exceções à regra do octeto.",
+      "subtopicIds": [
+        "topico-01-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q385",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de estabilidade química?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade. A alternativa correta descreve especificamente conceito de estabilidade química.",
+      "subtopicIds": [
+        "topico-01-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q386",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de estabilidade química: A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de estabilidade química, o correto é: Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "subtopicIds": [
+        "topico-01-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q387",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de estabilidade química, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade. A alternativa correta descreve especificamente conceito de estabilidade química.",
+      "subtopicIds": [
+        "topico-01-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q388",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de estabilidade química: Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "resposta": true,
+      "explicacao": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "subtopicIds": [
+        "topico-01-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q389",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de estabilidade química?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade. A alternativa correta descreve especificamente conceito de estabilidade química.",
+      "subtopicIds": [
+        "topico-01-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q390",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de camada de valência e elétrons de valência?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas. A alternativa correta descreve especificamente camada de valência e elétrons de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q391",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre camada de valência e elétrons de valência: Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre camada de valência e elétrons de valência, o correto é: A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas.",
+      "subtopicIds": [
+        "topico-01-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q392",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar camada de valência e elétrons de valência, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas. A alternativa correta descreve especificamente camada de valência e elétrons de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q393",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de camada de valência e elétrons de valência: A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas.",
+      "resposta": true,
+      "explicacao": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas.",
+      "subtopicIds": [
+        "topico-01-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q394",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com camada de valência e elétrons de valência?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas. A alternativa correta descreve especificamente camada de valência e elétrons de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q395",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de regra do octeto e regra do dueto?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência. A alternativa correta descreve especificamente regra do octeto e regra do dueto.",
+      "subtopicIds": [
+        "topico-01-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q396",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre regra do octeto e regra do dueto: Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre regra do octeto e regra do dueto, o correto é: A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q397",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar regra do octeto e regra do dueto, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência. A alternativa correta descreve especificamente regra do octeto e regra do dueto.",
+      "subtopicIds": [
+        "topico-01-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q398",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de regra do octeto e regra do dueto: A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência.",
+      "resposta": true,
+      "explicacao": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q399",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com regra do octeto e regra do dueto?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência. A alternativa correta descreve especificamente regra do octeto e regra do dueto.",
+      "subtopicIds": [
+        "topico-01-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q400",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ligações químicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "iônica, covalente e metálica. A alternativa correta descreve especificamente ligações químicas.",
+      "subtopicIds": [
+        "topico-01-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q401",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ligações químicas: Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ligações químicas, o correto é: iônica, covalente e metálica.",
+      "subtopicIds": [
+        "topico-01-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q402",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ligações químicas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "iônica, covalente e metálica. A alternativa correta descreve especificamente ligações químicas.",
+      "subtopicIds": [
+        "topico-01-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q403",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ligações químicas: iônica, covalente e metálica.",
+      "resposta": true,
+      "explicacao": "iônica, covalente e metálica.",
+      "subtopicIds": [
+        "topico-01-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q404",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ligações químicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "D",
+          "texto": "iônica, covalente e metálica."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "iônica, covalente e metálica. A alternativa correta descreve especificamente ligações químicas.",
+      "subtopicIds": [
+        "topico-01-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q405",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de compartilhamento de elétrons nas ligações covalentes?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "Em uma ligação covalente, os átomos compartilham pares de elétrons."
+        },
+        {
+          "id": "D",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Em uma ligação covalente, os átomos compartilham pares de elétrons. A alternativa correta descreve especificamente compartilhamento de elétrons nas ligações covalentes.",
+      "subtopicIds": [
+        "topico-01-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q406",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre compartilhamento de elétrons nas ligações covalentes: Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre compartilhamento de elétrons nas ligações covalentes, o correto é: Em uma ligação covalente, os átomos compartilham pares de elétrons.",
+      "subtopicIds": [
+        "topico-01-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q407",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar compartilhamento de elétrons nas ligações covalentes, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "Em uma ligação covalente, os átomos compartilham pares de elétrons."
+        },
+        {
+          "id": "D",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Em uma ligação covalente, os átomos compartilham pares de elétrons. A alternativa correta descreve especificamente compartilhamento de elétrons nas ligações covalentes.",
+      "subtopicIds": [
+        "topico-01-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q408",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de compartilhamento de elétrons nas ligações covalentes: Em uma ligação covalente, os átomos compartilham pares de elétrons.",
+      "resposta": true,
+      "explicacao": "Em uma ligação covalente, os átomos compartilham pares de elétrons.",
+      "subtopicIds": [
+        "topico-01-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q409",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com compartilhamento de elétrons nas ligações covalentes?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "B",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "C",
+          "texto": "Em uma ligação covalente, os átomos compartilham pares de elétrons."
+        },
+        {
+          "id": "D",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Em uma ligação covalente, os átomos compartilham pares de elétrons. A alternativa correta descreve especificamente compartilhamento de elétrons nas ligações covalentes.",
+      "subtopicIds": [
+        "topico-01-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q410",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de exceções à regra do octeto?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência."
+        },
+        {
+          "id": "C",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "D",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência. A alternativa correta descreve especificamente exceções à regra do octeto.",
+      "subtopicIds": [
+        "topico-01-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q411",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre exceções à regra do octeto: Átomos e sistemas tendem a estados de menor energia e maior estabilidade.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre exceções à regra do octeto, o correto é: Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q412",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar exceções à regra do octeto, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência."
+        },
+        {
+          "id": "C",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "D",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência. A alternativa correta descreve especificamente exceções à regra do octeto.",
+      "subtopicIds": [
+        "topico-01-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q413",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de exceções à regra do octeto: Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência.",
+      "resposta": true,
+      "explicacao": "Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência.",
+      "subtopicIds": [
+        "topico-01-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q414",
+      "tipo": "multipla_escolha",
+      "categoria": "Regra do octeto",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com exceções à regra do octeto?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Átomos e sistemas tendem a estados de menor energia e maior estabilidade."
+        },
+        {
+          "id": "B",
+          "texto": "Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência."
+        },
+        {
+          "id": "C",
+          "texto": "A camada eletrônica mais externa, que contém os elétrons envolvidos nas ligações químicas."
+        },
+        {
+          "id": "D",
+          "texto": "A regra do octeto afirma que muitos átomos tendem a ganhar, perder ou compartilhar elétrons para alcançar oito elétrons na camada de valência."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Porque existem átomos e moléculas que apresentam configurações estáveis com menos ou mais de oito elétrons na camada de valência. A alternativa correta descreve especificamente exceções à regra do octeto.",
+      "subtopicIds": [
+        "topico-01-subtopico-06"
+      ]
     }
   ]
 }

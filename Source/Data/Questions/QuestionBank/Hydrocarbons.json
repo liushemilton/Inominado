@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Hidrocarbonetos",
-  "totalQuestoes": 8,
+  "totalQuestoes": 99,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "Hidrocarbonetos são compostos orgânicos constituídos exclusivamente por carbono e hidrogênio."
+      "explicacao": "Hidrocarbonetos são compostos orgânicos constituídos exclusivamente por carbono e hidrogênio.",
+      "subtopicIds": [
+        "topico-04-subtopico-01"
+      ]
     },
     {
       "id": "Q014",
@@ -45,7 +48,10 @@
       "dificuldade": "facil",
       "enunciado": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos.",
       "resposta": true,
-      "explicacao": "A presença de pelo menos uma ligação dupla C=C caracteriza os alcenos acíclicos na classificação básica."
+      "explicacao": "A presença de pelo menos uma ligação dupla C=C caracteriza os alcenos acíclicos na classificação básica.",
+      "subtopicIds": [
+        "topico-04-subtopico-04"
+      ]
     },
     {
       "id": "Q015",
@@ -81,7 +87,10 @@
         "P3": "Apresenta pelo menos uma ligação tripla entre carbonos.",
         "P4": "Apresenta duas ligações duplas entre carbonos."
       },
-      "explicacao": "As classes são diferenciadas principalmente pelo tipo e pela quantidade de ligações múltiplas na cadeia."
+      "explicacao": "As classes são diferenciadas principalmente pelo tipo e pela quantidade de ligações múltiplas na cadeia.",
+      "subtopicIds": [
+        "topico-04-subtopico-03"
+      ]
     },
     {
       "id": "Q016",
@@ -108,7 +117,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "O benzeno é um exemplo clássico de hidrocarboneto aromático."
+      "explicacao": "O benzeno é um exemplo clássico de hidrocarboneto aromático.",
+      "subtopicIds": [
+        "topico-04-subtopico-08"
+      ]
     },
     {
       "id": "Q052",
@@ -135,7 +147,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "Na classificação básica, uma cadeia saturada apresenta somente ligações simples entre átomos de carbono."
+      "explicacao": "Na classificação básica, uma cadeia saturada apresenta somente ligações simples entre átomos de carbono.",
+      "subtopicIds": [
+        "topico-04-subtopico-02"
+      ]
     },
     {
       "id": "Q053",
@@ -177,7 +192,10 @@
         "P4": "Possui pelo menos uma ramificação na cadeia principal.",
         "P5": "Possui heteroátomo inserido na cadeia carbônica."
       },
-      "explicacao": "As cadeias podem ser classificadas por diferentes critérios: fechamento, ramificação e presença de heteroátomo."
+      "explicacao": "As cadeias podem ser classificadas por diferentes critérios: fechamento, ramificação e presença de heteroátomo.",
+      "subtopicIds": [
+        "topico-04-subtopico-02"
+      ]
     },
     {
       "id": "Q054",
@@ -186,7 +204,10 @@
       "dificuldade": "facil",
       "enunciado": "O benzeno é um hidrocarboneto aromático.",
       "resposta": true,
-      "explicacao": "O benzeno é um composto formado por carbono e hidrogênio e é o exemplo clássico de hidrocarboneto aromático."
+      "explicacao": "O benzeno é um composto formado por carbono e hidrogênio e é o exemplo clássico de hidrocarboneto aromático.",
+      "subtopicIds": [
+        "topico-04-subtopico-08"
+      ]
     },
     {
       "id": "Q055",
@@ -213,7 +234,2056 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "Essa classificação considera a presença ou ausência de ramificações na estrutura carbônica."
+      "explicacao": "Essa classificação considera a presença ou ausência de ramificações na estrutura carbônica.",
+      "subtopicIds": [
+        "topico-04-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q136",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "D",
+          "texto": "pelo menos uma ligação dupla."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio. A pergunta trata especificamente de conceito de hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q137",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de hidrocarbonetos, é correto afirmar que Hidrocarbonetos são compostos formados somente por carbono e hidrogênio.",
+      "resposta": true,
+      "explicacao": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio.",
+      "subtopicIds": [
+        "topico-04-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q138",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de hidrocarbonetos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "D",
+          "texto": "pelo menos uma ligação dupla."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio. A pergunta trata especificamente de conceito de hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q139",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente classificação das cadeias carbônicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "D",
+          "texto": "pelo menos uma ligação dupla."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas. A pergunta trata especificamente de classificação das cadeias carbônicas.",
+      "subtopicIds": [
+        "topico-04-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q140",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente alcanos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "pelo menos uma ligação dupla."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "ligações simples. A pergunta trata especificamente de alcanos.",
+      "subtopicIds": [
+        "topico-04-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q141",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre alcanos, é correto afirmar que ligações simples.",
+      "resposta": true,
+      "explicacao": "ligações simples.",
+      "subtopicIds": [
+        "topico-04-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q142",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando alcanos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "pelo menos uma ligação dupla."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "ligações simples. A pergunta trata especificamente de alcanos.",
+      "subtopicIds": [
+        "topico-04-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q143",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente alcenos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "pelo menos uma ligação dupla."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "pelo menos uma ligação dupla. A pergunta trata especificamente de alcenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q144",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre alcenos, é correto afirmar que pelo menos uma ligação dupla.",
+      "resposta": true,
+      "explicacao": "pelo menos uma ligação dupla.",
+      "subtopicIds": [
+        "topico-04-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q145",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando alcenos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "pelo menos uma ligação dupla."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "pelo menos uma ligação dupla. A pergunta trata especificamente de alcenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q146",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente alcinos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "pelo menos uma ligação tripla."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "pelo menos uma ligação tripla. A pergunta trata especificamente de alcinos.",
+      "subtopicIds": [
+        "topico-04-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q147",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre alcinos, é correto afirmar que pelo menos uma ligação tripla.",
+      "resposta": true,
+      "explicacao": "pelo menos uma ligação tripla.",
+      "subtopicIds": [
+        "topico-04-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q148",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando alcinos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "pelo menos uma ligação tripla."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "pelo menos uma ligação tripla. A pergunta trata especificamente de alcinos.",
+      "subtopicIds": [
+        "topico-04-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q149",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre alcinos, é correto afirmar que Hidrocarbonetos são compostos formados somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "pelo menos uma ligação tripla. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-04-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q150",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente alcadienos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "duas ligações duplas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "duas ligações duplas. A pergunta trata especificamente de alcadienos.",
+      "subtopicIds": [
+        "topico-04-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q151",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre alcadienos, é correto afirmar que duas ligações duplas.",
+      "resposta": true,
+      "explicacao": "duas ligações duplas.",
+      "subtopicIds": [
+        "topico-04-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q152",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando alcadienos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "duas ligações duplas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "duas ligações duplas. A pergunta trata especificamente de alcadienos.",
+      "subtopicIds": [
+        "topico-04-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q153",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre alcadienos, é correto afirmar que Hidrocarbonetos são compostos formados somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "duas ligações duplas. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-04-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q154",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ciclanos e ciclenos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação. A pergunta trata especificamente de ciclanos e ciclenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q155",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ciclanos e ciclenos, é correto afirmar que Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação.",
+      "resposta": true,
+      "explicacao": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação.",
+      "subtopicIds": [
+        "topico-04-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q156",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando ciclanos e ciclenos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação. A pergunta trata especificamente de ciclanos e ciclenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q157",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ciclanos e ciclenos, é correto afirmar que Hidrocarbonetos são compostos formados somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-04-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q158",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente hidrocarbonetos aromáticos, como o benzeno?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "Hidrocarbonetos aromáticos, como o benzeno."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Hidrocarbonetos aromáticos, como o benzeno. A pergunta trata especificamente de hidrocarbonetos aromáticos, como o benzeno.",
+      "subtopicIds": [
+        "topico-04-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q159",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre hidrocarbonetos aromáticos, como o benzeno, é correto afirmar que Hidrocarbonetos aromáticos, como o benzeno.",
+      "resposta": true,
+      "explicacao": "Hidrocarbonetos aromáticos, como o benzeno.",
+      "subtopicIds": [
+        "topico-04-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q160",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente nomenclatura dos hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente. A pergunta trata especificamente de nomenclatura dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q161",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura dos hidrocarbonetos, é correto afirmar que A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente.",
+      "resposta": true,
+      "explicacao": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente.",
+      "subtopicIds": [
+        "topico-04-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q162",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando nomenclatura dos hidrocarbonetos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente. A pergunta trata especificamente de nomenclatura dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q163",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura dos hidrocarbonetos, é correto afirmar que Hidrocarbonetos são compostos formados somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-04-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q164",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente propriedades físicas e aplicações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia. A pergunta trata especificamente de propriedades físicas e aplicações.",
+      "subtopicIds": [
+        "topico-04-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q165",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades físicas e aplicações, é correto afirmar que As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia.",
+      "resposta": true,
+      "explicacao": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia.",
+      "subtopicIds": [
+        "topico-04-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q166",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando propriedades físicas e aplicações, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia. A pergunta trata especificamente de propriedades físicas e aplicações.",
+      "subtopicIds": [
+        "topico-04-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q167",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades físicas e aplicações, é correto afirmar que Hidrocarbonetos são compostos formados somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-04-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q168",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente isomeria em hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial. A pergunta trata especificamente de isomeria em hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q169",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre isomeria em hidrocarbonetos, é correto afirmar que Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial.",
+      "resposta": true,
+      "explicacao": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial.",
+      "subtopicIds": [
+        "topico-04-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q170",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando isomeria em hidrocarbonetos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Hidrocarbonetos são compostos formados somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial."
+        },
+        {
+          "id": "C",
+          "texto": "As cadeias podem ser abertas, fechadas ou mistas; normais ou ramificadas; saturadas ou insaturadas; homogêneas ou heterogêneas."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial. A pergunta trata especificamente de isomeria em hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q171",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre isomeria em hidrocarbonetos, é correto afirmar que Hidrocarbonetos são compostos formados somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-04-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q490",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "D",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Composto formado somente por carbono e hidrogênio. A alternativa correta descreve especificamente conceito de hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q491",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de hidrocarbonetos: Saturada.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de hidrocarbonetos, o correto é: Composto formado somente por carbono e hidrogênio.",
+      "subtopicIds": [
+        "topico-04-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q492",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de hidrocarbonetos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "D",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Composto formado somente por carbono e hidrogênio. A alternativa correta descreve especificamente conceito de hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q493",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de hidrocarbonetos: Composto formado somente por carbono e hidrogênio.",
+      "resposta": true,
+      "explicacao": "Composto formado somente por carbono e hidrogênio.",
+      "subtopicIds": [
+        "topico-04-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q494",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "D",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Composto formado somente por carbono e hidrogênio. A alternativa correta descreve especificamente conceito de hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q495",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de classificação das cadeias carbônicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "D",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Saturada. A alternativa correta descreve especificamente classificação das cadeias carbônicas.",
+      "subtopicIds": [
+        "topico-04-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q496",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre classificação das cadeias carbônicas: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre classificação das cadeias carbônicas, o correto é: Saturada.",
+      "subtopicIds": [
+        "topico-04-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q497",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar classificação das cadeias carbônicas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "D",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Saturada. A alternativa correta descreve especificamente classificação das cadeias carbônicas.",
+      "subtopicIds": [
+        "topico-04-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q498",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de classificação das cadeias carbônicas: Saturada.",
+      "resposta": true,
+      "explicacao": "Saturada.",
+      "subtopicIds": [
+        "topico-04-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q499",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com classificação das cadeias carbônicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "D",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Saturada. A alternativa correta descreve especificamente classificação das cadeias carbônicas.",
+      "subtopicIds": [
+        "topico-04-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q500",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de alcanos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "ligações simples. A alternativa correta descreve especificamente alcanos.",
+      "subtopicIds": [
+        "topico-04-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q501",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre alcanos: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre alcanos, o correto é: ligações simples.",
+      "subtopicIds": [
+        "topico-04-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q502",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar alcanos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "ligações simples. A alternativa correta descreve especificamente alcanos.",
+      "subtopicIds": [
+        "topico-04-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q503",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de alcanos: ligações simples.",
+      "resposta": true,
+      "explicacao": "ligações simples.",
+      "subtopicIds": [
+        "topico-04-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q504",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com alcanos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "ligações simples. A alternativa correta descreve especificamente alcanos.",
+      "subtopicIds": [
+        "topico-04-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q505",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de alcenos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos. A alternativa correta descreve especificamente alcenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q506",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre alcenos: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre alcenos, o correto é: Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos.",
+      "subtopicIds": [
+        "topico-04-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q507",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar alcenos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos. A alternativa correta descreve especificamente alcenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q508",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de alcenos: Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos.",
+      "resposta": true,
+      "explicacao": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos.",
+      "subtopicIds": [
+        "topico-04-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q509",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com alcenos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Alcenos são hidrocarbonetos que apresentam pelo menos uma ligação dupla entre carbonos. A alternativa correta descreve especificamente alcenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q510",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de alcinos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "pelo menos uma ligação tripla."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "pelo menos uma ligação tripla. A alternativa correta descreve especificamente alcinos.",
+      "subtopicIds": [
+        "topico-04-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q511",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre alcinos: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre alcinos, o correto é: pelo menos uma ligação tripla.",
+      "subtopicIds": [
+        "topico-04-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q512",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar alcinos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "pelo menos uma ligação tripla."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "pelo menos uma ligação tripla. A alternativa correta descreve especificamente alcinos.",
+      "subtopicIds": [
+        "topico-04-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q513",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de alcinos: pelo menos uma ligação tripla.",
+      "resposta": true,
+      "explicacao": "pelo menos uma ligação tripla.",
+      "subtopicIds": [
+        "topico-04-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q514",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com alcinos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "pelo menos uma ligação tripla."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "pelo menos uma ligação tripla. A alternativa correta descreve especificamente alcinos.",
+      "subtopicIds": [
+        "topico-04-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q515",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de alcadienos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "duas ligações duplas."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "duas ligações duplas. A alternativa correta descreve especificamente alcadienos.",
+      "subtopicIds": [
+        "topico-04-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q516",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre alcadienos: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre alcadienos, o correto é: duas ligações duplas.",
+      "subtopicIds": [
+        "topico-04-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q517",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar alcadienos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "duas ligações duplas."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "duas ligações duplas. A alternativa correta descreve especificamente alcadienos.",
+      "subtopicIds": [
+        "topico-04-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q518",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de alcadienos: duas ligações duplas.",
+      "resposta": true,
+      "explicacao": "duas ligações duplas.",
+      "subtopicIds": [
+        "topico-04-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q519",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com alcadienos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "duas ligações duplas."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "duas ligações duplas. A alternativa correta descreve especificamente alcadienos.",
+      "subtopicIds": [
+        "topico-04-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q520",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ciclanos e ciclenos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação. A alternativa correta descreve especificamente ciclanos e ciclenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q521",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ciclanos e ciclenos: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ciclanos e ciclenos, o correto é: Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação.",
+      "subtopicIds": [
+        "topico-04-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q522",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ciclanos e ciclenos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação. A alternativa correta descreve especificamente ciclanos e ciclenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q523",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ciclanos e ciclenos: Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação.",
+      "resposta": true,
+      "explicacao": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação.",
+      "subtopicIds": [
+        "topico-04-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q524",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ciclanos e ciclenos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ciclanos têm cadeia cíclica saturada; ciclenos apresentam cadeia cíclica com insaturação. A alternativa correta descreve especificamente ciclanos e ciclenos.",
+      "subtopicIds": [
+        "topico-04-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q525",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de hidrocarbonetos aromáticos, como o benzeno?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Benzeno."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Benzeno. A alternativa correta descreve especificamente hidrocarbonetos aromáticos, como o benzeno.",
+      "subtopicIds": [
+        "topico-04-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q526",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre hidrocarbonetos aromáticos, como o benzeno: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre hidrocarbonetos aromáticos, como o benzeno, o correto é: Benzeno.",
+      "subtopicIds": [
+        "topico-04-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q527",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar hidrocarbonetos aromáticos, como o benzeno, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Benzeno."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Benzeno. A alternativa correta descreve especificamente hidrocarbonetos aromáticos, como o benzeno.",
+      "subtopicIds": [
+        "topico-04-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q528",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de hidrocarbonetos aromáticos, como o benzeno: Benzeno.",
+      "resposta": true,
+      "explicacao": "Benzeno.",
+      "subtopicIds": [
+        "topico-04-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q529",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com hidrocarbonetos aromáticos, como o benzeno?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Saturada."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Benzeno."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Benzeno. A alternativa correta descreve especificamente hidrocarbonetos aromáticos, como o benzeno.",
+      "subtopicIds": [
+        "topico-04-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q530",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de nomenclatura dos hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente. A alternativa correta descreve especificamente nomenclatura dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q531",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre nomenclatura dos hidrocarbonetos: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre nomenclatura dos hidrocarbonetos, o correto é: A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente.",
+      "subtopicIds": [
+        "topico-04-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q532",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar nomenclatura dos hidrocarbonetos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente. A alternativa correta descreve especificamente nomenclatura dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q533",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de nomenclatura dos hidrocarbonetos: A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente.",
+      "resposta": true,
+      "explicacao": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente.",
+      "subtopicIds": [
+        "topico-04-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q534",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com nomenclatura dos hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura identifica a cadeia principal, as insaturações, as ramificações e a função quando presente. A alternativa correta descreve especificamente nomenclatura dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q535",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de propriedades físicas e aplicações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia. A alternativa correta descreve especificamente propriedades físicas e aplicações.",
+      "subtopicIds": [
+        "topico-04-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q536",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre propriedades físicas e aplicações: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre propriedades físicas e aplicações, o correto é: As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia.",
+      "subtopicIds": [
+        "topico-04-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q537",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar propriedades físicas e aplicações, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia. A alternativa correta descreve especificamente propriedades físicas e aplicações.",
+      "subtopicIds": [
+        "topico-04-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q538",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de propriedades físicas e aplicações: As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia.",
+      "resposta": true,
+      "explicacao": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia.",
+      "subtopicIds": [
+        "topico-04-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q539",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com propriedades físicas e aplicações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "ligações simples."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "As propriedades físicas dos hidrocarbonetos variam com tamanho, forma e ramificação da cadeia. A alternativa correta descreve especificamente propriedades físicas e aplicações.",
+      "subtopicIds": [
+        "topico-04-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q540",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de isomeria em hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial. A alternativa correta descreve especificamente isomeria em hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q541",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre isomeria em hidrocarbonetos: Composto formado somente por carbono e hidrogênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre isomeria em hidrocarbonetos, o correto é: Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial.",
+      "subtopicIds": [
+        "topico-04-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q542",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar isomeria em hidrocarbonetos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial. A alternativa correta descreve especificamente isomeria em hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q543",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de isomeria em hidrocarbonetos: Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial.",
+      "resposta": true,
+      "explicacao": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial.",
+      "subtopicIds": [
+        "topico-04-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q544",
+      "tipo": "multipla_escolha",
+      "categoria": "Hidrocarbonetos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com isomeria em hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "ligações simples."
+        },
+        {
+          "id": "B",
+          "texto": "Composto formado somente por carbono e hidrogênio."
+        },
+        {
+          "id": "C",
+          "texto": "Saturada."
+        },
+        {
+          "id": "D",
+          "texto": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Isômeros têm a mesma fórmula molecular, mas diferem na estrutura ou no arranjo espacial. A alternativa correta descreve especificamente isomeria em hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-04-subtopico-11"
+      ]
     }
   ]
 }

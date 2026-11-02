@@ -40,6 +40,7 @@ import {
   getQuestionPoolStats,
   getQuestionId,
   getQuestionSubtopicId,
+  getQuestionSubtopicIds,
   createQuestionSelector,
 } from '../Logic/QuestionSelector.js'
 import {
@@ -127,7 +128,7 @@ function filterBySubtopic(questions, subtopicId) {
   if (!subtopicId) return questions
 
   return questions.filter((question) => {
-    return getQuestionSubtopicId(question) === subtopicId
+    return getQuestionSubtopicIds(question).includes(subtopicId)
   })
 }
 
@@ -237,10 +238,13 @@ export function createAdaptiveLearning(options = {}) {
     })
     const filtered = filterBySubtopic(questions, subtopicId)
 
-    // O banco atual não atribui subtópicos às questões. Quando o filtro
-    // estrito esvazia a lista, usamos a fase inteira para não bloquear a
-    // partida nem o avanço do jogador.
-    return filtered.length > 0 ? filtered : questions
+    // Mantém compatibilidade com fases antigas que ainda não têm nenhum
+    // vínculo cadastrado. No banco mapeado, uma seleção sem questões fica vazia.
+    const hasSubtopicMappings = questions.some((question) => {
+      return getQuestionSubtopicIds(question).length > 0
+    })
+
+    return subtopicId && !hasSubtopicMappings ? questions : filtered
   }
 
   /**
@@ -520,7 +524,7 @@ export function createAdaptiveLearning(options = {}) {
     // subtópico. Caso contrário, o fallback para a fase inteira seria
     // desfeito dentro do seletor.
     const hasSubtopicQuestions = subtopicKey
-      ? pool.some((question) => getQuestionSubtopicId(question) === subtopicKey)
+      ? pool.some((question) => getQuestionSubtopicIds(question).includes(subtopicKey))
       : false
 
     return selector.selectQuestions(pool, context, {
@@ -561,6 +565,7 @@ export function createAdaptiveLearning(options = {}) {
       subtopicId,
       difficulty: startingDifficulty,
       questions: pool,
+      limit: params.limit ?? 7,
     })
     const context = buildContext(levelId, phaseId, subtopicId)
 

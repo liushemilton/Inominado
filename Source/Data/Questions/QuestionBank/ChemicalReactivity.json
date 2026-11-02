@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Reatividade dos compostos orgânicos",
-  "totalQuestoes": 6,
+  "totalQuestoes": 72,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "Reações de adição são comuns em compostos insaturados e envolvem a incorporação de átomos ou grupos à molécula."
+      "explicacao": "Reações de adição são comuns em compostos insaturados e envolvem a incorporação de átomos ou grupos à molécula.",
+      "subtopicIds": [
+        "topico-11-subtopico-05"
+      ]
     },
     {
       "id": "Q042",
@@ -45,7 +48,10 @@
       "dificuldade": "medio",
       "enunciado": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado.",
       "resposta": true,
-      "explicacao": "Na ruptura homolítica, a divisão dos elétrons é igual: cada fragmento fica com um elétron."
+      "explicacao": "Na ruptura homolítica, a divisão dos elétrons é igual: cada fragmento fica com um elétron.",
+      "subtopicIds": [
+        "topico-11-subtopico-02"
+      ]
     },
     {
       "id": "Q043",
@@ -93,7 +99,10 @@
         "P5": "Reação com oxigênio.",
         "P6": "Formação de polímeros."
       },
-      "explicacao": "Cada tipo de reação é reconhecido pela transformação que ocorre nos reagentes para formar os produtos."
+      "explicacao": "Cada tipo de reação é reconhecido pela transformação que ocorre nos reagentes para formar os produtos.",
+      "subtopicIds": [
+        "topico-11-subtopico-05"
+      ]
     },
     {
       "id": "Q044",
@@ -120,7 +129,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "Nucleófilos são espécies ricas em elétrons que doam um par eletrônico; eletrófilos são espécies que aceitam esse par."
+      "explicacao": "Nucleófilos são espécies ricas em elétrons que doam um par eletrônico; eletrófilos são espécies que aceitam esse par.",
+      "subtopicIds": [
+        "topico-11-subtopico-03"
+      ]
     },
     {
       "id": "Q069",
@@ -147,7 +159,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "Na ruptura heterolítica, os dois elétrons da ligação ficam com um dos fragmentos, formando espécies com cargas."
+      "explicacao": "Na ruptura heterolítica, os dois elétrons da ligação ficam com um dos fragmentos, formando espécies com cargas.",
+      "subtopicIds": [
+        "topico-11-subtopico-02"
+      ]
     },
     {
       "id": "Q070",
@@ -156,7 +171,1486 @@
       "dificuldade": "medio",
       "enunciado": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
       "resposta": true,
-      "explicacao": "Esses fatores influenciam a distribuição eletrônica e os locais em que as transformações químicas podem ocorrer."
+      "explicacao": "Esses fatores influenciam a distribuição eletrônica e os locais em que as transformações químicas podem ocorrer.",
+      "subtopicIds": [
+        "topico-11-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q359",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de reatividade química?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "B",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "C",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas. A pergunta trata especificamente de conceito de reatividade química.",
+      "subtopicIds": [
+        "topico-11-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q360",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de reatividade química, é correto afirmar que Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas.",
+      "resposta": true,
+      "explicacao": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas.",
+      "subtopicIds": [
+        "topico-11-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q361",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de reatividade química, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "B",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "C",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas. A pergunta trata especificamente de conceito de reatividade química.",
+      "subtopicIds": [
+        "topico-11-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q362",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ruptura de ligações homolítica e heterolítica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "D",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par. A pergunta trata especificamente de ruptura de ligações homolítica e heterolítica.",
+      "subtopicIds": [
+        "topico-11-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q363",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ruptura de ligações homolítica e heterolítica, é correto afirmar que Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par.",
+      "resposta": true,
+      "explicacao": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par.",
+      "subtopicIds": [
+        "topico-11-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q364",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente reagentes nucleófilos e eletrófilos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "B",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons. A pergunta trata especificamente de reagentes nucleófilos e eletrófilos.",
+      "subtopicIds": [
+        "topico-11-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q365",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre reagentes nucleófilos e eletrófilos, é correto afirmar que Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons.",
+      "resposta": true,
+      "explicacao": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons.",
+      "subtopicIds": [
+        "topico-11-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q366",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando reagentes nucleófilos e eletrófilos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "B",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons. A pergunta trata especificamente de reagentes nucleófilos e eletrófilos.",
+      "subtopicIds": [
+        "topico-11-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q367",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente efeitos que influenciam a reatividade?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "polaridade, estrutura e grupos funcionais. A pergunta trata especificamente de efeitos que influenciam a reatividade.",
+      "subtopicIds": [
+        "topico-11-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q368",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre efeitos que influenciam a reatividade, é correto afirmar que polaridade, estrutura e grupos funcionais.",
+      "resposta": true,
+      "explicacao": "polaridade, estrutura e grupos funcionais.",
+      "subtopicIds": [
+        "topico-11-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q369",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando efeitos que influenciam a reatividade, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "polaridade, estrutura e grupos funcionais. A pergunta trata especificamente de efeitos que influenciam a reatividade.",
+      "subtopicIds": [
+        "topico-11-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q370",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre efeitos que influenciam a reatividade, é correto afirmar que Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas.",
+      "resposta": false,
+      "explicacao": "polaridade, estrutura e grupos funcionais. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-11-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q371",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente principais tipos de reações orgânicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Reações orgânicas incluem adição, substituição, eliminação, oxidação, redução, esterificação, hidrólise, combustão e polimerização."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Reações orgânicas incluem adição, substituição, eliminação, oxidação, redução, esterificação, hidrólise, combustão e polimerização. A pergunta trata especificamente de principais tipos de reações orgânicas.",
+      "subtopicIds": [
+        "topico-11-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q372",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre principais tipos de reações orgânicas, é correto afirmar que Reações orgânicas incluem adição, substituição, eliminação, oxidação, redução, esterificação, hidrólise, combustão e polimerização.",
+      "resposta": true,
+      "explicacao": "Reações orgânicas incluem adição, substituição, eliminação, oxidação, redução, esterificação, hidrólise, combustão e polimerização.",
+      "subtopicIds": [
+        "topico-11-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q373",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente reações características dos hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão. A pergunta trata especificamente de reações características dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-11-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q374",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre reações características dos hidrocarbonetos, é correto afirmar que Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão.",
+      "resposta": true,
+      "explicacao": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão.",
+      "subtopicIds": [
+        "topico-11-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q375",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando reações características dos hidrocarbonetos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão. A pergunta trata especificamente de reações características dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-11-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q376",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre reações características dos hidrocarbonetos, é correto afirmar que Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas.",
+      "resposta": false,
+      "explicacao": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-11-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q377",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente reações das funções oxigenadas e nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais. A pergunta trata especificamente de reações das funções oxigenadas e nitrogenadas.",
+      "subtopicIds": [
+        "topico-11-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q378",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre reações das funções oxigenadas e nitrogenadas, é correto afirmar que Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais.",
+      "resposta": true,
+      "explicacao": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais.",
+      "subtopicIds": [
+        "topico-11-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q379",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando reações das funções oxigenadas e nitrogenadas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais. A pergunta trata especificamente de reações das funções oxigenadas e nitrogenadas.",
+      "subtopicIds": [
+        "topico-11-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q380",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre reações das funções oxigenadas e nitrogenadas, é correto afirmar que Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas.",
+      "resposta": false,
+      "explicacao": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-11-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q381",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente identificação dos reagentes, produtos e condições de reação?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "A análise de uma equação química identifica reagentes, produtos e condições indicadas."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A análise de uma equação química identifica reagentes, produtos e condições indicadas. A pergunta trata especificamente de identificação dos reagentes, produtos e condições de reação.",
+      "subtopicIds": [
+        "topico-11-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q382",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação dos reagentes, produtos e condições de reação, é correto afirmar que A análise de uma equação química identifica reagentes, produtos e condições indicadas.",
+      "resposta": true,
+      "explicacao": "A análise de uma equação química identifica reagentes, produtos e condições indicadas.",
+      "subtopicIds": [
+        "topico-11-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q383",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando identificação dos reagentes, produtos e condições de reação, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ruptura homolítica cada fragmento recebe um elétron; na heterolítica um fragmento recebe o par."
+        },
+        {
+          "id": "B",
+          "texto": "Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas."
+        },
+        {
+          "id": "C",
+          "texto": "A análise de uma equação química identifica reagentes, produtos e condições indicadas."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A análise de uma equação química identifica reagentes, produtos e condições indicadas. A pergunta trata especificamente de identificação dos reagentes, produtos e condições de reação.",
+      "subtopicIds": [
+        "topico-11-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q384",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação dos reagentes, produtos e condições de reação, é correto afirmar que Reatividade química descreve a tendência e a facilidade com que uma substância participa de transformações químicas.",
+      "resposta": false,
+      "explicacao": "A análise de uma equação química identifica reagentes, produtos e condições indicadas. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-11-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q825",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de reatividade química?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "C",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos. A alternativa correta descreve especificamente conceito de reatividade química.",
+      "subtopicIds": [
+        "topico-11-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q826",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de reatividade química: Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de reatividade química, o correto é: A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "subtopicIds": [
+        "topico-11-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q827",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de reatividade química, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "C",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos. A alternativa correta descreve especificamente conceito de reatividade química.",
+      "subtopicIds": [
+        "topico-11-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q828",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de reatividade química: A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": true,
+      "explicacao": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "subtopicIds": [
+        "topico-11-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q829",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de reatividade química?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "C",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos. A alternativa correta descreve especificamente conceito de reatividade química.",
+      "subtopicIds": [
+        "topico-11-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q830",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ruptura de ligações homolítica e heterolítica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "B",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "C",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado. A alternativa correta descreve especificamente ruptura de ligações homolítica e heterolítica.",
+      "subtopicIds": [
+        "topico-11-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q831",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ruptura de ligações homolítica e heterolítica: A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ruptura de ligações homolítica e heterolítica, o correto é: Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado.",
+      "subtopicIds": [
+        "topico-11-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q832",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ruptura de ligações homolítica e heterolítica, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "B",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "C",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado. A alternativa correta descreve especificamente ruptura de ligações homolítica e heterolítica.",
+      "subtopicIds": [
+        "topico-11-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q833",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ruptura de ligações homolítica e heterolítica: Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado.",
+      "resposta": true,
+      "explicacao": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado.",
+      "subtopicIds": [
+        "topico-11-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q834",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ruptura de ligações homolítica e heterolítica?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "B",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "C",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado. A alternativa correta descreve especificamente ruptura de ligações homolítica e heterolítica.",
+      "subtopicIds": [
+        "topico-11-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q835",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de reagentes nucleófilos e eletrófilos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons. A alternativa correta descreve especificamente reagentes nucleófilos e eletrófilos.",
+      "subtopicIds": [
+        "topico-11-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q836",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre reagentes nucleófilos e eletrófilos: A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre reagentes nucleófilos e eletrófilos, o correto é: Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons.",
+      "subtopicIds": [
+        "topico-11-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q837",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar reagentes nucleófilos e eletrófilos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons. A alternativa correta descreve especificamente reagentes nucleófilos e eletrófilos.",
+      "subtopicIds": [
+        "topico-11-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q838",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de reagentes nucleófilos e eletrófilos: Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons.",
+      "resposta": true,
+      "explicacao": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons.",
+      "subtopicIds": [
+        "topico-11-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q839",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com reagentes nucleófilos e eletrófilos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons. A alternativa correta descreve especificamente reagentes nucleófilos e eletrófilos.",
+      "subtopicIds": [
+        "topico-11-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q840",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de efeitos que influenciam a reatividade?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "polaridade, estrutura e grupos funcionais. A alternativa correta descreve especificamente efeitos que influenciam a reatividade.",
+      "subtopicIds": [
+        "topico-11-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q841",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre efeitos que influenciam a reatividade: A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre efeitos que influenciam a reatividade, o correto é: polaridade, estrutura e grupos funcionais.",
+      "subtopicIds": [
+        "topico-11-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q842",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar efeitos que influenciam a reatividade, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "polaridade, estrutura e grupos funcionais. A alternativa correta descreve especificamente efeitos que influenciam a reatividade.",
+      "subtopicIds": [
+        "topico-11-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q843",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de efeitos que influenciam a reatividade: polaridade, estrutura e grupos funcionais.",
+      "resposta": true,
+      "explicacao": "polaridade, estrutura e grupos funcionais.",
+      "subtopicIds": [
+        "topico-11-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q844",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com efeitos que influenciam a reatividade?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "polaridade, estrutura e grupos funcionais."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "polaridade, estrutura e grupos funcionais. A alternativa correta descreve especificamente efeitos que influenciam a reatividade.",
+      "subtopicIds": [
+        "topico-11-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q845",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de principais tipos de reações orgânicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas. A alternativa correta descreve especificamente principais tipos de reações orgânicas.",
+      "subtopicIds": [
+        "topico-11-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q846",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre principais tipos de reações orgânicas: A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre principais tipos de reações orgânicas, o correto é: Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas.",
+      "subtopicIds": [
+        "topico-11-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q847",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar principais tipos de reações orgânicas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas. A alternativa correta descreve especificamente principais tipos de reações orgânicas.",
+      "subtopicIds": [
+        "topico-11-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q848",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de principais tipos de reações orgânicas: Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas.",
+      "resposta": true,
+      "explicacao": "Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas.",
+      "subtopicIds": [
+        "topico-11-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q849",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com principais tipos de reações orgânicas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Átomos ou grupos são adicionados a uma molécula, frequentemente em ligações duplas ou triplas. A alternativa correta descreve especificamente principais tipos de reações orgânicas.",
+      "subtopicIds": [
+        "topico-11-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q850",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de reações características dos hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "B",
+          "texto": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão. A alternativa correta descreve especificamente reações características dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-11-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q851",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre reações características dos hidrocarbonetos: A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre reações características dos hidrocarbonetos, o correto é: Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão.",
+      "subtopicIds": [
+        "topico-11-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q852",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar reações características dos hidrocarbonetos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "B",
+          "texto": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão. A alternativa correta descreve especificamente reações características dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-11-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q853",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de reações características dos hidrocarbonetos: Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão.",
+      "resposta": true,
+      "explicacao": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão.",
+      "subtopicIds": [
+        "topico-11-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q854",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com reações características dos hidrocarbonetos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "B",
+          "texto": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Alcenos e alcinos frequentemente sofrem adição; alcanos podem sofrer substituição e combustão. A alternativa correta descreve especificamente reações características dos hidrocarbonetos.",
+      "subtopicIds": [
+        "topico-11-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q855",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de reações das funções oxigenadas e nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais. A alternativa correta descreve especificamente reações das funções oxigenadas e nitrogenadas.",
+      "subtopicIds": [
+        "topico-11-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q856",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre reações das funções oxigenadas e nitrogenadas: A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre reações das funções oxigenadas e nitrogenadas, o correto é: Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais.",
+      "subtopicIds": [
+        "topico-11-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q857",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar reações das funções oxigenadas e nitrogenadas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais. A alternativa correta descreve especificamente reações das funções oxigenadas e nitrogenadas.",
+      "subtopicIds": [
+        "topico-11-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q858",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de reações das funções oxigenadas e nitrogenadas: Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais.",
+      "resposta": true,
+      "explicacao": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais.",
+      "subtopicIds": [
+        "topico-11-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q859",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com reações das funções oxigenadas e nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Funções oxigenadas e nitrogenadas podem sofrer transformações características de seus grupos funcionais. A alternativa correta descreve especificamente reações das funções oxigenadas e nitrogenadas.",
+      "subtopicIds": [
+        "topico-11-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q860",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de identificação dos reagentes, produtos e condições de reação?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "A análise de uma equação química identifica reagentes, produtos e condições indicadas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A análise de uma equação química identifica reagentes, produtos e condições indicadas. A alternativa correta descreve especificamente identificação dos reagentes, produtos e condições de reação.",
+      "subtopicIds": [
+        "topico-11-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q861",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre identificação dos reagentes, produtos e condições de reação: A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre identificação dos reagentes, produtos e condições de reação, o correto é: A análise de uma equação química identifica reagentes, produtos e condições indicadas.",
+      "subtopicIds": [
+        "topico-11-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q862",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar identificação dos reagentes, produtos e condições de reação, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "A análise de uma equação química identifica reagentes, produtos e condições indicadas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A análise de uma equação química identifica reagentes, produtos e condições indicadas. A alternativa correta descreve especificamente identificação dos reagentes, produtos e condições de reação.",
+      "subtopicIds": [
+        "topico-11-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q863",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de identificação dos reagentes, produtos e condições de reação: A análise de uma equação química identifica reagentes, produtos e condições indicadas.",
+      "resposta": true,
+      "explicacao": "A análise de uma equação química identifica reagentes, produtos e condições indicadas.",
+      "subtopicIds": [
+        "topico-11-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q864",
+      "tipo": "multipla_escolha",
+      "categoria": "Reatividade dos compostos orgânicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com identificação dos reagentes, produtos e condições de reação?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nucleófilos doam um par de elétrons; eletrófilos aceitam um par de elétrons."
+        },
+        {
+          "id": "B",
+          "texto": "A polaridade, a estrutura molecular e os grupos funcionais podem influenciar a reatividade dos compostos orgânicos."
+        },
+        {
+          "id": "C",
+          "texto": "Na ruptura homolítica, cada fragmento da ligação recebe um dos elétrons do par compartilhado."
+        },
+        {
+          "id": "D",
+          "texto": "A análise de uma equação química identifica reagentes, produtos e condições indicadas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A análise de uma equação química identifica reagentes, produtos e condições indicadas. A alternativa correta descreve especificamente identificação dos reagentes, produtos e condições de reação.",
+      "subtopicIds": [
+        "topico-11-subtopico-08"
+      ]
     }
   ]
 }

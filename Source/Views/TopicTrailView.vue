@@ -18,6 +18,26 @@ const subtopics = computed(() => {
 
 const totalLevels = computed(() => subtopics.value.length)
 
+const completedLevels = computed(() => {
+  return subtopics.value.filter((subtopic) => subtopic.status === 'completed').length
+})
+
+const activeLevelIndex = computed(() => {
+  return subtopics.value.findIndex((subtopic) => {
+    return subtopic.status === 'available' || subtopic.status === 'in-progress'
+  })
+})
+
+const trailComplete = computed(() => {
+  return totalLevels.value > 0 && completedLevels.value === totalLevels.value
+})
+
+const progressPercent = computed(() => {
+  if (trailComplete.value) return 100
+  if (totalLevels.value === 0) return 0
+  return Math.round((completedLevels.value / totalLevels.value) * 100)
+})
+
 /**
  * @param {object} subtopic
  * @returns {number}
@@ -83,9 +103,38 @@ function handleSelect(subtopic) {
             {{ totalLevels }}
             {{ totalLevels === 1 ? 'nível' : 'níveis' }}
           </span>
-          <span class="topic-trail__instruction">Toque em um nível para começar</span>
+          <span v-if="trailComplete" class="topic-trail__complete-message" role="status">
+            Trilha completa!
+          </span>
+          <span v-else class="topic-trail__instruction">
+            {{ activeLevelIndex >= 0 ? `Seu nível atual: ${activeLevelIndex + 1}` : 'Toque em um nível para começar' }}
+          </span>
         </div>
       </header>
+
+      <section
+        v-if="subtopics.length"
+        class="topic-trail__progress"
+        aria-label="Progresso da trilha"
+      >
+        <div class="topic-trail__progress-heading">
+          <strong>{{ trailComplete ? 'Módulo concluído' : 'Seu progresso' }}</strong>
+          <span>{{ completedLevels }} de {{ totalLevels }} níveis</span>
+        </div>
+        <div
+          class="topic-trail__progress-track"
+          role="progressbar"
+          :aria-valuenow="progressPercent"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          :aria-label="`${completedLevels} de ${totalLevels} níveis concluídos`"
+        >
+          <span
+            class="topic-trail__progress-fill"
+            :style="{ width: `${progressPercent}%` }"
+          />
+        </div>
+      </section>
 
       <section
         v-if="subtopics.length"
@@ -98,10 +147,19 @@ function handleSelect(subtopic) {
             :key="subtopic.id"
             class="topic-trail__node"
             :class="{ 'is-first': index === 0 }"
+            :data-status="subtopic.status"
           >
             <button
               type="button"
               class="topic-trail__level"
+              :class="{
+                'is-completed': subtopic.status === 'completed',
+                'is-current': index === activeLevelIndex,
+                'is-locked': subtopic.status === 'locked',
+              }"
+              :aria-current="index === activeLevelIndex ? 'step' : undefined"
+              :disabled="subtopic.status === 'locked'"
+              :title="subtopic.status === 'locked' ? 'Conclua o nível anterior para desbloquear.' : undefined"
               @click="handleSelect(subtopic)"
             >
               <span class="topic-trail__marker" aria-hidden="true">
@@ -290,6 +348,53 @@ function handleSelect(subtopic) {
   border-color: var(--color-cyan);
 }
 
+.topic-trail__overview-meta > .topic-trail__complete-message {
+  color: var(--color-mint-strong);
+  background: var(--color-mint-soft);
+  border-color: var(--color-mint);
+}
+
+.topic-trail__progress {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 20px;
+  background: var(--color-surface);
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-card);
+}
+
+.topic-trail__progress-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.78rem;
+}
+
+.topic-trail__progress-heading strong {
+  color: var(--color-ink);
+}
+
+.topic-trail__progress-heading span {
+  color: var(--color-ink-muted);
+}
+
+.topic-trail__progress-track {
+  height: 10px;
+  overflow: hidden;
+  background: var(--color-surface-soft);
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius-pill);
+}
+
+.topic-trail__progress-fill {
+  display: block;
+  height: 100%;
+  background: var(--color-mint);
+  border-radius: inherit;
+  transition: width 240ms ease;
+}
+
 .topic-trail__board {
   padding: clamp(20px, 3vw, 30px);
   background: var(--color-surface);
@@ -348,7 +453,40 @@ function handleSelect(subtopic) {
   transition: border-color 180ms ease, transform 180ms ease, background-color 180ms ease;
 }
 
-.topic-trail__level:hover {
+.topic-trail__level:disabled {
+  cursor: not-allowed;
+}
+
+.topic-trail__level.is-completed {
+  background: var(--color-mint-soft);
+  border-color: var(--color-mint);
+}
+
+.topic-trail__level.is-current {
+  background: var(--color-cyan-soft);
+  border-color: var(--color-cyan);
+}
+
+.topic-trail__level.is-locked {
+  color: var(--color-ink-muted);
+  background: var(--color-surface-soft);
+  border-color: var(--color-border-soft);
+}
+
+.topic-trail__level.is-locked .topic-trail__marker,
+.topic-trail__level.is-locked .topic-trail__arrow {
+  color: var(--color-ink-muted);
+  background: var(--color-surface);
+  border-color: var(--color-border-soft);
+}
+
+.topic-trail__level.is-locked .topic-trail__level-title,
+.topic-trail__level.is-locked .topic-trail__level-label,
+.topic-trail__level.is-locked .topic-trail__level-extra {
+  color: var(--color-ink-muted);
+}
+
+.topic-trail__level:not(:disabled):hover {
   background: var(--color-surface);
   border-color: var(--color-cyan);
   transform: translateY(-2px);
@@ -374,6 +512,18 @@ function handleSelect(subtopic) {
   color: var(--color-primary-ink);
   background: var(--color-primary);
   border-color: var(--color-primary-border);
+}
+
+.topic-trail__level.is-completed .topic-trail__marker {
+  color: var(--color-mint-strong);
+  background: var(--color-surface);
+  border-color: var(--color-mint);
+}
+
+.topic-trail__level.is-current .topic-trail__marker {
+  color: var(--color-cyan-strong);
+  background: var(--color-surface);
+  border-color: var(--color-cyan);
 }
 
 .topic-trail__copy {
@@ -499,7 +649,7 @@ function handleSelect(subtopic) {
   }
 
   .topic-trail__back:hover,
-  .topic-trail__level:hover {
+  .topic-trail__level:not(:disabled):hover {
     transform: none;
   }
 }

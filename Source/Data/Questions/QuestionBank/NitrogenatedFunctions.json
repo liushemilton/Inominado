@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Funções nitrogenadas",
-  "totalQuestoes": 6,
+  "totalQuestoes": 81,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "As aminas podem ser entendidas como derivados da amônia (NH₃), pela substituição de um ou mais hidrogênios por grupos orgânicos."
+      "explicacao": "As aminas podem ser entendidas como derivados da amônia (NH₃), pela substituição de um ou mais hidrogênios por grupos orgânicos.",
+      "subtopicIds": [
+        "topico-06-subtopico-02"
+      ]
     },
     {
       "id": "Q022",
@@ -45,7 +48,10 @@
       "dificuldade": "facil",
       "enunciado": "O grupo −C≡N é característico das nitrilas.",
       "resposta": true,
-      "explicacao": "As nitrilas apresentam o grupo funcional ciano, representado por −C≡N."
+      "explicacao": "As nitrilas apresentam o grupo funcional ciano, representado por −C≡N.",
+      "subtopicIds": [
+        "topico-06-subtopico-04"
+      ]
     },
     {
       "id": "Q023",
@@ -81,7 +87,10 @@
         "P3": "Apresentam o grupo −C≡N.",
         "P4": "Apresentam o grupo −NO₂."
       },
-      "explicacao": "Cada função nitrogenada possui um grupo funcional ou característica estrutural que permite sua identificação."
+      "explicacao": "Cada função nitrogenada possui um grupo funcional ou característica estrutural que permite sua identificação.",
+      "subtopicIds": [
+        "topico-06-subtopico-02"
+      ]
     },
     {
       "id": "Q024",
@@ -108,7 +117,10 @@
         }
       ],
       "resposta": "C",
-      "explicacao": "O grupo nitro é representado por −NO₂."
+      "explicacao": "O grupo nitro é representado por −NO₂.",
+      "subtopicIds": [
+        "topico-06-subtopico-05"
+      ]
     },
     {
       "id": "Q059",
@@ -135,7 +147,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "O roteiro cita aplicações e ocorrências de compostos nitrogenados em medicamentos, fertilizantes e proteínas."
+      "explicacao": "O roteiro cita aplicações e ocorrências de compostos nitrogenados em medicamentos, fertilizantes e proteínas.",
+      "subtopicIds": [
+        "topico-06-subtopico-09"
+      ]
     },
     {
       "id": "Q060",
@@ -144,7 +159,1702 @@
       "dificuldade": "medio",
       "enunciado": "As amidas e as aminas são funções nitrogenadas distintas, com grupos funcionais diferentes.",
       "resposta": true,
-      "explicacao": "Embora ambas contenham nitrogênio, aminas e amidas apresentam características estruturais diferentes."
+      "explicacao": "Embora ambas contenham nitrogênio, aminas e amidas apresentam características estruturais diferentes.",
+      "subtopicIds": [
+        "topico-06-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q213",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de funções orgânicas nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "C",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo −C≡N."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais. A pergunta trata especificamente de conceito de funções orgânicas nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q214",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de funções orgânicas nitrogenadas, é correto afirmar que Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": true,
+      "explicacao": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "subtopicIds": [
+        "topico-06-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q215",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de funções orgânicas nitrogenadas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "C",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo −C≡N."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais. A pergunta trata especificamente de conceito de funções orgânicas nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q216",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de funções orgânicas nitrogenadas, é correto afirmar que derivadas da amônia.",
+      "resposta": false,
+      "explicacao": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-06-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q217",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente aminas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo −C≡N."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "derivadas da amônia. A pergunta trata especificamente de aminas.",
+      "subtopicIds": [
+        "topico-06-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q218",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente amidas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo −C≡N."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "presença do grupo funcional amida. A pergunta trata especificamente de amidas.",
+      "subtopicIds": [
+        "topico-06-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q219",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre amidas, é correto afirmar que presença do grupo funcional amida.",
+      "resposta": true,
+      "explicacao": "presença do grupo funcional amida.",
+      "subtopicIds": [
+        "topico-06-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q220",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando amidas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo −C≡N."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "presença do grupo funcional amida. A pergunta trata especificamente de amidas.",
+      "subtopicIds": [
+        "topico-06-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q221",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre amidas, é correto afirmar que Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "presença do grupo funcional amida. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-06-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q222",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente nitrilas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo −C≡N."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "presença do grupo −C≡N. A pergunta trata especificamente de nitrilas.",
+      "subtopicIds": [
+        "topico-06-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q223",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nitrilas, é correto afirmar que presença do grupo −C≡N.",
+      "resposta": true,
+      "explicacao": "presença do grupo −C≡N.",
+      "subtopicIds": [
+        "topico-06-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q224",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando nitrilas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo −C≡N."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "presença do grupo −C≡N. A pergunta trata especificamente de nitrilas.",
+      "subtopicIds": [
+        "topico-06-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q225",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente nitrocompostos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "presença do grupo −NO₂."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "presença do grupo −NO₂. A pergunta trata especificamente de nitrocompostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q226",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nitrocompostos, é correto afirmar que presença do grupo −NO₂.",
+      "resposta": true,
+      "explicacao": "presença do grupo −NO₂.",
+      "subtopicIds": [
+        "topico-06-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q227",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando nitrocompostos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "presença do grupo −NO₂."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "presença do grupo −NO₂. A pergunta trata especificamente de nitrocompostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q228",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente nomenclatura das funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes. A pergunta trata especificamente de nomenclatura das funções nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q229",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura das funções nitrogenadas, é correto afirmar que A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes.",
+      "resposta": true,
+      "explicacao": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes.",
+      "subtopicIds": [
+        "topico-06-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q230",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando nomenclatura das funções nitrogenadas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes. A pergunta trata especificamente de nomenclatura das funções nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q231",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura das funções nitrogenadas, é correto afirmar que Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-06-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q232",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente identificação dos grupos funcionais no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes. A pergunta trata especificamente de identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-06-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q233",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação dos grupos funcionais, é correto afirmar que Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes.",
+      "resposta": true,
+      "explicacao": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes.",
+      "subtopicIds": [
+        "topico-06-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q234",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando identificação dos grupos funcionais, qual característica deve ser reconhecida no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes. A pergunta trata especificamente de identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-06-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q235",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação dos grupos funcionais, é correto afirmar que Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-06-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q236",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente propriedades físicas e químicas no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas. A pergunta trata especificamente de propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-06-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q237",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades físicas e químicas, é correto afirmar que A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas.",
+      "resposta": true,
+      "explicacao": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-06-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q238",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando propriedades físicas e químicas, qual característica deve ser reconhecida no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas. A pergunta trata especificamente de propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-06-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q239",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades físicas e químicas, é correto afirmar que Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-06-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q240",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente aplicações em medicamentos, fertilizantes, proteínas e outros compostos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos nitrogenados ocorrem em biomoléculas, fertilizantes e diversos medicamentos."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Compostos nitrogenados ocorrem em biomoléculas, fertilizantes e diversos medicamentos. A pergunta trata especificamente de aplicações em medicamentos, fertilizantes, proteínas e outros compostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q241",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre aplicações em medicamentos, fertilizantes, proteínas e outros compostos, é correto afirmar que Compostos nitrogenados ocorrem em biomoléculas, fertilizantes e diversos medicamentos.",
+      "resposta": true,
+      "explicacao": "Compostos nitrogenados ocorrem em biomoléculas, fertilizantes e diversos medicamentos.",
+      "subtopicIds": [
+        "topico-06-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q242",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando aplicações em medicamentos, fertilizantes, proteínas e outros compostos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos nitrogenados ocorrem em biomoléculas, fertilizantes e diversos medicamentos."
+        },
+        {
+          "id": "C",
+          "texto": "derivadas da amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Compostos nitrogenados ocorrem em biomoléculas, fertilizantes e diversos medicamentos. A pergunta trata especificamente de aplicações em medicamentos, fertilizantes, proteínas e outros compostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q605",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de funções orgânicas nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Amônia."
+        },
+        {
+          "id": "C",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais. A alternativa correta descreve especificamente conceito de funções orgânicas nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q606",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de funções orgânicas nitrogenadas: Amônia.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de funções orgânicas nitrogenadas, o correto é: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "subtopicIds": [
+        "topico-06-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q607",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de funções orgânicas nitrogenadas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Amônia."
+        },
+        {
+          "id": "C",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais. A alternativa correta descreve especificamente conceito de funções orgânicas nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q608",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de funções orgânicas nitrogenadas: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": true,
+      "explicacao": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "subtopicIds": [
+        "topico-06-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q609",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de funções orgânicas nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Amônia."
+        },
+        {
+          "id": "C",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais. A alternativa correta descreve especificamente conceito de funções orgânicas nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q610",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de aminas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Amônia."
+        },
+        {
+          "id": "C",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Amônia. A alternativa correta descreve especificamente aminas.",
+      "subtopicIds": [
+        "topico-06-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q611",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre aminas: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre aminas, o correto é: Amônia.",
+      "subtopicIds": [
+        "topico-06-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q612",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar aminas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Amônia."
+        },
+        {
+          "id": "C",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Amônia. A alternativa correta descreve especificamente aminas.",
+      "subtopicIds": [
+        "topico-06-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q613",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de aminas: Amônia.",
+      "resposta": true,
+      "explicacao": "Amônia.",
+      "subtopicIds": [
+        "topico-06-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q614",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com aminas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "Amônia."
+        },
+        {
+          "id": "C",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Amônia. A alternativa correta descreve especificamente aminas.",
+      "subtopicIds": [
+        "topico-06-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q615",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de amidas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "presença do grupo funcional amida. A alternativa correta descreve especificamente amidas.",
+      "subtopicIds": [
+        "topico-06-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q616",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre amidas: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre amidas, o correto é: presença do grupo funcional amida.",
+      "subtopicIds": [
+        "topico-06-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q617",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar amidas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "presença do grupo funcional amida. A alternativa correta descreve especificamente amidas.",
+      "subtopicIds": [
+        "topico-06-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q618",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de amidas: presença do grupo funcional amida.",
+      "resposta": true,
+      "explicacao": "presença do grupo funcional amida.",
+      "subtopicIds": [
+        "topico-06-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q619",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com amidas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "presença do grupo funcional amida. A alternativa correta descreve especificamente amidas.",
+      "subtopicIds": [
+        "topico-06-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q620",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de nitrilas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O grupo −C≡N é característico das nitrilas. A alternativa correta descreve especificamente nitrilas.",
+      "subtopicIds": [
+        "topico-06-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q621",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre nitrilas: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre nitrilas, o correto é: O grupo −C≡N é característico das nitrilas.",
+      "subtopicIds": [
+        "topico-06-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q622",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar nitrilas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O grupo −C≡N é característico das nitrilas. A alternativa correta descreve especificamente nitrilas.",
+      "subtopicIds": [
+        "topico-06-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q623",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de nitrilas: O grupo −C≡N é característico das nitrilas.",
+      "resposta": true,
+      "explicacao": "O grupo −C≡N é característico das nitrilas.",
+      "subtopicIds": [
+        "topico-06-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q624",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com nitrilas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo −C≡N é característico das nitrilas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O grupo −C≡N é característico das nitrilas. A alternativa correta descreve especificamente nitrilas.",
+      "subtopicIds": [
+        "topico-06-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q625",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de nitrocompostos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Amônia."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "−NO₂."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "−NO₂. A alternativa correta descreve especificamente nitrocompostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q626",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre nitrocompostos: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre nitrocompostos, o correto é: −NO₂.",
+      "subtopicIds": [
+        "topico-06-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q627",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar nitrocompostos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Amônia."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "−NO₂."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "−NO₂. A alternativa correta descreve especificamente nitrocompostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q628",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de nitrocompostos: −NO₂.",
+      "resposta": true,
+      "explicacao": "−NO₂.",
+      "subtopicIds": [
+        "topico-06-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q629",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com nitrocompostos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Amônia."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "−NO₂."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "−NO₂. A alternativa correta descreve especificamente nitrocompostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q630",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de nomenclatura das funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes. A alternativa correta descreve especificamente nomenclatura das funções nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q631",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre nomenclatura das funções nitrogenadas: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre nomenclatura das funções nitrogenadas, o correto é: A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes.",
+      "subtopicIds": [
+        "topico-06-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q632",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar nomenclatura das funções nitrogenadas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes. A alternativa correta descreve especificamente nomenclatura das funções nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q633",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de nomenclatura das funções nitrogenadas: A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes.",
+      "resposta": true,
+      "explicacao": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes.",
+      "subtopicIds": [
+        "topico-06-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q634",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com nomenclatura das funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "B",
+          "texto": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A nomenclatura das funções nitrogenadas depende da função principal, da cadeia e dos substituintes. A alternativa correta descreve especificamente nomenclatura das funções nitrogenadas.",
+      "subtopicIds": [
+        "topico-06-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q635",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de identificação dos grupos funcionais no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes. A alternativa correta descreve especificamente identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-06-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q636",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre identificação dos grupos funcionais: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre identificação dos grupos funcionais, o correto é: Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes.",
+      "subtopicIds": [
+        "topico-06-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q637",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar identificação dos grupos funcionais, qual informação deve ser considerada no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes. A alternativa correta descreve especificamente identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-06-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q638",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de identificação dos grupos funcionais: Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes.",
+      "resposta": true,
+      "explicacao": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes.",
+      "subtopicIds": [
+        "topico-06-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q639",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com identificação dos grupos funcionais no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Aminas, amidas, nitrilas e nitrocompostos são distinguidos por grupos funcionais diferentes. A alternativa correta descreve especificamente identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-06-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q640",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de propriedades físicas e químicas no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas. A alternativa correta descreve especificamente propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-06-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q641",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre propriedades físicas e químicas: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre propriedades físicas e químicas, o correto é: A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-06-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q642",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar propriedades físicas e químicas, qual informação deve ser considerada no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas. A alternativa correta descreve especificamente propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-06-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q643",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de propriedades físicas e químicas: A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas.",
+      "resposta": true,
+      "explicacao": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-06-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q644",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com propriedades físicas e químicas no módulo de funções nitrogenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "presença do grupo funcional amida."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Amônia."
+        },
+        {
+          "id": "D",
+          "texto": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A presença de nitrogênio e de outros grupos funcionais influencia propriedades físicas e químicas. A alternativa correta descreve especificamente propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-06-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q645",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de aplicações em medicamentos, fertilizantes, proteínas e outros compostos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Amônia."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Medicamentos, fertilizantes e proteínas."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Medicamentos, fertilizantes e proteínas. A alternativa correta descreve especificamente aplicações em medicamentos, fertilizantes, proteínas e outros compostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q646",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre aplicações em medicamentos, fertilizantes, proteínas e outros compostos: Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre aplicações em medicamentos, fertilizantes, proteínas e outros compostos, o correto é: Medicamentos, fertilizantes e proteínas.",
+      "subtopicIds": [
+        "topico-06-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q647",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar aplicações em medicamentos, fertilizantes, proteínas e outros compostos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Amônia."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Medicamentos, fertilizantes e proteínas."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Medicamentos, fertilizantes e proteínas. A alternativa correta descreve especificamente aplicações em medicamentos, fertilizantes, proteínas e outros compostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q648",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de aplicações em medicamentos, fertilizantes, proteínas e outros compostos: Medicamentos, fertilizantes e proteínas.",
+      "resposta": true,
+      "explicacao": "Medicamentos, fertilizantes e proteínas.",
+      "subtopicIds": [
+        "topico-06-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q649",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções nitrogenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com aplicações em medicamentos, fertilizantes, proteínas e outros compostos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Amônia."
+        },
+        {
+          "id": "B",
+          "texto": "Funções nitrogenadas são classes de compostos orgânicos que apresentam nitrogênio em seus grupos funcionais."
+        },
+        {
+          "id": "C",
+          "texto": "Medicamentos, fertilizantes e proteínas."
+        },
+        {
+          "id": "D",
+          "texto": "presença do grupo funcional amida."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Medicamentos, fertilizantes e proteínas. A alternativa correta descreve especificamente aplicações em medicamentos, fertilizantes, proteínas e outros compostos.",
+      "subtopicIds": [
+        "topico-06-subtopico-09"
+      ]
     }
   ]
 }

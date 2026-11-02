@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Polímeros sintéticos",
-  "totalQuestoes": 6,
+  "totalQuestoes": 81,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "Polímeros sintéticos são materiais produzidos por processos de polimerização, geralmente a partir de monômeros."
+      "explicacao": "Polímeros sintéticos são materiais produzidos por processos de polimerização, geralmente a partir de monômeros.",
+      "subtopicIds": [
+        "topico-10-subtopico-01"
+      ]
     },
     {
       "id": "Q038",
@@ -45,7 +48,10 @@
       "dificuldade": "medio",
       "enunciado": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo.",
       "resposta": true,
-      "explicacao": "Na polimerização por adição, unidades monoméricas se adicionam à cadeia; na condensação, pode ocorrer liberação de moléculas pequenas."
+      "explicacao": "Na polimerização por adição, unidades monoméricas se adicionam à cadeia; na condensação, pode ocorrer liberação de moléculas pequenas.",
+      "subtopicIds": [
+        "topico-10-subtopico-03"
+      ]
     },
     {
       "id": "Q039",
@@ -81,7 +87,10 @@
         "P3": "Apresentam elasticidade, podendo deformar e recuperar a forma.",
         "P4": "Materiais poliméricos usados na produção de fibras."
       },
-      "explicacao": "Essas categorias descrevem comportamentos e aplicações diferentes dos materiais poliméricos."
+      "explicacao": "Essas categorias descrevem comportamentos e aplicações diferentes dos materiais poliméricos.",
+      "subtopicIds": [
+        "topico-10-subtopico-05"
+      ]
     },
     {
       "id": "Q040",
@@ -108,7 +117,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "O PET é um dos exemplos de polímeros sintéticos listados no roteiro."
+      "explicacao": "O PET é um dos exemplos de polímeros sintéticos listados no roteiro.",
+      "subtopicIds": [
+        "topico-10-subtopico-07"
+      ]
     },
     {
       "id": "Q067",
@@ -135,7 +147,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "Polietileno, polipropileno, PVC e PET aparecem entre os exemplos de polímeros sintéticos do roteiro."
+      "explicacao": "Polietileno, polipropileno, PVC e PET aparecem entre os exemplos de polímeros sintéticos do roteiro.",
+      "subtopicIds": [
+        "topico-10-subtopico-07"
+      ]
     },
     {
       "id": "Q068",
@@ -177,7 +192,1702 @@
         "P4": "Poliestireno.",
         "P5": "Polietileno tereftalato."
       },
-      "explicacao": "As siglas identificam polímeros sintéticos amplamente utilizados em diferentes produtos e aplicações."
+      "explicacao": "As siglas identificam polímeros sintéticos amplamente utilizados em diferentes produtos e aplicações.",
+      "subtopicIds": [
+        "topico-10-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q329",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de polímeros sintéticos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais. A pergunta trata especificamente de conceito de polímeros sintéticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q330",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de polímeros sintéticos, é correto afirmar que Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais.",
+      "resposta": true,
+      "explicacao": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais.",
+      "subtopicIds": [
+        "topico-10-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q331",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de polímeros sintéticos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais. A pergunta trata especificamente de conceito de polímeros sintéticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q332",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente monômeros e unidades repetitivas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "C",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica. A pergunta trata especificamente de monômeros e unidades repetitivas.",
+      "subtopicIds": [
+        "topico-10-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q333",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre monômeros e unidades repetitivas, é correto afirmar que Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica.",
+      "resposta": true,
+      "explicacao": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica.",
+      "subtopicIds": [
+        "topico-10-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q334",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando monômeros e unidades repetitivas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "C",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica. A pergunta trata especificamente de monômeros e unidades repetitivas.",
+      "subtopicIds": [
+        "topico-10-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q335",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre monômeros e unidades repetitivas, é correto afirmar que Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais.",
+      "resposta": false,
+      "explicacao": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-10-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q336",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente polimerização por adição?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "B",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas. A pergunta trata especificamente de polimerização por adição.",
+      "subtopicIds": [
+        "topico-10-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q337",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre polimerização por adição, é correto afirmar que Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas.",
+      "resposta": true,
+      "explicacao": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas.",
+      "subtopicIds": [
+        "topico-10-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q338",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando polimerização por adição, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "B",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas. A pergunta trata especificamente de polimerização por adição.",
+      "subtopicIds": [
+        "topico-10-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q339",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente polimerização por condensação?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas. A pergunta trata especificamente de polimerização por condensação.",
+      "subtopicIds": [
+        "topico-10-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q340",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre polimerização por condensação, é correto afirmar que Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas.",
+      "resposta": true,
+      "explicacao": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas.",
+      "subtopicIds": [
+        "topico-10-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q341",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando polimerização por condensação, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas. A pergunta trata especificamente de polimerização por condensação.",
+      "subtopicIds": [
+        "topico-10-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q342",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre polimerização por condensação, é correto afirmar que Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais.",
+      "resposta": false,
+      "explicacao": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-10-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q343",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente termoplásticos e termofixos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente. A pergunta trata especificamente de termoplásticos e termofixos.",
+      "subtopicIds": [
+        "topico-10-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q344",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre termoplásticos e termofixos, é correto afirmar que Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente.",
+      "resposta": true,
+      "explicacao": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente.",
+      "subtopicIds": [
+        "topico-10-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q345",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando termoplásticos e termofixos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente. A pergunta trata especificamente de termoplásticos e termofixos.",
+      "subtopicIds": [
+        "topico-10-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q346",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente elastômeros e fibras sintéticas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis. A pergunta trata especificamente de elastômeros e fibras sintéticas.",
+      "subtopicIds": [
+        "topico-10-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q347",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre elastômeros e fibras sintéticas, é correto afirmar que Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis.",
+      "resposta": true,
+      "explicacao": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis.",
+      "subtopicIds": [
+        "topico-10-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q348",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando elastômeros e fibras sintéticas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis. A pergunta trata especificamente de elastômeros e fibras sintéticas.",
+      "subtopicIds": [
+        "topico-10-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q349",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre elastômeros e fibras sintéticas, é correto afirmar que Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais.",
+      "resposta": false,
+      "explicacao": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-10-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q350",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente principais exemplos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "PE, PP, PVC, PS, PET, nylon e borrachas sintéticas são exemplos de polímeros sintéticos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "PE, PP, PVC, PS, PET, nylon e borrachas sintéticas são exemplos de polímeros sintéticos. A pergunta trata especificamente de principais exemplos.",
+      "subtopicIds": [
+        "topico-10-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q351",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente propriedades e aplicações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações. A pergunta trata especificamente de propriedades e aplicações.",
+      "subtopicIds": [
+        "topico-10-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q352",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades e aplicações, é correto afirmar que A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações.",
+      "resposta": true,
+      "explicacao": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações.",
+      "subtopicIds": [
+        "topico-10-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q353",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando propriedades e aplicações, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações. A pergunta trata especificamente de propriedades e aplicações.",
+      "subtopicIds": [
+        "topico-10-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q354",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades e aplicações, é correto afirmar que Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais.",
+      "resposta": false,
+      "explicacao": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-10-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q355",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente reciclagem e impactos ambientais dos plásticos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível. A pergunta trata especificamente de reciclagem e impactos ambientais dos plásticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q356",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre reciclagem e impactos ambientais dos plásticos, é correto afirmar que Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível.",
+      "resposta": true,
+      "explicacao": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível.",
+      "subtopicIds": [
+        "topico-10-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q357",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considerando reciclagem e impactos ambientais dos plásticos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros insaturados se unem sem eliminação característica de moléculas pequenas."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível. A pergunta trata especificamente de reciclagem e impactos ambientais dos plásticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q358",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Sobre reciclagem e impactos ambientais dos plásticos, é correto afirmar que Polímeros sintéticos são macromoléculas produzidas por processos químicos industriais.",
+      "resposta": false,
+      "explicacao": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-10-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q780",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de polímeros sintéticos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "C",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "D",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "É produzido por processos químicos ou industriais, a partir de monômeros. A alternativa correta descreve especificamente conceito de polímeros sintéticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q781",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de polímeros sintéticos: Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de polímeros sintéticos, o correto é: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "subtopicIds": [
+        "topico-10-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q782",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de polímeros sintéticos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "C",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "D",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "É produzido por processos químicos ou industriais, a partir de monômeros. A alternativa correta descreve especificamente conceito de polímeros sintéticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q783",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de polímeros sintéticos: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "resposta": true,
+      "explicacao": "É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "subtopicIds": [
+        "topico-10-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q784",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de polímeros sintéticos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "C",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "D",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "É produzido por processos químicos ou industriais, a partir de monômeros. A alternativa correta descreve especificamente conceito de polímeros sintéticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q785",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de monômeros e unidades repetitivas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica. A alternativa correta descreve especificamente monômeros e unidades repetitivas.",
+      "subtopicIds": [
+        "topico-10-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q786",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre monômeros e unidades repetitivas: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre monômeros e unidades repetitivas, o correto é: Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica.",
+      "subtopicIds": [
+        "topico-10-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q787",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar monômeros e unidades repetitivas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica. A alternativa correta descreve especificamente monômeros e unidades repetitivas.",
+      "subtopicIds": [
+        "topico-10-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q788",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de monômeros e unidades repetitivas: Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica.",
+      "resposta": true,
+      "explicacao": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica.",
+      "subtopicIds": [
+        "topico-10-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q789",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com monômeros e unidades repetitivas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica. A alternativa correta descreve especificamente monômeros e unidades repetitivas.",
+      "subtopicIds": [
+        "topico-10-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q790",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de polimerização por adição?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "B",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo. A alternativa correta descreve especificamente polimerização por adição.",
+      "subtopicIds": [
+        "topico-10-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q791",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre polimerização por adição: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre polimerização por adição, o correto é: Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo.",
+      "subtopicIds": [
+        "topico-10-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q792",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar polimerização por adição, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "B",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo. A alternativa correta descreve especificamente polimerização por adição.",
+      "subtopicIds": [
+        "topico-10-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q793",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de polimerização por adição: Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo.",
+      "resposta": true,
+      "explicacao": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo.",
+      "subtopicIds": [
+        "topico-10-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q794",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com polimerização por adição?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "B",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo. A alternativa correta descreve especificamente polimerização por adição.",
+      "subtopicIds": [
+        "topico-10-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q795",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de polimerização por condensação?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas. A alternativa correta descreve especificamente polimerização por condensação.",
+      "subtopicIds": [
+        "topico-10-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q796",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre polimerização por condensação: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre polimerização por condensação, o correto é: Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas.",
+      "subtopicIds": [
+        "topico-10-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q797",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar polimerização por condensação, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas. A alternativa correta descreve especificamente polimerização por condensação.",
+      "subtopicIds": [
+        "topico-10-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q798",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de polimerização por condensação: Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas.",
+      "resposta": true,
+      "explicacao": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas.",
+      "subtopicIds": [
+        "topico-10-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q799",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com polimerização por condensação?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Na polimerização por condensação, a formação do polímero costuma ocorrer com eliminação de moléculas pequenas. A alternativa correta descreve especificamente polimerização por condensação.",
+      "subtopicIds": [
+        "topico-10-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q800",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de termoplásticos e termofixos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente. A alternativa correta descreve especificamente termoplásticos e termofixos.",
+      "subtopicIds": [
+        "topico-10-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q801",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre termoplásticos e termofixos: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre termoplásticos e termofixos, o correto é: Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente.",
+      "subtopicIds": [
+        "topico-10-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q802",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar termoplásticos e termofixos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente. A alternativa correta descreve especificamente termoplásticos e termofixos.",
+      "subtopicIds": [
+        "topico-10-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q803",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de termoplásticos e termofixos: Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente.",
+      "resposta": true,
+      "explicacao": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente.",
+      "subtopicIds": [
+        "topico-10-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q804",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com termoplásticos e termofixos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Termoplásticos podem amolecer com aquecimento e ser remodelados; termofixos formam redes que não se fundem novamente. A alternativa correta descreve especificamente termoplásticos e termofixos.",
+      "subtopicIds": [
+        "topico-10-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q805",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de elastômeros e fibras sintéticas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis. A alternativa correta descreve especificamente elastômeros e fibras sintéticas.",
+      "subtopicIds": [
+        "topico-10-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q806",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre elastômeros e fibras sintéticas: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre elastômeros e fibras sintéticas, o correto é: Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis.",
+      "subtopicIds": [
+        "topico-10-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q807",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar elastômeros e fibras sintéticas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis. A alternativa correta descreve especificamente elastômeros e fibras sintéticas.",
+      "subtopicIds": [
+        "topico-10-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q808",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de elastômeros e fibras sintéticas: Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis.",
+      "resposta": true,
+      "explicacao": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis.",
+      "subtopicIds": [
+        "topico-10-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q809",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com elastômeros e fibras sintéticas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Elastômeros deformam-se e recuperam a forma; fibras sintéticas formam filamentos com propriedades mecânicas úteis. A alternativa correta descreve especificamente elastômeros e fibras sintéticas.",
+      "subtopicIds": [
+        "topico-10-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q810",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de principais exemplos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "B",
+          "texto": "Um polímero sintético."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Um polímero sintético. A alternativa correta descreve especificamente principais exemplos.",
+      "subtopicIds": [
+        "topico-10-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q811",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre principais exemplos: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre principais exemplos, o correto é: Um polímero sintético.",
+      "subtopicIds": [
+        "topico-10-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q812",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar principais exemplos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "B",
+          "texto": "Um polímero sintético."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Um polímero sintético. A alternativa correta descreve especificamente principais exemplos.",
+      "subtopicIds": [
+        "topico-10-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q813",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de principais exemplos: Um polímero sintético.",
+      "resposta": true,
+      "explicacao": "Um polímero sintético.",
+      "subtopicIds": [
+        "topico-10-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q814",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com principais exemplos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "B",
+          "texto": "Um polímero sintético."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Um polímero sintético. A alternativa correta descreve especificamente principais exemplos.",
+      "subtopicIds": [
+        "topico-10-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q815",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de propriedades e aplicações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações. A alternativa correta descreve especificamente propriedades e aplicações.",
+      "subtopicIds": [
+        "topico-10-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q816",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre propriedades e aplicações: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre propriedades e aplicações, o correto é: A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações.",
+      "subtopicIds": [
+        "topico-10-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q817",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar propriedades e aplicações, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações. A alternativa correta descreve especificamente propriedades e aplicações.",
+      "subtopicIds": [
+        "topico-10-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q818",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de propriedades e aplicações: A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações.",
+      "resposta": true,
+      "explicacao": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações.",
+      "subtopicIds": [
+        "topico-10-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q819",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com propriedades e aplicações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A estrutura do polímero determina propriedades como flexibilidade, resistência térmica e aplicações. A alternativa correta descreve especificamente propriedades e aplicações.",
+      "subtopicIds": [
+        "topico-10-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q820",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de reciclagem e impactos ambientais dos plásticos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível. A alternativa correta descreve especificamente reciclagem e impactos ambientais dos plásticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q821",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre reciclagem e impactos ambientais dos plásticos: É produzido por processos químicos ou industriais, a partir de monômeros.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre reciclagem e impactos ambientais dos plásticos, o correto é: Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível.",
+      "subtopicIds": [
+        "topico-10-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q822",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar reciclagem e impactos ambientais dos plásticos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível. A alternativa correta descreve especificamente reciclagem e impactos ambientais dos plásticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q823",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de reciclagem e impactos ambientais dos plásticos: Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível.",
+      "resposta": true,
+      "explicacao": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível.",
+      "subtopicIds": [
+        "topico-10-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q824",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros sintéticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com reciclagem e impactos ambientais dos plásticos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Na polimerização por adição, monômeros se unem sem a eliminação de pequenas moléculas como água como característica do processo."
+        },
+        {
+          "id": "B",
+          "texto": "É produzido por processos químicos ou industriais, a partir de monômeros."
+        },
+        {
+          "id": "C",
+          "texto": "Monômeros são moléculas de partida; unidades repetitivas aparecem ao longo da cadeia polimérica."
+        },
+        {
+          "id": "D",
+          "texto": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Reciclagem e descarte adequado podem reduzir impactos, mas dependem do tipo de plástico e da infraestrutura disponível. A alternativa correta descreve especificamente reciclagem e impactos ambientais dos plásticos.",
+      "subtopicIds": [
+        "topico-10-subtopico-09"
+      ]
     }
   ]
 }

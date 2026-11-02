@@ -30,8 +30,11 @@ const storedResult = computed(() => {
 
 const result = computed(() => storedResult.value?.payload ?? {})
 
-function handleRoadmap() {
-  router.push({ name: ROUTE_NAMES.roadmap })
+function handleTrail() {
+  router.push({
+    name: ROUTE_NAMES.trail,
+    params: { levelId: props.levelId, phaseId: props.phaseId },
+  })
 }
 
 function handleRestart() {
@@ -52,12 +55,19 @@ function handleRestart() {
     v-if="storedResult"
     :result="result"
     @restart="handleRestart"
-    @roadmap="handleRoadmap"
+    @trail="handleTrail"
   />
 
   <main v-else class="route-fallback">
     <p>Nenhum resultado disponível para esta fase.</p>
-    <RouterLink :to="{ name: ROUTE_NAMES.roadmap }">Voltar ao roadmap</RouterLink>
+    <RouterLink
+      :to="{
+        name: ROUTE_NAMES.trail,
+        params: { levelId: props.levelId, phaseId: props.phaseId },
+      }"
+    >
+      Voltar à trilha
+    </RouterLink>
   </main>
 </template>
 

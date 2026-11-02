@@ -798,6 +798,39 @@ export function getPhaseSubtopicIds(phaseDefinition, phaseState) {
 }
 
 /**
+ * Subtópicos que têm pelo menos uma questão associada na fase.
+ * Quando a fase usa um banco antigo sem associações, retorna todos os
+ * subtópicos definidos para preservar o comportamento legado.
+ *
+ * @param {object | null} phaseDefinition
+ * @returns {string[]}
+ */
+export function getPhaseSubtopicIdsWithQuestions(phaseDefinition) {
+  const questions = Array.isArray(phaseDefinition?.questions)
+    ? phaseDefinition.questions
+    : []
+  const mappedIds = new Set()
+  let hasMappings = false
+
+  for (const question of questions) {
+    const rawIds = [
+      ...(Array.isArray(question?.subtopicIds) ? question.subtopicIds : []),
+      question?.subtopicId ?? question?.subtopic ?? question?.topicId,
+    ]
+    const ids = rawIds.map(toKey).filter(Boolean)
+
+    if (ids.length > 0) hasMappings = true
+    ids.forEach((id) => mappedIds.add(id))
+  }
+
+  const definedIds = getPhaseSubtopicIds(phaseDefinition, null)
+
+  if (!hasMappings) return definedIds
+
+  return definedIds.filter((id) => mappedIds.has(id))
+}
+
+/**
  * Estado normalizado de um subtópico dentro de uma fase.
  *
  * @param {unknown} phaseState
@@ -895,11 +928,13 @@ export function getSubtopicStatus(
   if (options.phaseUnlocked === false) return 'locked'
 
   const ids = getPhaseSubtopicIds(phaseDefinition, phaseState)
-  const index = ids.indexOf(key)
+  const orderedIds = getPhaseSubtopicIdsWithQuestions(phaseDefinition)
+  const sequenceIds = orderedIds.length > 0 ? orderedIds : ids
+  const index = sequenceIds.indexOf(key)
   const state = getSubtopicStateFromPhase(phaseState, key)
 
   if (index > 0) {
-    const previous = getSubtopicStateFromPhase(phaseState, ids[index - 1])
+    const previous = getSubtopicStateFromPhase(phaseState, sequenceIds[index - 1])
 
     if (!isSubtopicMastered(previous, rules)) return 'locked'
   }
@@ -1042,6 +1077,7 @@ export default {
   createEmptySubtopicState,
   getPhaseMastery,
   getPhaseSubtopicIds,
+  getPhaseSubtopicIdsWithQuestions,
   getQuestionStateFromPhase,
   getSubtopicSnapshot,
   getSubtopicStateFromPhase,
