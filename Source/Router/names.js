@@ -10,6 +10,7 @@ export const ROUTE_NAMES = Object.freeze({
   game: 'game',
   explanation: 'explanation',
   result: 'result',
+  testArea: 'test-area',
 })
 
 export default ROUTE_NAMES

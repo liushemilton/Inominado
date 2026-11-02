@@ -9,6 +9,7 @@
  * - `explanation`  → `/nivel/:levelId/fase/:phaseId/questao/:questionIndex/explicacao`
  *                                                               (ExplanationView)
  * - `result`       → `/nivel/:levelId/fase/:phaseId/resultado`  (ResultView)
+ * - `testArea`     → `/area-de-testes`                          (TestAreaView)
  *
  * `levelId` e `phaseId` são obrigatórios: as views recebem os dados já
  * resolvidos pelo catálogo em `Source/Data/Levels/index.js`, nunca apenas IDs.
@@ -25,6 +26,7 @@ import ExplanationRoute from './views/ExplanationRoute.vue'
 import GameRoute from './views/GameRoute.vue'
 import ResultRoute from './views/ResultRoute.vue'
 import RoadmapRoute from './views/RoadmapRoute.vue'
+import TestAreaRoute from './views/TestAreaRoute.vue'
 import TopicTrailRoute from './views/TopicTrailRoute.vue'
 import { lastAnswer, lastResult, sameId } from './session.js'
 
@@ -136,6 +138,11 @@ export const routes = [
     component: GameRoute,
     props: true,
     beforeEnter: requirePhase,
+  },
+  {
+    path: '/area-de-testes',
+    name: ROUTE_NAMES.testArea,
+    component: TestAreaRoute,
   },
   {
     path: '/:pathMatch(.*)*',
