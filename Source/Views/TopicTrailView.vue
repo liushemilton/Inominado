@@ -40,26 +40,50 @@ function handleSelect(subtopic) {
     <div class="topic-trail__shell">
       <header class="topic-trail__header">
         <button type="button" class="topic-trail__back" @click="emit('back')">
-          <span aria-hidden="true">←</span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M19 12H5" />
+            <path d="M12 19l-7-7 7-7" />
+          </svg>
           Roadmap
         </button>
 
-        <span v-if="level?.title" class="topic-trail__eyebrow">
-          {{ level.title }}
-        </span>
+        <div class="topic-trail__heading">
+          <span v-if="level?.title" class="topic-trail__eyebrow">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M9 3h6" />
+              <path d="M10 3v6.5L5.5 17a2.5 2.5 0 0 0 2.2 3.5h8.6a2.5 2.5 0 0 0 2.2-3.5L14 9.5V3" />
+              <path d="M7.5 15h9" />
+            </svg>
+            {{ level.title }}
+          </span>
+          <h1 class="topic-trail__title">{{ title }}</h1>
+          <p v-if="description" class="topic-trail__description">
+            {{ description }}
+          </p>
+        </div>
 
-        <h1 class="topic-trail__title">{{ title }}</h1>
-
-        <p v-if="description" class="topic-trail__description">
-          {{ description }}
-        </p>
-
-        <div class="topic-trail__meta">
+        <div class="topic-trail__overview-meta">
           <span>
             {{ totalLevels }}
             {{ totalLevels === 1 ? 'nível' : 'níveis' }}
           </span>
-          <span>Toque em um nível para começar</span>
+          <span class="topic-trail__instruction">Toque em um nível para começar</span>
         </div>
       </header>
 
@@ -99,14 +123,39 @@ function handleSelect(subtopic) {
                 </span>
               </span>
 
-              <span class="topic-trail__arrow" aria-hidden="true">→</span>
+              <span class="topic-trail__arrow" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14" />
+                  <path d="M12 5l7 7-7 7" />
+                </svg>
+              </span>
             </button>
           </li>
         </ol>
       </section>
 
       <section v-else class="topic-trail__empty">
-        <span class="topic-trail__empty-icon" aria-hidden="true">✦</span>
+        <span class="topic-trail__empty-icon" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M9 3h6" />
+            <path d="M10 3v6.5L5.5 17a2.5 2.5 0 0 0 2.2 3.5h8.6a2.5 2.5 0 0 0 2.2-3.5L14 9.5V3" />
+            <path d="M7.5 15h9" />
+          </svg>
+        </span>
         <h2 class="topic-trail__empty-title">Nenhum nível disponível</h2>
         <p class="topic-trail__empty-text">
           Este módulo ainda não possui subtópicos cadastrados.
@@ -117,52 +166,32 @@ function handleSelect(subtopic) {
 </template>
 
 <style scoped>
-:global(html),
-:global(body),
-:global(#app) {
-  min-height: 100%;
-}
-
-:global(body) {
-  margin: 0;
-  background: #08080c;
-}
-
 .topic-trail {
-  --neon: #00f0ff;
-  --surface: #0d0e15;
-  --surface-panel: #10121a;
-  --border-default: #1a1c29;
-  --text: #eafcff;
-  --muted: #8a99ad;
-
   display: flex;
   align-items: flex-start;
   justify-content: center;
   min-height: 100vh;
-  padding: clamp(16px, 3vw, 36px) clamp(12px, 2vw, 24px);
-  box-sizing: border-box;
-  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  color: var(--text);
-  background: #08080c;
+  padding: var(--page-padding);
+  color: var(--color-ink);
+  background: var(--color-bg);
 }
 
 .topic-trail__shell {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
   width: 100%;
-  max-width: 720px;
+  max-width: var(--content-width);
 }
 
 .topic-trail__header {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  padding: clamp(16px, 3vw, 24px);
-  background: var(--surface-panel);
-  border: 1px solid var(--border-default);
-  border-radius: 6px;
+  gap: 20px;
+  padding: clamp(20px, 3vw, 30px);
+  background: var(--color-surface);
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-card);
 }
 
 .topic-trail__back {
@@ -170,69 +199,109 @@ function handleSelect(subtopic) {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 10px;
-  margin-bottom: 6px;
+  padding: 8px 14px;
   font: inherit;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--color-ink-muted);
   cursor: pointer;
-  background: transparent;
-  border: 1px solid var(--border-default);
-  border-radius: 4px;
-  transition: color 150ms ease, border-color 150ms ease;
+  background: var(--color-surface-soft);
+  border: 2px solid var(--color-border-soft);
+  border-radius: var(--radius-pill);
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.topic-trail__back svg {
+  width: 14px;
+  height: 14px;
 }
 
 .topic-trail__back:hover {
-  color: var(--neon);
-  border-color: rgb(0 240 255 / 45%);
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border-color: var(--color-cyan);
+  transform: translateY(-1px);
+}
+
+.topic-trail__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .topic-trail__eyebrow {
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 6px 12px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--neon);
+  color: var(--color-mint-strong);
+  background: var(--color-mint-soft);
+  border: 2px solid var(--color-mint);
+  border-radius: var(--radius-pill);
+}
+
+.topic-trail__eyebrow svg {
+  width: 14px;
+  height: 14px;
 }
 
 .topic-trail__title {
   margin: 0;
-  font-size: clamp(1.5rem, 4vw, 2rem);
-  line-height: 1.15;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--color-ink);
 }
 
 .topic-trail__description {
-  max-width: 54ch;
-  margin: 2px 0 0;
-  font-size: 0.86rem;
-  line-height: 1.5;
-  color: var(--muted);
+  max-width: 56ch;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--color-ink-muted);
 }
 
-.topic-trail__meta {
+.topic-trail__overview-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px 14px;
-  margin-top: 4px;
-  font-size: 0.7rem;
-  color: var(--muted);
+  gap: 8px;
+  padding-top: 14px;
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  border-top: 2px solid var(--color-border-soft);
+}
+
+.topic-trail__overview-meta > span {
+  padding: 5px 10px;
+  background: var(--color-surface-soft);
+  border: 2px solid var(--color-border-soft);
+  border-radius: var(--radius-pill);
+}
+
+.topic-trail__overview-meta > .topic-trail__instruction {
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border-color: var(--color-cyan);
 }
 
 .topic-trail__board {
-  padding: clamp(16px, 3vw, 24px);
-  background: var(--surface-panel);
-  border: 1px solid var(--border-default);
-  border-radius: 6px;
+  padding: clamp(20px, 3vw, 30px);
+  background: var(--color-surface);
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-card);
 }
 
 .topic-trail__path {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 20px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -241,18 +310,18 @@ function handleSelect(subtopic) {
 .topic-trail__path::before {
   content: '';
   position: absolute;
-  top: 24px;
-  bottom: 24px;
+  top: 30px;
+  bottom: 30px;
   left: 50%;
   width: 0;
-  border-left: 2px dashed rgb(0 240 255 / 22%);
+  border-left: 3px dashed var(--color-border);
   transform: translateX(-50%);
 }
 
 .topic-trail__node {
   position: relative;
   z-index: 1;
-  width: min(330px, 100%);
+  width: min(360px, 100%);
 }
 
 .topic-trail__node:nth-child(odd) {
@@ -266,24 +335,23 @@ function handleSelect(subtopic) {
 .topic-trail__level {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
   width: 100%;
-  padding: 12px 14px;
+  padding: 16px;
   font: inherit;
   text-align: left;
   color: inherit;
   cursor: pointer;
-  background: var(--surface);
-  border: 1px solid var(--border-default);
-  border-radius: 8px;
-  transition: border-color 150ms ease, box-shadow 150ms ease,
-    transform 150ms ease;
+  background: var(--color-surface-soft);
+  border: 3px solid var(--color-border-soft);
+  border-radius: var(--radius-card);
+  transition: border-color 180ms ease, transform 180ms ease, background-color 180ms ease;
 }
 
 .topic-trail__level:hover {
-  border-color: rgb(0 240 255 / 55%);
-  box-shadow: 0 0 0 1px rgb(0 240 255 / 18%), 0 8px 24px rgb(0 0 0 / 35%);
-  transform: translateY(-1px);
+  background: var(--color-surface);
+  border-color: var(--color-cyan);
+  transform: translateY(-2px);
 }
 
 .topic-trail__marker {
@@ -291,22 +359,21 @@ function handleSelect(subtopic) {
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
-  width: 44px;
-  height: 44px;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--neon);
-  background: transparent;
-  border: 1px solid rgb(0 240 255 / 45%);
-  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--color-cyan-strong);
+  background: var(--color-surface);
+  border: 2px solid var(--color-cyan);
+  border-radius: 12px;
 }
 
 .topic-trail__node.is-first .topic-trail__marker {
-  color: #08080c;
-  background: var(--neon);
-  border-color: var(--neon);
-  box-shadow: 0 0 18px rgb(0 240 255 / 35%);
+  color: var(--color-primary-ink);
+  background: var(--color-primary);
+  border-color: var(--color-primary-border);
 }
 
 .topic-trail__copy {
@@ -318,30 +385,43 @@ function handleSelect(subtopic) {
 }
 
 .topic-trail__level-label {
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--color-ink-muted);
 }
 
 .topic-trail__level-title {
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 800;
   line-height: 1.35;
+  color: var(--color-ink);
 }
 
 .topic-trail__level-extra {
-  font-size: 0.68rem;
-  color: var(--muted);
+  font-size: 0.7rem;
+  color: var(--color-ink-muted);
 }
 
 .topic-trail__arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   flex: 0 0 auto;
-  font-size: 0.9rem;
-  color: var(--neon);
-  opacity: 0.7;
-  transition: opacity 150ms ease, transform 150ms ease;
+  width: 32px;
+  height: 32px;
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border: 2px solid var(--color-cyan);
+  border-radius: var(--radius-pill);
+  opacity: 0.8;
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.topic-trail__arrow svg {
+  width: 14px;
+  height: 14px;
 }
 
 .topic-trail__level:hover .topic-trail__arrow {
@@ -353,43 +433,50 @@ function handleSelect(subtopic) {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  padding: clamp(32px, 6vw, 64px) 20px;
+  gap: 12px;
+  padding: clamp(36px, 6vw, 68px) 20px;
   text-align: center;
-  background: var(--surface-panel);
-  border: 1px solid var(--border-default);
-  border-radius: 6px;
+  background: var(--color-surface);
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-card);
 }
 
 .topic-trail__empty-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 46px;
-  height: 46px;
-  font-size: 1.1rem;
-  color: var(--neon);
-  border: 1px solid var(--neon);
-  border-radius: 4px;
+  width: 64px;
+  height: 64px;
+  color: var(--color-cyan-strong);
+  background: var(--color-cyan-soft);
+  border: 2px solid var(--color-cyan);
+  border-radius: var(--radius-card);
+}
+
+.topic-trail__empty-icon svg {
+  width: 28px;
+  height: 28px;
 }
 
 .topic-trail__empty-title {
   margin: 4px 0 0;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--color-ink);
 }
 
 .topic-trail__empty-text {
-  max-width: 40ch;
+  max-width: 42ch;
   margin: 0;
-  font-size: 0.85rem;
-  line-height: 1.5;
-  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--color-ink-muted);
 }
 
 .topic-trail__back:focus-visible,
 .topic-trail__level:focus-visible {
-  outline: 2px solid var(--neon);
-  outline-offset: 2px;
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
 }
 
 @media (max-width: 600px) {
@@ -409,6 +496,11 @@ function handleSelect(subtopic) {
   .topic-trail__level,
   .topic-trail__arrow {
     transition: none;
+  }
+
+  .topic-trail__back:hover,
+  .topic-trail__level:hover {
+    transform: none;
   }
 }
 </style>

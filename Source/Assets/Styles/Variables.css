@@ -86,66 +86,66 @@
 }
 
 /* =========================================================
-   Tema Escuro — Estilo Dark Neon (Texto & Bordas Harmonizados)
+   Tema Escuro — Condizente e Harmonizado com o Tema Claro
    ========================================================= */
 body.dark,
 :root.dark {
-  /* Superfícies (Fundo Cyberpunk Profundo) */
-  --color-bg: #030712;
-  --color-bg-cream: #090D16;
-  --color-surface: #0B0F19;
-  --color-surface-soft: #1E1B4B;
-  --color-surface-sunken: #030712;
+  /* Superfícies (Mantendo a cartela de cinzas azulados profundos) */
+  --color-bg: #0B1120;
+  --color-bg-cream: #0F172A;
+  --color-surface: #1E293B;
+  --color-surface-soft: #111827;
+  --color-surface-sunken: #090D16;
 
-  /* Texto (Mais claro e na cor das bordas neon) */
-  --color-ink: #67E8F9;        /* Ciano neon brilhante para texto principal */
-  --color-ink-soft: #A5F3FC;   /* Ciano suave para leitura */
-  --color-ink-muted: #818CF8;  /* Roxo neon para labels/etiquetas */
-  --color-ink-faint: #475569;
+  /* Texto (Mantendo a hierarquia legível idêntica à do claro, em tons claros suaves) */
+  --color-ink: #F8FAFC;
+  --color-ink-soft: #CBD5E1;
+  --color-ink-muted: #94A3B8;
+  --color-ink-faint: #64748B;
 
-  /* Bordas Neon */
-  --color-border: #312E81;
-  --color-border-strong: #6366F1;
-  --color-border-soft: #1E1B4B;
+  /* Bordas (Proporcionais e sóbrias) */
+  --color-border: #334155;
+  --color-border-strong: #475569;
+  --color-border-soft: #1E293B;
 
-  /* Acentos Neon Vibrantes */
+  /* Acentos pastel adaptados para fundo escuro (mantendo o DNA visual) */
   --color-mint: #34D399;
   --color-mint-soft: #064E3B;
   --color-mint-strong: #6EE7B7;
   --color-mint-ink: #A7F3D0;
 
-  --color-cyan: #22D3EE;
-  --color-cyan-soft: #083344;
-  --color-cyan-strong: #67E8F9;
-  --color-cyan-ink: #CFFAFE;
+  --color-cyan: #38BDF8;
+  --color-cyan-soft: #0C4A6E;
+  --color-cyan-strong: #7DD3FC;
+  --color-cyan-ink: #E0F2FE;
 
-  --color-sun: #FBBF24;
-  --color-sun-soft: #451A03;
+  --color-sun: #FACC15;
+  --color-sun-soft: #78350F;
   --color-sun-strong: #FDE047;
-  --color-sun-ink: #FEF08A;
+  --color-sun-ink: #FEF9C3;
 
   --color-coral: #FB7185;
-  --color-coral-soft: #4C0519;
+  --color-coral-soft: #881337;
   --color-coral-strong: #FDA4AF;
-  --color-coral-ink: #FECDD3;
+  --color-coral-ink: #FFE4E6;
 
   --color-lilac: #A78BFA;
-  --color-lilac-soft: #2E1065;
+  --color-lilac-soft: #4C1D95;
   --color-lilac-strong: #C4B5FD;
-  --color-lilac-ink: #DDD6FE;
+  --color-lilac-ink: #EDE9FE;
 
   /* Ação Principal */
-  --color-primary: #06B6D4;
-  --color-primary-hover: #22D3EE;
-  --color-primary-active: #67E8F9;
-  --color-primary-ink: #030712;
-  --color-primary-border: #67E8F9;
+  --color-primary: #38BDF8;
+  --color-primary-hover: #7DD3FC;
+  --color-primary-active: #0284C7;
+  --color-primary-ink: #0F172A;
+  --color-primary-border: #38BDF8;
 
-  /* Foco Neon */
-  --color-focus: #22D3EE;
+  /* Foco */
+  --color-focus: #38BDF8;
 
   /* Aliases Mapeados */
   --bg-color: var(--color-bg);
-  --text-color: var(--color-ink-soft);
+  --text-color: var(--color-ink);
   --primary-color: var(--color-primary);
 }
