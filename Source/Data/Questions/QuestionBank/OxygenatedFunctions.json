@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Funções oxigenadas",
-  "totalQuestoes": 7,
+  "totalQuestoes": 108,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "Os ácidos carboxílicos apresentam o grupo carboxila, representado de forma geral por −COOH."
+      "explicacao": "Os ácidos carboxílicos apresentam o grupo carboxila, representado de forma geral por −COOH.",
+      "subtopicIds": [
+        "topico-05-subtopico-07"
+      ]
     },
     {
       "id": "Q018",
@@ -45,7 +48,10 @@
       "dificuldade": "medio",
       "enunciado": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático.",
       "resposta": true,
-      "explicacao": "Essa ligação direta entre a hidroxila e o anel aromático diferencia os fenóis dos álcoois comuns."
+      "explicacao": "Essa ligação direta entre a hidroxila e o anel aromático diferencia os fenóis dos álcoois comuns.",
+      "subtopicIds": [
+        "topico-05-subtopico-03"
+      ]
     },
     {
       "id": "Q019",
@@ -87,7 +93,10 @@
         "P4": "Grupo carbonila no interior da cadeia.",
         "P5": "Derivado de ácido carboxílico, com grupo característico −COO− entre grupos carbônicos."
       },
-      "explicacao": "A identificação das funções oxigenadas é feita observando a posição e a ligação dos grupos que contêm oxigênio."
+      "explicacao": "A identificação das funções oxigenadas é feita observando a posição e a ligação dos grupos que contêm oxigênio.",
+      "subtopicIds": [
+        "topico-05-subtopico-02"
+      ]
     },
     {
       "id": "Q020",
@@ -114,7 +123,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "O principal ácido presente no vinagre é o ácido acético, pertencente à função dos ácidos carboxílicos."
+      "explicacao": "O principal ácido presente no vinagre é o ácido acético, pertencente à função dos ácidos carboxílicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-12"
+      ]
     },
     {
       "id": "Q056",
@@ -141,7 +153,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "A posição do grupo carbonila permite diferenciar aldeídos e cetonas."
+      "explicacao": "A posição do grupo carbonila permite diferenciar aldeídos e cetonas.",
+      "subtopicIds": [
+        "topico-05-subtopico-05"
+      ]
     },
     {
       "id": "Q057",
@@ -150,7 +165,10 @@
       "dificuldade": "facil",
       "enunciado": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos.",
       "resposta": true,
-      "explicacao": "A estrutura geral de um éter pode ser representada por R−O−R', em que R e R' são grupos carbônicos."
+      "explicacao": "A estrutura geral de um éter pode ser representada por R−O−R', em que R e R' são grupos carbônicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-04"
+      ]
     },
     {
       "id": "Q058",
@@ -186,7 +204,2284 @@
         "P3": "Cetona.",
         "P4": "Podem incluir ésteres."
       },
-      "explicacao": "O roteiro relaciona funções oxigenadas a produtos e aplicações do cotidiano. A associação de fragrâncias a ésteres é um exemplo comum, embora perfumes possam conter várias classes de substâncias."
+      "explicacao": "O roteiro relaciona funções oxigenadas a produtos e aplicações do cotidiano. A associação de fragrâncias a ésteres é um exemplo comum, embora perfumes possam conter várias classes de substâncias.",
+      "subtopicIds": [
+        "topico-05-subtopico-12"
+      ]
+    },
+    {
+      "id": "Q172",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de funções orgânicas oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "oxigênio entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio. A pergunta trata especificamente de conceito de funções orgânicas oxigenadas.",
+      "subtopicIds": [
+        "topico-05-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q173",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de funções orgânicas oxigenadas, é correto afirmar que Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": true,
+      "explicacao": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "subtopicIds": [
+        "topico-05-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q174",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de funções orgânicas oxigenadas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "oxigênio entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio. A pergunta trata especificamente de conceito de funções orgânicas oxigenadas.",
+      "subtopicIds": [
+        "topico-05-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q175",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de funções orgânicas oxigenadas, é correto afirmar que grupo hidroxila ligado a carbono saturado.",
+      "resposta": false,
+      "explicacao": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-05-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q176",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente álcoois?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "C",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "oxigênio entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo hidroxila ligado a carbono saturado. A pergunta trata especificamente de álcoois.",
+      "subtopicIds": [
+        "topico-05-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q177",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre álcoois, é correto afirmar que grupo hidroxila ligado a carbono saturado.",
+      "resposta": true,
+      "explicacao": "grupo hidroxila ligado a carbono saturado.",
+      "subtopicIds": [
+        "topico-05-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q178",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando álcoois, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "C",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "oxigênio entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo hidroxila ligado a carbono saturado. A pergunta trata especificamente de álcoois.",
+      "subtopicIds": [
+        "topico-05-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q179",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente fenóis?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "oxigênio entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "hidroxila ligada diretamente a anel aromático. A pergunta trata especificamente de fenóis.",
+      "subtopicIds": [
+        "topico-05-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q180",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre fenóis, é correto afirmar que hidroxila ligada diretamente a anel aromático.",
+      "resposta": true,
+      "explicacao": "hidroxila ligada diretamente a anel aromático.",
+      "subtopicIds": [
+        "topico-05-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q181",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando fenóis, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "oxigênio entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "hidroxila ligada diretamente a anel aromático. A pergunta trata especificamente de fenóis.",
+      "subtopicIds": [
+        "topico-05-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q182",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente éteres?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "oxigênio entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "oxigênio entre dois grupos carbônicos. A pergunta trata especificamente de éteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q183",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre éteres, é correto afirmar que oxigênio entre dois grupos carbônicos.",
+      "resposta": true,
+      "explicacao": "oxigênio entre dois grupos carbônicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q184",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando éteres, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "oxigênio entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "oxigênio entre dois grupos carbônicos. A pergunta trata especificamente de éteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q185",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente aldeídos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo carbonila na extremidade da cadeia."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "grupo carbonila na extremidade da cadeia. A pergunta trata especificamente de aldeídos.",
+      "subtopicIds": [
+        "topico-05-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q186",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre aldeídos, é correto afirmar que grupo carbonila na extremidade da cadeia.",
+      "resposta": true,
+      "explicacao": "grupo carbonila na extremidade da cadeia.",
+      "subtopicIds": [
+        "topico-05-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q187",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando aldeídos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo carbonila na extremidade da cadeia."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "grupo carbonila na extremidade da cadeia. A pergunta trata especificamente de aldeídos.",
+      "subtopicIds": [
+        "topico-05-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q188",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente cetonas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo carbonila no interior da cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo carbonila no interior da cadeia. A pergunta trata especificamente de cetonas.",
+      "subtopicIds": [
+        "topico-05-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q189",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre cetonas, é correto afirmar que grupo carbonila no interior da cadeia.",
+      "resposta": true,
+      "explicacao": "grupo carbonila no interior da cadeia.",
+      "subtopicIds": [
+        "topico-05-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q190",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando cetonas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo carbonila no interior da cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo carbonila no interior da cadeia. A pergunta trata especificamente de cetonas.",
+      "subtopicIds": [
+        "topico-05-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q191",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre cetonas, é correto afirmar que Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "grupo carbonila no interior da cadeia. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-05-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q192",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ácidos carboxílicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo carboxila."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo carboxila. A pergunta trata especificamente de ácidos carboxílicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q193",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ácidos carboxílicos, é correto afirmar que grupo carboxila.",
+      "resposta": true,
+      "explicacao": "grupo carboxila.",
+      "subtopicIds": [
+        "topico-05-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q194",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando ácidos carboxílicos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo carboxila."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo carboxila. A pergunta trata especificamente de ácidos carboxílicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q195",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ésteres?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "derivados de ácidos carboxílicos."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "derivados de ácidos carboxílicos. A pergunta trata especificamente de ésteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q196",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ésteres, é correto afirmar que derivados de ácidos carboxílicos.",
+      "resposta": true,
+      "explicacao": "derivados de ácidos carboxílicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q197",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando ésteres, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "derivados de ácidos carboxílicos."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "derivados de ácidos carboxílicos. A pergunta trata especificamente de ésteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q198",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ésteres, é correto afirmar que Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "derivados de ácidos carboxílicos. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-05-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q199",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente nomenclatura de cada função?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes. A pergunta trata especificamente de nomenclatura de cada função.",
+      "subtopicIds": [
+        "topico-05-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q200",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura de cada função, é correto afirmar que A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes.",
+      "resposta": true,
+      "explicacao": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes.",
+      "subtopicIds": [
+        "topico-05-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q201",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando nomenclatura de cada função, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes. A pergunta trata especificamente de nomenclatura de cada função.",
+      "subtopicIds": [
+        "topico-05-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q202",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura de cada função, é correto afirmar que Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-05-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q203",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente identificação dos grupos funcionais no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica. A pergunta trata especificamente de identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-05-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q204",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação dos grupos funcionais, é correto afirmar que A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica.",
+      "resposta": true,
+      "explicacao": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica.",
+      "subtopicIds": [
+        "topico-05-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q205",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando identificação dos grupos funcionais, qual característica deve ser reconhecida no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica. A pergunta trata especificamente de identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-05-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q206",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre identificação dos grupos funcionais, é correto afirmar que Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-05-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q207",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente propriedades físicas e químicas no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição. A pergunta trata especificamente de propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-05-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q208",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades físicas e químicas, é correto afirmar que Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição.",
+      "resposta": true,
+      "explicacao": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição.",
+      "subtopicIds": [
+        "topico-05-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q209",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando propriedades físicas e químicas, qual característica deve ser reconhecida no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição. A pergunta trata especificamente de propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-05-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q210",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades físicas e químicas, é correto afirmar que Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-05-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q211",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente aplicações cotidianas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "álcool, vinagre, perfumes, solventes e gorduras."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "hidroxila ligada diretamente a anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "álcool, vinagre, perfumes, solventes e gorduras. A pergunta trata especificamente de aplicações cotidianas.",
+      "subtopicIds": [
+        "topico-05-subtopico-12"
+      ]
+    },
+    {
+      "id": "Q212",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre aplicações cotidianas, é correto afirmar que álcool, vinagre, perfumes, solventes e gorduras.",
+      "resposta": true,
+      "explicacao": "álcool, vinagre, perfumes, solventes e gorduras.",
+      "subtopicIds": [
+        "topico-05-subtopico-12"
+      ]
+    },
+    {
+      "id": "Q545",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de funções orgânicas oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "C",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio. A alternativa correta descreve especificamente conceito de funções orgânicas oxigenadas.",
+      "subtopicIds": [
+        "topico-05-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q546",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de funções orgânicas oxigenadas: grupo hidroxila ligado a carbono saturado.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de funções orgânicas oxigenadas, o correto é: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "subtopicIds": [
+        "topico-05-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q547",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de funções orgânicas oxigenadas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "C",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio. A alternativa correta descreve especificamente conceito de funções orgânicas oxigenadas.",
+      "subtopicIds": [
+        "topico-05-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q548",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de funções orgânicas oxigenadas: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": true,
+      "explicacao": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "subtopicIds": [
+        "topico-05-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q549",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de funções orgânicas oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "C",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio. A alternativa correta descreve especificamente conceito de funções orgânicas oxigenadas.",
+      "subtopicIds": [
+        "topico-05-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q550",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de álcoois?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "C",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo hidroxila ligado a carbono saturado. A alternativa correta descreve especificamente álcoois.",
+      "subtopicIds": [
+        "topico-05-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q551",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre álcoois: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre álcoois, o correto é: grupo hidroxila ligado a carbono saturado.",
+      "subtopicIds": [
+        "topico-05-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q552",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar álcoois, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "C",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo hidroxila ligado a carbono saturado. A alternativa correta descreve especificamente álcoois.",
+      "subtopicIds": [
+        "topico-05-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q553",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de álcoois: grupo hidroxila ligado a carbono saturado.",
+      "resposta": true,
+      "explicacao": "grupo hidroxila ligado a carbono saturado.",
+      "subtopicIds": [
+        "topico-05-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q554",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com álcoois?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "C",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo hidroxila ligado a carbono saturado. A alternativa correta descreve especificamente álcoois.",
+      "subtopicIds": [
+        "topico-05-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q555",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de fenóis?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático. A alternativa correta descreve especificamente fenóis.",
+      "subtopicIds": [
+        "topico-05-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q556",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre fenóis: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre fenóis, o correto é: Nos fenóis, a hidroxila está ligada diretamente a um anel aromático.",
+      "subtopicIds": [
+        "topico-05-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q557",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar fenóis, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático. A alternativa correta descreve especificamente fenóis.",
+      "subtopicIds": [
+        "topico-05-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q558",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de fenóis: Nos fenóis, a hidroxila está ligada diretamente a um anel aromático.",
+      "resposta": true,
+      "explicacao": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático.",
+      "subtopicIds": [
+        "topico-05-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q559",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com fenóis?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático. A alternativa correta descreve especificamente fenóis.",
+      "subtopicIds": [
+        "topico-05-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q560",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de éteres?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos. A alternativa correta descreve especificamente éteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q561",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre éteres: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre éteres, o correto é: O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q562",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar éteres, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos. A alternativa correta descreve especificamente éteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q563",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de éteres: O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos.",
+      "resposta": true,
+      "explicacao": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q564",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com éteres?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "O grupo funcional dos éteres apresenta um átomo de oxigênio ligado a dois grupos carbônicos. A alternativa correta descreve especificamente éteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q565",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de aldeídos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia. A alternativa correta descreve especificamente aldeídos.",
+      "subtopicIds": [
+        "topico-05-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q566",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre aldeídos: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre aldeídos, o correto é: O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia.",
+      "subtopicIds": [
+        "topico-05-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q567",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar aldeídos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia. A alternativa correta descreve especificamente aldeídos.",
+      "subtopicIds": [
+        "topico-05-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q568",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de aldeídos: O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia.",
+      "resposta": true,
+      "explicacao": "O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia.",
+      "subtopicIds": [
+        "topico-05-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q569",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com aldeídos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O aldeído apresenta carbonila na extremidade da cadeia; a cetona apresenta carbonila no interior da cadeia. A alternativa correta descreve especificamente aldeídos.",
+      "subtopicIds": [
+        "topico-05-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q570",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de cetonas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo carbonila no interior da cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo carbonila no interior da cadeia. A alternativa correta descreve especificamente cetonas.",
+      "subtopicIds": [
+        "topico-05-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q571",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre cetonas: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre cetonas, o correto é: grupo carbonila no interior da cadeia.",
+      "subtopicIds": [
+        "topico-05-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q572",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar cetonas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo carbonila no interior da cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo carbonila no interior da cadeia. A alternativa correta descreve especificamente cetonas.",
+      "subtopicIds": [
+        "topico-05-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q573",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de cetonas: grupo carbonila no interior da cadeia.",
+      "resposta": true,
+      "explicacao": "grupo carbonila no interior da cadeia.",
+      "subtopicIds": [
+        "topico-05-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q574",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com cetonas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "grupo carbonila no interior da cadeia."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "grupo carbonila no interior da cadeia. A alternativa correta descreve especificamente cetonas.",
+      "subtopicIds": [
+        "topico-05-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q575",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ácidos carboxílicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Carboxila (−COOH)."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Carboxila (−COOH). A alternativa correta descreve especificamente ácidos carboxílicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q576",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ácidos carboxílicos: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ácidos carboxílicos, o correto é: Carboxila (−COOH).",
+      "subtopicIds": [
+        "topico-05-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q577",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ácidos carboxílicos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Carboxila (−COOH)."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Carboxila (−COOH). A alternativa correta descreve especificamente ácidos carboxílicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q578",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ácidos carboxílicos: Carboxila (−COOH).",
+      "resposta": true,
+      "explicacao": "Carboxila (−COOH).",
+      "subtopicIds": [
+        "topico-05-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q579",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ácidos carboxílicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Carboxila (−COOH)."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Carboxila (−COOH). A alternativa correta descreve especificamente ácidos carboxílicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q580",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ésteres?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "derivados de ácidos carboxílicos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "derivados de ácidos carboxílicos. A alternativa correta descreve especificamente ésteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q581",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ésteres: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ésteres, o correto é: derivados de ácidos carboxílicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q582",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ésteres, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "derivados de ácidos carboxílicos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "derivados de ácidos carboxílicos. A alternativa correta descreve especificamente ésteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q583",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ésteres: derivados de ácidos carboxílicos.",
+      "resposta": true,
+      "explicacao": "derivados de ácidos carboxílicos.",
+      "subtopicIds": [
+        "topico-05-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q584",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ésteres?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "derivados de ácidos carboxílicos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "derivados de ácidos carboxílicos. A alternativa correta descreve especificamente ésteres.",
+      "subtopicIds": [
+        "topico-05-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q585",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de nomenclatura de cada função?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes. A alternativa correta descreve especificamente nomenclatura de cada função.",
+      "subtopicIds": [
+        "topico-05-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q586",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre nomenclatura de cada função: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre nomenclatura de cada função, o correto é: A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes.",
+      "subtopicIds": [
+        "topico-05-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q587",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar nomenclatura de cada função, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes. A alternativa correta descreve especificamente nomenclatura de cada função.",
+      "subtopicIds": [
+        "topico-05-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q588",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de nomenclatura de cada função: A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes.",
+      "resposta": true,
+      "explicacao": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes.",
+      "subtopicIds": [
+        "topico-05-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q589",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com nomenclatura de cada função?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "A nomenclatura orgânica usa regras para nomear a cadeia principal e indicar função, posição e substituintes. A alternativa correta descreve especificamente nomenclatura de cada função.",
+      "subtopicIds": [
+        "topico-05-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q590",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de identificação dos grupos funcionais no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica. A alternativa correta descreve especificamente identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-05-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q591",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre identificação dos grupos funcionais: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre identificação dos grupos funcionais, o correto é: A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica.",
+      "subtopicIds": [
+        "topico-05-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q592",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar identificação dos grupos funcionais, qual informação deve ser considerada no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica. A alternativa correta descreve especificamente identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-05-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q593",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de identificação dos grupos funcionais: A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica.",
+      "resposta": true,
+      "explicacao": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica.",
+      "subtopicIds": [
+        "topico-05-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q594",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com identificação dos grupos funcionais no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "B",
+          "texto": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "A identificação de uma função oxigenada depende do grupo funcional e de como ele está ligado à cadeia carbônica. A alternativa correta descreve especificamente identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-05-subtopico-10"
+      ]
+    },
+    {
+      "id": "Q595",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de propriedades físicas e químicas no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição. A alternativa correta descreve especificamente propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-05-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q596",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre propriedades físicas e químicas: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre propriedades físicas e químicas, o correto é: Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição.",
+      "subtopicIds": [
+        "topico-05-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q597",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar propriedades físicas e químicas, qual informação deve ser considerada no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição. A alternativa correta descreve especificamente propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-05-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q598",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de propriedades físicas e químicas: Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição.",
+      "resposta": true,
+      "explicacao": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição.",
+      "subtopicIds": [
+        "topico-05-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q599",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com propriedades físicas e químicas no módulo de funções oxigenadas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Grupos funcionais e tamanho da cadeia influenciam polaridade, solubilidade e pontos de ebulição. A alternativa correta descreve especificamente propriedades físicas e químicas.",
+      "subtopicIds": [
+        "topico-05-subtopico-11"
+      ]
+    },
+    {
+      "id": "Q600",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de aplicações cotidianas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Ácido acético — ácido carboxílico."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ácido acético — ácido carboxílico. A alternativa correta descreve especificamente aplicações cotidianas.",
+      "subtopicIds": [
+        "topico-05-subtopico-12"
+      ]
+    },
+    {
+      "id": "Q601",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre aplicações cotidianas: Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre aplicações cotidianas, o correto é: Ácido acético — ácido carboxílico.",
+      "subtopicIds": [
+        "topico-05-subtopico-12"
+      ]
+    },
+    {
+      "id": "Q602",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar aplicações cotidianas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Ácido acético — ácido carboxílico."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ácido acético — ácido carboxílico. A alternativa correta descreve especificamente aplicações cotidianas.",
+      "subtopicIds": [
+        "topico-05-subtopico-12"
+      ]
+    },
+    {
+      "id": "Q603",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de aplicações cotidianas: Ácido acético — ácido carboxílico.",
+      "resposta": true,
+      "explicacao": "Ácido acético — ácido carboxílico.",
+      "subtopicIds": [
+        "topico-05-subtopico-12"
+      ]
+    },
+    {
+      "id": "Q604",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções oxigenadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com aplicações cotidianas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos fenóis, a hidroxila está ligada diretamente a um anel aromático."
+        },
+        {
+          "id": "B",
+          "texto": "Funções oxigenadas são classes de compostos orgânicos definidas por grupos funcionais que contêm oxigênio."
+        },
+        {
+          "id": "C",
+          "texto": "grupo hidroxila ligado a carbono saturado."
+        },
+        {
+          "id": "D",
+          "texto": "Ácido acético — ácido carboxílico."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Ácido acético — ácido carboxílico. A alternativa correta descreve especificamente aplicações cotidianas.",
+      "subtopicIds": [
+        "topico-05-subtopico-12"
+      ]
     }
   ]
 }

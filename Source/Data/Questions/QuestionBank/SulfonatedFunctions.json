@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Funções sulfonadas",
-  "totalQuestoes": 6,
+  "totalQuestoes": 72,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "Os tióis apresentam o grupo sulfidrila, representado por −SH."
+      "explicacao": "Os tióis apresentam o grupo sulfidrila, representado por −SH.",
+      "subtopicIds": [
+        "topico-07-subtopico-03"
+      ]
     },
     {
       "id": "Q026",
@@ -45,7 +48,10 @@
       "dificuldade": "medio",
       "enunciado": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos.",
       "resposta": true,
-      "explicacao": "A estrutura geral de um sulfeto orgânico pode ser representada por R−S−R', com o enxofre ligado a dois grupos carbônicos."
+      "explicacao": "A estrutura geral de um sulfeto orgânico pode ser representada por R−S−R', com o enxofre ligado a dois grupos carbônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-04"
+      ]
     },
     {
       "id": "Q027",
@@ -75,7 +81,10 @@
         "P2": "Possui enxofre entre dois grupos carbônicos.",
         "P3": "Apresenta o grupo −SO₃H."
       },
-      "explicacao": "A posição do enxofre e os grupos ligados a ele ajudam a diferenciar essas classes."
+      "explicacao": "A posição do enxofre e os grupos ligados a ele ajudam a diferenciar essas classes.",
+      "subtopicIds": [
+        "topico-07-subtopico-03"
+      ]
     },
     {
       "id": "Q028",
@@ -102,7 +111,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "Essas classes envolvem compostos orgânicos que apresentam enxofre em diferentes grupos e arranjos estruturais."
+      "explicacao": "Essas classes envolvem compostos orgânicos que apresentam enxofre em diferentes grupos e arranjos estruturais.",
+      "subtopicIds": [
+        "topico-07-subtopico-01"
+      ]
     },
     {
       "id": "Q061",
@@ -129,7 +141,10 @@
         }
       ],
       "resposta": "B",
-      "explicacao": "O grupo característico dos ácidos sulfônicos é representado por −SO₃H."
+      "explicacao": "O grupo característico dos ácidos sulfônicos é representado por −SO₃H.",
+      "subtopicIds": [
+        "topico-07-subtopico-05"
+      ]
     },
     {
       "id": "Q062",
@@ -138,7 +153,1504 @@
       "dificuldade": "medio",
       "enunciado": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais.",
       "resposta": true,
-      "explicacao": "Essas aplicações estão entre os exemplos apresentados no roteiro de estudos."
+      "explicacao": "Essas aplicações estão entre os exemplos apresentados no roteiro de estudos.",
+      "subtopicIds": [
+        "topico-07-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q243",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de compostos orgânicos sulfurados e sulfonados?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "C",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "D",
+          "texto": "enxofre entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos. A pergunta trata especificamente de conceito de compostos orgânicos sulfurados e sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q244",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de compostos orgânicos sulfurados e sulfonados, é correto afirmar que Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos.",
+      "resposta": true,
+      "explicacao": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q245",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de compostos orgânicos sulfurados e sulfonados, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "C",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "D",
+          "texto": "enxofre entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos. A pergunta trata especificamente de conceito de compostos orgânicos sulfurados e sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q246",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente diferença entre compostos sulfurados e compostos sulfonados?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "enxofre entre dois grupos carbônicos."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "D",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica. A pergunta trata especificamente de diferença entre compostos sulfurados e compostos sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q247",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre diferença entre compostos sulfurados e compostos sulfonados, é correto afirmar que Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica.",
+      "resposta": true,
+      "explicacao": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica.",
+      "subtopicIds": [
+        "topico-07-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q248",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando diferença entre compostos sulfurados e compostos sulfonados, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "enxofre entre dois grupos carbônicos."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "D",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica. A pergunta trata especificamente de diferença entre compostos sulfurados e compostos sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q249",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre diferença entre compostos sulfurados e compostos sulfonados, é correto afirmar que Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos.",
+      "resposta": false,
+      "explicacao": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-07-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q250",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente tióis?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "enxofre entre dois grupos carbônicos."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "grupo −SH."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "grupo −SH. A pergunta trata especificamente de tióis.",
+      "subtopicIds": [
+        "topico-07-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q251",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre tióis, é correto afirmar que grupo −SH.",
+      "resposta": true,
+      "explicacao": "grupo −SH.",
+      "subtopicIds": [
+        "topico-07-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q252",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente sulfetos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "B",
+          "texto": "enxofre entre dois grupos carbônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "grupo −SH."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "enxofre entre dois grupos carbônicos. A pergunta trata especificamente de sulfetos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q253",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre sulfetos orgânicos, é correto afirmar que enxofre entre dois grupos carbônicos.",
+      "resposta": true,
+      "explicacao": "enxofre entre dois grupos carbônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q254",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando sulfetos orgânicos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "B",
+          "texto": "enxofre entre dois grupos carbônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "grupo −SH."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "enxofre entre dois grupos carbônicos. A pergunta trata especificamente de sulfetos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q255",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ácidos sulfônicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo −SO₃H."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "grupo −SH."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "grupo −SO₃H. A pergunta trata especificamente de ácidos sulfônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q256",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ácidos sulfônicos, é correto afirmar que grupo −SO₃H.",
+      "resposta": true,
+      "explicacao": "grupo −SO₃H.",
+      "subtopicIds": [
+        "topico-07-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q257",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando ácidos sulfônicos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo −SO₃H."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "grupo −SH."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "grupo −SO₃H. A pergunta trata especificamente de ácidos sulfônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q258",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente sulfatos e sulfonatos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "estrutura e diferenças."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "estrutura e diferenças. A pergunta trata especificamente de sulfatos e sulfonatos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q259",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre sulfatos e sulfonatos orgânicos, é correto afirmar que estrutura e diferenças.",
+      "resposta": true,
+      "explicacao": "estrutura e diferenças.",
+      "subtopicIds": [
+        "topico-07-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q260",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando sulfatos e sulfonatos orgânicos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "estrutura e diferenças."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "estrutura e diferenças. A pergunta trata especificamente de sulfatos e sulfonatos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q261",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre sulfatos e sulfonatos orgânicos, é correto afirmar que Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos.",
+      "resposta": false,
+      "explicacao": "estrutura e diferenças. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-07-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q262",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente nomenclatura e identificação dos grupos funcionais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura. A pergunta trata especificamente de nomenclatura e identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-07-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q263",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura e identificação dos grupos funcionais, é correto afirmar que A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura.",
+      "resposta": true,
+      "explicacao": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura.",
+      "subtopicIds": [
+        "topico-07-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q264",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando nomenclatura e identificação dos grupos funcionais, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura. A pergunta trata especificamente de nomenclatura e identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-07-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q265",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre nomenclatura e identificação dos grupos funcionais, é correto afirmar que Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos.",
+      "resposta": false,
+      "explicacao": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-07-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q266",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente propriedades e aplicações em detergentes, medicamentos e produtos industriais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "Compostos sulfurados e sulfonados têm aplicações em detergentes, fármacos e processos industriais."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Compostos sulfurados e sulfonados têm aplicações em detergentes, fármacos e processos industriais. A pergunta trata especificamente de propriedades e aplicações em detergentes, medicamentos e produtos industriais.",
+      "subtopicIds": [
+        "topico-07-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q267",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Sobre propriedades e aplicações em detergentes, medicamentos e produtos industriais, é correto afirmar que Compostos sulfurados e sulfonados têm aplicações em detergentes, fármacos e processos industriais.",
+      "resposta": true,
+      "explicacao": "Compostos sulfurados e sulfonados têm aplicações em detergentes, fármacos e processos industriais.",
+      "subtopicIds": [
+        "topico-07-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q268",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considerando propriedades e aplicações em detergentes, medicamentos e produtos industriais, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "grupo −SH."
+        },
+        {
+          "id": "B",
+          "texto": "Compostos sulfurados contêm enxofre em funções orgânicas; compostos sulfonados incluem grupos derivados de ácidos sulfônicos."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "Compostos sulfurados e sulfonados têm aplicações em detergentes, fármacos e processos industriais."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Compostos sulfurados e sulfonados têm aplicações em detergentes, fármacos e processos industriais. A pergunta trata especificamente de propriedades e aplicações em detergentes, medicamentos e produtos industriais.",
+      "subtopicIds": [
+        "topico-07-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q650",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de compostos orgânicos sulfurados e sulfonados?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "−SH."
+        },
+        {
+          "id": "D",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Enxofre. A alternativa correta descreve especificamente conceito de compostos orgânicos sulfurados e sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q651",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de compostos orgânicos sulfurados e sulfonados: Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de compostos orgânicos sulfurados e sulfonados, o correto é: Enxofre.",
+      "subtopicIds": [
+        "topico-07-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q652",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de compostos orgânicos sulfurados e sulfonados, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "−SH."
+        },
+        {
+          "id": "D",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Enxofre. A alternativa correta descreve especificamente conceito de compostos orgânicos sulfurados e sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q653",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de compostos orgânicos sulfurados e sulfonados: Enxofre.",
+      "resposta": true,
+      "explicacao": "Enxofre.",
+      "subtopicIds": [
+        "topico-07-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q654",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de compostos orgânicos sulfurados e sulfonados?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "−SH."
+        },
+        {
+          "id": "D",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Enxofre. A alternativa correta descreve especificamente conceito de compostos orgânicos sulfurados e sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q655",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de diferença entre compostos sulfurados e compostos sulfonados?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "−SH."
+        },
+        {
+          "id": "D",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica. A alternativa correta descreve especificamente diferença entre compostos sulfurados e compostos sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q656",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre diferença entre compostos sulfurados e compostos sulfonados: Enxofre.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre diferença entre compostos sulfurados e compostos sulfonados, o correto é: Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica.",
+      "subtopicIds": [
+        "topico-07-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q657",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar diferença entre compostos sulfurados e compostos sulfonados, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "−SH."
+        },
+        {
+          "id": "D",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica. A alternativa correta descreve especificamente diferença entre compostos sulfurados e compostos sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q658",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de diferença entre compostos sulfurados e compostos sulfonados: Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica.",
+      "resposta": true,
+      "explicacao": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica.",
+      "subtopicIds": [
+        "topico-07-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q659",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com diferença entre compostos sulfurados e compostos sulfonados?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "−SH."
+        },
+        {
+          "id": "D",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica. A alternativa correta descreve especificamente diferença entre compostos sulfurados e compostos sulfonados.",
+      "subtopicIds": [
+        "topico-07-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q660",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de tióis?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "−SH. A alternativa correta descreve especificamente tióis.",
+      "subtopicIds": [
+        "topico-07-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q661",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre tióis: Enxofre.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre tióis, o correto é: −SH.",
+      "subtopicIds": [
+        "topico-07-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q662",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar tióis, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "−SH. A alternativa correta descreve especificamente tióis.",
+      "subtopicIds": [
+        "topico-07-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q663",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de tióis: −SH.",
+      "resposta": true,
+      "explicacao": "−SH.",
+      "subtopicIds": [
+        "topico-07-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q664",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com tióis?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "−SH. A alternativa correta descreve especificamente tióis.",
+      "subtopicIds": [
+        "topico-07-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q665",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de sulfetos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos. A alternativa correta descreve especificamente sulfetos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q666",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre sulfetos orgânicos: Enxofre.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre sulfetos orgânicos, o correto é: Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q667",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar sulfetos orgânicos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos. A alternativa correta descreve especificamente sulfetos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q668",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de sulfetos orgânicos: Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos.",
+      "resposta": true,
+      "explicacao": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q669",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com sulfetos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Nos sulfetos orgânicos, o átomo de enxofre fica entre dois grupos carbônicos. A alternativa correta descreve especificamente sulfetos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q670",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ácidos sulfônicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "B",
+          "texto": "−SO₃H."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "−SO₃H. A alternativa correta descreve especificamente ácidos sulfônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q671",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ácidos sulfônicos: Enxofre.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ácidos sulfônicos, o correto é: −SO₃H.",
+      "subtopicIds": [
+        "topico-07-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q672",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ácidos sulfônicos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "B",
+          "texto": "−SO₃H."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "−SO₃H. A alternativa correta descreve especificamente ácidos sulfônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q673",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ácidos sulfônicos: −SO₃H.",
+      "resposta": true,
+      "explicacao": "−SO₃H.",
+      "subtopicIds": [
+        "topico-07-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q674",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ácidos sulfônicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "B",
+          "texto": "−SO₃H."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "−SO₃H. A alternativa correta descreve especificamente ácidos sulfônicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q675",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de sulfatos e sulfonatos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "estrutura e diferenças."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "estrutura e diferenças. A alternativa correta descreve especificamente sulfatos e sulfonatos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q676",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre sulfatos e sulfonatos orgânicos: Enxofre.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre sulfatos e sulfonatos orgânicos, o correto é: estrutura e diferenças.",
+      "subtopicIds": [
+        "topico-07-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q677",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar sulfatos e sulfonatos orgânicos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "estrutura e diferenças."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "estrutura e diferenças. A alternativa correta descreve especificamente sulfatos e sulfonatos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q678",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de sulfatos e sulfonatos orgânicos: estrutura e diferenças.",
+      "resposta": true,
+      "explicacao": "estrutura e diferenças.",
+      "subtopicIds": [
+        "topico-07-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q679",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com sulfatos e sulfonatos orgânicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "estrutura e diferenças."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "estrutura e diferenças. A alternativa correta descreve especificamente sulfatos e sulfonatos orgânicos.",
+      "subtopicIds": [
+        "topico-07-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q680",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de nomenclatura e identificação dos grupos funcionais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "−SH."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura. A alternativa correta descreve especificamente nomenclatura e identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-07-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q681",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre nomenclatura e identificação dos grupos funcionais: Enxofre.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre nomenclatura e identificação dos grupos funcionais, o correto é: A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura.",
+      "subtopicIds": [
+        "topico-07-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q682",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar nomenclatura e identificação dos grupos funcionais, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "−SH."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura. A alternativa correta descreve especificamente nomenclatura e identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-07-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q683",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de nomenclatura e identificação dos grupos funcionais: A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura.",
+      "resposta": true,
+      "explicacao": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura.",
+      "subtopicIds": [
+        "topico-07-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q684",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com nomenclatura e identificação dos grupos funcionais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "−SH."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "D",
+          "texto": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "A nomenclatura e a identificação dependem do grupo sulfurado presente e de sua posição na estrutura. A alternativa correta descreve especificamente nomenclatura e identificação dos grupos funcionais.",
+      "subtopicIds": [
+        "topico-07-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q685",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de propriedades e aplicações em detergentes, medicamentos e produtos industriais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais. A alternativa correta descreve especificamente propriedades e aplicações em detergentes, medicamentos e produtos industriais.",
+      "subtopicIds": [
+        "topico-07-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q686",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre propriedades e aplicações em detergentes, medicamentos e produtos industriais: Enxofre.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre propriedades e aplicações em detergentes, medicamentos e produtos industriais, o correto é: O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais.",
+      "subtopicIds": [
+        "topico-07-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q687",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar propriedades e aplicações em detergentes, medicamentos e produtos industriais, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais. A alternativa correta descreve especificamente propriedades e aplicações em detergentes, medicamentos e produtos industriais.",
+      "subtopicIds": [
+        "topico-07-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q688",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de propriedades e aplicações em detergentes, medicamentos e produtos industriais: O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais.",
+      "resposta": true,
+      "explicacao": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais.",
+      "subtopicIds": [
+        "topico-07-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q689",
+      "tipo": "multipla_escolha",
+      "categoria": "Funções sulfonadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com propriedades e aplicações em detergentes, medicamentos e produtos industriais?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Compostos sulfurados têm enxofre em diferentes funções; sulfonados apresentam grupo sulfonato ou ácido sulfônico ligado à estrutura orgânica."
+        },
+        {
+          "id": "B",
+          "texto": "Enxofre."
+        },
+        {
+          "id": "C",
+          "texto": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais."
+        },
+        {
+          "id": "D",
+          "texto": "−SH."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "O roteiro relaciona compostos sulfurados e sulfonados a aplicações em detergentes, medicamentos e produtos industriais. A alternativa correta descreve especificamente propriedades e aplicações em detergentes, medicamentos e produtos industriais.",
+      "subtopicIds": [
+        "topico-07-subtopico-08"
+      ]
     }
   ]
 }

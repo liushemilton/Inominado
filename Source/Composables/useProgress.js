@@ -49,6 +49,7 @@ import {
   computeAdaptiveDifficulty,
   computeSubtopicMastery,
   getPhaseMastery as computePhaseMastery,
+  getPhaseSubtopicIdsWithQuestions,
   getQuestionStateFromPhase,
   getSubtopicSnapshot,
   getSubtopicStatus as resolveSubtopicStatus,
@@ -784,12 +785,29 @@ export function createProgressStore(options = {}) {
     const definition = findLevel(levelKey, levels)
     const entry = progress.value.levels[levelKey]
 
-    return makeLevelSnapshot(
+    const snapshot = makeLevelSnapshot(
       levelKey,
       entry,
       definition,
       isLevelUnlocked(levelKey, levelsOverride),
     )
+    const phases = toPhaseArray(definition?.phases)
+    const hasQuestionMappedPhases = phases.some((phase) => {
+      return getMappedSubtopicIds(phase).length > 0
+    })
+
+    if (!hasQuestionMappedPhases || phases.length === 0) return snapshot
+
+    const completedPhases = phases.filter((phase) => {
+      return isPhaseCompleted(levelKey, phase.id)
+    }).length
+
+    return {
+      ...snapshot,
+      completed: completedPhases === phases.length,
+      completedPhases,
+      percent: Math.round((completedPhases / phases.length) * 100),
+    }
   }
 
   /**
@@ -850,6 +868,26 @@ export function createProgressStore(options = {}) {
   }
 
   /**
+   * IDs de subtópicos cobertos por questões da fase, na ordem da trilha.
+   *
+   * @param {object | null} phase
+   * @returns {string[]}
+   */
+  function getMappedSubtopicIds(phase) {
+    const questions = Array.isArray(phase?.questions) ? phase.questions : []
+    const hasMappings = questions.some((question) => {
+      return (
+        (Array.isArray(question?.subtopicIds) && question.subtopicIds.length > 0) ||
+        Boolean(
+          toKey(question?.subtopicId ?? question?.subtopic ?? question?.topicId),
+        )
+      )
+    })
+
+    return hasMappings ? getPhaseSubtopicIdsWithQuestions(phase) : []
+  }
+
+  /**
    * Quantidade de questões cadastradas para um subtópico.
    *
    * @param {object | null} phase
@@ -863,7 +901,14 @@ export function createProgressStore(options = {}) {
 
     const questions = Array.isArray(phase?.questions) ? phase.questions : []
     const count = questions.filter((question) => {
-      return toKey(question?.subtopicId) === subtopicKey
+      const ids = [
+        ...(Array.isArray(question?.subtopicIds) ? question.subtopicIds : []),
+        question?.subtopicId,
+      ]
+        .map(toKey)
+        .filter(Boolean)
+
+      return ids.includes(subtopicKey)
     }).length
 
     if (count > 0) return count
@@ -1176,6 +1221,62 @@ export function createProgressStore(options = {}) {
   }
 
   /**
+   * Marca um subtópico como concluído após o jogador terminar sua sessão.
+   *
+   * @param {unknown} levelId
+   * @param {unknown} phaseId
+   * @param {unknown} subtopicId
+   * @returns {boolean}
+   */
+  function completeSubtopic(levelId, phaseId, subtopicId) {
+    const levelKey = toKey(levelId)
+    const phaseKey = toKey(phaseId)
+    const subtopicKey = toKey(subtopicId)
+
+    if (!levelKey || !phaseKey || !subtopicKey) return false
+
+    return Boolean(
+      mutate((draft, at) => {
+        const level = ensureLevel(draft, levelKey)
+        if (!isPlainObject(level.phases)) level.phases = {}
+
+        const phase = normalizePhase(level.phases[phaseKey])
+        const subtopic = normalizeSubtopicState(
+          phase.subtopics[subtopicKey],
+          subtopicKey,
+        )
+
+        if (subtopic.attempts === 0) return false
+
+        phase.subtopics[subtopicKey] = normalizeSubtopicState(
+          {
+            ...subtopic,
+            completed: true,
+            completedAt: subtopic.completedAt ?? at,
+          },
+          subtopicKey,
+        )
+
+        const states = Object.values(phase.subtopics)
+        phase.answeredCount = states.reduce((total, item) => total + item.attempts, 0)
+        phase.mastery =
+          states.length > 0
+            ? Math.round(
+                states.reduce((total, item) => total + item.mastery, 0) /
+                  states.length,
+              )
+            : 0
+        phase.updatedAt = at
+        level.phases[phaseKey] = normalizePhase(phase)
+        level.updatedAt = at
+        draft.lastPlayed = { levelId: levelKey, phaseId: phaseKey, at }
+
+        return true
+      }),
+    )
+  }
+
+  /**
    * Remove o progresso de um subtópico.
    *
    * @param {unknown} levelId
@@ -1315,6 +1416,16 @@ export function createProgressStore(options = {}) {
 
     if (!levelKey) return false
 
+    const definition = findLevel(levelKey)
+    const phases = toPhaseArray(definition?.phases)
+    const hasQuestionMappedPhases = phases.some((phase) => {
+      return getMappedSubtopicIds(phase).length > 0
+    })
+
+    if (hasQuestionMappedPhases && phases.length > 0) {
+      return phases.every((phase) => isPhaseCompleted(levelKey, phase.id))
+    }
+
     return progress.value.levels[levelKey]?.completed === true
   }
 
@@ -1329,9 +1440,16 @@ export function createProgressStore(options = {}) {
 
     if (!levelKey || !phaseKey) return false
 
-    return (
+    const storedCompleted =
       progress.value.levels[levelKey]?.phases?.[phaseKey]?.completed === true
-    )
+    const { phase } = getPhaseDefinition(levelKey, phaseKey)
+    const requiredSubtopics = getMappedSubtopicIds(phase)
+
+    if (requiredSubtopics.length === 0) return storedCompleted
+
+    return requiredSubtopics.every((subtopicId) => {
+      return getSubtopicProgress(levelKey, phaseKey, subtopicId)?.mastered === true
+    })
   }
 
   /**
@@ -1392,7 +1510,7 @@ export function createProgressStore(options = {}) {
 
     const levelProgress = getLevelProgress(levelId, levelsOverride)
 
-    if (levelProgress.completed) return 'completed'
+    if (isLevelCompleted(levelId)) return 'completed'
     if (levelProgress.attempts > 0 || levelProgress.completedPhases > 0) {
       return 'in-progress'
     }
@@ -1411,7 +1529,7 @@ export function createProgressStore(options = {}) {
 
     const phaseProgress = getPhaseProgress(levelId, phaseId)
 
-    if (phaseProgress.completed) return 'completed'
+    if (isPhaseCompleted(levelId, phaseId)) return 'completed'
     if (phaseProgress.attempts > 0) return 'in-progress'
 
     return 'available'
@@ -1780,6 +1898,7 @@ export function createProgressStore(options = {}) {
     save,
     resetLevel,
     resetPhase,
+    completeSubtopic,
     resetSubtopic,
     resetQuestion,
     resetProgress,

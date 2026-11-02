@@ -4,7 +4,7 @@
   "disciplina": "Química",
   "area": "Química Orgânica",
   "categoria": "Polímeros naturais",
-  "totalQuestoes": 6,
+  "totalQuestoes": 81,
   "tipos": [
     "multipla_escolha",
     "verdadeiro_falso",
@@ -36,7 +36,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "Monômeros são unidades menores que podem se unir para formar polímeros, que são macromoléculas."
+      "explicacao": "Monômeros são unidades menores que podem se unir para formar polímeros, que são macromoléculas.",
+      "subtopicIds": [
+        "topico-09-subtopico-01"
+      ]
     },
     {
       "id": "Q034",
@@ -45,7 +48,10 @@
       "dificuldade": "facil",
       "enunciado": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais.",
       "resposta": true,
-      "explicacao": "Ambos são polissacarídeos naturais formados por unidades de glicose, mas possuem estruturas e funções diferentes."
+      "explicacao": "Ambos são polissacarídeos naturais formados por unidades de glicose, mas possuem estruturas e funções diferentes.",
+      "subtopicIds": [
+        "topico-09-subtopico-04"
+      ]
     },
     {
       "id": "Q035",
@@ -81,7 +87,10 @@
         "P3": "Polissacarídeos de origem natural.",
         "P4": "Polímero natural."
       },
-      "explicacao": "O roteiro aborda diferentes exemplos de polímeros naturais, suas unidades constituintes e funções."
+      "explicacao": "O roteiro aborda diferentes exemplos de polímeros naturais, suas unidades constituintes e funções.",
+      "subtopicIds": [
+        "topico-09-subtopico-04"
+      ]
     },
     {
       "id": "Q036",
@@ -108,7 +117,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "Os aminoácidos são unidos por ligações peptídicas para formar cadeias polipeptídicas."
+      "explicacao": "Os aminoácidos são unidos por ligações peptídicas para formar cadeias polipeptídicas.",
+      "subtopicIds": [
+        "topico-09-subtopico-05"
+      ]
     },
     {
       "id": "Q065",
@@ -135,7 +147,10 @@
         }
       ],
       "resposta": "A",
-      "explicacao": "O roteiro classifica DNA e RNA como ácidos nucleicos e amido e celulose como carboidratos."
+      "explicacao": "O roteiro classifica DNA e RNA como ácidos nucleicos e amido e celulose como carboidratos.",
+      "subtopicIds": [
+        "topico-09-subtopico-06"
+      ]
     },
     {
       "id": "Q066",
@@ -144,7 +159,1702 @@
       "dificuldade": "medio",
       "enunciado": "Polímeros naturais podem ter origem vegetal ou animal.",
       "resposta": true,
-      "explicacao": "O roteiro apresenta polímeros naturais de origem vegetal e animal, incluindo carboidratos, proteínas e borracha natural."
+      "explicacao": "O roteiro apresenta polímeros naturais de origem vegetal e animal, incluindo carboidratos, proteínas e borracha natural.",
+      "subtopicIds": [
+        "topico-09-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q299",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente conceito de polímeros e monômeros?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "B",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        },
+        {
+          "id": "D",
+          "texto": "amido e celulose."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas. A pergunta trata especificamente de conceito de polímeros e monômeros.",
+      "subtopicIds": [
+        "topico-09-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q300",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre conceito de polímeros e monômeros, é correto afirmar que Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas.",
+      "resposta": true,
+      "explicacao": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas.",
+      "subtopicIds": [
+        "topico-09-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q301",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considerando conceito de polímeros e monômeros, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "B",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        },
+        {
+          "id": "D",
+          "texto": "amido e celulose."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas. A pergunta trata especificamente de conceito de polímeros e monômeros.",
+      "subtopicIds": [
+        "topico-09-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q302",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente formação de macromoléculas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "amido e celulose."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        },
+        {
+          "id": "D",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores. A pergunta trata especificamente de formação de macromoléculas.",
+      "subtopicIds": [
+        "topico-09-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q303",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre formação de macromoléculas, é correto afirmar que Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores.",
+      "resposta": true,
+      "explicacao": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores.",
+      "subtopicIds": [
+        "topico-09-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q304",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considerando formação de macromoléculas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "amido e celulose."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        },
+        {
+          "id": "D",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores. A pergunta trata especificamente de formação de macromoléculas.",
+      "subtopicIds": [
+        "topico-09-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q305",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre formação de macromoléculas, é correto afirmar que Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas.",
+      "resposta": false,
+      "explicacao": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-09-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q306",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente polímeros naturais de origem vegetal e animal?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "amido e celulose."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais. A pergunta trata especificamente de polímeros naturais de origem vegetal e animal.",
+      "subtopicIds": [
+        "topico-09-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q307",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre polímeros naturais de origem vegetal e animal, é correto afirmar que Polímeros naturais podem ser produzidos por organismos vegetais ou animais.",
+      "resposta": true,
+      "explicacao": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais.",
+      "subtopicIds": [
+        "topico-09-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q308",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considerando polímeros naturais de origem vegetal e animal, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "amido e celulose."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais. A pergunta trata especificamente de polímeros naturais de origem vegetal e animal.",
+      "subtopicIds": [
+        "topico-09-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q309",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente carboidratos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "amido e celulose."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "amido e celulose. A pergunta trata especificamente de carboidratos.",
+      "subtopicIds": [
+        "topico-09-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q310",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre carboidratos, é correto afirmar que amido e celulose.",
+      "resposta": true,
+      "explicacao": "amido e celulose.",
+      "subtopicIds": [
+        "topico-09-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q311",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente proteínas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "aminoácidos e ligações peptídicas."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "aminoácidos e ligações peptídicas. A pergunta trata especificamente de proteínas.",
+      "subtopicIds": [
+        "topico-09-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q312",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre proteínas, é correto afirmar que aminoácidos e ligações peptídicas.",
+      "resposta": true,
+      "explicacao": "aminoácidos e ligações peptídicas.",
+      "subtopicIds": [
+        "topico-09-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q313",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considerando proteínas, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "aminoácidos e ligações peptídicas."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "aminoácidos e ligações peptídicas. A pergunta trata especificamente de proteínas.",
+      "subtopicIds": [
+        "topico-09-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q314",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente ácidos nucleicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "DNA e RNA."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "DNA e RNA. A pergunta trata especificamente de ácidos nucleicos.",
+      "subtopicIds": [
+        "topico-09-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q315",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre ácidos nucleicos, é correto afirmar que DNA e RNA.",
+      "resposta": true,
+      "explicacao": "DNA e RNA.",
+      "subtopicIds": [
+        "topico-09-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q316",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considerando ácidos nucleicos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "DNA e RNA."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "DNA e RNA. A pergunta trata especificamente de ácidos nucleicos.",
+      "subtopicIds": [
+        "topico-09-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q317",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente borracha natural?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Borracha natural."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Borracha natural. A pergunta trata especificamente de borracha natural.",
+      "subtopicIds": [
+        "topico-09-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q318",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre borracha natural, é correto afirmar que Borracha natural.",
+      "resposta": true,
+      "explicacao": "Borracha natural.",
+      "subtopicIds": [
+        "topico-09-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q319",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considerando borracha natural, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Borracha natural."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Borracha natural. A pergunta trata especificamente de borracha natural.",
+      "subtopicIds": [
+        "topico-09-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q320",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre borracha natural, é correto afirmar que Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas.",
+      "resposta": false,
+      "explicacao": "Borracha natural. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-09-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q321",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente funções biológicas e aplicações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas. A pergunta trata especificamente de funções biológicas e aplicações.",
+      "subtopicIds": [
+        "topico-09-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q322",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre funções biológicas e aplicações, é correto afirmar que Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas.",
+      "resposta": true,
+      "explicacao": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas.",
+      "subtopicIds": [
+        "topico-09-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q323",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considerando funções biológicas e aplicações, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas. A pergunta trata especificamente de funções biológicas e aplicações.",
+      "subtopicIds": [
+        "topico-09-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q324",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre funções biológicas e aplicações, é correto afirmar que Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas.",
+      "resposta": false,
+      "explicacao": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-09-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q325",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual afirmação descreve corretamente diferenças entre polímeros naturais e sintéticos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais. A pergunta trata especificamente de diferenças entre polímeros naturais e sintéticos.",
+      "subtopicIds": [
+        "topico-09-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q326",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre diferenças entre polímeros naturais e sintéticos, é correto afirmar que Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais.",
+      "resposta": true,
+      "explicacao": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais.",
+      "subtopicIds": [
+        "topico-09-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q327",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considerando diferenças entre polímeros naturais e sintéticos, qual característica deve ser reconhecida?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ser produzidos por organismos vegetais ou animais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais. A pergunta trata especificamente de diferenças entre polímeros naturais e sintéticos.",
+      "subtopicIds": [
+        "topico-09-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q328",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Sobre diferenças entre polímeros naturais e sintéticos, é correto afirmar que Monômeros são unidades menores que podem se ligar para formar polímeros, que são macromoléculas.",
+      "resposta": false,
+      "explicacao": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais. A afirmação incorreta descreve outro conceito do módulo.",
+      "subtopicIds": [
+        "topico-09-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q735",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de conceito de polímeros e monômeros?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "D",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Uma unidade molecular que pode se ligar a outras para formar um polímero. A alternativa correta descreve especificamente conceito de polímeros e monômeros.",
+      "subtopicIds": [
+        "topico-09-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q736",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre conceito de polímeros e monômeros: Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre conceito de polímeros e monômeros, o correto é: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "subtopicIds": [
+        "topico-09-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q737",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar conceito de polímeros e monômeros, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "D",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Uma unidade molecular que pode se ligar a outras para formar um polímero. A alternativa correta descreve especificamente conceito de polímeros e monômeros.",
+      "subtopicIds": [
+        "topico-09-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q738",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de conceito de polímeros e monômeros: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "resposta": true,
+      "explicacao": "Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "subtopicIds": [
+        "topico-09-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q739",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com conceito de polímeros e monômeros?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "D",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Uma unidade molecular que pode se ligar a outras para formar um polímero. A alternativa correta descreve especificamente conceito de polímeros e monômeros.",
+      "subtopicIds": [
+        "topico-09-subtopico-01"
+      ]
+    },
+    {
+      "id": "Q740",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de formação de macromoléculas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "D",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores. A alternativa correta descreve especificamente formação de macromoléculas.",
+      "subtopicIds": [
+        "topico-09-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q741",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre formação de macromoléculas: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre formação de macromoléculas, o correto é: Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores.",
+      "subtopicIds": [
+        "topico-09-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q742",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar formação de macromoléculas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "D",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores. A alternativa correta descreve especificamente formação de macromoléculas.",
+      "subtopicIds": [
+        "topico-09-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q743",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de formação de macromoléculas: Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores.",
+      "resposta": true,
+      "explicacao": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores.",
+      "subtopicIds": [
+        "topico-09-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q744",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com formação de macromoléculas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "D",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores. A alternativa correta descreve especificamente formação de macromoléculas.",
+      "subtopicIds": [
+        "topico-09-subtopico-02"
+      ]
+    },
+    {
+      "id": "Q745",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de polímeros naturais de origem vegetal e animal?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "D",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Polímeros naturais podem ter origem vegetal ou animal. A alternativa correta descreve especificamente polímeros naturais de origem vegetal e animal.",
+      "subtopicIds": [
+        "topico-09-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q746",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre polímeros naturais de origem vegetal e animal: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre polímeros naturais de origem vegetal e animal, o correto é: Polímeros naturais podem ter origem vegetal ou animal.",
+      "subtopicIds": [
+        "topico-09-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q747",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar polímeros naturais de origem vegetal e animal, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "D",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Polímeros naturais podem ter origem vegetal ou animal. A alternativa correta descreve especificamente polímeros naturais de origem vegetal e animal.",
+      "subtopicIds": [
+        "topico-09-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q748",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de polímeros naturais de origem vegetal e animal: Polímeros naturais podem ter origem vegetal ou animal.",
+      "resposta": true,
+      "explicacao": "Polímeros naturais podem ter origem vegetal ou animal.",
+      "subtopicIds": [
+        "topico-09-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q749",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com polímeros naturais de origem vegetal e animal?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "D",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Polímeros naturais podem ter origem vegetal ou animal. A alternativa correta descreve especificamente polímeros naturais de origem vegetal e animal.",
+      "subtopicIds": [
+        "topico-09-subtopico-03"
+      ]
+    },
+    {
+      "id": "Q750",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de carboidratos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais. A alternativa correta descreve especificamente carboidratos.",
+      "subtopicIds": [
+        "topico-09-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q751",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre carboidratos: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre carboidratos, o correto é: Amido e celulose são exemplos de carboidratos classificados como polímeros naturais.",
+      "subtopicIds": [
+        "topico-09-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q752",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar carboidratos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais. A alternativa correta descreve especificamente carboidratos.",
+      "subtopicIds": [
+        "topico-09-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q753",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de carboidratos: Amido e celulose são exemplos de carboidratos classificados como polímeros naturais.",
+      "resposta": true,
+      "explicacao": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais.",
+      "subtopicIds": [
+        "topico-09-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q754",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com carboidratos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Amido e celulose são exemplos de carboidratos classificados como polímeros naturais. A alternativa correta descreve especificamente carboidratos.",
+      "subtopicIds": [
+        "topico-09-subtopico-04"
+      ]
+    },
+    {
+      "id": "Q755",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de proteínas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Ligação peptídica."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Ligação peptídica. A alternativa correta descreve especificamente proteínas.",
+      "subtopicIds": [
+        "topico-09-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q756",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre proteínas: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre proteínas, o correto é: Ligação peptídica.",
+      "subtopicIds": [
+        "topico-09-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q757",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar proteínas, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Ligação peptídica."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Ligação peptídica. A alternativa correta descreve especificamente proteínas.",
+      "subtopicIds": [
+        "topico-09-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q758",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de proteínas: Ligação peptídica.",
+      "resposta": true,
+      "explicacao": "Ligação peptídica.",
+      "subtopicIds": [
+        "topico-09-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q759",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com proteínas?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Ligação peptídica."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Ligação peptídica. A alternativa correta descreve especificamente proteínas.",
+      "subtopicIds": [
+        "topico-09-subtopico-05"
+      ]
+    },
+    {
+      "id": "Q760",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de ácidos nucleicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos. A alternativa correta descreve especificamente ácidos nucleicos.",
+      "subtopicIds": [
+        "topico-09-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q761",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre ácidos nucleicos: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre ácidos nucleicos, o correto é: DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos.",
+      "subtopicIds": [
+        "topico-09-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q762",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar ácidos nucleicos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos. A alternativa correta descreve especificamente ácidos nucleicos.",
+      "subtopicIds": [
+        "topico-09-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q763",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de ácidos nucleicos: DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos.",
+      "resposta": true,
+      "explicacao": "DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos.",
+      "subtopicIds": [
+        "topico-09-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q764",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com ácidos nucleicos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos."
+        }
+      ],
+      "resposta": "D",
+      "explicacao": "DNA e RNA são ácidos nucleicos; amido e celulose são carboidratos. A alternativa correta descreve especificamente ácidos nucleicos.",
+      "subtopicIds": [
+        "topico-09-subtopico-06"
+      ]
+    },
+    {
+      "id": "Q765",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de borracha natural?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Borracha natural."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Borracha natural. A alternativa correta descreve especificamente borracha natural.",
+      "subtopicIds": [
+        "topico-09-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q766",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre borracha natural: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre borracha natural, o correto é: Borracha natural.",
+      "subtopicIds": [
+        "topico-09-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q767",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar borracha natural, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Borracha natural."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Borracha natural. A alternativa correta descreve especificamente borracha natural.",
+      "subtopicIds": [
+        "topico-09-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q768",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de borracha natural: Borracha natural.",
+      "resposta": true,
+      "explicacao": "Borracha natural.",
+      "subtopicIds": [
+        "topico-09-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q769",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com borracha natural?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Borracha natural."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "C",
+      "explicacao": "Borracha natural. A alternativa correta descreve especificamente borracha natural.",
+      "subtopicIds": [
+        "topico-09-subtopico-07"
+      ]
+    },
+    {
+      "id": "Q770",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de funções biológicas e aplicações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas. A alternativa correta descreve especificamente funções biológicas e aplicações.",
+      "subtopicIds": [
+        "topico-09-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q771",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre funções biológicas e aplicações: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre funções biológicas e aplicações, o correto é: Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas.",
+      "subtopicIds": [
+        "topico-09-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q772",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar funções biológicas e aplicações, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas. A alternativa correta descreve especificamente funções biológicas e aplicações.",
+      "subtopicIds": [
+        "topico-09-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q773",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de funções biológicas e aplicações: Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas.",
+      "resposta": true,
+      "explicacao": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas.",
+      "subtopicIds": [
+        "topico-09-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q774",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com funções biológicas e aplicações?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "B",
+          "texto": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "B",
+      "explicacao": "Polímeros naturais exercem funções estruturais, de reserva energética, informação genética e outras funções biológicas. A alternativa correta descreve especificamente funções biológicas e aplicações.",
+      "subtopicIds": [
+        "topico-09-subtopico-08"
+      ]
+    },
+    {
+      "id": "Q775",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta uma característica de diferenças entre polímeros naturais e sintéticos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais. A alternativa correta descreve especificamente diferenças entre polímeros naturais e sintéticos.",
+      "subtopicIds": [
+        "topico-09-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q776",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Julgue a afirmação sobre diferenças entre polímeros naturais e sintéticos: Uma unidade molecular que pode se ligar a outras para formar um polímero.",
+      "resposta": false,
+      "explicacao": "A afirmação apresentada descreve outro conteúdo. Sobre diferenças entre polímeros naturais e sintéticos, o correto é: Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais.",
+      "subtopicIds": [
+        "topico-09-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q777",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Para identificar diferenças entre polímeros naturais e sintéticos, qual informação deve ser considerada?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais. A alternativa correta descreve especificamente diferenças entre polímeros naturais e sintéticos.",
+      "subtopicIds": [
+        "topico-09-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q778",
+      "tipo": "verdadeiro_falso",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Considere o conceito de diferenças entre polímeros naturais e sintéticos: Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais.",
+      "resposta": true,
+      "explicacao": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais.",
+      "subtopicIds": [
+        "topico-09-subtopico-09"
+      ]
+    },
+    {
+      "id": "Q779",
+      "tipo": "multipla_escolha",
+      "categoria": "Polímeros naturais",
+      "dificuldade": "medio",
+      "enunciado": "Qual descrição é compatível com diferenças entre polímeros naturais e sintéticos?",
+      "alternativas": [
+        {
+          "id": "A",
+          "texto": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais."
+        },
+        {
+          "id": "B",
+          "texto": "Uma unidade molecular que pode se ligar a outras para formar um polímero."
+        },
+        {
+          "id": "C",
+          "texto": "Macromoléculas são moléculas grandes formadas pela união de muitas unidades menores."
+        },
+        {
+          "id": "D",
+          "texto": "Polímeros naturais podem ter origem vegetal ou animal."
+        }
+      ],
+      "resposta": "A",
+      "explicacao": "Polímeros naturais são produzidos por organismos; os sintéticos são obtidos por processos industriais. A alternativa correta descreve especificamente diferenças entre polímeros naturais e sintéticos.",
+      "subtopicIds": [
+        "topico-09-subtopico-09"
+      ]
     }
   ]
 }

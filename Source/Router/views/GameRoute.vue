@@ -17,7 +17,7 @@ const props = defineProps({
 const route = useRoute()
 const router = useRouter()
 const progressStore = useProgress({ levels: LEVELS })
-const { completePhase, completeLevel, getPhaseProgress } = progressStore
+const { completePhase, completeLevel, completeSubtopic, isPhaseCompleted } = progressStore
 const adaptive = useAdaptiveLearning({
   levels: LEVELS,
   progressStore,
@@ -82,7 +82,22 @@ function persistResult(payload = {}) {
   const answeredCount = Array.isArray(payload.answers)
     ? payload.answers.length
     : 0
-  const completed = totalQuestions > 0 && answeredCount >= totalQuestions
+  const runCompleted = totalQuestions > 0 && answeredCount >= totalQuestions
+  const subtopicId = adaptiveSession.value?.subtopicId ?? ''
+
+  if (runCompleted && subtopicId) {
+    completeSubtopic(level.id, phase.id, subtopicId)
+  }
+
+  const hasQuestionMappings = sessionQuestions.value.some((question) => {
+    return (
+      (Array.isArray(question?.subtopicIds) && question.subtopicIds.length > 0) ||
+      Boolean(question?.subtopicId)
+    )
+  })
+  const completed = hasQuestionMappings
+    ? isPhaseCompleted(level.id, phase.id)
+    : runCompleted
   const adaptiveState = adaptive.getSessionState()
   const stats = {
     ...payload,
@@ -93,7 +108,7 @@ function persistResult(payload = {}) {
     wrongCount: payload.wrongCount,
     accuracy: summary.accuracyPercent,
     difficulty: adaptiveState.difficulty,
-    subtopicId: adaptiveSession.value?.subtopicId ?? '',
+    subtopicId,
   }
 
   completePhase(level.id, phase.id, stats)
@@ -102,7 +117,7 @@ function persistResult(payload = {}) {
     const phases = Array.isArray(level.phases) ? level.phases : []
     const allPhasesCompleted =
       phases.length === 0 ||
-      phases.every((item) => getPhaseProgress(level.id, item.id).completed)
+      phases.every((item) => isPhaseCompleted(level.id, item.id))
 
     if (allPhasesCompleted) {
       completeLevel(level.id, {

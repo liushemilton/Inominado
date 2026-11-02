@@ -5,7 +5,7 @@ const props = defineProps({
   result: { type: Object, default: () => ({}) },
 })
 
-const emit = defineEmits(['restart', 'roadmap'])
+const emit = defineEmits(['restart', 'trail'])
 
 const summary = computed(() => props.result?.summary ?? {})
 
@@ -204,7 +204,7 @@ function formatPoints(value) {
         <button
           type="button"
           class="result-view__roadmap"
-          @click="emit('roadmap')"
+          @click="emit('trail')"
         >
           <svg
             viewBox="0 0 24 24"
@@ -219,7 +219,7 @@ function formatPoints(value) {
             <path d="M9 3v15" />
             <path d="M15 6v15" />
           </svg>
-          Ver roadmap
+          Voltar à trilha
         </button>
 
         <button

@@ -172,6 +172,13 @@ export function normalizeQuestion(raw, index = 0) {
   const difficulty = normalizeDifficulty(
     source.dificuldade ?? source.difficulty ?? source.level,
   )
+  const rawSubtopicIds = [
+    ...(Array.isArray(source.subtopicIds) ? source.subtopicIds : []),
+    source.subtopicId ?? source.subtopic ?? source.topicId,
+  ]
+  const subtopicIds = Array.from(
+    new Set(rawSubtopicIds.map(toKey).filter(Boolean)),
+  )
 
   const question = {
     id,
@@ -181,6 +188,8 @@ export function normalizeQuestion(raw, index = 0) {
     difficulty,
     category,
     explanation,
+    subtopicIds,
+    ...(subtopicIds.length === 1 ? { subtopicId: subtopicIds[0] } : {}),
   }
 
   if (type === EXERCISE_TYPES.MATCHING_PAIRS) {

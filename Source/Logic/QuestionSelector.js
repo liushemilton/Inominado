@@ -162,14 +162,24 @@ export function getQuestionId(question, index = 0) {
  * @returns {string}
  */
 export function getQuestionSubtopicId(question) {
-  const source = question && typeof question === 'object' ? question : {}
+  return getQuestionSubtopicIds(question)[0] ?? ''
+}
 
-  return (
-    toKey(source.subtopicId) ??
-    toKey(source.subtopic) ??
-    toKey(source.topicId) ??
-    ''
-  )
+/**
+ * Retorna todos os subtópicos aos quais a questão foi associada.
+ * Mantém compatibilidade com bancos antigos que usam apenas `subtopicId`.
+ *
+ * @param {unknown} question
+ * @returns {string[]}
+ */
+export function getQuestionSubtopicIds(question) {
+  const source = question && typeof question === 'object' ? question : {}
+  const rawIds = [
+    ...(Array.isArray(source.subtopicIds) ? source.subtopicIds : []),
+    source.subtopicId ?? source.subtopic ?? source.topicId,
+  ]
+
+  return Array.from(new Set(rawIds.map(toKey).filter(Boolean)))
 }
 
 /**
@@ -294,12 +304,17 @@ export function filterQuestions(questions, context = {}, options = {}) {
 
   const filtered = list.filter((question, index) => {
     const id = getQuestionId(question, index)
-    const subtopicId = getQuestionSubtopicId(question)
+    const questionSubtopicIds = getQuestionSubtopicIds(question)
     const state = questionStates[id] ?? {}
     const attempts = toNonNegativeInteger(state.attempts)
 
     if (excludeIds.has(id)) return false
-    if (subtopicIds && !subtopicIds.includes(subtopicId)) return false
+    if (
+      subtopicIds &&
+      !questionSubtopicIds.some((subtopicId) => subtopicIds.includes(subtopicId))
+    ) {
+      return false
+    }
     if (types && !types.has(String(question?.type ?? ''))) return false
 
     const difficulty = getQuestionDifficulty(question)
@@ -352,7 +367,8 @@ export function scoreQuestion(question, index, context = {}, options = {}) {
       : {}
 
   const id = getQuestionId(question, index)
-  const subtopicId = getQuestionSubtopicId(question)
+  const subtopicId =
+    toKey(context?.subtopicId) ?? getQuestionSubtopicId(question)
   const state = questionStates[id] ?? {}
   const subtopicState = subtopicStates[subtopicId] ?? {}
   const now = toTimestamp(context?.now) ?? Date.now()
